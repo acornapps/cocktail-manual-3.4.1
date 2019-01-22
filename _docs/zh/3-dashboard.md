@@ -37,4 +37,4 @@ sidebar:
 
   可查看正在使用的应用程序中，上游 5 个应用程序的资源分配量。
 
-![]({{ site.baseurl }}/assets/ZH/3.0.0/6_1.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/6_1.png)

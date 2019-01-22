@@ -19,13 +19,13 @@ Use the catalog feature to use multiple workloads at once.
 
 The catalog feature is divided into service catalogs and platform catalogs.
 
-![]({{ site.baseurl }}/assets/EN/3.0.0/4_1.png)![]({{ site.baseurl }}/assets/EN/3.0.0/4_2.png)![]({{ site.baseurl }}/assets/EN/3.0.0/4_3.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/4_1.png)![]({{ site.baseurl }}/assets/EN/{{ site.version }}/4_2.png)![]({{ site.baseurl }}/assets/EN/{{ site.version }}/4_3.png)
 
-| **Catalog Menu** | **Description** |
-| :--- | :--- |
-| Service Catalog | User-generated catalog |
-| Platform Catalog | Default catalog provided by Cocktail |
-| Filter Catalog | Search for desired template |
-| Template | Collection of workloads that constitute an application |
-| Deployment | Deploy workload via catalog |
-| Edit | Edit catalog information |
+| **Catalog Menu** | **Description**                                        |
+| :--------------- | :----------------------------------------------------- |
+| Service Catalog  | User-generated catalog                                 |
+| Platform Catalog | Default catalog provided by Cocktail                   |
+| Filter Catalog   | Search for desired template                            |
+| Template         | Collection of workloads that constitute an application |
+| Deployment       | Deploy workload via catalog                            |
+| Edit             | Edit catalog information                               |

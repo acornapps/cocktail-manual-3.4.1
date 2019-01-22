@@ -13,7 +13,7 @@ sidebar:
 ---
 通过环境设置，可以管理层积云必要的用户、账号、服务。
 
-![]({{ site.baseurl }}/assets/ZH/3.0.0/2_1.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/2_1.png)
 
 | **环境设置菜单** | **说明** |
 | :--- | :--- |

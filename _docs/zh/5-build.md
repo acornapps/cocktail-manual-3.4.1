@@ -16,11 +16,11 @@ sidebar:
 下载应用程序、Build 源文件和映像文件，上传到 Habor 注册表。
 
 ### a\) 服务→选择 Build 管理点击。
-![]({{ site.baseurl }}/assets/ZH/3.0.0/3.2_1.png)![]({{ site.baseurl }}/assets/ZH/3.0.0/3.2_2.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/3.2_1.png)![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/3.2_2.png)
 
 | **目录** | **说明** |
 | :---: | :--- |
-| ![]({{ site.baseurl }}/assets/ZH/3.0.0/3.2_3.png) | Build 创建按钮 |
+| ![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/3.2_3.png) | Build 创建按钮 |
 | Build 名称 | Build 名称 |
 | 映像名称 | 被存储的 Docker 映像名称 |
 | 映像尺寸 | 被存储的 Docker 映像大小。以 MB 单位来标记 |

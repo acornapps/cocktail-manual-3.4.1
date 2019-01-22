@@ -14,7 +14,7 @@ sidebar:
 ---
 
 This feature provides cluster registration management functions, as well as monitoring, volume, alert, and metering services for each node and application.
-![]({{ site.baseurl }}/assets/EN/3.0.0/5_1.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/5_1.png)
 
 | Cluster Menu | Descrition |
 | :--- | :--- |
