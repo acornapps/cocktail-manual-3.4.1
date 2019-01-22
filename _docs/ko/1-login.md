@@ -15,12 +15,12 @@ toc_sticky: false
 
 \(아이디는 관리자에게 별도 문의\)
 
-![]({{ site.baseurl }}/assets/KR/3.1.1/1_1.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/1_1.png)
 
 최초 접속 또는 비밀번호 초기화시에는 반드시 비밀번호를 변경 해야한다.
 
-![]({{ site.baseurl }}/assets/KR/3.1.1/1_2.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/1_2.png)
 
 기간이 90일이 경과한 경우에도 비밀번호를 변경하거나 비밀번호를 연장 할 수 있다.
 
-![]({{ site.baseurl }}/assets/KR/3.1.1/1_3.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/1_3.png)
