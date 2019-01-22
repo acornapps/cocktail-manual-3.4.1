@@ -434,7 +434,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/8/",
         "teaser":null},{
-        "title": "层积云",
+        "title": "Cocktail Cloud",
         "excerpt":"                                                                                                                                    한국어 메뉴얼                                                                                                      Learn More                                                                                                                                                           中文手册                                                                                                      Learn More                                                                                                                                                           English Menual                                                                                                      Learn More                                       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/",
