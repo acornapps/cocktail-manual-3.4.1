@@ -3,7 +3,6 @@
 #   - title: "Quick-Start Guide"
 #     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
 
-
 # documentation links
 docs:
   - title: "칵테일 클라우드 이해"
@@ -23,185 +22,187 @@ docs:
         url: /docs/ko/0.6/
   - title: "로그인"
     url: /docs/ko/1/
-  - title: "환경설정"
+  - title: "시스템 관리"
     url: /docs/ko/2/
     children:
-    - title: "사용자"
+    - title: "시스템"
       url: /docs/ko/2.1/
       children:
         - title: "사용자 추가"
           url: /docs/ko/2.1.1/
-        - title: "사용자 편집"
+        - title: "시스템 편집"
           url: /docs/ko/2.1.2/
         - title: "사용자 삭제"
           url: /docs/ko/2.1.3/
         - title: "사용자 비밀번호 초기화"
           url: /docs/ko/2.1.4/
-    - title: "계정"
+    - title: "클러스터"
       url: /docs/ko/2.2/
       children:
-        - title: "계정 추가"
+        - title: "클러스터 추가"
           url: /docs/ko/2.2.1/
           children:
             - title: "AWS 계정 추가"
               url: /docs/ko/2.2.1.1/
             - title: "GCP 계정 추가"
               url: /docs/ko/2.2.1.2/
-        - title: "계정 편집"
+        - title: "클러스터 편집"
           url: /docs/ko/2.2.2/
-        - title: "계정 삭제"
+        - title: "클러스터 삭제"
           url: /docs/ko/2.2.3/
-    - title: "서비스"
+    - title: "워크스페이스"
       url: /docs/ko/2.3/
       children:
-        - title: "서비스 추가"
+        - title: "워크스페이스 추가"
           url: /docs/ko/2.3.1/
-        - title: "서비스 편집"
+        - title: "워크스페이스 편집"
           url: /docs/ko/2.3.2/
-        - title: "서비스 삭제"
+        - title: "워크스페이스 삭제"
           url: /docs/ko/2.3.3/
-  - title: "서비스"
+  - title: "대시보드"
     url: /docs/ko/3/
     children:
-    - title: "어플리케이션 관리"
-      url: /docs/ko/3.1/
-      children:
-        - title: "어플리케이션 맵"
-          url: /docs/ko/3.1.1/
-          children:
-            - title: "어플리케이션 맵 생성"
-              url: /docs/ko/3.1.1.1/
-            - title: "어플리케이션 맵 이름변경"
-              url: /docs/ko/3.1.1.2/
-            - title: "어플리케이션 맵 삭제"
-              url: /docs/ko/3.1.1.3/
-        - title: "그룹 관리"
-          url: /docs/ko/3.1.2/
-        - title: "워크로드"
-          url: /docs/ko/3.1.3/
-          children:
-            - title: "워크로드 생성"
-              url: /docs/ko/3.1.3.1/
-            - title: "워크로드 편집"
-              url: /docs/ko/3.1.3.2/
-            - title: "워크로드 인스턴스 정보 조회"
-              url: /docs/ko/3.1.3.3/
-            - title: "워크로드 중지"
-              url: /docs/ko/3.1.3.4/
-            - title: "워크로드 시작"
-              url: /docs/ko/3.1.3.5/
-            - title: "워크로드 재시작"
-              url: /docs/ko/3.1.3.6/
-            - title: "워크로드 재거"
-              url: /docs/ko/3.1.3.7/
-        - title: "모니터링"
-          url: /docs/ko/3.1.4/
-        - title: "파이프라인"
-          url: /docs/ko/3.1.5/
-        - title: "퍼시스턴트 볼륨"
-          url: /docs/ko/3.1.6/
-          children:
-            - title: "퍼시스턴트 생성"
-              url: /docs/ko/3.1.6.1/
-            - title: "퍼시스턴트 삭제"
-              url: /docs/ko/3.1.6.2/
-        - title: "설정"
-          url: /docs/ko/3.1.7/
-          children:
-            - title: "컨피그 맵"
-              url: /docs/ko/3.1.7.1/
-              children:
-                - title: "컨피그 맵 추가"
-                  url: /docs/ko/3.1.7.1a/
-                - title: "컨피그 맵 수정"
-                  url: /docs/ko/3.1.7.1b/
-                - title: "컨피그 맵 삭제"
-                  url: /docs/ko/3.1.7.1c/
-            - title: "시크릿"
-              url: /docs/ko/3.1.7.2/
-              children:
-                - title: "시크릿 추가"
-                  url: /docs/ko/3.1.7.2a/
-                - title: "시크릿 수정"
-                  url: /docs/ko/3.1.7.2b/
-                - title: "시크릿 삭제"
-                  url: /docs/ko/3.1.7.2c/
-    - title: "빌드 관리"
-      url: /docs/ko/3.2/
-      children:
-        - title: "빌드 추가"
-          url: /docs/ko/3.2.1/
-        - title: "작업 설정 편집"
-          url: /docs/ko/3.2.2/
-        - title: "히스토리"
-          url: /docs/ko/3.2.3/
-        - title: "빌드 실행"
-          url: /docs/ko/3.2.4/
-        - title: "빌드 취소"
-          url: /docs/ko/3.2.5/
-        - title: "로그 보기"
-          url: /docs/ko/3.2.6/
-        - title: "작업 삭제"
-          url: /docs/ko/3.2.7/
-  - title: "카탈로그"
+      - title: "사용자 관리"
+        url: /docs/ko/3.1/
+  - title: "서비스"
     url: /docs/ko/4/
     children:
-      - title: "카탈로그 저장"
-        url: /docs/ko/4.1/
-      - title: "카탈로그 배포"
-        url: /docs/ko/4.2/
-      - title: "카탈로그 편집"
-        url: /docs/ko/4.3/
-      - title: "카탈로그 삭제"
-        url: /docs/ko/4.4/
-  - title: "클러스터"
+    - title: "서비스 관리"
+      url: /docs/ko/4.1/
+      children:
+        - title: "서비스 맵"
+          url: /docs/ko/4.1.1/
+          children:
+            - title: "서비스 맵 생성"
+              url: /docs/ko/4.1.1.1/
+            - title: "서비스 맵 이름변경"
+              url: /docs/ko/4.1.1.2/
+            - title: "서비스 맵 삭제"
+              url: /docs/ko/4.1.1.3/
+        - title: "그룹 관리"
+          url: /docs/ko/4.1.2/
+        - title: "워크로드"
+          url: /docs/ko/4.1.3/
+          children:
+            - title: "워크로드 생성"
+              url: /docs/ko/4.1.3.1/
+            - title: "워크로드 편집"
+              url: /docs/ko/4.1.3.2/
+            - title: "워크로드 인스턴스 정보 조회"
+              url: /docs/ko/4.1.3.3/
+            - title: "워크로드 중지"
+              url: /docs/ko/4.1.3.4/
+            - title: "워크로드 시작"
+              url: /docs/ko/4.1.3.5/
+            - title: "워크로드 재시작"
+              url: /docs/ko/4.1.3.6/
+            - title: "워크로드 재거"
+              url: /docs/ko/4.1.3.7/
+        - title: "모니터링"
+          url: /docs/ko/4.1.4/
+        - title: "파이프라인"
+          url: /docs/ko/4.1.5/
+        - title: "퍼시스턴트 볼륨"
+          url: /docs/ko/4.1.6/
+          children:
+            - title: "퍼시스턴트 생성"
+              url: /docs/ko/4.1.6.1/
+            - title: "퍼시스턴트 삭제"
+              url: /docs/ko/4.1.6.2/
+        - title: "설정"
+          url: /docs/ko/4.1.7/
+          children:
+            - title: "컨피그 맵"
+              url: /docs/ko/4.1.7.1/
+              children:
+                - title: "컨피그 맵 추가"
+                  url: /docs/ko/4.1.7.1a/
+                - title: "컨피그 맵 수정"
+                  url: /docs/ko/4.1.7.1b/
+                - title: "컨피그 맵 삭제"
+                  url: /docs/ko/4.1.7.1c/
+            - title: "시크릿"
+              url: /docs/ko/4.1.7.2/
+              children:
+                - title: "시크릿 추가"
+                  url: /docs/ko/4.1.7.2a/
+                - title: "시크릿 수정"
+                  url: /docs/ko/4.1.7.2b/
+                - title: "시크릿 삭제"
+                  url: /docs/ko/4.1.7.2c/
+  - title: "빌드 관리"
     url: /docs/ko/5/
     children:
-      - title: "클러스터 관리"
+      - title: "빌드 추가"
         url: /docs/ko/5.1/
-        children:
-          - title: "클러스터 추가"
-            url: /docs/ko/5.1.1/
-          - title: "클러스터 편집"
-            url: /docs/ko/5.1.2/
-          - title: "클러스터 삭제"
-            url: /docs/ko/5.1.3/
-      - title: "노드"
+      - title: "작업 설정 편집"
         url: /docs/ko/5.2/
-      - title: "어플리케이션"
+      - title: "히스토리"
         url: /docs/ko/5.3/
-      - title: "볼륨"
+      - title: "빌드 실행"
         url: /docs/ko/5.4/
-        children:
-          - title: "스토리지 추가"
-            url: /docs/ko/5.4.1/
-          - title: "스토리지 편집"
-            url: /docs/ko/5.4.2/
-          - title: "스토리지 삭제"
-            url: /docs/ko/5.4.3/
-      - title: "알람"
+      - title: "빌드 취소"
         url: /docs/ko/5.5/
-        children:
-          - title: "알림 목록"
-            url: /docs/ko/5.5.1/
-      - title: "미터링"
+      - title: "로그 보기"
         url: /docs/ko/5.6/
-  - title: "대시보드"
+      - title: "작업 삭제"
+        url: /docs/ko/5.7/
+  - title: "카탈로그"
     url: /docs/ko/6/
     children:
-      - title: "사용자 관리"
+      - title: "카탈로그 저장"
         url: /docs/ko/6.1/
-  - title: "용어 설명"
+      - title: "카탈로그 배포"
+        url: /docs/ko/6.2/
+      - title: "카탈로그 편집"
+        url: /docs/ko/6.3/
+      - title: "카탈로그 삭제"
+        url: /docs/ko/6.4/
+  - title: "클러스터"
     url: /docs/ko/7/
     children:
-      - title: "Kubernetes"
+      - title: "클러스터 관리"
         url: /docs/ko/7.1/
-      - title: "Cocktail Cloud"
+        children:
+          - title: "클러스터 추가"
+            url: /docs/ko/7.1.1/
+          - title: "클러스터 편집"
+            url: /docs/ko/7.1.2/
+          - title: "클러스터 삭제"
+            url: /docs/ko/7.1.3/
+      - title: "노드"
         url: /docs/ko/7.2/
-      - title: "Cocktail Cloud System Error Code"
+      - title: "어플리케이션"
         url: /docs/ko/7.3/
-  - title: "고객지원서비스"
+      - title: "볼륨"
+        url: /docs/ko/7.4/
+        children:
+          - title: "스토리지 추가"
+            url: /docs/ko/7.4.1/
+          - title: "스토리지 편집"
+            url: /docs/ko/7.4.2/
+          - title: "스토리지 삭제"
+            url: /docs/ko/7.4.3/
+      - title: "알람"
+        url: /docs/ko/7.5/
+        children:
+          - title: "알림 목록"
+            url: /docs/ko/7.5.1/
+      - title: "미터링"
+        url: /docs/ko/7.6/
+  - title: "구성원"
     url: /docs/ko/8/
+  - title: "용어 설명"
+    url: /docs/ko/9/
+    children:
+      - title: "Kubernetes"
+        url: /docs/ko/9.1/
+      - title: "Cocktail Cloud"
+        url: /docs/ko/9.2/
+      - title: "Cocktail Cloud System Error Code"
+        url: /docs/ko/9.3/
+  - title: "고객지원서비스"
+    url: /docs/ko/10/
 
 en:
   - title: "What is Cocktail?"
