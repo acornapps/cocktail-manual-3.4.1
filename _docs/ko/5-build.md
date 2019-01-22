@@ -26,4 +26,4 @@ toc_sticky: false
 | 최근 액션 | 빌드의 상태를 표시 |
 | 상태 | 빌드의 실행 상태를 표시 |
 | 날짜 | 빌드가 실행된 날짜를 표시 |
-| ![]({{ site.baseurl }}/assets/action-menu.png) | 빌드 액션 메뉴 |
+| ![]({{ site.baseurl }}/assets/action-menu.png) | 빌드 액션 메뉴(작업 설정 편집, 히스토리, 빌드 실행, 빌드 취소, 로그 보기, 작업 삭제) |
