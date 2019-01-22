@@ -18,6 +18,13 @@ feature_row:
     url: "/docs/ko/0.0/"
     btn_class: "btn--primary"
     btn_label: "Learn More"
+  - image_path: /assets/japan.png
+    alt: ""
+    title: "日本語マニュアル"
+    excerpt: ""
+    url: "/docs/ja/0.0/"
+    btn_class: "btn--primary"
+    btn_label: "Learn More"
   - image_path: /assets/china.png
     alt: ""
     title: "中文手册"

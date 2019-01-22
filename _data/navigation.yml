@@ -605,3 +605,203 @@ zh:
         url: /docs/zh/9.3/
   - title: "售后服务"
     url: /docs/zh/10/
+
+ja:
+  - title: "Cocktail Cloud の概念"
+    url: /docs/ja/0.0/
+    children:
+      - title: "Cocktail Cloud 構成ガイド"
+        url: /docs/ja/0.1/
+      - title: "クラスタ管理のレイヤー"
+        url: /docs/ja/0.2/
+      - title: "サービス管理レイヤー"
+        url: /docs/ja/0.3/
+      - title: "パイプラインレイヤー"
+        url: /docs/ja/0.4/
+      - title: "カタログレイヤー"
+        url: /docs/ja/0.5/
+      - title: "ダッシュボードレイヤー"
+        url: /docs/ja/0.6/
+  - title: "ログイン"
+    url: /docs/ja/1/
+  - title: "System Management"
+    url: /docs/ja/2/
+    children:
+    - title: "Users"
+      url: /docs/ja/2.1/
+      children:
+        - title: "Add User"
+          url: /docs/ja/2.1.1/
+        - title: "Edit User"
+          url: /docs/ja/2.1.2/
+        - title: "Delete User"
+          url: /docs/ja/2.1.3/
+        - title: "Reset User Password"
+          url: /docs/ja/2.1.4/
+    - title: "Account"
+      url: /docs/ja/2.2/
+      children:
+        - title: "Add Account"
+          url: /docs/ja/2.2.1/
+          children:
+            - title: "Add AWS Account"
+              url: /docs/ja/2.2.1.1/
+            - title: "Add GCP Account"
+              url: /docs/ja/2.2.1.2/
+        - title: "Edit Account"
+          url: /docs/ja/2.2.2/
+        - title: "Delete Account"
+          url: /docs/ja/2.2.3/
+    - title: "Service"
+      url: /docs/ja/2.3/
+      children:
+        - title: "Add Service"
+          url: /docs/ja/2.3.1/
+        - title: "Edit Service"
+          url: /docs/ja/2.3.2/
+        - title: "Delete Service"
+          url: /docs/ja/2.3.3/
+  - title: "ダッシュボード"
+    url: /docs/ja/3/
+    children:
+      - title: "ユーザー管理"
+        url: /docs/ja/3.1/
+  - title: "サービス"
+    url: /docs/ja/4/
+    children:
+    - title: "アプリケーション管理"
+      url: /docs/ja/4.1/
+      children:
+        - title: "アプリケーションマップ"
+          url: /docs/ja/4.1.1/
+          children:
+            - title: "アプリケーションマップ作成"
+              url: /docs/ja/4.1.1.1/
+            - title: "アプリケーションマップ名の変更"
+              url: /docs/ja/4.1.1.2/
+            - title: "アプリケーションマップ削除"
+              url: /docs/ja/4.1.1.3/
+        - title: "グループ管理"
+          url: /docs/ja/4.1.2/
+        - title: "サーバー"
+          url: /docs/ja/4.1.3/
+          children:
+            - title: "サーバー作成"
+              url: /docs/ja/4.1.3.1/
+            - title: "サーバー編集"
+              url: /docs/ja/4.1.3.2/
+            - title: "サーバーインスタンス情報照会"
+              url: /docs/ja/4.1.3.3/
+            - title: "サーバー停止"
+              url: /docs/ja/4.1.3.4/
+            - title: "サーバ起動"
+              url: /docs/ja/4.1.3.5/
+            - title: "サーバー再起動"
+              url: /docs/ja/4.1.3.6/
+            - title: "サーバー削除"
+              url: /docs/ja/4.1.3.7/
+        - title: "モニタリング"
+          url: /docs/ja/4.1.4/
+        - title: "パイプライン"
+          url: /docs/ja/4.1.5/
+        - title: "퍼시스턴트 볼륨"
+          url: /docs/ja/4.1.6/
+          children:
+            - title: "퍼시스턴트 생성"
+              url: /docs/ja/4.1.6.1/
+            - title: "퍼시스턴트 삭제"
+              url: /docs/ja/4.1.6.2/
+        - title: "設定"
+          url: /docs/ja/4.1.7/
+          children:
+            - title: "設定マップ"
+              url: /docs/ja/4.1.7.1/
+              children:
+                - title: "設定マップ追加"
+                  url: /docs/ja/4.1.7.1a/
+                - title: "設定マップ変更"
+                  url: /docs/ja/4.1.7.1b/
+                - title: "設定マップ削除"
+                  url: /docs/ja/4.1.7.1c/
+            - title: "シークレット"
+              url: /docs/ja/4.1.7.2/
+              children:
+                - title: "シークレット追加"
+                  url: /docs/ja/4.1.7.2a/
+                - title: "シークレット修正"
+                  url: /docs/ja/4.1.7.2b/
+                - title: "シークレット削除"
+                  url: /docs/ja/4.1.7.2c/
+  - title: "ビルド管理"
+    url: /docs/ja/5/
+    children:
+      - title: "ビルド追加"
+        url: /docs/ja/5.1/
+      - title: "タスク設定の編集"
+        url: /docs/ja/5.2/
+      - title: "ヒストリー"
+        url: /docs/ja/5.3/
+      - title: "ビルド実行"
+        url: /docs/ja/5.4/
+      - title: "ビルドキャンセル"
+        url: /docs/ja/5.5/
+      - title: "ログ表示"
+        url: /docs/ja/5.6/
+      - title: "タスク削除"
+        url: /docs/ja/5.7/
+  - title: "カタログ"
+    url: /docs/ja/6/
+    children:
+      - title: "カタログ保存"
+        url: /docs/ja/6.1/
+      - title: "カタログデプロイ"
+        url: /docs/ja/6.2/
+      - title: "カタログ編集"
+        url: /docs/ja/6.3/
+      - title: "カタログ削除"
+        url: /docs/ja/6.4/
+  - title: "クラスター"
+    url: /docs/ja/7/
+    children:
+      - title: "クラスター管理"
+        url: /docs/ja/7.1/
+        children:
+          - title: "クラスター追加"
+            url: /docs/ja/7.1.1/
+          - title: "クラスター編集"
+            url: /docs/ja/7.1.2/
+          - title: "クラスター削除"
+            url: /docs/ja/7.1.3/
+      - title: "ノード"
+        url: /docs/ja/7.2/
+      - title: "アプリケーション"
+        url: /docs/ja/7.3/
+      - title: "ボリューム"
+        url: /docs/ja/7.4/
+        children:
+          - title: "ストレージ追加"
+            url: /docs/ja/7.4.1/
+          - title: "ストレージ編集"
+            url: /docs/ja/7.4.2/
+          - title: "ストレージ削除"
+            url: /docs/ja/7.4.3/
+      - title: "アラーム"
+        url: /docs/ja/7.5/
+        children:
+          - title: "アラームリスト"
+            url: /docs/ja/7.5.1/
+      - title: "メータリング"
+        url: /docs/ja/7.6/
+  - title: "Member"
+    url: /docs/ja/8/
+  - title: "用語説明"
+    url: /docs/ja/9/
+    children:
+      - title: "Kubernetes(k8s)"
+        url: /docs/ja/9.1/
+      - title: "Cocktail Cloud"
+        url: /docs/ja/9.2/
+      - title: "Cocktail System Error Code"
+        url: /docs/ja/9.3/
+  - title: "ユーザーサポートサービス"
+    url: /docs/ja/10/
