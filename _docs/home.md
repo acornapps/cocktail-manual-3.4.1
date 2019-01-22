@@ -8,7 +8,7 @@ permalink: /
   #overlay_color: "#485465"
   #cta_label: "<i class='fas fa-download'></i> Install Now"
   #cta_url: "/docs/quick-start-guide/"
-title: "层积云"
+title: "Cocktail Cloud"
 excerpt: ""
 feature_row:
   - image_path: /assets/korea.png
