@@ -11,7 +11,7 @@ toc_sticky: false
 ---
 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.
 
-![]({{ site.baseurl }}/assets/KR/3.1.1/2_1.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/2_1.png)
 
 | **시스템 정보** | **설명** |
 | :--- | :--- |
@@ -43,3 +43,4 @@ toc_sticky: false
 | 권한 | 시스템 사용자 권한 (관리자, 사용자) |
 | 마지막 접속일 | 시스템 사용자 마지막 접속 시간 |
 | 설명 | 시스템 사용자 설명 |
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/2_1.png)

@@ -35,7 +35,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/0.6/",
         "teaser":null},{
         "title": "1.Login",
-        "excerpt":"Below is the initial Cocktail login screen. You can log in after entering the role, ID, and password. (Contact the administrator for ID information.) The password must be changed when first connecting or initializing the password. You can change your password or extend your password even after 90 days have...","categories": [],
+        "excerpt":"Below is the initial Cocktail login screen. You can log in after entering the System, ID, and password. (Contact the administrator for ID information.) The password must be changed when first connecting or initializing the password. You can change your password or extend your password even after 90 days have...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/1/",
         "teaser":null},{
@@ -480,7 +480,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/0.6/",
         "teaser":null},{
         "title": "1. 로그인",
-        "excerpt":" 아래는 Cocktail Cloud의 초기 로그인 화면이다.   Role, ID, Password 입력 후 로그인 할 수 있다.   (아이디는 관리자에게 별도 문의)      최초 접속 또는 비밀번호 초기화시에는 반드시 비밀번호를 변경 해야한다.      기간이 90일이 경과한 경우에도 비밀번호를 변경하거나 비밀번호를 연장 할 수 있다.     ","categories": [],
+        "excerpt":" 아래는 Cocktail Cloud의 초기 로그인 화면이다.   시스템명, ID, Password 입력 후 로그인 할 수 있다.   (아이디는 관리자에게 별도 문의)      최초 접속 또는 비밀번호 초기화시에는 반드시 비밀번호를 변경 해야한다.      기간이 90일이 경과한 경우에도 비밀번호를 변경하거나 비밀번호를 연장 할 수 있다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/1/",
         "teaser":null},{
@@ -920,7 +920,7 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/0.6/",
         "teaser":null},{
         "title": "1. 登录",
-        "excerpt":" 以下是层积云的初始登录画面。   输入 Role、ID、密码后可以登录。   (ID 另询管理员)      初始连接或初始化密码时，密码必须修改。      90 天后可修改密码或延长使用。     ","categories": [],
+        "excerpt":" 以下是层积云的初始登录画面。   输入 System、ID、密码后可以登录。   (ID 另询管理员)      初始连接或初始化密码时，密码必须修改。      90 天后可修改密码或延长使用。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/1/",
         "teaser":null},{
