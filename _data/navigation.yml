@@ -73,12 +73,14 @@ docs:
         - title: "서비스 맵"
           url: /docs/ko/4.1.1/
           children:
-            - title: "서비스 맵 생성"
+            - title: "서비스 맵 그룹관리"
               url: /docs/ko/4.1.1.1/
-            - title: "서비스 맵 이름변경"
+            - title: "서비스 맵 생성"
               url: /docs/ko/4.1.1.2/
-            - title: "서비스 맵 삭제"
+            - title: "서비스 맵 이름변경"
               url: /docs/ko/4.1.1.3/
+            - title: "서비스 맵 삭제"
+              url: /docs/ko/4.1.1.4/
         - title: "그룹 관리"
           url: /docs/ko/4.1.2/
         - title: "워크로드"
