@@ -15,7 +15,7 @@ toc_sticky: false
 
 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다.
 
-![]({{ site.baseurl }}/assets/KR/{{ site.version }}/4_0.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/4_1.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/4_2.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/4_0.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_2.png)
 
 | **카탈로그 메뉴**    | **설명**                       |
 | :------------- | :--------------------------- |
