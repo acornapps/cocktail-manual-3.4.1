@@ -6,6 +6,8 @@ redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: false
+sidebar:
+  nav: "ja"
 ---
 
 
@@ -15,7 +17,8 @@ toc_sticky: false
 
 アプリケーションをダウンロード、ソースファイルをビルド、イメージファイルをビルドし、Haborレジストリにアップロードする。
 
-**a\) サービス → ビルド管理を選択してクリック。**![](/assets/JP/2.5/3.2_1.png)![](/assets/JP/2.5/3.2_2.png)
+### a\) サービス → ビルド管理を選択してクリック。
+![](/assets/JP/2.5/3.2_1.png)![](/assets/JP/2.5/3.2_2.png)
 
 | **リスト** | **説明** |
 | :---: | :--- |
