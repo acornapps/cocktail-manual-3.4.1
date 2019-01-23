@@ -16,12 +16,12 @@ Below is the initial Cocktail login screen.
 
 You can log in after entering the System, ID, and password. \(Contact the administrator for ID information.\)
 
-![]({{ site.baseurl }}/assets/EN/3.1.1/1_1.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/1_1.png)
 
 The password must be changed when first connecting or initializing the password.
 
-![]({{ site.baseurl }}/assets/EN/3.1.1/1_2.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/1_2.png)
 
 You can change your password or extend your password even after 90 days have passed.
 
-![]({{ site.baseurl }}/assets/EN/3.1.1/1_3.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/1_3.png)
