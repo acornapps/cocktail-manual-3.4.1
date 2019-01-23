@@ -1,7 +1,7 @@
 ---
 title: "1.ログイン"
 excerpt: ""
-permalink: /docs/ja/0.6/
+permalink: /docs/ja/1/
 redirect_from:
   - /theme-setup/
 toc: false
