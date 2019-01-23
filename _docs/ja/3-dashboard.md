@@ -6,6 +6,8 @@ redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: false
+sidebar:
+  nav: "ja"
 ---
 
 ---
@@ -28,7 +30,7 @@ toc_sticky: false
 
   使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。
 
-* **クラスタ上位リソース割り当て率 **
+* **クラスタ上位リソース割り当て率**
 
   使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。
 
