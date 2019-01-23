@@ -27,38 +27,10 @@ docs:
     children:
     - title: "시스템"
       url: /docs/ko/2.1/
-      children:
-        - title: "사용자 추가"
-          url: /docs/ko/2.1.1/
-        - title: "시스템 편집"
-          url: /docs/ko/2.1.2/
-        - title: "사용자 삭제"
-          url: /docs/ko/2.1.3/
-        - title: "사용자 비밀번호 초기화"
-          url: /docs/ko/2.1.4/
     - title: "클러스터"
       url: /docs/ko/2.2/
-      children:
-        - title: "클러스터 추가"
-          url: /docs/ko/2.2.1/
-          children:
-            - title: "AWS 계정 추가"
-              url: /docs/ko/2.2.1.1/
-            - title: "GCP 계정 추가"
-              url: /docs/ko/2.2.1.2/
-        - title: "클러스터 편집"
-          url: /docs/ko/2.2.2/
-        - title: "클러스터 삭제"
-          url: /docs/ko/2.2.3/
     - title: "워크스페이스"
       url: /docs/ko/2.3/
-      children:
-        - title: "워크스페이스 추가"
-          url: /docs/ko/2.3.1/
-        - title: "워크스페이스 편집"
-          url: /docs/ko/2.3.2/
-        - title: "워크스페이스 삭제"
-          url: /docs/ko/2.3.3/
   - title: "대시보드"
     url: /docs/ko/3/
     children:
@@ -227,40 +199,12 @@ en:
   - title: "System Management"
     url: /docs/en/2/
     children:
-    - title: "Users"
+    - title: "System"
       url: /docs/en/2.1/
-      children:
-        - title: "Add User"
-          url: /docs/en/2.1.1/
-        - title: "Edit User"
-          url: /docs/en/2.1.2/
-        - title: "Delete User"
-          url: /docs/en/2.1.3/
-        - title: "Reset User Password"
-          url: /docs/en/2.1.4/
-    - title: "Account"
+    - title: "Cluster"
       url: /docs/en/2.2/
-      children:
-        - title: "Add Account"
-          url: /docs/en/2.2.1/
-          children:
-            - title: "Add AWS Account"
-              url: /docs/en/2.2.1.1/
-            - title: "Add GCP Account"
-              url: /docs/en/2.2.1.2/
-        - title: "Edit Account"
-          url: /docs/en/2.2.2/
-        - title: "Delete Account"
-          url: /docs/en/2.2.3/
-    - title: "Service"
+    - title: "Workspace"
       url: /docs/en/2.3/
-      children:
-        - title: "Add Service"
-          url: /docs/en/2.3.1/
-        - title: "Edit Service"
-          url: /docs/en/2.3.2/
-        - title: "Delete Service"
-          url: /docs/en/2.3.3/
   - title: "Dashboard"
     url: /docs/en/3/
     children:
@@ -424,43 +368,15 @@ zh:
         url: /docs/zh/0.6/
   - title: "登录"
     url: /docs/zh/1/
-  - title: "环境设置"
+  - title: "系统管理"
     url: /docs/zh/2/
     children:
-    - title: "用户"
+    - title: "系统"
       url: /docs/zh/2.1/
-      children:
-        - title: "用户添加"
-          url: /docs/zh/2.1.1/
-        - title: "用户编辑"
-          url: /docs/zh/2.1.2/
-        - title: "用户删除"
-          url: /docs/zh/2.1.3/
-        - title: "用户密码初始化"
-          url: /docs/zh/2.1.4/
-    - title: "账号"
+    - title: "簇"
       url: /docs/zh/2.2/
-      children:
-        - title: "账号添加"
-          url: /docs/zh/2.2.1/
-          children:
-            - title: "AWS 账号添加"
-              url: /docs/zh/2.2.1.1/
-            - title: "GCP 账号添加"
-              url: /docs/zh/2.2.1.2/
-        - title: "账号编辑"
-          url: /docs/zh/2.2.2/
-        - title: "账号删除"
-          url: /docs/zh/2.2.3/
-    - title: "服务"
+    - title: "工作区"
       url: /docs/zh/2.3/
-      children:
-        - title: "服务添加"
-          url: /docs/zh/2.3.1/
-        - title: "服务编辑"
-          url: /docs/zh/2.3.2/
-        - title: "服务删除"
-          url: /docs/zh/2.3.3/
   - title: "仪表盘"
     url: /docs/zh/3/
     children:
@@ -624,43 +540,15 @@ ja:
         url: /docs/ja/0.6/
   - title: "ログイン"
     url: /docs/ja/1/
-  - title: "System Management"
+  - title: "システムマネジメント"
     url: /docs/ja/2/
     children:
-    - title: "Users"
+    - title: "システム"
       url: /docs/ja/2.1/
-      children:
-        - title: "Add User"
-          url: /docs/ja/2.1.1/
-        - title: "Edit User"
-          url: /docs/ja/2.1.2/
-        - title: "Delete User"
-          url: /docs/ja/2.1.3/
-        - title: "Reset User Password"
-          url: /docs/ja/2.1.4/
-    - title: "Account"
+    - title: "クラスタ"
       url: /docs/ja/2.2/
-      children:
-        - title: "Add Account"
-          url: /docs/ja/2.2.1/
-          children:
-            - title: "Add AWS Account"
-              url: /docs/ja/2.2.1.1/
-            - title: "Add GCP Account"
-              url: /docs/ja/2.2.1.2/
-        - title: "Edit Account"
-          url: /docs/ja/2.2.2/
-        - title: "Delete Account"
-          url: /docs/ja/2.2.3/
-    - title: "Service"
+    - title: "ワークスペース"
       url: /docs/ja/2.3/
-      children:
-        - title: "Add Service"
-          url: /docs/ja/2.3.1/
-        - title: "Edit Service"
-          url: /docs/ja/2.3.2/
-        - title: "Delete Service"
-          url: /docs/ja/2.3.3/
   - title: "ダッシュボード"
     url: /docs/ja/3/
     children:

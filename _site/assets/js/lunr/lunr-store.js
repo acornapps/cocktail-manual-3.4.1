@@ -44,35 +44,55 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/10/",
         "teaser":null},{
-        "title": "2.Environment Settings",
-        "excerpt":"  Environment settings allow user, account, and service management required to use Cocktail.                  Environment       Description                       User       Cocktail user                 Account       Public/private cloud account information to be used as a cloud resource                 Service       Workspace that can build, deploy, and operate applications          ","categories": [],
+        "title": "2.System Management",
+        "excerpt":" You can manage the systems, clusters, and workspaces you need to use the cocktail cloud.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2/",
         "teaser":null},{
-        "title": "2.1 Users",
-        "excerpt":"The user account list can be filtered by All, Active, or Inactive. (‘Y’ and ‘N’ accounts are displayed when ‘Active’ and ‘Inactive’ are selected, respectively.) Cocktail user accounts can be created, edited, and deleted, and ADMIN and DEVOPS privileges can be granted according to the account. a) Configuration → User...","categories": [],
+        "title": "2.1 System",
+        "excerpt":"You can manage system information, account information, cloud metering accounts, and system users for system use. a) Left main menu → System System Information Description System name Cocktail cloud’s system name System connection account System Account for Cocktail Cloud Access System type Cocktail cloud system usage type Default language Cocktail...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.1/",
         "teaser":null},{
-        "title": "2.1.1 Add User",
-        "excerpt":"This feature allows you to add user accounts. The user ID must be in an email format (user@example.com). The password settings feature is not currently supported, and thus, the password must be initialized and changed after creating an ID. (The password automatically assigned after initialization is ‘Pass0000’.) a) Configuration →...","categories": [],
+        "title": "2.1.1 Edit system",
+        "excerpt":"System information and account information necessary for using the system can be modified. a) Left main menu → System → Top right edit button You can modify system information (default language, system logo, system description) and account information (organization name, account contact person, account contact email, address). b) Click on...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.1.1/",
         "teaser":null},{
-        "title": "2.1.2 Edit User",
-        "excerpt":"This feature allows you to modify user accounts. a) Configuration → User → User Action Menu &gt; Edit User &gt; Click the [Update] button when finished. b)The name, status, and privileges may be changed. (Note, however, that the user ID itself may not be changed). Status Description Active Active user...","categories": [],
+        "title": "2.1.2 Register your cloud metering account",
+        "excerpt":"  You can register your cloud metering account.   a) Left Main Menu → System → Account Registration                Amazon Web Service             Google Cloud Plalform       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.1.2/",
         "teaser":null},{
-        "title": "2.1.3 Delete User",
-        "excerpt":"This feature allows you to delete user accounts. Deleted accounts are marked as active or inactive with a ‘Y’ or ‘N’ and not actually removed from the list. An ID can be reused if the status is changed to Active under Edit User. a) Configuration → User → User Action...","categories": [],
+        "title": "2.1.3 Edit your cloud metering account",
+        "excerpt":"  You can edit your cloud metering account.   a) Click on Main Menu → System → Account Action Menu → Edit Account → Edit and modify button.       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.1.3/",
         "teaser":null},{
-        "title": "2.1.4 Reset User Password",
-        "excerpt":" This feature allows you to reset user passwords. (The password automatically assigned after initialization is ‘Pass0000’)   a) Configuration → User → User Action Menu &gt; Reset Password.    ","categories": [],
+        "title": "2.1.4 Delete your cloud metering account",
+        "excerpt":"  You can delete your cloud metering account.   a) Left Main Menu → System → Account Actions Menu → Delete Account    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.1.4/",
+        "teaser":null},{
+        "title": "2.1.5 Adding System Users",
+        "excerpt":"  It is a function to add a system user.   a) Click on Main Menu → System → Add User on the left.                       System Users       Description                       Name       System user name                 Id       Cocktail Cloud Connect User ID                 Description       System user description          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.1.5/",
+        "teaser":null},{
+        "title": "2.1.6 Edit system users",
+        "excerpt":" It is a function to edit system user information (name, description).   a) Click on Main Menu → System → User Action Menu → Edit User on the left.       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.1.6/",
+        "teaser":null},{
+        "title": "2.1.7 Reset system user password",
+        "excerpt":"  Cocktail Cloud is a function that initializes user password. (Initial password supplied after initialization is ‘Pass0000’. )   a)  Click Main Menu → System → User Action Menu → Initialize User Password on the left.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.1.7/",
+        "teaser":null},{
+        "title": "2.1.8 Delete system user",
+        "excerpt":" It is a function to delete the system user.   a)  Click Main Menu → System → User Actions menu → Delete User on the left.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.1.8/",
         "teaser":null},{
         "title": "2.2 Account",
         "excerpt":"This feature allows you to register, edit, and delete public/private cloud account information to be used as a cloud resource. By registering an account, you can retrieve the resource and metering information of a provider or create a server. (Metering information is only available for Google Cloud Platform and AWS...","categories": [],
@@ -345,14 +365,14 @@ var store = [{
         "url": "http://localhost:4000/docs/en/6.4/",
         "teaser":null},{
         "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 내보내기할 카탈로드의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/6.5/",
+        "url": "http://localhost:4000/docs/en/6.5/",
         "teaser":null},{
         "title": "6.6 카탈로그 가져오기",
-        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한다.    ","categories": [],
+        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/6.6/",
+        "url": "http://localhost:4000/docs/en/6.6/",
         "teaser":null},{
         "title": "7.Cluster",
         "excerpt":"This feature provides cluster registration management functions, as well as monitoring, volume, alert, and metering services for each node and application. Cluster Menu Descrition Node Resource utilization (CPU, memory, and network) for all nodes and monitoring of individual nodes Application Resource utilization (CPU, memory, and network) for all applications and...","categories": [],
@@ -445,10 +465,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/9.3/",
         "teaser":null},{
         "title": "Cocktail Cloud",
-        "excerpt":"                                                                                                                                    한국어 메뉴얼                                                                                                      Learn More                                                                                                                                                           日本語マニュアル                                                                                                      Learn More                                       ","categories": [],
-=======
         "excerpt":"                                                                                                                                    한국어 메뉴얼                                                                                                      Learn More                                                                                                                                                           日本語マニュアル                                                                                                      Learn More                                                                                                                                                           中文手册                                                                                                      Learn More                                                                                                                                                           English Manual                                                                                                      Learn More                                       ","categories": [],
->>>>>>> 37f701b0a1e9e8de764a6cb7339a88e40d6bfd5e
         "tags": [],
         "url": "http://localhost:4000/",
         "teaser":null},{
@@ -496,6 +513,56 @@ var store = [{
         "excerpt":"  Cocktail Cloudをご利用いただき、誠にありがとうございます。   製品のご購入や機能に関するご相談など、技術的なサポートからお客様に必要なサービスをご提供しております。 サポートしているサービスは、以下のとおりです。      訪問サービスにてQ＆A、製品に関する情報およびその他のお問い合わせを承っております。   ユーザー登録済みの製品やご相談が可能な製品に限りましては、 お電話やファックスにて専門的な技術相談が可能となっています。   各種イベントへのご招待および情報をご提供いたします。   サービスサポート   Eメール: support@namutech.co.jp   製品開発会社   NAMU TECH JAPAN 株式会社      住所 : 〒102-0074 東京都千代田区九段南4-6-1　九段シルバーパレス201号   Tel : 03-6272-4788   Fax : 03-6272-4794   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/10/",
+        "teaser":null},{
+        "title": "2.시스템 관리",
+        "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2/",
+        "teaser":null},{
+        "title": "2.1 시스템",
+        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보, 클라우드 미터링 계정, 시스템 사용자를 관리 할 수 있다. a) 좌측 메인메뉴 → 시스템 시스템 정보 설명 시스템 명 칵테일 클라우드의 시스템 이름 시스템 접속 계정 칵테일 클라우드 접속을 위한 시스템 계정 시스템 유형 칵테일 클라우드 시스템 사용 유형 기본 언어 칵테일 클라우드...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1/",
+        "teaser":null},{
+        "title": "2.1.1 시스템 편집",
+        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보를 수정 할 수 있다. a) 좌측 메인메뉴 → 시스템 → 우측 상단 편집 버튼 시스템 정보(기본 언어, 시스템 로고, 시스템 설명)와 계정 정보(조직명, 계정 담당자 명, 계정 담당자 이메일, 주소)를 수정 할 수 있다. b) 좌측 메인메뉴 → 시스템 → 편집 → 수정완료...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.1/",
+        "teaser":null},{
+        "title": "2.1.2 클라우드 미터링 계정 등록",
+        "excerpt":"  클라우드 미터링 계정 등록 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 등록                Amazon Web Service             Google Cloud Plalform       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.2/",
+        "teaser":null},{
+        "title": "2.1.3 클라우드 미터링 계정 편집",
+        "excerpt":"  클라우드 미터링 계정 편집 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다.       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.3/",
+        "teaser":null},{
+        "title": "2.1.4 클라우드 미터링 계정 삭제",
+        "excerpt":"  클라우드 미터링 계정을 삭제 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 삭제    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.4/",
+        "teaser":null},{
+        "title": "2.1.5 시스템 사용자 추가",
+        "excerpt":"  시스템 사용자를 추가 하는 기능이다.  a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다.                       시스템 사용자       설명                       이름       시스템 사용자 이름                 아이디       칵테일 클라우드 접속 사용자 아이디                 설명       시스템 사용자 설명          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.5/",
+        "teaser":null},{
+        "title": "2.1.6 시스템 사용자 편집",
+        "excerpt":" 시스템 사용자 정보(이름, 설명)를 편집 하는 기능이다.   a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 편집를 클릭한다.       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.6/",
+        "teaser":null},{
+        "title": "2.1.7 시스템 사용자 비밀번호 초기화",
+        "excerpt":"  Cocktail Cloud 사용자 비밀번호를 초기화 하는 기능이다.(초기화 후 제공받는 초기 비밀번호는 ‘Pass0000’이다.)   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 비밀번호 초기화를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.7/",
+        "teaser":null},{
+        "title": "2.1.8 시스템 사용자 삭제",
+        "excerpt":" 시스템 사용자를 삭제하는 기능이다.   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.1.8/",
         "teaser":null},{
         "title": "3.ダッシュボード",
         "excerpt":"  ダッシュボードでは、cocktailでサービスされる情報を一目で確認することができる。           要約情報       現在登録管理されているアプリケーションの数、サーバー数、登録クラスタ数、当月の総クラウドコストを確認することができる。            サーバーステータス       インフラとして使用しているクラウドサービスのプロバイダ別に配置されているサーバーの数が分かる。グーグルGCP、アマゾンAWS、MS Azure、Bare Metal、Private Cloud Platformが登録されている。            クラスタ料金の推移       確認したい 年の月別料金の推移および確認したい月の日別料金の推移までグラフで確認することができる。            クラスタ別上位料金       使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。            クラスタ上位リソース割り当て率       使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。            アプリケーション別上位リソース割り当て量       使用中のアプリケーションのうち、上位5つのアプリケーションのリソース割り当て量を確認することができる。          ","categories": [],
@@ -693,14 +760,24 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/6.2/",
         "teaser":null},{
         "title": "6.3 カタログ編集",
-        "excerpt":"  作成されたカタログ内容を編集することができる。テンプレートのバージョン、サマリー、編集内容を修正することができるほか、各インスタンスのデプロイ情報を修正することができる。   a) カタログ → 編集するテンプレートの「編集」ボタンをクリック     b) 修正するテンプレートのバージョン、サマリー、編集内容を修正し、画面の右下の「変更」ボタンをクリックしてインスタンスのデプロイ情報を修正することができる。     c) コンフィグマップとシークレットは、編集画面で編集することはできず、内容の確認のみ可能。     d) サーバー編集時、コンテナ環境設定とボリューム、ボリュームマウントは、編集することができず、内容の確認のみ可能。     ","categories": [],
+        "excerpt":"  作成されたカタログ内容を編集することができる。テンプレートのバージョン、サマリー、編集内容を修正することができるほか、各インスタンスのデプロイ情報を修正することができる。   a) カタログ → 編集するテンプレートの「編集」ボタンをクリック     b) 修正するテンプレートのバージョン、サマリー、編集内容を修正し、画面の右下の「変更」ボタンをクリックしてインスタンスのデプロイ情報を修正することができる。    c) コンフィグマップとシークレットは、編集画面で編集することはできず、内容の確認のみ可能。     d) サーバー編集時、コンテナ環境設定とボリューム、ボリュームマウントは、編集することができず、内容の確認のみ可能。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.3/",
         "teaser":null},{
         "title": "6.4 カタログ削除",
-        "excerpt":"  不要なカタログを削除することができる。 （カクテルカタログは削除できない）   a) カタログ → 削除するテンプレートの「編集」ボタンをクリック     b) 削除するテンプレートのバージョンを選択してから、「削除」ボタンをクリック。該当テンプレートバージョンが削除される。     ","categories": [],
+        "excerpt":"  不要なカタログを削除することができる。 （カクテルカタログは削除できない）   a) カタログ → 削除するテンプレートの「編集」ボタンをクリック     b) 削除するテンプレートのバージョンを選択してから、「削除」ボタンをクリック。該当テンプレートバージョンが削除される。   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.4/",
+        "teaser":null},{
+        "title": "6.5 카탈로그 내보내기",
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/6.5/",
+        "teaser":null},{
+        "title": "6.6 카탈로그 가져오기",
+        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/6.6/",
         "teaser":null},{
         "title": "7.クラスター",
         "excerpt":"  クラスターの登録管理とノードおよびアプリケーション単位の監視、ボリューム、アラーム、コストサービスが提供される。                  クラスタメニュー       説明                       ノード       ノード全体の CPU、 メモリ、 ネットワークの使用量と個々のノードの監視サービス                 アプリケーション       アプリケーション全体の CPU、 メモ、 ネットワークの使用量と、 個々のアプリケーションの 監視 サービス                 ボリューム       ストレージ 管理及びボリューム ステータス                 アラーム       クラスタのイベント情報関連アラームサービス                 コスト       クラスタコストとリソース別コストサービス                 登録       クラスタの照会および修正、 削除          ","categories": [],
@@ -838,34 +915,54 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
-        "excerpt":"칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다. 시스템 정보 설명 시스템 명 칵테일 클라우드의 시스템 이름 시스템 접속 계정 칵테일 클라우드 접속을 위한 시스템 계정 시스템 유형 칵테일 클라우드 시스템 사용 유형 기본 언어 칵테일 클라우드 기본 언어 시스템 로고 칵테일 클라우드 시스템 로고 시스템 설명...","categories": [],
+        "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2/",
         "teaser":null},{
         "title": "2.1 시스템",
-        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보, 클라우드 미터링 계정, 시스템 사용자 관리를 할 수 있다. a) 좌측 메인메뉴 → 시스템 시스템 정보 설명 시스템 명 칵테일 클라우드의 시스템 이름 시스템 접속 계정 칵테일 클라우드 접속을 위한 시스템 계정 시스템 유형 칵테일 클라우드 시스템 사용 유형 기본 언어 칵테일 클라우드...","categories": [],
+        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보, 클라우드 미터링 계정, 시스템 사용자를 관리 할 수 있다. a) 좌측 메인메뉴 → 시스템 시스템 정보 설명 시스템 명 칵테일 클라우드의 시스템 이름 시스템 접속 계정 칵테일 클라우드 접속을 위한 시스템 계정 시스템 유형 칵테일 클라우드 시스템 사용 유형 기본 언어 칵테일 클라우드...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.1/",
         "teaser":null},{
         "title": "2.1.1 시스템 편집",
-        "excerpt":"Cocktail Cloud 사용자 추가 기능이다. 사용자 아이디는 반드시 이메일 형식( user@example.com )이어야 하며 패스워드 설정기능은 현재 지원하고 있지 않으니 아이디 생성 후에는 반드시 비밀번호 초기화 후 변경하여 사용해야 한다. (초기화 후 제공받는 초기 비밀번호는 ‘Pass0000’이다.) a) 환경설정 → 사용자 → 우측상단 사용자 생성 버튼 클릭한다. b) 사용자 아이디, 이름, 권한을...","categories": [],
+        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보를 수정 할 수 있다. a) 좌측 메인메뉴 → 시스템 → 우측 상단 편집 버튼 시스템 정보(기본 언어, 시스템 로고, 시스템 설명)와 계정 정보(조직명, 계정 담당자 명, 계정 담당자 이메일, 주소)를 수정 할 수 있다. b) 좌측 메인메뉴 → 시스템 → 편집 → 수정완료...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.1.1/",
         "teaser":null},{
-        "title": "2.1.2 클라우드 미터링 계정",
-        "excerpt":" Cocktail Cloud 사용자 정보를 편집 하는 기능 이다.   a) 환경설정 → 사용자 → 사용자 액션 메뉴 → 사용자 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 사용자 아이디를 제외한 이름, 상태 및 권한 수정이 가능하다.                    상태       설명                       Active       사용자 활성화                 Inactive       사용자 비활성          ","categories": [],
+        "title": "2.1.2 클라우드 미터링 계정 등록",
+        "excerpt":"  클라우드 미터링 계정 등록 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 등록                Amazon Web Service             Google Cloud Plalform       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.1.2/",
         "teaser":null},{
-        "title": "2.1.3 시스템 사용자",
-        "excerpt":" 사용자 계정을 삭제하는 기능이다. 삭제된 계정은 목록에서 제거되는 것이 아닌  Y or N 으로 활성화/비활성화 표기된다.   사용자 편집에서 상태를 Active로 변경하면 해당 아이디를 재사용할 수 있다.   a) 환경설정 → 사용자 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.    ","categories": [],
+        "title": "2.1.3 클라우드 미터링 계정 편집",
+        "excerpt":"  클라우드 미터링 계정 편집 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다.       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.1.3/",
         "teaser":null},{
-        "title": "2.1.4 사용자 비밀번호 초기화",
-        "excerpt":" Cocktail Cloud 사용자 비밀번호를 초기화 하는 기능이다.(초기화 후 제공받는 초기 비밀번호는 ‘Pass0000’이다.)   a) 환경설정 → 사용자 → 사용자 액션 메뉴 → 사용자 비밀번호 초기화를 클릭한다.    ","categories": [],
+        "title": "2.1.4 클라우드 미터링 계정 삭제",
+        "excerpt":"  클라우드 미터링 계정을 삭제 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 삭제    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.1.4/",
+        "teaser":null},{
+        "title": "2.1.5 시스템 사용자 추가",
+        "excerpt":"  시스템 사용자를 추가 하는 기능이다.  a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다.                       시스템 사용자       설명                       이름       시스템 사용자 이름                 아이디       칵테일 클라우드 접속 사용자 아이디                 설명       시스템 사용자 설명          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.1.5/",
+        "teaser":null},{
+        "title": "2.1.6 시스템 사용자 편집",
+        "excerpt":" 시스템 사용자 정보(이름, 설명)를 편집 하는 기능이다.   a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 편집를 클릭한다.       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.1.6/",
+        "teaser":null},{
+        "title": "2.1.7 시스템 사용자 비밀번호 초기화",
+        "excerpt":"  Cocktail Cloud 사용자 비밀번호를 초기화 하는 기능이다.(초기화 후 제공받는 초기 비밀번호는 ‘Pass0000’이다.)   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 비밀번호 초기화를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.1.7/",
+        "teaser":null},{
+        "title": "2.1.8 시스템 사용자 삭제",
+        "excerpt":" 시스템 사용자를 삭제하는 기능이다.   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.1.8/",
         "teaser":null},{
         "title": "2.2 클러스터",
         "excerpt":"클라우드 리소스로 사용 할 Public/Private 클라우드 계정 정보를 등록, 편집, 삭제하는 기능 이다. 계정을 등록함으로써 해당 프로바이더의 리소스, 미터링 정보를 가져 오거나 서버를 생성 할 수 있다. (미터링 정보는 Google Cloud Platform, AWS 클라우드에 한하여 확인이 가능하다.) 현재 AWS, Azure, BareMetal(Onpremise) 를 지원한다. 계정 목록을 전체/사용/미사용으로 분류하여 조회할 수 있다.(사용여부가...","categories": [],
@@ -1093,12 +1190,12 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.2/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":"해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다. a) 서비스 → 빌드 관리 → 빌드 액션 메뉴(활성화) → 히스토리를 선택하여 해당 페이지로 이동 b) 빌드작업 히스토리 메뉴에서 해당 빌드 작업의 액션명, 상태, 날짜, 작업 시간, 이미지명, 이미지...","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → 히스토리를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → 로그보기를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.3/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 서비스 → 빌드 관리 → 빌드 액션 메뉴(활성화) → 빌드 실행을 선택하여 빌드작업을 실행 b) 빌드 실행 시, 현재 액션이 변경되면서 로그 창이 활성화 된다. 빌드생성시 체크박스에서 선택된 갯수 만큼 탭이 활성화되며, 각 단계별로...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → 빌드 실행을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, 승인 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.4/",
         "teaser":null},{
@@ -1143,12 +1240,12 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/6.4/",
         "teaser":null},{
         "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 내보내기할 카탈로드의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.5/",
         "teaser":null},{
         "title": "6.6 카탈로그 가져오기",
-        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한다.    ","categories": [],
+        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.6/",
         "teaser":null},{
@@ -1287,40 +1384,55 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/10/",
         "teaser":null},{
-        "title": "2.环境设置",
-        "excerpt":" 通过环境设置，可以管理层积云必要的用户、账号、服务。                     环境设置菜单       说明                       用户       层积云使用用户                 账号       作为 Cloud 资源使用的 Public/ Private 云账号信息                 服务       可以 Build 及部署、运营应用程序的工作区          ","categories": [],
+        "title": "2.시스템 관리",
+        "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2/",
         "teaser":null},{
-        "title": "2.1 用户",
-        "excerpt":" 用户账号目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，账号选择的是‘使用’;显示为‘N’，选择的是‘未使用’)   可以创建及修改、删除层积云用户账号，也可以按照账号分配 ADMIN、DEVOPS 权限。   a) 点击环境设置→用户→使用与否，从‘全部/使用/未使用’中选择一个。     用户设置                  用户设置       说明                       使用与否       根据使用与否查询过滤功能(全部/使用/未使用)                 用户创建       切换到用户添加页面                 用户 ID       用户登登录时，使用的 ID(E-mail 格式)                 名称       用户名称                 权限       用户所获得的权限(ADMIN、DEVOPS)                 使用与否       当前用户的使用与否                 最后登录时间       有关用户最后访问日期的数据信息                 说明       用户说明          ","categories": [],
+        "title": "2.1 시스템",
+        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보, 클라우드 미터링 계정, 시스템 사용자를 관리 할 수 있다. a) 좌측 메인메뉴 → 시스템 시스템 정보 설명 시스템 명 칵테일 클라우드의 시스템 이름 시스템 접속 계정 칵테일 클라우드 접속을 위한 시스템 계정 시스템 유형 칵테일 클라우드 시스템 사용 유형 기본 언어 칵테일 클라우드...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1/",
         "teaser":null},{
-        "title": "2.1 用户",
-        "excerpt":" 用户账号目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，账号选择的是‘使用’;显示为‘N’，选择的是‘未使用’)   可以创建及修改、删除层积云用户账号，也可以按照账号分配 ADMIN、DEVOPS 权限。   a) 点击环境设置→用户→使用与否，从‘全部/使用/未使用’中选择一个。     用户设置                  用户设置       说明                       使用与否       根据使用与否查询过滤功能(全部/使用/未使用)                 用户创建       切换到用户添加页面                 用户 ID       用户登登录时，使用的 ID(E-mail 格式)                 名称       用户名称                 权限       用户所获得的权限(ADMIN、DEVOPS)                 使用与否       当前用户的使用与否                 最后登录时间       有关用户最后访问日期的数据信息                 说明       用户说明          ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/2.1/",
-        "teaser":null},{
-        "title": "2.1.1 用户添加",
-        "excerpt":" 添加层积云用户的功能。   用户 ID 必须是邮件格式(Cocktail@example.com)，因为当前不支持密码设置功能，所以创建 ID 后，必须进行密码初始化修改使用。 (初始化后提供的初始密码为‘Pass0000’)   a) 点击环境设置→用户→右上角的用户创建。    b) 选择用户 ID、名称、权限后，点击‘创建’按钮。                    权限       仪表盘       服务       目录       集群       环境设置                       ADMIN       ⃝       ⃝       ⃝       ⃝       ⃝                 DEVOPS       X       △       ⃝       X       X           - ADMIN : 抄录服务管理。可使用仪表盘、服务、目录、集群、环境设置菜单   - DEVOPS : 管理被分配到会员的服务。可使用服务和目录，可查询集群  ","categories": [],
+        "title": "2.1.1 시스템 편집",
+        "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보를 수정 할 수 있다. a) 좌측 메인메뉴 → 시스템 → 우측 상단 편집 버튼 시스템 정보(기본 언어, 시스템 로고, 시스템 설명)와 계정 정보(조직명, 계정 담당자 명, 계정 담당자 이메일, 주소)를 수정 할 수 있다. b) 좌측 메인메뉴 → 시스템 → 편집 → 수정완료...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1.1/",
         "teaser":null},{
-        "title": "2.1.2 用户编辑",
-        "excerpt":" 编辑层积云用户信息的功能。   a) 环境设置→用户→用户操作菜单→用户编辑→修改完后，点击‘修改’按钮。     b) 除了用户 ID 以外，还可以修改名称、状态及权限。                    状态       说明                       Active       用户激活                 Inactive       用户非激活          ","categories": [],
+        "title": "2.1.2 클라우드 미터링 계정 등록",
+        "excerpt":"  클라우드 미터링 계정 등록 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 등록                Amazon Web Service             Google Cloud Plalform       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1.2/",
         "teaser":null},{
-        "title": "2.1.3 用户删除",
-        "excerpt":" 删除用户账号的功能。被删除的账号以‘Y’或‘N’的形式显示激活/非激活，而不是从目录中删除。   进入用户编辑页面，把状态改为激活，可重新使用该 ID。   a) 点击环境设置→用户→用户操作菜单→用户删除。    ","categories": [],
+        "title": "2.1.3 클라우드 미터링 계정 편집",
+        "excerpt":"  클라우드 미터링 계정 편집 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다.       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1.3/",
         "teaser":null},{
-        "title": "2.1.4 用户密码初始化",
-        "excerpt":" 初始化层积云用户密码的功能。(初始化后提供的初始密码为‘Pass0000’)   a) 点击环境设置→用户→用户操作菜单→用户密码初始化。    ","categories": [],
+        "title": "2.1.4 클라우드 미터링 계정 삭제",
+        "excerpt":"  클라우드 미터링 계정을 삭제 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 삭제    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1.4/",
+        "teaser":null},{
+        "title": "2.1.5 시스템 사용자 추가",
+        "excerpt":"  시스템 사용자를 추가 하는 기능이다.  a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다.                       시스템 사용자       설명                       이름       시스템 사용자 이름                 아이디       칵테일 클라우드 접속 사용자 아이디                 설명       시스템 사용자 설명          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.1.5/",
+        "teaser":null},{
+        "title": "2.1.6 시스템 사용자 편집",
+        "excerpt":" 시스템 사용자 정보(이름, 설명)를 편집 하는 기능이다.   a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 편집를 클릭한다.       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.1.6/",
+        "teaser":null},{
+        "title": "2.1.7 시스템 사용자 비밀번호 초기화",
+        "excerpt":"  Cocktail Cloud 사용자 비밀번호를 초기화 하는 기능이다.(초기화 후 제공받는 초기 비밀번호는 ‘Pass0000’이다.)   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 비밀번호 초기화를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.1.7/",
+        "teaser":null},{
+        "title": "2.1.8 시스템 사용자 삭제",
+        "excerpt":" 시스템 사용자를 삭제하는 기능이다.   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.1.8/",
         "teaser":null},{
         "title": "2.2 账号",
         "excerpt":" 注册、编辑、删除作为云资源的 Public/Private 云账号信息的功能。   通过注册账号，可以导出该供应商资源、计量信息，或者创建服务器。   (计量信息的确认仅限于 Google Cloud Platform、AWS。)   用户账号目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，账号选择的是‘使 用’;显示为‘N’，选择的是‘未使用’)   a) 点击环境设置→账号→使用与否，从‘全部/使用/未使用’中选择一个。                    账号设置       说明                       使用与否       根据使用与否查询过滤功能(全部/使用/未使用)                 账号创建       切换到账号登录页面                 账号名称       账号名称(用户指定)                 供应商       供应商种类(OPM/RVS/IDC/AWS/GCP/AZR)                 类型       账号类型(USER/METERING)                 使用与否       账号的使用与否                 说明       账号的用户说明          ","categories": [],
@@ -1593,14 +1705,14 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/6.4/",
         "teaser":null},{
         "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 내보내기할 카탈로드의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/6.5/",
+        "url": "http://localhost:4000/docs/ja/6.5/",
         "teaser":null},{
         "title": "6.6 카탈로그 가져오기",
-        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한다.    ","categories": [],
+        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/6.6/",
+        "url": "http://localhost:4000/docs/zh/6.6/",
         "teaser":null},{
         "title": "7.集群",
         "excerpt":" 提供集群的注册管理，以及节点和应用程序为单位的监控、卷、报警和计量服务。                  集群菜单       说明                       节点       所有节点的 CPU、内存、网络使用量以及个别节点的监控服务                 应用程序       所有应用程序的 CPU、内存、网络使用量以及个别应用程序的监控 服务                 卷       存储管理以及卷现状                 报警       集群事件信息相关的报警服务                 计量       集群费用及各种资源费用服务                 注册管理       集群的查看、修改、删除          ","categories": [],
