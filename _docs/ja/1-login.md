@@ -1,7 +1,7 @@
 ---
 title: "1.ログイン"
 excerpt: ""
-permalink: /docs/ja/0.6/
+permalink: /docs/ja/1/
 redirect_from:
   - /theme-setup/
 toc: false
@@ -10,23 +10,20 @@ sidebar:
   nav: "ja"
 ---
 
-
 ---
 
 カクテルクラウドの初期ログイン画面は、以下のとおりである。
 
-Role、ID、Passwordを入力後、ログイン。
+System、ID、Passwordを入力後、ログイン。
 
 （IDは管理者に別途確認必要）
 
-![](/assets/JP/2.5/1_1.png)
+![]({{ site.baseurl }}/assets/JP/{{ site.version }}/1_1.png)
 
 最初の接続やパスワードの初期化時には、 必ずパスワードを変更する必要がある。
 
-![](/assets/JP/2.5.3/1_2.png)
+![]({{ site.baseurl }}/assets/JP/{{ site.version }}/1_2.png)
 
 期間が90日を経過した場合にも、 パスワードを変更したり、 パスワードを延長することができる。
 
-![](/assets/JP/2.5.3/1_3.png)
-
-
+![]({{ site.baseurl }}/assets/JP/{{ site.version }}/1_3.png)

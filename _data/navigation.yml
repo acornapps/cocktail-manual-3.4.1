@@ -55,55 +55,55 @@ docs:
               url: /docs/ko/4.1.1.4/
         - title: "그룹 관리"
           url: /docs/ko/4.1.2/
-        - title: "워크로드"
-          url: /docs/ko/4.1.3/
+    - title: "워크로드"
+      url: /docs/ko/4.2/
+      children:
+        - title: "워크로드 생성"
+          url: /docs/ko/4.2.1/
+        - title: "워크로드 편집"
+          url: /docs/ko/4.2.2/
+        - title: "워크로드 인스턴스 정보 조회"
+          url: /docs/ko/4.2.3/
+        - title: "워크로드 중지"
+          url: /docs/ko/4.2.4/
+        - title: "워크로드 시작"
+          url: /docs/ko/4.2.5/
+        - title: "워크로드 재시작"
+          url: /docs/ko/4.2.6/
+        - title: "워크로드 재거"
+          url: /docs/ko/4.2.7/
+    - title: "모니터링"
+      url: /docs/ko/4.3/
+    - title: "파이프라인"
+      url: /docs/ko/4.4/
+    - title: "퍼시스턴트 볼륨"
+      url: /docs/ko/4.5/
+      children:
+        - title: "퍼시스턴트 생성"
+          url: /docs/ko/4.5.1/
+        - title: "퍼시스턴트 삭제"
+          url: /docs/ko/4.5.2/
+    - title: "설정"
+      url: /docs/ko/4.6/
+      children:
+        - title: "컨피그 맵"
+          url: /docs/ko/4.6.1/
           children:
-            - title: "워크로드 생성"
-              url: /docs/ko/4.1.3.1/
-            - title: "워크로드 편집"
-              url: /docs/ko/4.1.3.2/
-            - title: "워크로드 인스턴스 정보 조회"
-              url: /docs/ko/4.1.3.3/
-            - title: "워크로드 중지"
-              url: /docs/ko/4.1.3.4/
-            - title: "워크로드 시작"
-              url: /docs/ko/4.1.3.5/
-            - title: "워크로드 재시작"
-              url: /docs/ko/4.1.3.6/
-            - title: "워크로드 재거"
-              url: /docs/ko/4.1.3.7/
-        - title: "모니터링"
-          url: /docs/ko/4.1.4/
-        - title: "파이프라인"
-          url: /docs/ko/4.1.5/
-        - title: "퍼시스턴트 볼륨"
-          url: /docs/ko/4.1.6/
+            - title: "컨피그 맵 추가"
+              url: /docs/ko/4.6.1.1/
+            - title: "컨피그 맵 수정"
+              url: /docs/ko/4.6.1.2/
+            - title: "컨피그 맵 삭제"
+              url: /docs/ko/4.6.1.3/
+        - title: "시크릿"
+          url: /docs/ko/4.6.2/
           children:
-            - title: "퍼시스턴트 생성"
-              url: /docs/ko/4.1.6.1/
-            - title: "퍼시스턴트 삭제"
-              url: /docs/ko/4.1.6.2/
-        - title: "설정"
-          url: /docs/ko/4.1.7/
-          children:
-            - title: "컨피그 맵"
-              url: /docs/ko/4.1.7.1/
-              children:
-                - title: "컨피그 맵 추가"
-                  url: /docs/ko/4.1.7.1a/
-                - title: "컨피그 맵 수정"
-                  url: /docs/ko/4.1.7.1b/
-                - title: "컨피그 맵 삭제"
-                  url: /docs/ko/4.1.7.1c/
-            - title: "시크릿"
-              url: /docs/ko/4.1.7.2/
-              children:
-                - title: "시크릿 추가"
-                  url: /docs/ko/4.1.7.2a/
-                - title: "시크릿 수정"
-                  url: /docs/ko/4.1.7.2b/
-                - title: "시크릿 삭제"
-                  url: /docs/ko/4.1.7.2c/
+            - title: "시크릿 추가"
+              url: /docs/ko/4.6.2.1/
+            - title: "시크릿 수정"
+              url: /docs/ko/4.6.2.2/
+            - title: "시크릿 삭제"
+              url: /docs/ko/4.6.2.3/
   - title: "빌드 관리"
     url: /docs/ko/5/
     children:

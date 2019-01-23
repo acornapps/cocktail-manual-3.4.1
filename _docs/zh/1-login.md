@@ -17,12 +17,12 @@ sidebar:
 
 \(ID 另询管理员\)
 
-![]({{ site.baseurl }}/assets/ZH/3.1.1/1_1.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/1_1.png)
 
 初始连接或初始化密码时，密码必须修改。
 
-![]({{ site.baseurl }}/assets/ZH/3.1.1/1_2.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/1_2.png)
 
 90 天后可修改密码或延长使用。
 
-![]({{ site.baseurl }}/assets/ZH/3.1.1/1_3.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/1_3.png)
