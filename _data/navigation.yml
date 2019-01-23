@@ -132,6 +132,10 @@ docs:
         url: /docs/ko/6.3/
       - title: "카탈로그 삭제"
         url: /docs/ko/6.4/
+      - title: "카탈로그 내보내기"
+        url: /docs/ko/6.5/
+      - title: "카탈로그 가져오기"
+        url: /docs/ko/6.6/
   - title: "클러스터"
     url: /docs/ko/7/
     children:
@@ -292,6 +296,10 @@ en:
         url: /docs/en/6.3/
       - title: "Delete Catalog"
         url: /docs/en/6.4/
+      - title: "Export Catalog"
+        url: /docs/ko/6.5/
+      - title: "Import Catalog"
+        url: /docs/ko/6.6/
   - title: "Cluster"
     url: /docs/en/7/
     children:
@@ -449,6 +457,10 @@ zh:
         url: /docs/zh/6.3/
       - title: "目录删除"
         url: /docs/zh/6.4/
+      - title: "目录出口"
+        url: /docs/zh/6.5/
+      - title: "目录进口"
+        url: /docs/zh/6.6/
   - title: "集群"
     url: /docs/zh/7/
     children:
@@ -609,6 +621,10 @@ ja:
         url: /docs/ja/6.3/
       - title: "カタログ削除"
         url: /docs/ja/6.4/
+      - title: "カタログ出口"
+        url: /docs/ja/6.5/
+      - title: "カタログ进口"
+        url: /docs/ja/6.6/
   - title: "クラスター"
     url: /docs/ja/7/
     children:
