@@ -34,7 +34,7 @@ feature_row:
     btn_label: "Learn More"
   - image_path: /assets/us.png
     alt: ""
-    title: "English Menual"
+    title: "English Manual"
     excerpt: ""
     url: "/docs/en/0.0/"
     btn_class: "btn--primary"
