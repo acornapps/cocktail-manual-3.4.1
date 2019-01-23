@@ -10,33 +10,32 @@ sidebar:
   nav: "en"
 ---
 
-
 ---
 
 The dashboard allows you to view Cocktail service information at a glance.
 
 * **Summary**
 
-  Displays the number of currently-registered/managed applications, workloads clusters, and the total cloud cost for the current month.
+  Displays the number of currently-registered/managed sevices, workloads clusters, and the total cloud cost for the current month.
 
 * **Resource Status**
 
   You can check the total amount of CPU, memory, requested amount, usage, storage (Node, Pv) and usage.
 
-* **Cluster Status by Provider**
+* **Cluster Status**
 
-  The number of registered clusters, the number of applications, and the number of workloads per provider can be confirmed.
+  The number of services and the number of workloads can be checked for each registered cluster.
 
 * **Cost by Cluster**
 
   You can see the cost of the cluster in use.
 
-* **Top Cluster Resource Allocation**
+* **Cluster resource allocation rate**
 
-  Displays the top five clusters with the highest resource utilization.
+  You can see the cluster resource allocation (request) of the cluster in use
 
-* **Top Resource Allocation by Application**
+* **Service resource quota**
 
-  Displays the top five applications with the highest resource utilization.
+  You can check the resource (CPU / Memory) quota for each service in use.
 
-![]({{ site.baseurl }}/assets/EN/{{ site.version }}/6_1.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/3_1.png)
