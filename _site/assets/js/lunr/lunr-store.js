@@ -94,35 +94,45 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.1.8/",
         "teaser":null},{
-        "title": "2.2 Account",
-        "excerpt":"This feature allows you to register, edit, and delete public/private cloud account information to be used as a cloud resource. By registering an account, you can retrieve the resource and metering information of a provider or create a server. (Metering information is only available for Google Cloud Platform and AWS...","categories": [],
+        "title": "2.2 Cluster",
+        "excerpt":"This feature provides cluster registration management functions, as well as monitoring, volume, alert, and metering services for each node and application. Cluster Menu Descrition Node Resource utilization (CPU, memory, and network) for all nodes and monitoring of individual nodes Application Resource utilization (CPU, memory, and network) for all applications and...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2/",
         "teaser":null},{
-        "title": "2.2.1 Add Account",
-        "excerpt":"This feature allows you to add accounts. (AWS and GCP accounts require additional information.) a) Configuration → Account → Click the Account Create button in the top-right corner. b) Select an account to be added and enter the name, type, and description. Provider Description Amazon Web Service Amazon’s public cloud...","categories": [],
+        "title": "2.2.1 Add Cluster",
+        "excerpt":"This feature allows you to add clusters. a) Cluster → Click the [+] button in the top-right corner. b) Enter basic information (name, k8s version, id, and description). Basic Information Description Name Name of cluster to be added k8s version Kubernetes version installed on cluster (e.g., 1.8.13) ID Cluster unique...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.1/",
         "teaser":null},{
-        "title": "2.2.1-1 Add AWS Account",
-        "excerpt":"To register an AWS account, you need the corresponding access and secret keys. a) To obtain the access and secret keys, click Security Credentials in the top-right corner of the AWS service console. b) The following message about creating an IAM User will be displayed on the initial screen. From...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/2.2.1.1/",
-        "teaser":null},{
-        "title": "2.2.1-2 Add GCP Account",
-        "excerpt":"To register a GCP account, you need a billing account ID and JSON-type GCP account key. a) You can check the GCP billing account ID from the Billing → Overview screen of the GCP service console. b) To be issued a GCP account key, click APIs &amp; Services → Credentials...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/2.2.1.2/",
-        "teaser":null},{
-        "title": "2.2.2 Edit Account",
-        "excerpt":"This feature allows you to modify the name, type, and status of an account. For public cloud providers, the key may also be modified. If the account is being used in a cluster, only the account name and description may be modified. a) Configuration → Account → Account Action Menu...","categories": [],
+        "title": "2.2.2 Edit Cluster",
+        "excerpt":"  This feature allows you to modify a cluster’s basic information, including provider, monitoring status, and type. However, the provider account, type, and region may not be changed.   a) Cluster → Select Cluster → Registration Management → Edit. Click the [Update] button when finished.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.2/",
         "teaser":null},{
-        "title": "2.2.3 Delete Account",
-        "excerpt":" This feature allows you to delete accounts. If the account is currently in use, the delete button will be disabled.   a) Configuration → Account → Account Action Menu &gt; Delete Account.    ","categories": [],
+        "title": "2.2.3 Delete Cluster",
+        "excerpt":"  This feature allows you to delete clusters. However, a cluster that is being used by an application map may not be deleted.   a) Cluster → Select Cluster → Registration Management → Click the [Delete] button.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.3/",
+        "teaser":null},{
+        "title": "2.2.4 Volume",
+        "excerpt":"This feature allows you to add public cloud and external storage information and also provides volume monitoring. a) Cluster → Select Cluster → Volume. Storage Settings Description [+] button Redirects to Add Storage page Name Name of storage (user-defined) Type Type of storage (NFS/EBS/Google Persistent Disk/Azure Disk) Storage Class Name...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.2.4/",
+        "teaser":null},{
+        "title": "2.2.5 Add Storage",
+        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster. b) Select a volume from the detailed cluster screen c) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description Type Threge Type...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.2.5/",
+        "teaser":null},{
+        "title": "2.2.6 Edit Storage",
+        "excerpt":"  This feature allows you to modify storage information. Note, however, that NFS Named storages may not be modified.   a) Cluster → Select Cluster → Volume → Volume Action button &gt; Edit Storage.     b) You may modify the name, description, Reclaim policy, storage class name, and parameter values.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.2.6/",
+        "teaser":null},{
+        "title": "2.2.7 Delete Volume",
+        "excerpt":" This feature allows you to delete Storage information.   a) Cluster → Select Cluster → Volume → Volume Action button → Delete Volume.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.2.7/",
         "teaser":null},{
         "title": "2.3 Service",
         "excerpt":"Service assigns a workspace to build, deploy, and run applications, and users, clusters, and libraries can be registered for each service. The service list can be filtered by All, Active, or Inactive. (‘Y’ and ‘N’ services are displayed when ‘Active’ and ‘Inactive’ are selected, respectively.) Refer to the Cluster section...","categories": [],
@@ -300,44 +310,84 @@ var store = [{
         "url": "http://localhost:4000/docs/en/4.1.7.2c/",
         "teaser":null},{
         "title": "5.Build Management",
-        "excerpt":"This feature allows you to manage build tasks for a Docker image. You can download an application, build the source file, and build the image file to be uploaded to a Harbor registry. a) Service → Build Management. Item Description Create Build button Build Name Name of build Image Name...","categories": [],
+        "excerpt":"This feature allows you to manage build tasks for a Docker image. You can download an application, build the source file, and build the image file to be uploaded to a Harbor registry. a) Click on the left main menu → [Build] to go to this page. Item Description +...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5/",
         "teaser":null},{
+        "title": "5 빌드 관리",
+        "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5/",
+        "teaser":null},{
         "title": "5.1 Add Build",
-        "excerpt":"This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build. a) Service &gt; Build Management &gt; Build Action Menu (Activate) &gt; Edit Task Settings b) Enter the necessary application download, application build, and image build information and click the...","categories": [],
+        "excerpt":"This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build. a) The left from the main menu screen, click → build the [+] button to go to that page. b) Enter the necessary application download, application build, and image...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.1/",
+        "teaser":null},{
+        "title": "5.1 빌드 추가",
+        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.1/",
         "teaser":null},{
         "title": "5.2 Edit Task Settings",
         "excerpt":"This feature allows you to modify build tasks. The build name, however, may not be changed. A previously-downloaded source can be removed, and each of the three tasks (application download, application build, and image build) can be executed separately. a) Service → Build Management → Build Action Menu (Activate) →...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.2/",
         "teaser":null},{
+        "title": "5.2 작업 설정 편집",
+        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.2/",
+        "teaser":null},{
         "title": "5.3 History",
-        "excerpt":"This feature allows you to view the build history of a particular build. Logs are available in build execution phases. a) Service → Build Management → Build Action Menu (Activate) → History b) Check the build action name, status, date, duration, image name, image size, and build log from the...","categories": [],
+        "excerpt":"This feature allows you to view the build history of a particular build. Logs are available in build execution phases. a) Service → Build Management → Build Action Menu (Activate) → [History] b) Check the build action name, status, date, duration, image name, image size, and build log from the...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.3/",
         "teaser":null},{
+        "title": "5.3 히스토리",
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.3/",
+        "teaser":null},{
         "title": "5.4 Execute Build",
-        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Service → Build Management → Build Action Menu (Activate) → Build Run b) The current action changes, and the log window becomes activated...","categories": [],
+        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Service → Build Management → Build Action Menu (Activate) → [Run Build] b) The current action changes, and the log window becomes activated...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.4/",
         "teaser":null},{
+        "title": "5.4 빌드 실행",
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.4/",
+        "teaser":null},{
         "title": "5.5 Cancel Build",
-        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) Service → Build Management → Build Action Menu (Activate) → Build Cancel    ","categories": [],
+        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) Service → Build Management → Build Action Menu (Activate) → [Cancel Build]    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.5/",
         "teaser":null},{
+        "title": "5.5 빌드 취소",
+        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.5/",
+        "teaser":null},{
         "title": "5.6 View Log",
-        "excerpt":"  This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed.   a) Service → Build Management → Build Action Menu (Activate) → Log View    ","categories": [],
+        "excerpt":"  This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed.   a) Service → Build Management → Build Action Menu (Activate) → [View Log]    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.6/",
         "teaser":null},{
+        "title": "5.6 로그 보기",
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.6/",
+        "teaser":null},{
         "title": "5.7 Delete Task",
-        "excerpt":"  This feature allows you to delete build tasks. When performed, the corresponding cache and downloaded source folder will be deleted first before deleting the actual task.   a) Service → Build Management → Build Action Menu (Activate) → Task Delete    ","categories": [],
+        "excerpt":"  This feature allows you to delete build tasks. When performed, the corresponding cache and downloaded source folder will be deleted first before deleting the actual task.   a) Service → Build Management → Build Action Menu (Activate) → [Delete Task]    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.7/",
+        "teaser":null},{
+        "title": "5.7 작업 삭제",
+        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
         "title": "6.Catalog",
         "excerpt":"This feature allows you to easily create, deploy, and manage workloads by creating a template of an application configuration. Use the catalog feature to use multiple workloads at once. The catalog feature is divided into service catalogs and platform catalogs. Catalog Menu Description Service Catalog User-generated catalog Platform Catalog Default...","categories": [],
@@ -379,55 +429,45 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/7/",
         "teaser":null},{
-        "title": "7.1 Cluster Management",
+        "title": "7.클러스터",
+        "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7/",
+        "teaser":null},{
+        "title": "7.1 Cluster List",
         "excerpt":"This feature allows you to add, edit, and delete Kubernetes cluster information assigned by a provider. a) Cluster → Click the [Sort] button and select the desired criteria. Cluster Settings Description + Add Cluster Redirects to Add Cluster page Cluster Cluster type Node Number of nodes in a cluster CPU...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.1/",
         "teaser":null},{
-        "title": "7.1.1 Add Cluster",
-        "excerpt":"This feature allows you to add clusters. a) Cluster → Click the [+] button in the top-right corner. b) Enter basic information (name, k8s version, and description). Basic Information Description Name Name of cluster to be added k8s version Kubernetes version installed on cluster (e.g., 1.8.13) ID Cluster unique ID...","categories": [],
+        "title": "7.1 클러스터 목록",
+        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/7.1.1/",
-        "teaser":null},{
-        "title": "7.1.2 Edit Cluster",
-        "excerpt":"  This feature allows you to modify a cluster’s basic information, including provider, monitoring status, and type. However, the provider account, type, and region may not be changed.   a) Cluster → Select Cluster → Registration Management → Edit. Click the [Update] button when finished.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.1.2/",
-        "teaser":null},{
-        "title": "7.1.3 Delete Cluster",
-        "excerpt":"  This feature allows you to delete clusters. However, a cluster that is being used by an application map may not be deleted.   a) Cluster → Select Cluster → Registration Management → Click the [Delete] button.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.1.3/",
+        "url": "http://localhost:4000/docs/ko/7.1/",
         "teaser":null},{
         "title": "7.2 Node",
         "excerpt":"This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all nodes, as well as the label and status information of individual nodes. You can click on a node name for detailed information. a) Cluster → Select Cluster → Node. b) Click on...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.2/",
         "teaser":null},{
-        "title": "7.3 Application",
-        "excerpt":"  This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all applications, as well as the namespace and instance information of individual applications. Click an application name to be redirected to the application map page.   a) Cluster → Select Cluster → Application.    ","categories": [],
+        "title": "7.3 Service",
+        "excerpt":"  This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all services, as well as the namespace and instance information of individual services. Click an service name to be redirected to the service map page.   a) Cluster → Select Cluster → Service.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.3/",
         "teaser":null},{
+        "title": "7.3 서비스",
+        "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7.3/",
+        "teaser":null},{
         "title": "7.4 Volume",
-        "excerpt":"This feature allows you to add public cloud and external storage information and also provides volume monitoring. a) Cluster → Select Cluster → Volume. Storage Settings Description [+] button Redirects to Add Storage page Name Name of storage (user-defined) Type Type of storage (NFS/EBS/Google Persistent Disk/Azure Disk) Storage Class Name...","categories": [],
+        "excerpt":"This feature allows you to view public cloud and external storage information and also provides volume monitoring. a) Cluster → Select Cluster → Volume. Storage Settings Description Name Name of storage (user-defined) Type Type of storage (NFS/EBS/Google Persistent Disk/Azure Disk) Storage Class Name Class name registered in k8s Policy Storage...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.4/",
         "teaser":null},{
-        "title": "7.4.1 Add Storage",
-        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster. b) Select a volume from the detailed cluster screen c) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description Type Threge Type...","categories": [],
+        "title": "7.4 볼륨",
+        "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/7.4.1/",
-        "teaser":null},{
-        "title": "7.4.2 Edit Storage",
-        "excerpt":"  This feature allows you to modify storage information. Note, however, that NFS Named storages may not be modified.   a) Cluster → Select Cluster → Volume → Volume Action button &gt; Edit Storage.     b) You may modify the name, description, Reclaim policy, storage class name, and parameter values.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.4.2/",
-        "teaser":null},{
-        "title": "7.4.3 Delete Volume",
-        "excerpt":"  This feature allows you to delete Storage information.   a) Cluster → Select Cluster → Volume → Volume Action button → Delete Volume.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.4.3/",
+        "url": "http://localhost:4000/docs/ko/7.4/",
         "teaser":null},{
         "title": "7.5 Alerts",
         "excerpt":"  This feature allows you to receive alerts for cluster events.   a) Cluster → Select Cluster → Alarm.     b) Click on an alarm name to view detailed information.    ","categories": [],
@@ -443,6 +483,11 @@ var store = [{
         "excerpt":"  This feature allows you to monitor metering (fee) information per in-use cluster.   The metering service is only available for the AWS and GCP public clouds.   a) Cluster → Select Cluster → Metering.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.6/",
+        "teaser":null},{
+        "title": "7.7 Registration",
+        "excerpt":" In this feature, You can see the registration infomation of a selected cluster.   The values in the User Account Authentication Information section has been hidden for security.   a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/7.7/",
         "teaser":null},{
         "title": "9.Glossary",
         "excerpt":"  The following section provides a list of common Kubernetes and Cocktail terminologies and explanations.  ","categories": [],
@@ -563,6 +608,46 @@ var store = [{
         "excerpt":" 시스템 사용자를 삭제하는 기능이다.   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.1.8/",
+        "teaser":null},{
+        "title": "7.クラスター",
+        "excerpt":"  クラスターの登録管理とノードおよびアプリケーション単位の監視、ボリューム、アラーム、コストサービスが提供される。                   クラスタメニュー       説明                       ノード       ノード全体の CPU、 メモリ、 ネットワークの使用量と個々のノードの監視サービス                 アプリケーション       アプリケーション全体の CPU、 メモ、 ネットワークの使用量と、 個々のアプリケーションの 監視 サービス                 ボリューム       ストレージ 管理及びボリューム ステータス                 アラーム       クラスタのイベント情報関連アラームサービス                 コスト       クラスタコストとリソース別コストサービス                 登録       クラスタの照会および修正、 削除          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2/",
+        "teaser":null},{
+        "title": "2.2.1 クラスター追加",
+        "excerpt":"クラスターを追加登録することができる機能である。 a) クラスター → 右上の+ボタンをクリック。 b) 基本情報（クラスター名、k8sバージョン、説明）を入力。 基本情報 説明 クラスター名 登録するクラスタの名前 k8sバージョン クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 ID クラスタ固有のID（ユーザー指定）、アラームメッセージRedirect時に必要 説明 クラスタのユーザー説明 c) プロバイダ情報（アカウント、タイプ、地域）を入力。 アカウントのプロバイダとタイプに応じて入力欄が変更される。Baremetalの場合、地域はDefault値を提供し、変更が可能である。 プロバイダ 説明 アカウント 登録されたアカウント タイプ Kubernetesの使用タイプとして、MANAGED、PROVIER、GKEの中から選択 地域 Kubernetesがインストールされたサーバーのリージョン タイプ 説明 MANAGED CUBE Installerを利用して、kubernetesを構成したクラスタ PROVIDER Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合） GKE Google Cloud PlatformのGoogle Kubernetes Engineで構成したクラスタ プロバイダの種類 - MANAGED 追加入力 説明...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.1/",
+        "teaser":null},{
+        "title": "2.2.2 クラスター編集",
+        "excerpt":"  クラスターの基本情報、プロバイダ、モニタリング、クラスターのタイプを修正する機能である。 プロバイダのアカウント、タイプ、リージョンは変更できない。   a) クラスター → クラスター選択 → 登録 → 変更ボタン → 修正完了後、保存ボタンをクリック。       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.2/",
+        "teaser":null},{
+        "title": "2.2.3 クラスター削除",
+        "excerpt":"  クラスター情報を削除する機能である。 該当クラスターを使用しているアプリケーションマップがある場合、削除することができない。   a) クラスター → クラスター選択 → 登録 → 削除ボタンをクリック。       ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.3/",
+        "teaser":null},{
+        "title": "2.2.4 ボリューム",
+        "excerpt":" Public Cloudのストレージおよび外部ストレージ情報を登録し、ボリュームステータスの監視サービスを提供する。   a) クラスター → クラスター選択 → ボリュームをクリック。                    ストレージ設定情報       説明                       [+] ボタン       ストレージ追加ページに移動                 名       ストレージ名（ユーザー指定）                 タイプ       ストレージの種類 (NFS/EBS/Google Persistent Disk/Azure Disk)                 ストレージクラス名       k8s に登録された Class Name                 リクレームポリシー       ストレージボリュームのポリシー設定（Retain、Recyle、Delete）                 ステータス       ストレージの使用状態                          ボリューム設定情報       説明                       ボリューム名       PVC 名                 ステータス       PVCマウント状態                 使用量       PVの割り当てられた利用可能な量と使用量                 接続モード       PVアクセス権限                 Age       PVC 作成経過時間           ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.4/",
+        "teaser":null},{
+        "title": "2.2.5 ストレージ追加",
+        "excerpt":"ボリュームを追加して使用することができる。 a) クラスター → クラスター選択。 b) クラスターの詳細画面でボリュームを選択。 c) クラスター名、 説明、 ストレージプラグイン、 リクレームポリシー、 ストレージクラス名、 パラメーターを順番に記入。 ストレージ 登録情報 説明 名 PV名 説明 PVユーザー説明 ストレージプラグイン ストレージの種類 (NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk) リクレームポリシー PV使用ポリシー（RETAIN/ DELETE） ストレージクラス名 k8s に登録された Class Name パラメーター PVの環境設定値 ポリシー 説明 Retain PersistentVolumeClaim（PVC） が削除されても、 PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 Delete...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.5/",
+        "teaser":null},{
+        "title": "2.2.6 ストレージ編集",
+        "excerpt":" 登録されたストレージ情報を編集する機能である。 ただし 、nfs-staticタイプのストレージは編集することができない。   a) クラスタ→クラスタ選択 → ボリューム → ボリュームアクションボタン → ストレージの編集をクリック。     b) 名、 説明、 リクレームポリシー、 ストレージクラス名、 パラメータ値の修正が可能。     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.6/",
+        "teaser":null},{
+        "title": "2.2.7 ストレージ削除",
+        "excerpt":" 登録されたストレージ情報を削除する機能である。   a) クラスター → クラスター選択→ ボリューム → ボリュームアクションボタン → ボリューム削除をクリック。    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.7/",
         "teaser":null},{
         "title": "3.ダッシュボード",
         "excerpt":"  ダッシュボードでは、cocktailでサービスされる情報を一目で確認することができる。           要約情報       現在登録管理されているサービスの数、サーバー数、登録クラスタ数、当月の総クラウドコストを確認することができる。            サーバーステータス       インフラとして使用しているクラウドサービスのプロバイダ別に配置されているサーバーの数が分かる。グーグルGCP、アマゾンAWS、MS Azure、Bare Metal、Private Cloud Platformが登録されている。            クラスタ料金の推移       確認したい 年の月別料金の推移および確認したい月の日別料金の推移までグラフで確認することができる。            クラスタ別上位料金       使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。            クラスタ上位リソース割り当て率       使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。            サービス別上位リソース割り当て量       使用中のサービスのうち、上位5つのサービスのリソース割り当て量を確認することができる。      ","categories": [],
@@ -719,40 +804,80 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5/",
         "teaser":null},{
+        "title": "5 빌드 관리",
+        "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5/",
+        "teaser":null},{
         "title": "5.1 ビルド追加",
         "excerpt":"ドッカーイメージのビルドタスクを追加する。 アプリケーションのダウンロード、アプリケーションビルド、イメージビルドの合計3つを選択することができる。 a) サービス → ビルド管理 → ビルド作成の編集を選択し、該当ページに移動 b) アプリケーションダウンロード、アプリケーションビルド、イメージビルドの内容を作成した上、作成ボタンを押してサーバーを作成 ビルド作成段階 説明 アプリケーションダウンロード ビルドに必要なソースをダウンロード アプリケーションビルド ソースのコンパイルが必要な場合に使用 コマンド - ビルドしながら実行するタスク ホストパス - タスクが行われるコンテナパスとマウントされるホストパス Working dir - 実際にコンテナ内で作業するパスで、 コンテナパスに合わせる イメージ - ビルド時に使用するイメージ イメージビルド 作業したソースでドッカーファイルを作ってイメージを作成し、　該当イメージをレジストリストレージに保存するステップ ビルドの基本情報 基本情報 説明 ビルド名 作成するビルドの名前 最近のアクション ビルドの最近の動作状態 ステータス ビルドの現在の状態 アプリケーションのダウンロード アプリケーションのダウンロード 説明 リポジトリ ソースファイルをダウンロードするバージョン管理ツールの種類。 現在のバージョンでは、 Gitのみサポート プロトコル リポジトリが提供するHTTP...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.1/",
+        "teaser":null},{
+        "title": "5.1 빌드 추가",
+        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.1/",
         "teaser":null},{
         "title": "5.2 タスク設定の編集",
         "excerpt":"  ビルドタスクを編集する。 ビルド名は編集できない。 編集で過去ダウンロードしたソースを削除することができ 、アプリケーションダウンロード 、アプリケーションビルド、 イメージビルド、 3つのタスクを別々に実行する ことができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化）→ タスク設定の編集を選択して、 該当ページに移動                    タスク設定の編集       説明                       ソースフォルダー削除       ダウンロードソースフォルダを削除                 アプリケーションダウンロード実行       アプリケーションダウンロードのみ実行                 ビルドキャッシュ削除       過去ビルドされたコンテナを削除                 アプリケーションビルド実行       アプリケーションビルドのみ実行                 イメージビルド実行       イメージビルドのみ実行           ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.2/",
         "teaser":null},{
+        "title": "5.2 작업 설정 편집",
+        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.2/",
+        "teaser":null},{
         "title": "5.3 ヒストリー",
         "excerpt":"  該当ビルドのヒストリーページに移動し、ビルド実行項目のヒストリー情報を確認することができる。 ビルド実行単位でログを確認することができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ヒストリーを選択して、 該当ページに移動     b) ビルドタスクヒストリーメニューで、 該当ビルドタスクのアクション名、 ステータス、 日付、 作業時間、 イメージ名、 イメージサイズ、 ログビューを確認     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.3/",
+        "teaser":null},{
+        "title": "5.3 히스토리",
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.3/",
         "teaser":null},{
         "title": "5.4 ビルド実行",
         "excerpt":"  ビルドタスクを実行する。 ビルドを実行すると、 アプリケーションダウンロード、 アプリケーションビルド、 イメージビルドを一度に実行する。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルド実行を選択して、ビルドタスクを実行     b) ビルド実行時、現在のアクションが変更され、ログウィンドウがアクティブ化する。   ビルド作成時、チェックボックスで選択されたタブがアクティブ化し、各ステップのビルドプロセスを確認することができる。   （DOWNステップでエラーが発生した場合、次のステップに進むことができない。）   ビルド実行タスクが”Application_Create_Image Step is done…” というログが表示されたら、 イメージビルドが正常に終了したということである。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.4/",
         "teaser":null},{
+        "title": "5.4 빌드 실행",
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.4/",
+        "teaser":null},{
         "title": "5.5 ビルドキャンセル",
         "excerpt":"  ビルドジョブをキャンセルする。 ビルドジョブが実行状態（RUNNING）であることだけ取り消すことができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルドキャンセル]を選択して、ビルド作業をキャンセル     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.5/",
+        "teaser":null},{
+        "title": "5.5 빌드 취소",
+        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.5/",
         "teaser":null},{
         "title": "5.6 ログ表示",
         "excerpt":"  ビルドタスクの最近の実行ログを表示する。 ビルドが実行中であれば、 実行中のログを確認することができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ログビュータを選択して、 該当ビルドタスクのビルド実行ログを確認     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.6/",
         "teaser":null},{
+        "title": "5.6 로그 보기",
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.6/",
+        "teaser":null},{
         "title": "5.7 タスク削除",
         "excerpt":"  ビルドタスクを削除する。削除時、該当キャッシュとダウンロードしたソースフォルダを削除した後、タスクを削除する。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → タスク削除を選択して、 該当ビルドタスクを削除。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/5.7/",
+        "teaser":null},{
+        "title": "5.7 작업 삭제",
+        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
         "title": "6.カタログ",
         "excerpt":"  アプリケーション構成をテンプレート化して、簡単にサーバー作成およびデプロイ、管理を行うことができる機能である。   複数のサーバーを一度にまとめて使用する場合は、カタログ機能を使用する。   カタログは、サービスカタログとカクテルカタログに分けられる。                     カタログメニュー       説明                       サービスカタログ       ユーザーが作成したカタログ                 カクテルカタログ       カクテルクラウドに組み込まれた公式カタログ                 Filter Catalog       検索で必要なテンプレートを照会                 テンプレート       アプリケーションを構成しているサーバーコレクション                 デプロイ       カタログでサーバーをデプロイ                 編集       カタログ内容を編集           ","categories": [],
@@ -794,28 +919,23 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7/",
         "teaser":null},{
+        "title": "7.클러스터",
+        "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7/",
+        "teaser":null},{
         "title": "7.1 クラスター管理",
-        "excerpt":"  プロバイダから割り当てられたKubernetesのクラスタ情報を登録、編集、削除する機能である。   a) クラスター → ソートボタンをクリックして、並べ替えの基準を選択。                    クラスター設定       説明                       + クラスター登録       クラスタ追加ページに移動                 クラスター       クラスタタイプ                 ノード       クラスタのノード数                 CPU       クラスタのCPU全体の割当量                 メモリ       クラスタのメモリ全体の割当量                 アプリケーション       クラスタのアプリケーションマップ（名前空間）の数                 サーバー       クラスタでデプロイ中のサーバーの数           ","categories": [],
+        "excerpt":"  プロバイダから割り当てられたKubernetesのクラスタ情報を登録、編集、削除する機能である。   a) クラスター → ソートボタンをクリックして、並べ替えの基準を選択。                    クラスター設定       説明                       クラスター       クラスタタイプ                 ノード       クラスタのノード数                 CPU       クラスタのCPU全体の割当量                 メモリ       クラスタのメモリ全体の割当量                 アプリケーション       クラスタのアプリケーションマップ（名前空間）の数                 サーバー       クラスタでデプロイ中のサーバーの数           ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7.1/",
         "teaser":null},{
-        "title": "7.1.1 クラスター追加",
-        "excerpt":"クラスターを追加登録することができる機能である。 a) クラスター → 右上の+ボタンをクリック。 b) 基本情報（クラスター名、k8sバージョン、説明）を入力。 基本情報 説明 クラスター名 登録するクラスタの名前 k8sバージョン クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 ID クラスタ固有のID（ユーザー指定）、アラームメッセージRedirect時に必要 説明 クラスタのユーザー説明 c) プロバイダ情報（アカウント、タイプ、地域）を入力。 アカウントのプロバイダとタイプに応じて入力欄が変更される。Baremetalの場合、地域はDefault値を提供し、変更が可能である。 プロバイダ 説明 アカウント 登録されたアカウント タイプ Kubernetesの使用タイプとして、MANAGED、PROVIER、GKEの中から選択 地域 Kubernetesがインストールされたサーバーのリージョン タイプ 説明 MANAGED CUBE Installerを利用して、kubernetesを構成したクラスタ PROVIDER Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合） GKE Google Cloud PlatformのGoogle Kubernetes Engineで構成したクラスタ プロバイダの種類 - MANAGED 追加入力 説明...","categories": [],
+        "title": "7.1 클러스터 목록",
+        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ja/7.1.1/",
-        "teaser":null},{
-        "title": "7.1.2 クラスター編集",
-        "excerpt":"  クラスターの基本情報、プロバイダ、モニタリング、クラスターのタイプを修正する機能である。 プロバイダのアカウント、タイプ、リージョンは変更できない。   a) クラスター → クラスター選択 → 登録 → 変更ボタン → 修正完了後、保存ボタンをクリック。     ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ja/7.1.2/",
-        "teaser":null},{
-        "title": "7.1.3 クラスター削除",
-        "excerpt":"  クラスター情報を削除する機能である。 該当クラスターを使用しているアプリケーションマップがある場合、削除することができない。   a) クラスター → クラスター選択 → 登録 → 削除ボタンをクリック。     ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ja/7.1.3/",
+        "url": "http://localhost:4000/docs/ko/7.1/",
         "teaser":null},{
         "title": "7.2 ノード",
-        "excerpt":"  ノード全体の Disk、CPU、メモリ、ネットワークの総使用量と各ノードのラベル、状態情報などを照会することが できる画面である。 ノード名をクリックすると、ノードの詳細情報を照会することができる。   a) クラスター → クラスター選択 → ノードをクリック。     b) ノード名をクリックして、ノード詳細情報を確認。     ","categories": [],
+        "excerpt":"  ノード全体の Disk、CPU、メモリ、ネットワークの総使用量と各ノードのラベル、状態情報などを照会することが できる画面である。 ノード名をクリックすると、ノードの詳細情報を照会することができる。   a) クラスター → クラスター選択 → ノードをクリック。     b) ノード名をクリックして、ノード詳細情報を確認。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7.2/",
         "teaser":null},{
@@ -824,25 +944,20 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7.3/",
         "teaser":null},{
+        "title": "7.3 서비스",
+        "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7.3/",
+        "teaser":null},{
         "title": "7.4 ボリューム",
         "excerpt":"  Public Cloudのストレージおよび外部ストレージ情報を登録し、ボリュームステータスの監視サービスを提供する。   a) クラスター → クラスター選択 → ボリュームをクリック。                    ストレージ設定情報       説明                       [+] ボタン       ストレージ追加ページに移動                 名       ストレージ名（ユーザー指定）                 タイプ       ストレージの種類 (NFS/EBS/Google Persistent Disk/Azure Disk)                 ストレージクラス名       k8s に登録された Class Name                 リクレームポリシー       ストレージボリュームのポリシー設定（Retain、Recyle、Delete）                 ステータス       ストレージの使用状態                          ボリューム設定情報       説明                       ボリューム名       PVC 名                 ステータス       PVCマウント状態                 使用量       PVの割り当てられた利用可能な量と使用量                 接続モード       PVアクセス権限                 Age       PVC 作成経過時間           ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7.4/",
         "teaser":null},{
-        "title": "7.4.1 ストレージ追加",
-        "excerpt":"ボリュームを追加して使用することができる。 a) クラスター → クラスター選択。 b) クラスターの詳細画面でボリュームを選択。 c) クラスター名、 説明、 ストレージプラグイン、 リクレームポリシー、 ストレージクラス名、 パラメーターを順番に記入。 ストレージ 登録情報 説明 名 PV名 説明 PVユーザー説明 ストレージプラグイン ストレージの種類 (NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk) リクレームポリシー PV使用ポリシー（RETAIN/ DELETE） ストレージクラス名 k8s に登録された Class Name パラメーター PVの環境設定値 ポリシー 説明 Retain PersistentVolumeClaim（PVC） が削除されても、 PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 Delete...","categories": [],
+        "title": "7.4 볼륨",
+        "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ja/7.4.1/",
-        "teaser":null},{
-        "title": "7.4.2 ストレージ編集",
-        "excerpt":"  登録されたストレージ情報を編集する機能である。 ただし 、nfs-staticタイプのストレージは編集することができない。   a) クラスタ→クラスタ選択 → ボリューム → ボリュームアクションボタン → ストレージの編集をクリック。     b) 名、 説明、 リクレームポリシー、 ストレージクラス名、 パラメータ値の修正が可能。     ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ja/7.4.2/",
-        "teaser":null},{
-        "title": "7.4.3 ストレージ削除",
-        "excerpt":"  登録されたストレージ情報を削除する機能である。   a) クラスター → クラスター選択→ ボリューム → ボリュームアクションボタン → ボリューム削除をクリック。     ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ja/7.4.3/",
+        "url": "http://localhost:4000/docs/ko/7.4/",
         "teaser":null},{
         "title": "7.5 アラーム",
         "excerpt":"  クラスターに関するイベントをアラームで受信することができる。   a) クラスター → クラスター選択 → アラームをクリック。     b) アラーム名をクリックすると、 詳細内容の確認が可能。     ","categories": [],
@@ -858,6 +973,11 @@ var store = [{
         "excerpt":"  使用中のクラスタ別メータリング（料金）の監視サービスを提供する。   メータリングサービスは、 Public Cloudのうち、AWSとGCPのみ適用されるサービスである。   a) クラスター → クラスター選択 → コストをクリック。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7.6/",
+        "teaser":null},{
+        "title": "7.7 등록정보",
+        "excerpt":" 현재 클러스터에 대한 등록정보를 확인할 수 있다.   Account 인증정보는 보안을 위해 노출되지 않는다.   a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/7.7/",
         "teaser":null},{
         "title": "9.用語説明",
         "excerpt":"  カクテルクラウドを活用する上、役立つKubernetesおよびCocktail Cloudに関する用語を整理。   ","categories": [],
@@ -975,34 +1095,44 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.1.8/",
         "teaser":null},{
         "title": "2.2 클러스터",
-        "excerpt":"클라우드 리소스로 사용 할 Public/Private 클라우드 계정 정보를 등록, 편집, 삭제하는 기능 이다. 계정을 등록함으로써 해당 프로바이더의 리소스, 미터링 정보를 가져 오거나 서버를 생성 할 수 있다. (미터링 정보는 Google Cloud Platform, AWS 클라우드에 한하여 확인이 가능하다.) 현재 AWS, Azure, BareMetal(Onpremise) 를 지원한다. 계정 목록을 전체/사용/미사용으로 분류하여 조회할 수 있다.(사용여부가...","categories": [],
+        "excerpt":"클러스터의 등록관리와 노드와 어플리케이션 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 어플리케이션 전체 어플리케이션의 CPU, Memory, Network 사용량 및 개별 어플리케이션의 모니터링 서비스 볼륨 스토리지 관리 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2/",
         "teaser":null},{
         "title": "2.2.1 클러스터 등록",
-        "excerpt":"계정을 추가하여 사용할 수 있다. (AWS 계정, GCP 계정의 경우 추가정보 입력이 필요하다.) a) 환경설정 → 계정 → 우측 상단 계정 추가 버튼을 클릭한다. b) 등록할 계정 선택 및 이름, 유형, 설명을 작성한다. 프로바이더 설명 Amazon Web Service Amazon사의 Public 클라우드 서비스 Google Cloud Platform Google사의 Public클라우스 서비스 Microsoft cloud...","categories": [],
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.1/",
         "teaser":null},{
-        "title": "2.2.1-1 AWS 계정 추가",
-        "excerpt":"AWS 계정 등록을 위해서는 AWS 계정의 Access Key와 Secret Key가 필요하다. a) Access Key와 Secret Key를 발급받기 위해 AWS 서비스 콘솔에서 상단 우측 카테고리에서 ‘Security Credentials’를 클릭한다. b) 첫 화면에서 아래와 같은 경고창을 만나는데 IAM User를 생성할 것인지에 대한 내용이고, 여기서는 왼쪽 Continue to Security Credentials 버튼을 눌러 계속 진행한다....","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/2.2.1.1/",
-        "teaser":null},{
-        "title": "2.2.1-2 GCP 계정 추가",
-        "excerpt":"GCP 계정을 등록을 위해서는 결제계정 아이디와 JSON타입의 GCP 계정키가 필요하다. a) GCP 결제 계정 아이디는 GCP 서비스 콘솔에서 Billing -&gt; Overview 화면에서 확인 할 수 있다. b) GCP계정키를 발급 받기 위해 GCP 서비스 콘솔에서 APIs &amp; services -&gt; Credentials 를 클릭한다. c) 이후 화면에서 Create credentials을 클릭하고, Service account key를...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/2.2.1.2/",
-        "teaser":null},{
         "title": "2.2.2 클러스터 수정",
-        "excerpt":"계정 이름 및 유형, 상태 수정이 가능하며 퍼블릭 클라우드 프로바이더의 경우 키 수정이 가능하다. 계정이 클러스터에서 사용중인 경우 계정 이름과 설명만 수정 가능하다. a) 환경설정 → 계정 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다. b) 이름, 유형, 설명, 상태 및 키를 수정 한다. 상태 설명...","categories": [],
+        "excerpt":" 클러스터의 기본정보, 프로바이더, 모니터링, 클러스터 유형을 수정하는 기능이다. 프로바이더의 계정, 유형, 리전은 변경할 수 없다.   a) 클러스터 → 클러스터 선택 → 등록관리 → 수정버튼 → 수정 완료 후 저장버튼을 클릭한다.       ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.2/",
         "teaser":null},{
         "title": "2.2.3 클러스터 삭제",
-        "excerpt":" 등록된 계정 삭제 할 수 있다. 해당 계정이 사용중이라면 삭제 버튼이 비활성화 된다.   a) 환경설정 → 계정 → 계정 액션 메뉴 → 계정 삭제를 클릭한다.    ","categories": [],
+        "excerpt":" 클러스터 정보를 삭제하는 기능이다. 해당 클러스터를 사용하고 있는 어플리케이션 맵이 있을 경우 삭제할 수 없다.   a) 클러스터 → 클러스터 선택 → 등록관리 → 삭제버튼을 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.3/",
+        "teaser":null},{
+        "title": "2.2.4 볼륨",
+        "excerpt":"Public Cloud 스토리지 및 외부 스토리지 정보를 등록하고, 볼륨 현황에 대한 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 + 버튼 스토리지 추가 페이지로 이동 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.2.4/",
+        "teaser":null},{
+        "title": "2.2.5 스토리지 추가",
+        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.2.5/",
+        "teaser":null},{
+        "title": "2.2.6 스토리지 편집",
+        "excerpt":" 등록된 스토리지 정보를 편집하는 기능이다. 단, NFS Named 타입의 스토리지는 편집할 수 없다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션 버튼 → 스토리지 편집을 클릭한다.     b) 이름, 설명, 정책, 스토리지 클래스 이름, 파라미터값을 수정 할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.2.6/",
+        "teaser":null},{
+        "title": "2.2.7 스토리지 삭제",
+        "excerpt":" 등록된 스토리지 정보를 삭제하는 기능이다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션버튼 → 볼륨 삭제를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.2.7/",
         "teaser":null},{
         "title": "2.3 워크스페이스",
         "excerpt":"어플리케이션을 빌드 및 배포, 운영할 수 있는 Work Space를 할당한다. 서비스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다. 서비스 목록을 전체/사용/미사용으로 분류하여 조회 할 수 있다. (사용여부가 Y인 서비스는 ‘사용’, N인 서비스는 ‘미사용’ 선택 시 표시된다.) 클러스터 추가는 해당 메뉴얼의 클러스터 설명을 참고 한다. a) 환경설정 → 서비스 → 사용여부 버튼을...","categories": [],
@@ -1095,22 +1225,22 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.2.3/",
         "teaser":null},{
         "title": "4.2.4 워크로드 중지",
-        "excerpt":" 배포된 워크로드를 중지한다. 워크로드를 중지하면 POD는 삭제된다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 중지를 클릭한다.   ","categories": [],
+        "excerpt":" 배포된 워크로드를 중지한다. 워크로드를 중지하면 POD는 삭제된다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 중지를 클릭한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.2.4/",
         "teaser":null},{
         "title": "4.2.5 워크로드 시작",
-        "excerpt":" 중지된 워크로드를 시작한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 시작을 클릭한다.    ","categories": [],
+        "excerpt":" 중지된 워크로드를 시작한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 시작을 클릭한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.2.5/",
         "teaser":null},{
         "title": "4.2.6 워크로드 재시작",
-        "excerpt":" 워크로드를 재시작한다. 컴퓨터의 Rebooting과 같은 개념이다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 재시작을 클릭한다.    ","categories": [],
+        "excerpt":" 워크로드를 재시작한다. 컴퓨터의 Rebooting과 같은 개념이다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Running 상태의 워크로드 액션메뉴를 클릭(활성화) → 재시작을 클릭한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.2.6/",
         "teaser":null},{
         "title": "4.2.7 워크로드 제거",
-        "excerpt":" 중지된 워크로드를 제거한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 제거를 클릭한다.    ","categories": [],
+        "excerpt":" 중지된 워크로드를 제거한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → Stopped 상태의 워크로드 액션메뉴를 클릭(활성화) → 제거를 클릭한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.2.7/",
         "teaser":null},{
@@ -1190,37 +1320,37 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5/",
         "teaser":null},{
         "title": "5.1 빌드 추가",
-        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 추가(+) 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 생성버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명 어플리케이션...","categories": [],
+        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.1/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → 작업 설정 편집을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.2/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → 히스토리를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → 로그보기를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.3/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → 빌드 실행을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, 승인 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.4/",
         "teaser":null},{
         "title": "5.5 빌드 취소",
-        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → 빌드 취소를 선택하여 빌드 작업을 취소한다.    ","categories": [],
+        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.5/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → 로그 보기를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.6/",
         "teaser":null},{
         "title": "5.7 작업 삭제",
-        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → 작업 삭제를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
+        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
@@ -1260,59 +1390,29 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/6.6/",
         "teaser":null},{
         "title": "7.클러스터",
-        "excerpt":"클러스터의 등록관리와 노드와 어플리케이션 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 어플리케이션 전체 어플리케이션의 CPU, Memory, Network 사용량 및 개별 어플리케이션의 모니터링 서비스 볼륨 스토리지 관리 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람...","categories": [],
+        "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7/",
         "teaser":null},{
-        "title": "7.1 클러스터 관리",
-        "excerpt":"프로바이더로 부터 할당받은 Kubernetes 클러스터 정보를 등록, 편집, 삭제하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 + 클러스터 등록 클러스터 추가 페이지로 이동 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량...","categories": [],
+        "title": "7.1 클러스터 목록",
+        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.1/",
-        "teaser":null},{
-        "title": "7.1.1 클러스터 추가",
-        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, k8s 버전, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 k8s 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한 사용자...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.1.1/",
-        "teaser":null},{
-        "title": "7.1.2 클러스터 편집",
-        "excerpt":" 클러스터의 기본정보, 프로바이더, 모니터링, 클러스터 유형을 수정하는 기능이다. 프로바이더의 계정, 유형, 리전은 변경할 수 없다.   a) 클러스터 → 클러스터 선택 → 등록관리 → 수정버튼 → 수정 완료 후 저장버튼을 클릭한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.1.2/",
-        "teaser":null},{
-        "title": "7.1.3 클러스터 삭제",
-        "excerpt":" 클러스터 정보를 삭제하는 기능이다. 해당 클러스터를 사용하고 있는 어플리케이션 맵이 있을 경우 삭제할 수 없다.   a) 클러스터 → 클러스터 선택 → 등록관리 → 삭제버튼을 클릭한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.1.3/",
         "teaser":null},{
         "title": "7.2 노드",
         "excerpt":" 전체 노드의 총 Disk, CPU, Memory, Network 사용량과 개별 노드의 라벨, 상태정보 등을 조회할 수 있는 화면이다. 노드 명을 클릭하면 노드 상세 정보를 조회 할 수 있다.   a) 클러스터 → 클러스터 선택 → 노드를 클릭한다.     b) 노드명을 클릭하여 노드 상세 정보를 확인할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.2/",
         "teaser":null},{
-        "title": "7.3 어플리케이션",
-        "excerpt":" 전체 어플리케이션의 총 CPU, Memory, Network 사용량과 개별 어플리케이션의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 어플리케이션 명을 클릭하면 해당 어플리케이션 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 어플리케이션을 클릭한다.    ","categories": [],
+        "title": "7.3 서비스",
+        "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.3/",
         "teaser":null},{
         "title": "7.4 볼륨",
-        "excerpt":"Public Cloud 스토리지 및 외부 스토리지 정보를 등록하고, 볼륨 현황에 대한 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 + 버튼 스토리지 추가 페이지로 이동 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지...","categories": [],
+        "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.4/",
-        "teaser":null},{
-        "title": "7.4.1 스토리지 추가",
-        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택. b) 클러스터 상세화면에서 볼륨 선택 c) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지 플러그인 스토리지 종류(NFS, NFS Named,...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.4.1/",
-        "teaser":null},{
-        "title": "7.4.2 스토리지 편집",
-        "excerpt":" 등록된 스토리지 정보를 편집하는 기능이다. 단, NFS Named 타입의 스토리지는 편집할 수 없다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션 버튼 → 스토리지 편집을 클릭한다.     b) 이름, 설명, 정책, 스토리지 클래스 이름, 파라미터값을 수정 할 수 있다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.4.2/",
-        "teaser":null},{
-        "title": "7.4.3 스토리지 삭제",
-        "excerpt":" 등록된 스토리지 정보를 삭제하는 기능이다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션버튼 → 볼륨 삭제를 클릭한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.4.3/",
         "teaser":null},{
         "title": "7.5 알람",
         "excerpt":" 클러스터에 대한 이벤트를 알람으로 받을 수 있다.   a) 클러스터 → 클러스터 선택 → 알람을 클릭한다.     b) 알람 명 클릭 시 상세 내용을 확인 할 수 있다.    ","categories": [],
@@ -1328,6 +1428,11 @@ var store = [{
         "excerpt":" 사용 중인 클러스터별 미터링(요금)에 대한 모니터링 서비스를 제공한다.   미터링 서비스는 Public Cloud 중 AWS와 GCP에만 적용되는 서비스이다.   a) 클러스터 → 클러스터 선택 → 미터링을 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.6/",
+        "teaser":null},{
+        "title": "7.7 등록정보",
+        "excerpt":" 현재 클러스터에 대한 등록정보를 확인할 수 있다.   Account 인증정보는 보안을 위해 노출되지 않는다.   a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7.7/",
         "teaser":null},{
         "title": "9.용어 설명",
         "excerpt":" Cocktail Cloud 활용의 이해를 돕기 위한 Kubernetes 및 청지원 용어 정리이다.  ","categories": [],
@@ -1404,11 +1509,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1/",
         "teaser":null},{
-        "title": "2.1 用户",
-        "excerpt":" 用户账号目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，账号选择的是‘使用’;显示为‘N’，选择的是‘未使用’)   可以创建及修改、删除层积云用户账号，也可以按照账号分配 ADMIN、DEVOPS 权限。   a) 点击环境设置→用户→使用与否，从‘全部/使用/未使用’中选择一个。     用户设置                  用户设置       说明                       使用与否       根据使用与否查询过滤功能(全部/使用/未使用)                 用户创建       切换到用户添加页面                 用户 ID       用户登登录时，使用的 ID(E-mail 格式)                 名称       用户名称                 权限       用户所获得的权限(ADMIN、DEVOPS)                 使用与否       当前用户的使用与否                 最后登录时间       有关用户最后访问日期的数据信息                 说明       用户说明          ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/2.1/",
-        "teaser":null},{
         "title": "2.1.1 시스템 편집",
         "excerpt":"시스템 이용에 필요한 시스템 정보, 계정 정보를 수정 할 수 있다. a) 좌측 메인메뉴 → 시스템 → 우측 상단 편집 버튼 시스템 정보(기본 언어, 시스템 로고, 시스템 설명)와 계정 정보(조직명, 계정 담당자 명, 계정 담당자 이메일, 주소)를 수정 할 수 있다. b) 좌측 메인메뉴 → 시스템 → 편집 → 수정완료...","categories": [],
         "tags": [],
@@ -1449,35 +1549,45 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.1.8/",
         "teaser":null},{
-        "title": "2.2 账号",
-        "excerpt":" 注册、编辑、删除作为云资源的 Public/Private 云账号信息的功能。   通过注册账号，可以导出该供应商资源、计量信息，或者创建服务器。   (计量信息的确认仅限于 Google Cloud Platform、AWS。)   用户账号目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，账号选择的是‘使 用’;显示为‘N’，选择的是‘未使用’)   a) 点击环境设置→账号→使用与否，从‘全部/使用/未使用’中选择一个。                    账号设置       说明                       使用与否       根据使用与否查询过滤功能(全部/使用/未使用)                 账号创建       切换到账号登录页面                 账号名称       账号名称(用户指定)                 供应商       供应商种类(OPM/RVS/IDC/AWS/GCP/AZR)                 类型       账号类型(USER/METERING)                 使用与否       账号的使用与否                 说明       账号的用户说明          ","categories": [],
+        "title": "2.2 集群",
+        "excerpt":" 提供集群的注册管理，以及节点和应用程序为单位的监控、卷、报警和计量服务。                   集群菜单       说明                       节点       所有节点的 CPU、内存、网络使用量以及个别节点的监控服务                 应用程序       所有应用程序的 CPU、内存、网络使用量以及个别应用程序的监控 服务                 卷       存储管理以及卷现状                 报警       集群事件信息相关的报警服务                 计量       集群费用及各种资源费用服务                 注册管理       集群的查看、修改、删除           ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2/",
         "teaser":null},{
-        "title": "2.2.1 账号添加",
-        "excerpt":" 账号可以添加使用。 (如AWS 账号, GCP 账号需要输入额外信息)   a) 点击环境设置→账号→右上角的账号添加。     b) 选择需要注册账号，填写名称、类型、说明。                    供应商       说明                       Amazon Web Service       亚马逊公司的公共云服务                 Google Cloud Platform       谷歌公司的公共云服务                 Microsoft cloud Service       微软公司的公共云服务                 Rovius Cloud       Accelerite 公司的企业云服务                 Onpremise       Baremetal环境下的私人云服务                          类型       说明                       User       账号登录的默认值                 Metering       使用公共云时、获取资源使用量时选择          ","categories": [],
+        "title": "2.2.1 集群添加",
+        "excerpt":"可添加注册集群的功能。 a) 点击集群→右上角带+符号的按钮。 b) 输入基本信息(名称、k8s 版本、说明) 基本信息 说明 名称 需要注册的集群名称 k8s 版本 集群已安装的 Kubernetes 版本信息。e.g)1.8.13 ID 对集群默认 ID(用户指定)、报警消息进行重定向时需要 说明 集群的用户说明 c) 输入供应商信息(账号、类型、地域)。 根据账号的供应商和类型，输入栏毁被修改。如果是 Baremetal，重定向提供默认值，可以修改。 供应商 说明 账号 已注册账号 类型 Kubernetes 的使用类型，从 MANAGED、PROVIER、GKE 中选择 重定向 已安装 Kubernetes 服务器的重定向 类型 说明 MANAGED 使用 CUBE 安装程序组成 kubernetes 的集群 PROVIDER Kubernetes 基于公共云 VM 使用，但...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.1/",
         "teaser":null},{
-        "title": "2.2.1-1 AWS 账号添加",
-        "excerpt":"登录 AWS 账号，需要 AWS 账号的访问秘钥和 Secret 秘钥。 a) 在 AWS 服务控制台右上角目录，点击‘Security Credentials’获取访问秘钥和 Secret 秘钥。 b) 第一个画面将弹出如下警告窗，是关于是否创建 IAM User 的内容，点击 Continue to Security Credentials 左键继续。 c) 在之后的画面，选择 Access Keys(Access Key ID and Secret Access Key)，然后点击 Create New Access Key 获取。 d) 密码发布后能看到如下窗口，可通过 Show Access Key 检查访问秘钥和信用秘钥。还可以 点击 Download Key File 保存密码。...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/2.2.1.1/",
-        "teaser":null},{
-        "title": "2.2.1-2 GCP 账号添加",
-        "excerpt":"登录 GCP 账号，需要支付账号的 ID 和 JSON 类型的 GCP 账号密码。 a) GCP 支付账号 ID，可进入 GCP 服务控制台 Billing -&gt; Overview 画面确认。 b) 进入 GCP 服务控制台，点击 APIs &amp; services -&gt; Credentials，获取 GCP 账号密码。 c) 在之后的画面，点击 Create credentials，选择 Service account key。 d) 账号密码发布画面上，将 Service account 改为 New service accoun，选择 Service account name 和 Role(Compute...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/2.2.1.2/",
-        "teaser":null},{
-        "title": "2.2.2 账号编辑",
-        "excerpt":" 可修改账号名称及类型、状态，如果是公共云供应商，可修改密码。   如果是集群正在使用的账号，只能修改账号名称和说明。   a) 环境设置→账号→账号操作菜单→账号编辑→修改结束后，点击修改。     b) 修改名称、类型、说明、状态以及密码。                    状态       说明                       Active       账号激活                 Inactive       账号非激活          ","categories": [],
+        "title": "2.2.2 集群编辑",
+        "excerpt":" 修改集群的基本信息、供应商、监控、集群类型的功能。但不能修改供应商的账号、类型、重 定向。   a) 集群→选择集群→注册管理→修改按钮→修改结束后，点击保存按钮。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.2/",
         "teaser":null},{
-        "title": "2.2.3 账号删除",
-        "excerpt":" 可删除已注册账号。如果是正在使用的账号，删除按钮显示为非激活状态。   a) 点击环境设置→账号→账号操作菜单→账号删除。    ","categories": [],
+        "title": "2.2.3 集群删除",
+        "excerpt":" 删除集群信息的功能。如有应用程序表正在使用该集群，则不能删除。   a) 集群→选择集群→注册管理→点击‘删除’按钮。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.3/",
+        "teaser":null},{
+        "title": "2.2.4 卷",
+        "excerpt":" 注册公共云存储以及外部存储的信息，提供当前卷的监控服务。   a) 集群→选择集群→点击卷。                    存储设置信息       说明                       +按钮       切换到存储添加页面                 名称       存储名称(用户指定)                 类型       存储种类(NFS/EBS/Google Persistent Disk/Azure Disk)                 存储类别名称       已注册在 k8s 的类别名称                 策略       存储卷策略设置(Retain,Recyle,Delete)                 状态       存储使用状态                          卷设置信息       说明                       卷名称       PVC 名称                 状态       PVC 挂载状态                 使用量       PV 已分配的可用量和使用量                 访问模式       PV 访问权限                 Age       PVC 创建所需时间          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.4/",
+        "teaser":null},{
+        "title": "2.2.5 存储添加",
+        "excerpt":"可以添加卷使用。 a) 选择集群→集群。 b) 进入集群详细画面，选择卷。 c) 进入集群详细画面，选择卷 存储注册信息 说明 名称 PV 名称 说明 PV 用户说明 类型 存储类型 (Single, Shared) 存储插件 存储种类(NFS, NFS Named, EBS, Google Persistent Disk, Azure Disk) 策略 PV 使用策略(RETAIN/DELETE) 类型 说明 Single 只能用于一个工作负载的存储 Shared 可用于多个工作负载之间共享的存储 策略 说明 Retain 即使持久化卷请求(PVC)被删除，数据仍保留在持久化卷(PV)中。之后 可以重复使用，但重复使用时，需要重新注册 PV。 Delete PVC 被删除的同时该 PV 也一起被删除。 d)...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.5/",
+        "teaser":null},{
+        "title": "2.2.6 存储编辑",
+        "excerpt":" 编辑已注册存储信息的功能。但，不能编辑 NFS 命名类型的存储。   a) 集群→选择集群→卷→卷操作按钮→点击存储编辑。     b) 不能修改名称、说明、策略、存储类别名称、参数值。    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.6/",
+        "teaser":null},{
+        "title": "2.2.7 存储删除",
+        "excerpt":" 删除已注册存储信息的功能。   a) 集群→选择集群→卷→卷操作按钮→点击卷删除。    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.7/",
         "teaser":null},{
         "title": "2.3 服务",
         "excerpt":" 分配工作区，而工作区能 Build、部署、运营应用程序。可按照服务种类注册用户、集群、库。   服务目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，服务选择的是‘使用’; 显示为‘N’，选择的是‘未使用’)   集群添加参考本说明书的集群部分说明。   a) 点击环境设置→服务→使用与否，从‘全部/使用/未使用’中选择一个。                    用户设置       说明                       使用与否       根据使用与否查询过滤(全部/使用/未使用)                 服务创建       切换到服务添加页面                 名称       服务名称(用户指定)                 使用与否       当前服务的使用与否                 集群       服务里已注册的集群项目          ","categories": [],
@@ -1669,40 +1779,80 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5/",
         "teaser":null},{
+        "title": "5 빌드 관리",
+        "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5/",
+        "teaser":null},{
         "title": "5.1 Build 添加",
         "excerpt":"添加 Docker 映像的 Build 作业。应用程序下载、Build、映像 Build 共 3 种可选。 a) 服务→Build 管理→选择 Build 添加，切换到该页面。 b) 输入应用程序下载、应用程序 Build、映像 Build 内容，点击创建按钮，创建服务器。 Build 生成阶段 说明 应用程序下载 下载 Build 必要的源代码 应用程序 Build 需要编译源代码时使用 命令 - Build 时将运行的作业 主机路径 - 容器工作路径和其挂载的主机路径 Working dir - 实际容器内部工作路径，和容器路径对接 映像 - Build 时所使用的映像 映像 Build 利用前述作业的源代码创建 Docker 文件生成映像后，该映像存储于 注册表存储库的阶段...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.1/",
+        "teaser":null},{
+        "title": "5.1 빌드 추가",
+        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.1/",
         "teaser":null},{
         "title": "5.2 作业设置编辑",
         "excerpt":" 编辑 Build 作业。Build 名称不能编辑。在编辑页面，可删除现已下载的源代码，也可以分别运行应用程序下载、应用程序 Build、映像 Build3 种作业。   a) 服务→Build 管理→Build 操作菜单(激活)→选择作业设置编辑，切换到该页面。                    作业设置编辑       说明                       源文档删除       删除下载源文档                 应用程序下载运行       只运行应用程序下载                 Build 高速缓存删除       删除现已 Build 的容器                 应用程序 Build 运行       只运行应用程序 Build                 映像 Build 运行       只运行映像 Build          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.2/",
         "teaser":null},{
+        "title": "5.2 작업 설정 편집",
+        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.2/",
+        "teaser":null},{
         "title": "5.3 历史记录",
         "excerpt":" 切换到该 Build 历史页面，可针对 Build 运行项查看历史信息。可通过 Build 运行单位查看日志。   a) 服务→Build 管理→Build 操作菜单(激活)→选择历史记录，切换到该页面。     b) Build 作业历史菜单中，确认该 Build 作业的操作名称、状态、日期、作业时间、映像名称、 映像大小、Build 日志。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.3/",
+        "teaser":null},{
+        "title": "5.3 히스토리",
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.3/",
         "teaser":null},{
         "title": "5.4 Build 运行",
         "excerpt":" 运行 Build 作业。如果运行 Build，就一次性运行应用程序下载、应用程序 Build、映像 Build。   a) 选择服务→Build 管理→Build 操作菜单(激活)→Build 运行，执行 Build 作业。     b) 运行 Build 时，当前操作被修改，同时日志窗被激活。   Build 生成时，只限于选框中被选的数量标签进行激活，可查看各阶段 Build 过程。   (如果 DOWN 阶段发生错误，不会进行下一步。)   如果 Build 运行作业中看到 “Application_Create_Image Step is done…” 的日志, 说明映像 Build 已 成功完成。   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.4/",
         "teaser":null},{
+        "title": "5.4 빌드 실행",
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.4/",
+        "teaser":null},{
         "title": "5.5 Build 取消",
         "excerpt":" 取消 Build 作业。只能取消运行状态(RUNNING)的 Build 作业。   a) 选择服务→Build 管理→Build 操作菜单(激活)→Build 取消，取消 Build 作业。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.5/",
+        "teaser":null},{
+        "title": "5.5 빌드 취소",
+        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.5/",
         "teaser":null},{
         "title": "5.6 日志查看",
         "excerpt":" 显示 Build 作业的最新运行日志。如果 Build 作业在运行中，就可以查看日志。   a) 选择服务→Build 管理→Build 操作菜单(激活)→日志查看，可查看该 Build 作业的 Build 运行日志。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.6/",
         "teaser":null},{
+        "title": "5.6 로그 보기",
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.6/",
+        "teaser":null},{
         "title": "5.7 作业删除",
         "excerpt":" 删除 Build 作业。删除时，先删除该高速缓存和已下载源文档后，再进行删除作业。   a) 选择服务→Build 管理→Build 操作菜单(激活)→作业删除，可删除该 Build 作业。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/5.7/",
+        "teaser":null},{
+        "title": "5.7 작업 삭제",
+        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
         "title": "6.目录",
         "excerpt":" 通过应用程序配置的模板化，可轻松创建、部署、管理工作负载的功能。   当一次性捆绑使用多个工作负载时，使用目录功能。   目录分为服务目录和平台目录。                     目录菜单       说明                       服务目录       用户创建的目录                 平台目录       层积云默认提供的正式目录                 过滤目录       通过搜索，查看所需要的模板                 模板       组成应用程序的工作负载集合                 部署       通过目录，部署工作负载                 编辑       对目录内容进行编辑          ","categories": [],
@@ -1744,25 +1894,20 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/7/",
         "teaser":null},{
+        "title": "7.클러스터",
+        "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7/",
+        "teaser":null},{
         "title": "7.1 集群管理",
-        "excerpt":" 注册、编辑、删除从供应商那里得到分配的 Kubernetes 集群信息的功能。   a) 点击集群→”排列”按钮，选择需要的排列标准。                   集群设置       说明                       +集群注册       切换到集群添加页面                 集群       集群的种类                 节点       集群的节点数字                 CPU       集群所有的 CPU 容量、请求量、使用量                 内存       集群所有的内存容量、请求量、使用量                 应用程序       集群的应用程序表(命名空间)数                 工作负载       正在部署在集群的工作负载数          ","categories": [],
+        "excerpt":" 注册、编辑、删除从供应商那里得到分配的 Kubernetes 集群信息的功能。   a) 点击集群→”排列”按钮，选择需要的排列标准。                   集群设置       说明                       集群       集群的种类                 节点       集群的节点数字                 CPU       集群所有的 CPU 容量、请求量、使用量                 内存       集群所有的内存容量、请求量、使用量                 应用程序       集群的应用程序表(命名空间)数                 工作负载       正在部署在集群的工作负载数          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/7.1/",
         "teaser":null},{
-        "title": "7.1.1 集群添加",
-        "excerpt":"可添加注册集群的功能。 a) 点击集群→右上角带+符号的按钮。 b) 输入基本信息(名称、k8s 版本、说明) 基本信息 说明 名称 需要注册的集群名称 k8s 版本 集群已安装的 Kubernetes 版本信息。e.g)1.8.13 ID 对集群默认 ID(用户指定)、报警消息进行重定向时需要 说明 集群的用户说明 c) 输入供应商信息(账号、类型、地域)。 根据账号的供应商和类型，输入栏毁被修改。如果是 Baremetal，重定向提供默认值，可以修改。 供应商 说明 账号 已注册账号 类型 Kubernetes 的使用类型，从 MANAGED、PROVIER、GKE 中选择 重定向 已安装 Kubernetes 服务器的重定向 类型 说明 MANAGED 使用 CUBE 安装程序组成 kubernetes 的集群 PROVIDER Kubernetes 基于公共云 VM 使用，但...","categories": [],
+        "title": "7.1 클러스터 목록",
+        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/zh/7.1.1/",
-        "teaser":null},{
-        "title": "7.1.2 集群编辑",
-        "excerpt":" 修改集群的基本信息、供应商、监控、集群类型的功能。但不能修改供应商的账号、类型、重 定向。   a) 集群→选择集群→注册管理→修改按钮→修改结束后，点击保存按钮。    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/7.1.2/",
-        "teaser":null},{
-        "title": "7.1.3 集群删除",
-        "excerpt":" 删除集群信息的功能。如有应用程序表正在使用该集群，则不能删除。   a) 集群→选择集群→注册管理→点击‘删除’按钮。    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/7.1.3/",
+        "url": "http://localhost:4000/docs/ko/7.1/",
         "teaser":null},{
         "title": "7.2 节点",
         "excerpt":" 可查询所有节点的全部磁盘、CPU、内存、网络使用量以及个别节点的 Label、状态信息等的 画面。点击节点名称，即可查询节点详细信息。   a) 集群→选择集群→点击节点。     b) 点击节点名称，即可查询节点详细信息。    ","categories": [],
@@ -1774,25 +1919,20 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/7.3/",
         "teaser":null},{
+        "title": "7.3 서비스",
+        "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/7.3/",
+        "teaser":null},{
         "title": "7.4 卷",
         "excerpt":" 注册公共云存储以及外部存储的信息，提供当前卷的监控服务。   a) 集群→选择集群→点击卷。                    存储设置信息       说明                       +按钮       切换到存储添加页面                 名称       存储名称(用户指定)                 类型       存储种类(NFS/EBS/Google Persistent Disk/Azure Disk)                 存储类别名称       已注册在 k8s 的类别名称                 策略       存储卷策略设置(Retain,Recyle,Delete)                 状态       存储使用状态                          卷设置信息       说明                       卷名称       PVC 名称                 状态       PVC 挂载状态                 使用量       PV 已分配的可用量和使用量                 访问模式       PV 访问权限                 Age       PVC 创建所需时间          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/7.4/",
         "teaser":null},{
-        "title": "7.4.1 存储添加",
-        "excerpt":"可以添加卷使用。 a) 选择集群→集群。 b) 进入集群详细画面，选择卷。 c) 进入集群详细画面，选择卷 存储注册信息 说明 名称 PV 名称 说明 PV 用户说明 类型 存储类型 (Single, Shared) 存储插件 存储种类(NFS, NFS Named, EBS, Google Persistent Disk, Azure Disk) 策略 PV 使用策略(RETAIN/DELETE) 类型 说明 Single 只能用于一个工作负载的存储 Shared 可用于多个工作负载之间共享的存储 策略 说明 Retain 即使持久化卷请求(PVC)被删除，数据仍保留在持久化卷(PV)中。之后 可以重复使用，但重复使用时，需要重新注册 PV。 Delete PVC 被删除的同时该 PV 也一起被删除。 d)...","categories": [],
+        "title": "7.4 볼륨",
+        "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/zh/7.4.1/",
-        "teaser":null},{
-        "title": "7.4.2 存储编辑",
-        "excerpt":" 编辑已注册存储信息的功能。但，不能编辑 NFS 命名类型的存储。   a) 集群→选择集群→卷→卷操作按钮→点击存储编辑。     b) 不能修改名称、说明、策略、存储类别名称、参数值。    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/7.4.2/",
-        "teaser":null},{
-        "title": "7.4.3 存储删除",
-        "excerpt":" 删除已注册存储信息的功能。   a) 集群→选择集群→卷→卷操作按钮→点击卷删除。    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/7.4.3/",
+        "url": "http://localhost:4000/docs/ko/7.4/",
         "teaser":null},{
         "title": "7.5 报警",
         "excerpt":" 使用此功能接收有关集群的事件。   a) 集群→选择集群→点击报警。     b) 点击报警名称，即可查询详细内容。    ","categories": [],
@@ -1808,6 +1948,11 @@ var store = [{
         "excerpt":" 对正在使用的各种集群，提供计量(计费)监控服务。   计量服务仅限于适用公共云的 AWS 和 GCP。   a) 集群→选择集群→点击计量。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/7.6/",
+        "teaser":null},{
+        "title": "7.7 등록정보",
+        "excerpt":" 현재 클러스터에 대한 등록정보를 확인할 수 있다.   Account 인증정보는 보안을 위해 노출되지 않는다.   a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/7.7/",
         "teaser":null},{
         "title": "9.术语说明",
         "excerpt":" 为了帮助用户了解层积云的运用，下面对 Kubernetes 及层积云的术语进行了整理。  ","categories": [],
