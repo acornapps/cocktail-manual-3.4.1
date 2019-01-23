@@ -1,11 +1,13 @@
 ---
-title: "3.대시보드"
+title: "3.ダッシュボード"
 excerpt: ""
-permalink: /docs/ko/3/
+permalink: /docs/ja/3/
 redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: false
+sidebar:
+  nav: "ja"
 ---
 
 ---
@@ -21,7 +23,7 @@ toc_sticky: false
 
 * **클러스터 현황**
 
-  등록된 클러스터 별로 서비스 개수, 워크로드 개수를 확인 할 수 있다.
+  등록된 클러스터 별로 서비스 개수, 워크로드 개수를 확일 할 수 있다.
 
 * **클러스터 비용 현황**
 
@@ -35,4 +37,4 @@ toc_sticky: false
 
   사용 중인 서비스 별로 자원(CPU/Memory) 할당량을 확인 할 수 있다.
 
-![]({{ site.baseurl }}/assets/KR/{{ site.version }}/3_1.png)
+![]({{ site.baseurl }}/assets/JP/{{ site.version }}/3_1.png)
