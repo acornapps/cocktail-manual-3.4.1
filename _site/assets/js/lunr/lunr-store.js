@@ -39,11 +39,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/1/",
         "teaser":null},{
-        "title": "10.Customer Support",
-        "excerpt":"Thank you for using Cocktail. Contact us for technical support and product purchase consultations. We provide the following services: On-site Q&amp;A and product consultation services. Professional technical consultations via telephone or fax. (Limited to customers who have registered their products) Various event invitations and information. Support Email: byoungoh.lee@namutech.co.kr Product Developer...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/10/",
-        "teaser":null},{
         "title": "2.System Management",
         "excerpt":" You can manage the systems, clusters, and workspaces you need to use the cocktail cloud.     ","categories": [],
         "tags": [],
@@ -319,80 +314,40 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/5/",
         "teaser":null},{
-        "title": "5 빌드 관리",
-        "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5/",
-        "teaser":null},{
         "title": "5.1 Add Build",
         "excerpt":"This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build. a) The left from the main menu screen, click → build the [+] button to go to that page. b) Enter the necessary application download, application build, and image...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.1/",
         "teaser":null},{
-        "title": "5.1 빌드 추가",
-        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.1/",
-        "teaser":null},{
         "title": "5.2 Edit Task Settings",
-        "excerpt":"This feature allows you to modify build tasks. The build name, however, may not be changed. A previously-downloaded source can be removed, and each of the three tasks (application download, application build, and image build) can be executed separately. a) Service → Build Management → Build Action Menu (Activate) →...","categories": [],
+        "excerpt":"This feature allows you to modify build tasks. a) Left main menu → Build → Build Action Menu (Activation) → Select the [Edit Task Settings] to go to that page. b) Edit basic information, application download, application build, and image build contents, and click [Edit] button to edit task settings....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.2/",
         "teaser":null},{
-        "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.2/",
-        "teaser":null},{
         "title": "5.3 History",
-        "excerpt":"This feature allows you to view the build history of a particular build. Logs are available in build execution phases. a) Service → Build Management → Build Action Menu (Activate) → [History] b) Check the build action name, status, date, duration, image name, image size, and build log from the...","categories": [],
+        "excerpt":"  This feature allows you to view the build history of a particular build.   a) Build Action menu(Activation) in the left main menu screen → Build → Click the [History] to go to that page.     b) Click the Action menu(Activation) → [Log View] and you can see the build log.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.3/",
         "teaser":null},{
-        "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.3/",
-        "teaser":null},{
         "title": "5.4 Execute Build",
-        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Service → Build Management → Build Action Menu (Activate) → [Run Build] b) The current action changes, and the log window becomes activated...","categories": [],
+        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Build Action Menu(Activation) of the build task to be executed from the build list Select [Run Build] from the Actions menu to activate...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.4/",
         "teaser":null},{
-        "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.4/",
-        "teaser":null},{
         "title": "5.5 Cancel Build",
-        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) Service → Build Management → Build Action Menu (Activate) → [Cancel Build]    ","categories": [],
+        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) In the build list, cancel the build operation by selecting the Build Action menu (Activation ) → [Cancel Build] of the build operation to be canceled.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.5/",
         "teaser":null},{
-        "title": "5.5 빌드 취소",
-        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.5/",
-        "teaser":null},{
         "title": "5.6 View Log",
-        "excerpt":"  This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed.   a) Service → Build Management → Build Action Menu (Activate) → [View Log]    ","categories": [],
+        "excerpt":"This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed. a) From the build list, you can view the build execution log for that build job by selecting the build action menu (Activation...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.6/",
         "teaser":null},{
-        "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.6/",
-        "teaser":null},{
         "title": "5.7 Delete Task",
-        "excerpt":"  This feature allows you to delete build tasks. When performed, the corresponding cache and downloaded source folder will be deleted first before deleting the actual task.   a) Service → Build Management → Build Action Menu (Activate) → [Delete Task]    ","categories": [],
+        "excerpt":"  This feature allows you to delete build tasks.   a) Build Action menu(Activation) in the Build Action to delete from the list of builds → select [Delete Task] and you can delete the build operation.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.7/",
-        "teaser":null},{
-        "title": "5.7 작업 삭제",
-        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
         "title": "6.Catalog",
         "excerpt":"This feature allows you to easily create, deploy, and manage workloads by creating a template of an service configuration. Use the catalog feature to use multiple workloads at once. The catalog feature is divided into service catalogs and platform catalogs. Catalog Menu Description Service Catalog User-generated catalog Platform Catalog Default...","categories": [],
@@ -519,6 +474,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/9.3/",
         "teaser":null},{
+        "title": "10.Customer Support",
+        "excerpt":"Thank you for using Cocktail. Contact us for technical support and product purchase consultations. We provide the following services: On-site Q&amp;A and product consultation services. Professional technical consultations via telephone or fax. (Limited to customers who have registered their products) Various event invitations and information. Support Email: byoungoh.lee@namutech.co.kr Product Developer...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/9.4/",
+        "teaser":null},{
         "title": "Cocktail Cloud",
         "excerpt":"                                                                                                                                    한국어 메뉴얼                                                                                                      Learn More                                                                                                                                                           日本語マニュアル                                                                                                      Learn More                                                                                                                                                           中文手册                                                                                                      Learn More                                                                                                                                                           English Manual                                                                                                      Learn More                                       ","categories": [],
         "tags": [],
@@ -563,11 +523,6 @@ var store = [{
         "excerpt":"  カクテルクラウドの初期ログイン画面は、以下のとおりである。   System、ID、Passwordを入力後、ログイン。   （IDは管理者に別途確認必要）      最初の接続やパスワードの初期化時には、 必ずパスワードを変更する必要がある。      期間が90日を経過した場合にも、 パスワードを変更したり、 パスワードを延長することができる。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/1/",
-        "teaser":null},{
-        "title": "10.ユーザーサポートサービス",
-        "excerpt":"  Cocktail Cloudをご利用いただき、誠にありがとうございます。   製品のご購入や機能に関するご相談など、技術的なサポートからお客様に必要なサービスをご提供しております。 サポートしているサービスは、以下のとおりです。      訪問サービスにてQ＆A、製品に関する情報およびその他のお問い合わせを承っております。   ユーザー登録済みの製品やご相談が可能な製品に限りましては、 お電話やファックスにて専門的な技術相談が可能となっています。   各種イベントへのご招待および情報をご提供いたします。   サービスサポート   Eメール: support@namutech.co.jp   製品開発会社   NAMU TECH JAPAN 株式会社      住所 : 〒102-0074 東京都千代田区九段南4-6-1　九段シルバーパレス201号   Tel : 03-6272-4788   Fax : 03-6272-4794   ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ja/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
@@ -847,7 +802,7 @@ var store = [{
         "title": "5 빌드 관리",
         "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5/",
+        "url": "http://localhost:4000/docs/ja/5_/",
         "teaser":null},{
         "title": "5.1 ビルド追加",
         "excerpt":"ドッカーイメージのビルドタスクを追加する。 アプリケーションのダウンロード、アプリケーションビルド、イメージビルドの合計3つを選択することができる。 a) サービス → ビルド管理 → ビルド作成の編集を選択し、該当ページに移動 b) アプリケーションダウンロード、アプリケーションビルド、イメージビルドの内容を作成した上、作成ボタンを押してサーバーを作成 ビルド作成段階 説明 アプリケーションダウンロード ビルドに必要なソースをダウンロード アプリケーションビルド ソースのコンパイルが必要な場合に使用 コマンド - ビルドしながら実行するタスク ホストパス - タスクが行われるコンテナパスとマウントされるホストパス Working dir - 実際にコンテナ内で作業するパスで、 コンテナパスに合わせる イメージ - ビルド時に使用するイメージ イメージビルド 作業したソースでドッカーファイルを作ってイメージを作成し、　該当イメージをレジストリストレージに保存するステップ ビルドの基本情報 基本情報 説明 ビルド名 作成するビルドの名前 最近のアクション ビルドの最近の動作状態 ステータス ビルドの現在の状態 アプリケーションのダウンロード アプリケーションのダウンロード 説明 リポジトリ ソースファイルをダウンロードするバージョン管理ツールの種類。 現在のバージョンでは、 Gitのみサポート プロトコル リポジトリが提供するHTTP...","categories": [],
@@ -857,7 +812,7 @@ var store = [{
         "title": "5.1 빌드 추가",
         "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.1/",
+        "url": "http://localhost:4000/docs/ja/5.1_/",
         "teaser":null},{
         "title": "5.2 タスク設定の編集",
         "excerpt":"  ビルドタスクを編集する。 ビルド名は編集できない。 編集で過去ダウンロードしたソースを削除することができ 、アプリケーションダウンロード 、アプリケーションビルド、 イメージビルド、 3つのタスクを別々に実行する ことができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化）→ タスク設定の編集を選択して、 該当ページに移動                    タスク設定の編集       説明                       ソースフォルダー削除       ダウンロードソースフォルダを削除                 アプリケーションダウンロード実行       アプリケーションダウンロードのみ実行                 ビルドキャッシュ削除       過去ビルドされたコンテナを削除                 アプリケーションビルド実行       アプリケーションビルドのみ実行                 イメージビルド実行       イメージビルドのみ実行           ","categories": [],
@@ -865,9 +820,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.2/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":" 빌드 작업을 편집한다.   a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다.  b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.2/",
+        "url": "http://localhost:4000/docs/ja/5.2_/",
         "teaser":null},{
         "title": "5.3 ヒストリー",
         "excerpt":"  該当ビルドのヒストリーページに移動し、ビルド実行項目のヒストリー情報を確認することができる。 ビルド実行単位でログを確認することができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ヒストリーを選択して、 該当ページに移動     b) ビルドタスクヒストリーメニューで、 該当ビルドタスクのアクション名、 ステータス、 日付、 作業時間、 イメージ名、 イメージサイズ、 ログビューを確認     ","categories": [],
@@ -875,9 +830,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.3/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.3/",
+        "url": "http://localhost:4000/docs/ja/5.3_/",
         "teaser":null},{
         "title": "5.4 ビルド実行",
         "excerpt":"  ビルドタスクを実行する。 ビルドを実行すると、 アプリケーションダウンロード、 アプリケーションビルド、 イメージビルドを一度に実行する。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルド実行を選択して、ビルドタスクを実行     b) ビルド実行時、現在のアクションが変更され、ログウィンドウがアクティブ化する。   ビルド作成時、チェックボックスで選択されたタブがアクティブ化し、各ステップのビルドプロセスを確認することができる。   （DOWNステップでエラーが発生した場合、次のステップに進むことができない。）   ビルド実行タスクが”Application_Create_Image Step is done…” というログが表示されたら、 イメージビルドが正常に終了したということである。     ","categories": [],
@@ -885,9 +840,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.4/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.4/",
+        "url": "http://localhost:4000/docs/ja/5.4_/",
         "teaser":null},{
         "title": "5.5 ビルドキャンセル",
         "excerpt":"  ビルドジョブをキャンセルする。 ビルドジョブが実行状態（RUNNING）であることだけ取り消すことができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルドキャンセル]を選択して、ビルド作業をキャンセル     ","categories": [],
@@ -897,7 +852,7 @@ var store = [{
         "title": "5.5 빌드 취소",
         "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.5/",
+        "url": "http://localhost:4000/docs/ja/5.5_/",
         "teaser":null},{
         "title": "5.6 ログ表示",
         "excerpt":"  ビルドタスクの最近の実行ログを表示する。 ビルドが実行中であれば、 実行中のログを確認することができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ログビュータを選択して、 該当ビルドタスクのビルド実行ログを確認     ","categories": [],
@@ -905,9 +860,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.6/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.6/",
+        "url": "http://localhost:4000/docs/ja/5.6_/",
         "teaser":null},{
         "title": "5.7 タスク削除",
         "excerpt":"  ビルドタスクを削除する。削除時、該当キャッシュとダウンロードしたソースフォルダを削除した後、タスクを削除する。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → タスク削除を選択して、 該当ビルドタスクを削除。     ","categories": [],
@@ -917,7 +872,7 @@ var store = [{
         "title": "5.7 작업 삭제",
         "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.7/",
+        "url": "http://localhost:4000/docs/ja/5.7_/",
         "teaser":null},{
         "title": "6.カタログ",
         "excerpt":"  アプリケーション構成をテンプレート化して、簡単にサーバー作成およびデプロイ、管理を行うことができる機能である。   複数のサーバーを一度にまとめて使用する場合は、カタログ機能を使用する。   カタログは、サービスカタログとカクテルカタログに分けられる。                     カタログメニュー       説明                       サービスカタログ       ユーザーが作成したカタログ                 カクテルカタログ       カクテルクラウドに組み込まれた公式カタログ                 Filter Catalog       検索で必要なテンプレートを照会                 テンプレート       アプリケーションを構成しているサーバーコレクション                 デプロイ       カタログでサーバーをデプロイ                 編集       カタログ内容を編集           ","categories": [],
@@ -1064,6 +1019,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/9.3/",
         "teaser":null},{
+        "title": "10.ユーザーサポートサービス",
+        "excerpt":"  Cocktail Cloudをご利用いただき、誠にありがとうございます。   製品のご購入や機能に関するご相談など、技術的なサポートからお客様に必要なサービスをご提供しております。 サポートしているサービスは、以下のとおりです。      訪問サービスにてQ＆A、製品に関する情報およびその他のお問い合わせを承っております。   ユーザー登録済みの製品やご相談が可能な製品に限りましては、 お電話やファックスにて専門的な技術相談が可能となっています。   各種イベントへのご招待および情報をご提供いたします。   サービスサポート   Eメール: support@namutech.co.jp   製品開発会社   NAMU TECH JAPAN 株式会社      住所 : 〒102-0074 東京都千代田区九段南4-6-1　九段シルバーパレス201号   Tel : 03-6272-4788   Fax : 03-6272-4794   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/9.4/",
+        "teaser":null},{
         "title": "Cocktail Cloud이 란?",
         "excerpt":"Cocktail Cloud은 올인원 컨테이너 관리 플랫폼(All-in-one Container Management Platform)이다. 클라우드 사용이 보편화 되면서, 인프라 뿐 아니라 어플리케이션, 서비스 관리에 대한 요구가 높아지고 있다. 과거와 같은 개발, 운영 방식으로는 클라우드의 장점을 활용하기에 한계가 있기 때문이다. 특히 어플리케이션 영역에서는 지속적인 통합 및 배포(Continuous Integration/Deploy, CI/CD), 마이그레이션(Migration), 멀티/하이브리드 클라우드 구축 등 자동화, 효율화,...","categories": [],
         "tags": [],
@@ -1103,11 +1063,6 @@ var store = [{
         "excerpt":" 아래는 Cocktail Cloud의 초기 로그인 화면이다.   시스템명, ID, Password 입력 후 로그인 할 수 있다.   (아이디는 관리자에게 별도 문의)      최초 접속 또는 비밀번호 초기화시에는 반드시 비밀번호를 변경 해야한다.      기간이 90일이 경과한 경우에도 비밀번호를 변경하거나 비밀번호를 연장 할 수 있다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/1/",
-        "teaser":null},{
-        "title": "10.고객지원 서비스",
-        "excerpt":"Cocktail Cloud을 이용해 주셔서 감사합니다. 제품 구매 기능상담 등의 기술 지원 서비스 및 각종 혜택을 받을 수 있습니다. 제공하는 각종 서비스는 다음과 같습니다. 방문 서비스를 통하여 Q&amp;A, 제품에 관한 정보 및 기타 문의를 할 수 있습니다. 고객 등록을 마친 제품과 상담이 가능한 제품에 한하여 전화나 팩스를 통하여 전문 기술상담 서비스를...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
@@ -1390,17 +1345,17 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.1/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":" 빌드 작업을 편집한다.   a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다.  b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.2/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.3/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.4/",
         "teaser":null},{
@@ -1410,7 +1365,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.5/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.6/",
         "teaser":null},{
@@ -1524,6 +1479,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/9.3/",
         "teaser":null},{
+        "title": "10.고객지원 서비스",
+        "excerpt":"Cocktail Cloud을 이용해 주셔서 감사합니다. 제품 구매 기능상담 등의 기술 지원 서비스 및 각종 혜택을 받을 수 있습니다. 제공하는 각종 서비스는 다음과 같습니다. 방문 서비스를 통하여 Q&amp;A, 제품에 관한 정보 및 기타 문의를 할 수 있습니다. 고객 등록을 마친 제품과 상담이 가능한 제품에 한하여 전화나 팩스를 통하여 전문 기술상담 서비스를...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/10/",
+        "teaser":null},{
         "title": "层积云是什么?",
         "excerpt":" 层积云是一种 容器一体化管理平台(All-in-one Container Management Platform)。   随着云服务的普遍使用，除了基础架构，对应用程序、服务管理的要求也越来越高。像过去的 开发和运营方式充分发挥云的优势是有限的。尤其是应用程序领域，持续整合以及部署 (Continuous Integration/Deploy，CI/CD)、迁移(Migration)、多云/混合云的构筑等自动化、高 效化、整合管理的需求日益增加。   可以说容器技术的扩散是理所当然。目前很多企业已经引进了容器技术，呈现继续增强趋势。 (参考: http://redmonk.com/fryan/2017/09/10/cloud-native-technologies-in-the-fortune-100)   容器是将应用程序或服务压缩成可独立运行单位的技术，无论基础架构环境如何，都可以提供 相同的开发和运营经验。可以实现从基础架构到服务的云管理体系标准化，也可以减少开发及 运营工作量。尤其是不变的环境下，能管理好多云/混合云是它的优点所在。   层积云将容器优点适用于云管理服务，实现了开发及运营业务的高效化，为单一或多云/混合云 战略实施提供了平台。   层积云的主要职能如下      从代码到 Build、部署、更新环节的渠道自动化;   工作负载(服务)中心的容器管理:压缩、生命周期、资源等;   全栈监控:从基础架构到容器的状态以及资源的监控、报警管理;   多云/混合云集群配置及管理:Baremetal、私人/公共云。     下文 : 层积云组件概要  ","categories": [],
         "tags": [],
@@ -1563,11 +1523,6 @@ var store = [{
         "excerpt":" 以下是层积云的初始登录画面。   输入 System、ID、密码后可以登录。   (ID 另询管理员)      初始连接或初始化密码时，密码必须修改。      90 天后可修改密码或延长使用。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/1/",
-        "teaser":null},{
-        "title": "10.售后服务",
-        "excerpt":" 非常感谢使用层积云。   可享受产品功能购买咨询等技术服务以及各种优惠。所提供的各种服务如下:      可通过访问服务，咨询 Q&amp;A、产品相关信息以及其他疑问。   对客户已注册产品和可咨询产品，可通过电话或传真进行专业技术咨询服务。   提供各种活动邀请以及信息。   服务支持   邮箱 : byoungoh.lee@namutech.co.kr   产品开发商   ACON 软件(株)      地址 : 首尔特别市 江南区 驿三路 239 号 华光中心 4 层   TEL : 02-554-0301   FAX : 02-554-0302  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
@@ -1862,7 +1817,7 @@ var store = [{
         "title": "5 빌드 관리",
         "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5/",
+        "url": "http://localhost:4000/docs/zh/5_/",
         "teaser":null},{
         "title": "5.1 Build 添加",
         "excerpt":"添加 Docker 映像的 Build 作业。应用程序下载、Build、映像 Build 共 3 种可选。 a) 服务→Build 管理→选择 Build 添加，切换到该页面。 b) 输入应用程序下载、应用程序 Build、映像 Build 内容，点击创建按钮，创建服务器。 Build 生成阶段 说明 应用程序下载 下载 Build 必要的源代码 应用程序 Build 需要编译源代码时使用 命令 - Build 时将运行的作业 主机路径 - 容器工作路径和其挂载的主机路径 Working dir - 实际容器内部工作路径，和容器路径对接 映像 - Build 时所使用的映像 映像 Build 利用前述作业的源代码创建 Docker 文件生成映像后，该映像存储于 注册表存储库的阶段...","categories": [],
@@ -1872,7 +1827,7 @@ var store = [{
         "title": "5.1 빌드 추가",
         "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.1/",
+        "url": "http://localhost:4000/docs/zh/5.1_/",
         "teaser":null},{
         "title": "5.2 作业设置编辑",
         "excerpt":" 编辑 Build 作业。Build 名称不能编辑。在编辑页面，可删除现已下载的源代码，也可以分别运行应用程序下载、应用程序 Build、映像 Build3 种作业。   a) 服务→Build 管理→Build 操作菜单(激活)→选择作业设置编辑，切换到该页面。                    作业设置编辑       说明                       源文档删除       删除下载源文档                 应用程序下载运行       只运行应用程序下载                 Build 高速缓存删除       删除现已 Build 的容器                 应用程序 Build 运行       只运行应用程序 Build                 映像 Build 运行       只运行映像 Build          ","categories": [],
@@ -1880,9 +1835,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.2/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":" 빌드 작업을 편집한다.   a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다.  b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.2/",
+        "url": "http://localhost:4000/docs/zh/5.2_/",
         "teaser":null},{
         "title": "5.3 历史记录",
         "excerpt":" 切换到该 Build 历史页面，可针对 Build 运行项查看历史信息。可通过 Build 运行单位查看日志。   a) 服务→Build 管理→Build 操作菜单(激活)→选择历史记录，切换到该页面。     b) Build 作业历史菜单中，确认该 Build 作业的操作名称、状态、日期、作业时间、映像名称、 映像大小、Build 日志。    ","categories": [],
@@ -1890,9 +1845,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.3/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.3/",
+        "url": "http://localhost:4000/docs/zh/5.3_/",
         "teaser":null},{
         "title": "5.4 Build 运行",
         "excerpt":" 运行 Build 作业。如果运行 Build，就一次性运行应用程序下载、应用程序 Build、映像 Build。   a) 选择服务→Build 管理→Build 操作菜单(激活)→Build 运行，执行 Build 作业。     b) 运行 Build 时，当前操作被修改，同时日志窗被激活。   Build 生成时，只限于选框中被选的数量标签进行激活，可查看各阶段 Build 过程。   (如果 DOWN 阶段发生错误，不会进行下一步。)   如果 Build 运行作业中看到 “Application_Create_Image Step is done…” 的日志, 说明映像 Build 已 成功完成。   ","categories": [],
@@ -1900,9 +1855,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.4/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.4/",
+        "url": "http://localhost:4000/docs/zh/5.4_/",
         "teaser":null},{
         "title": "5.5 Build 取消",
         "excerpt":" 取消 Build 作业。只能取消运行状态(RUNNING)的 Build 作业。   a) 选择服务→Build 管理→Build 操作菜单(激活)→Build 取消，取消 Build 作业。    ","categories": [],
@@ -1912,7 +1867,7 @@ var store = [{
         "title": "5.5 빌드 취소",
         "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.5/",
+        "url": "http://localhost:4000/docs/zh/5.5_/",
         "teaser":null},{
         "title": "5.6 日志查看",
         "excerpt":" 显示 Build 作业的最新运行日志。如果 Build 作业在运行中，就可以查看日志。   a) 选择服务→Build 管理→Build 操作菜单(激活)→日志查看，可查看该 Build 作业的 Build 运行日志。    ","categories": [],
@@ -1920,9 +1875,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.6/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.6/",
+        "url": "http://localhost:4000/docs/zh/5.6_/",
         "teaser":null},{
         "title": "5.7 作业删除",
         "excerpt":" 删除 Build 作业。删除时，先删除该高速缓存和已下载源文档后，再进行删除作业。   a) 选择服务→Build 管理→Build 操作菜单(激活)→作业删除，可删除该 Build 作业。    ","categories": [],
@@ -1932,7 +1887,7 @@ var store = [{
         "title": "5.7 작업 삭제",
         "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.7/",
+        "url": "http://localhost:4000/docs/zh/5.7_/",
         "teaser":null},{
         "title": "6.目录",
         "excerpt":" 通过应用程序配置的模板化，可轻松创建、部署、管理工作负载的功能。   当一次性捆绑使用多个工作负载时，使用目录功能。   目录分为服务目录和平台目录。                     目录菜单       说明                       服务目录       用户创建的目录                 平台目录       层积云默认提供的正式目录                 过滤目录       通过搜索，查看所需要的模板                 模板       组成应用程序的工作负载集合                 部署       通过目录，部署工作负载                 编辑       对目录内容进行编辑          ","categories": [],
@@ -2078,4 +2033,9 @@ var store = [{
         "excerpt":"1. 故障代码 代码 信息 CCCM001 无法显示具体错误代码。 CCCM002 未知错误。 CCCM004 无效函数导出的参数。 CCCM005 未经认证的请求。 CCCM006 传递信息不正确。 CCCM007 服务器、作业等不正确或者无法处理请求。 CCCM019 内部服务器错误。 CCCM020 外部导出API返回错误或导出失败。 CCCM023 无需要执行的作业。 CCCM026 发生了错误。 CCCM027 注册中发生了错误。 CCCM028 修改中发生了错误。 CCCM029 删除中发生了错误。 CCCM030 查询中发生了错误。 CDCM031 数据库作业中发生了错误。请稍后再尝试。仍未改善时，请咨询管理员。 CDCM032 数据库连接中发生了错误。请稍后再尝试。如果可以，请检查数据库连接状态，或者咨询管理员。 CKSY001 Cube集群API发生了错误。 CKSY002 层积云不支持Cube集群版本。 CKSY003 加密中发生了错误。 CCUS001 未注册的用户ID。 CCUS002 用户密码不一致。 CCUS003 用户指定权限未分配的用户。 CCUS004 已注册用户。...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/9.3/",
+        "teaser":null},{
+        "title": "10.售后服务",
+        "excerpt":" 非常感谢使用层积云。   可享受产品功能购买咨询等技术服务以及各种优惠。所提供的各种服务如下:      可通过访问服务，咨询 Q&amp;A、产品相关信息以及其他疑问。   对客户已注册产品和可咨询产品，可通过电话或传真进行专业技术咨询服务。   提供各种活动邀请以及信息。   服务支持   邮箱 : byoungoh.lee@namutech.co.kr   产品开发商   ACON 软件(株)      地址 : 首尔特别市 江南区 驿三路 239 号 华光中心 4 层   TEL : 02-554-0301   FAX : 02-554-0302  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/9.4/",
         "teaser":null},]
