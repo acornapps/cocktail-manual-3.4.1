@@ -20,7 +20,7 @@ sidebar:
 カタログは、サービスカタログとカクテルカタログに分けられる。
 
 
-![]({{ site.baseurl }}/assets/JP/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/JP/{{ site.version }}/6_2.png)![]({{ site.baseurl }}/assets/JP/{{ site.version }}/6_3.png)
+![]({{ site.baseurl }}/assets/JP/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/JP/{{ site.version }}/6_2.png)
 
 | **カタログメニュー** | **説明** |
 | :--- | :--- |

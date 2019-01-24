@@ -19,7 +19,7 @@ Use the catalog feature to use multiple workloads at once.
 
 The catalog feature is divided into service catalogs and platform catalogs.
 
-![]({{ site.baseurl }}/assets/EN/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/EN/{{ site.version }}/6_2.png)![]({{ site.baseurl }}/assets/EN/{{ site.version }}/6_3.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/EN/{{ site.version }}/6_2.png)
 
 | **Catalog Menu** | **Description**                                        |
 | :--------------- | :----------------------------------------------------- |
