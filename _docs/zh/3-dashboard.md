@@ -36,3 +36,5 @@ sidebar:
 * **各服务程序的上游资源请求量**
 
   可查看正在使用的服务程序中，上游 5 个服务程序的资源分配量。
+
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/3_1.png)
