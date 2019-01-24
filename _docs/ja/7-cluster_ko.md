@@ -1,7 +1,7 @@
 ---
 title: "7.클러스터"
 excerpt: ""
-permalink: /docs/ko/7_notused/
+permalink: 
 redirect_from:
   - /theme-setup/
 toc: false
