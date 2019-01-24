@@ -13,7 +13,7 @@ sidebar:
 
 ---
 
-This feature allows you to easily create, deploy, and manage workloads by creating a template of an application configuration.
+This feature allows you to easily create, deploy, and manage workloads by creating a template of an service configuration.
 
 Use the catalog feature to use multiple workloads at once.
 
@@ -26,6 +26,6 @@ The catalog feature is divided into service catalogs and platform catalogs.
 | Service Catalog  | User-generated catalog                                 |
 | Platform Catalog | Default catalog provided by Cocktail                   |
 | Filter Catalog   | Search for desired template                            |
-| Template         | Collection of workloads that constitute an application |
+| Template         | Collection of workloads that constitute an service     |
 | Deployment       | Deploy workload via catalog                            |
 | Edit             | Edit catalog information                               |
