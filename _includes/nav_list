@@ -38,6 +38,7 @@
             {% endif %}
 
             <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }}</a>
+              {% if child.children != null %}
               <ul>
                 {% for child2 in child.children %}
                   {% comment %} internal/external URL check {% endcomment %}
@@ -57,6 +58,7 @@
                   <li><a href="{{ child_url }}" class="{{ active }}"> - {{ child2.title }}</a></li>
                 {% endfor %}
               </ul>
+              {% endif %}
             </li>
           {% endfor %}
         </ul>
