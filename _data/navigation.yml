@@ -205,69 +205,71 @@ en:
   - title: "Service"
     url: /docs/en/4/
     children:
-    - title: "Application Management"
+    - title: "Service Management"
       url: /docs/en/4.1/
       children:
-        - title: "Application Map"
+        - title: "Service Map"
           url: /docs/en/4.1.1/
           children:
-            - title: "Create Application Map"
+            - title: "Service Map Group Management"
               url: /docs/en/4.1.1.1/
-            - title: "Change Application Map Name"
+            - title: "Create Service Map"
               url: /docs/en/4.1.1.2/
-            - title: "Delete Application Map"
+            - title: "Change Service Map Name"
               url: /docs/en/4.1.1.3/
+            - title: "Delete Service Map"
+              url: /docs/en/4.1.1.4/
         - title: "Group Management"
           url: /docs/en/4.1.2/
-        - title: "Workload"
-          url: /docs/en/4.1.3/
+    - title: "Workload"
+      url: /docs/en/4.2/
+      children:
+        - title: "Create Workload"
+          url: /docs/en/4.2.1/
+        - title: "Edit Workload"
+          url: /docs/en/4.2.2/
+        - title: "View Workload Instance Information"
+          url: /docs/en/4.2.3/
+        - title: "Stop Workload"
+          url: /docs/en/4.2.4/
+        - title: "Start Workload"
+          url: /docs/en/4.2.5/
+        - title: "Restart Workload"
+          url: /docs/en/4.2.6/
+        - title: "Remove Workload"
+          url: /docs/en/4.2.7/
+    - title: "Monitoring"
+      url: /docs/en/4.3/
+    - title: "Pipeline"
+      url: /docs/en/4.4/
+    - title: "Persistent volume"
+      url: /docs/en/4.5/
+      children:
+        - title: "Create Persistent"
+          url: /docs/en/4.5.1/
+        - title: "Remove Persistent"
+          url: /docs/en/4.5.2/
+    - title: "Settings"
+      url: /docs/en/4.6/
+      children:
+        - title: "Config Map"
+          url: /docs/en/4.6.1/
           children:
-            - title: "Create Workload"
-              url: /docs/en/4.1.3.1/
-            - title: "Edit Workload"
-              url: /docs/en/4.1.3.2/
-            - title: "View Workload Instance Information"
-              url: /docs/en/4.1.3.3/
-            - title: "Stop Workload"
-              url: /docs/en/4.1.3.4/
-            - title: "Start Workload"
-              url: /docs/en/4.1.3.5/
-            - title: "Restart Workload"
-              url: /docs/en/4.1.3.6/
-            - title: "Remove Workload"
-              url: /docs/en/4.1.3.7/
-        - title: "Monitoring"
-          url: /docs/en/4.1.4/
-        - title: "Pipeline"
-          url: /docs/en/4.1.5/
-        - title: "퍼시스턴트 볼륨"
-          url: /docs/en/4.1.6/
+            - title: "Add Config Map"
+              url: /docs/en/4.6.1.1/
+            - title: "Edit Config Map"
+              url: /docs/en/4.6.1.2/
+            - title: "Delete Config Map"
+              url: /docs/en/4.6.1.3/
+        - title: "Secret"
+          url: /docs/en/4.6.2/
           children:
-            - title: "퍼시스턴트 생성"
-              url: /docs/en/4.1.6.1/
-            - title: "퍼시스턴트 삭제"
-              url: /docs/en/4.1.6.2/
-        - title: "Settings"
-          url: /docs/en/4.1.7/
-          children:
-            - title: "Config Map"
-              url: /docs/en/4.1.7.1/
-              children:
-                - title: "Add Config Map"
-                  url: /docs/en/4.1.7.1a/
-                - title: "Edit Config Map"
-                  url: /docs/en/4.1.7.1b/
-                - title: "Delete Config Map"
-                  url: /docs/en/4.1.7.1c/
-            - title: "Secret"
-              url: /docs/en/4.1.7.2/
-              children:
-                - title: "Add Secret"
-                  url: /docs/en/4.1.7.2a/
-                - title: "Edit Secret"
-                  url: /docs/en/4.1.7.2b/
-                - title: "Delete Secret"
-                  url: /docs/en/4.1.7.2c/
+            - title: "Add Secret"
+              url: /docs/en/4.6.2.1/
+            - title: "Edit Secret"
+              url: /docs/en/4.6.2.2/
+            - title: "Delete Secret"
+              url: /docs/en/4.6.2.3/
   - title: "Build Management"
     url: /docs/en/5/
     children:
@@ -372,63 +374,65 @@ zh:
         - title: "应用程序表"
           url: /docs/zh/4.1.1/
           children:
+            - title: "应用程序地图组管理"
+              url: /docs/ko/4.1.1.1/
             - title: "应用程序表创建"
-              url: /docs/zh/4.1.1.1/
-            - title: "应用程序表名称修改"
               url: /docs/zh/4.1.1.2/
-            - title: "应用程序表删除"
+            - title: "应用程序表名称修改"
               url: /docs/zh/4.1.1.3/
+            - title: "应用程序表删除"
+              url: /docs/zh/4.1.1.4/
         - title: "群组管理"
           url: /docs/zh/4.1.2/
-        - title: "工作负载"
-          url: /docs/zh/4.1.3/
+    - title: "工作负载"
+      url: /docs/zh/4.2/
+      children:
+        - title: "工作负载创建"
+          url: /docs/zh/4.2.1/
+        - title: "工作负载编辑"
+          url: /docs/zh/4.2.2/
+        - title: "工作负载实例信息查询"
+          url: /docs/zh/4.2.3/
+        - title: "工作负载中断"
+          url: /docs/zh/4.2.4/
+        - title: "工作负载开启"
+          url: /docs/zh/4.2.5/
+        - title: "工作负载重启"
+          url: /docs/zh/4.2.6/
+        - title: "工作负载删除"
+          url: /docs/zh/4.2.7/
+    - title: "监控"
+      url: /docs/zh/4.3/
+    - title: "管道"
+      url: /docs/zh/4.4/
+    - title: "持续量"
+      url: /docs/zh/4.5/
+      children:
+        - title: "创建持久性"
+          url: /docs/zh/4.5.1/
+        - title: "删除持久性"
+          url: /docs/zh/4.5.2/
+    - title: "设置"
+      url: /docs/zh/4.6/
+      children:
+        - title: "配置图"
+          url: /docs/zh/4.6.1/
           children:
-            - title: "工作负载创建"
-              url: /docs/zh/4.1.3.1/
-            - title: "工作负载编辑"
-              url: /docs/zh/4.1.3.2/
-            - title: "工作负载实例信息查询"
-              url: /docs/zh/4.1.3.3/
-            - title: "工作负载中断"
-              url: /docs/zh/4.1.3.4/
-            - title: "工作负载开启"
-              url: /docs/zh/4.1.3.5/
-            - title: "工作负载重启"
-              url: /docs/zh/4.1.3.6/
-            - title: "工作负载删除"
-              url: /docs/zh/4.1.3.7/
-        - title: "监控"
-          url: /docs/zh/4.1.4/
-        - title: "管道"
-          url: /docs/zh/4.1.5/
-        - title: "持久化卷"
-          url: /docs/zh/4.1.6/
+            - title: "配置图添加"
+              url: /docs/zh/4.6.1.1/
+            - title: "配置图修改"
+              url: /docs/zh/4.6.1.2/
+            - title: "配置图删除"
+              url: /docs/zh/4.6.1.3/
+        - title: "Secret"
+          url: /docs/zh/4.6.2/
           children:
-            - title: "持久化卷创建"
-              url: /docs/zh/4.1.6.1/
-            - title: "持久化卷删除"
-              url: /docs/zh/4.1.6.2/
-        - title: "设置"
-          url: /docs/zh/4.1.7/
-          children:
-            - title: "配置图"
-              url: /docs/zh/4.1.7.1/
-              children:
-                - title: "配置图添加"
-                  url: /docs/zh/4.1.7.1a/
-                - title: "配置图修改"
-                  url: /docs/zh/4.1.7.1b/
-                - title: "配置图删除"
-                  url: /docs/zh/4.1.7.1c/
-            - title: "Secret"
-              url: /docs/zh/4.1.7.2/
-              children:
-                - title: "Secret 添加"
-                  url: /docs/zh/4.1.7.2a/
-                - title: "Secret 修改"
-                  url: /docs/zh/4.1.7.2b/
-                - title: "Secret 删除"
-                  url: /docs/zh/4.1.7.2c/
+            - title: "Secret 添加"
+              url: /docs/zh/4.6.2.1/
+            - title: "Secret 修改"
+              url: /docs/zh/4.6.2.2/
+            - title: "Secret 删除"
+              url: /docs/zh/4.6.2.3/
   - title: "Build 管理"
     url: /docs/zh/5/
     children:
@@ -536,63 +540,65 @@ ja:
         - title: "アプリケーションマップ"
           url: /docs/ja/4.1.1/
           children:
-            - title: "アプリケーションマップ作成"
+            - title: "アプリケーションマップグループの管理"
               url: /docs/ja/4.1.1.1/
-            - title: "アプリケーションマップ名の変更"
+            - title: "アプリケーションマップ作成"
               url: /docs/ja/4.1.1.2/
-            - title: "アプリケーションマップ削除"
+            - title: "アプリケーションマップ名の変更"
               url: /docs/ja/4.1.1.3/
+            - title: "アプリケーションマップ削除"
+              url: /docs/ja/4.1.1.4/
         - title: "グループ管理"
           url: /docs/ja/4.1.2/
-        - title: "サーバー"
-          url: /docs/ja/4.1.3/
+    - title: "サーバー"
+      url: /docs/ja/4.2/
+      children:
+        - title: "サーバー作成"
+          url: /docs/ja/4.2.1/
+        - title: "サーバー編集"
+          url: /docs/ja/4.2.2/
+        - title: "サーバーインスタンス情報照会"
+          url: /docs/ja/4.2.3/
+        - title: "サーバー停止"
+          url: /docs/ja/4.2.4/
+        - title: "サーバ起動"
+          url: /docs/ja/4.2.5/
+        - title: "サーバー再起動"
+          url: /docs/ja/4.2.6/
+        - title: "サーバー削除"
+          url: /docs/ja/4.2.7/
+    - title: "モニタリング"
+      url: /docs/ja/4.3/
+    - title: "パイプライン"
+      url: /docs/ja/4.4/
+    - title: "持続的なボリューム"
+      url: /docs/ja/4.5/
+      children:
+        - title: "持続性を作成"
+          url: /docs/ja/4.5.1/
+        - title: "永続的な削除"
+          url: /docs/ja/4.5.2/
+    - title: "設定"
+      url: /docs/ja/4.6/
+      children:
+        - title: "設定マップ"
+          url: /docs/ja/4.6.1/
           children:
-            - title: "サーバー作成"
-              url: /docs/ja/4.1.3.1/
-            - title: "サーバー編集"
-              url: /docs/ja/4.1.3.2/
-            - title: "サーバーインスタンス情報照会"
-              url: /docs/ja/4.1.3.3/
-            - title: "サーバー停止"
-              url: /docs/ja/4.1.3.4/
-            - title: "サーバ起動"
-              url: /docs/ja/4.1.3.5/
-            - title: "サーバー再起動"
-              url: /docs/ja/4.1.3.6/
-            - title: "サーバー削除"
-              url: /docs/ja/4.1.3.7/
-        - title: "モニタリング"
-          url: /docs/ja/4.1.4/
-        - title: "パイプライン"
-          url: /docs/ja/4.1.5/
-        - title: "퍼시스턴트 볼륨"
-          url: /docs/ja/4.1.6/
+            - title: "設定マップ追加"
+              url: /docs/ja/4.6.1.1/
+            - title: "設定マップ変更"
+              url: /docs/ja/4.6.1.2/
+            - title: "設定マップ削除"
+              url: /docs/ja/4.6.1.3/
+        - title: "シークレット"
+          url: /docs/ja/4.6.2/
           children:
-            - title: "퍼시스턴트 생성"
-              url: /docs/ja/4.1.6.1/
-            - title: "퍼시스턴트 삭제"
-              url: /docs/ja/4.1.6.2/
-        - title: "設定"
-          url: /docs/ja/4.1.7/
-          children:
-            - title: "設定マップ"
-              url: /docs/ja/4.1.7.1/
-              children:
-                - title: "設定マップ追加"
-                  url: /docs/ja/4.1.7.1a/
-                - title: "設定マップ変更"
-                  url: /docs/ja/4.1.7.1b/
-                - title: "設定マップ削除"
-                  url: /docs/ja/4.1.7.1c/
-            - title: "シークレット"
-              url: /docs/ja/4.1.7.2/
-              children:
-                - title: "シークレット追加"
-                  url: /docs/ja/4.1.7.2a/
-                - title: "シークレット修正"
-                  url: /docs/ja/4.1.7.2b/
-                - title: "シークレット削除"
-                  url: /docs/ja/4.1.7.2c/
+            - title: "シークレット追加"
+              url: /docs/ja/4.6.2.1/
+            - title: "シークレット修正"
+              url: /docs/ja/4.6.2.2/
+            - title: "シークレット削除"
+              url: /docs/ja/4.6.2.3/
   - title: "ビルド管理"
     url: /docs/ja/5/
     children:
