@@ -1,11 +1,13 @@
 ---
 title: "7.클러스터"
 excerpt: ""
-permalink: 
+permalink: /docs/en/7_/
 redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: false
+sidebar:
+  nav: "en"
 ---
 
 ---
