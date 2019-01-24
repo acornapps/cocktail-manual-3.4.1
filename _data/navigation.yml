@@ -132,31 +132,21 @@ docs:
         url: /docs/ko/6.3/
       - title: "카탈로그 삭제"
         url: /docs/ko/6.4/
+      - title: "카탈로그 내보내기"
+        url: /docs/ko/6.5/
+      - title: "카탈로그 가져오기"
+        url: /docs/ko/6.6/
   - title: "클러스터"
     url: /docs/ko/7/
     children:
       - title: "클러스터 관리"
         url: /docs/ko/7.1/
-        children:
-          - title: "클러스터 추가"
-            url: /docs/ko/7.1.1/
-          - title: "클러스터 편집"
-            url: /docs/ko/7.1.2/
-          - title: "클러스터 삭제"
-            url: /docs/ko/7.1.3/
       - title: "노드"
         url: /docs/ko/7.2/
       - title: "어플리케이션"
         url: /docs/ko/7.3/
       - title: "볼륨"
         url: /docs/ko/7.4/
-        children:
-          - title: "스토리지 추가"
-            url: /docs/ko/7.4.1/
-          - title: "스토리지 편집"
-            url: /docs/ko/7.4.2/
-          - title: "스토리지 삭제"
-            url: /docs/ko/7.4.3/
       - title: "알람"
         url: /docs/ko/7.5/
         children:
@@ -164,6 +154,8 @@ docs:
             url: /docs/ko/7.5.1/
       - title: "미터링"
         url: /docs/ko/7.6/
+      - title: "등록정보"
+        url: /docs/ko/7.7/
   - title: "구성원"
     url: /docs/ko/8/
   - title: "용어 설명"
@@ -304,38 +296,27 @@ en:
         url: /docs/en/6.3/
       - title: "Delete Catalog"
         url: /docs/en/6.4/
+      - title: "Export Catalog"
+        url: /docs/ko/6.5/
+      - title: "Import Catalog"
+        url: /docs/ko/6.6/
   - title: "Cluster"
     url: /docs/en/7/
     children:
       - title: "Cluster Management"
         url: /docs/en/7.1/
-        children:
-          - title: "Add Cluster"
-            url: /docs/en/7.1.1/
-          - title: "Edit Cluster"
-            url: /docs/en/7.1.2/
-          - title: "Delete Cluster"
-            url: /docs/en/7.1.3/
       - title: "Node"
         url: /docs/en/7.2/
-      - title: "Application"
+      - title: "Service"
         url: /docs/en/7.3/
       - title: "Volume"
         url: /docs/en/7.4/
-        children:
-          - title: "Add Storage"
-            url: /docs/en/7.4.1/
-          - title: "Edit Storage"
-            url: /docs/en/7.4.2/
-          - title: "Delete Volume"
-            url: /docs/en/7.4.3/
       - title: "Alerts"
         url: /docs/en/7.5/
-        children:
-          - title: "Alerts List"
-            url: /docs/en/7.5.1/
       - title: "Metering"
         url: /docs/en/7.6/
+      - title: "Registration"
+        url: /docs/en/7.7/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
@@ -476,31 +457,21 @@ zh:
         url: /docs/zh/6.3/
       - title: "目录删除"
         url: /docs/zh/6.4/
+      - title: "目录出口"
+        url: /docs/zh/6.5/
+      - title: "目录进口"
+        url: /docs/zh/6.6/
   - title: "集群"
     url: /docs/zh/7/
     children:
       - title: "集群管理"
         url: /docs/zh/7.1/
-        children:
-          - title: "集群添加"
-            url: /docs/zh/7.1.1/
-          - title: "集群编辑"
-            url: /docs/zh/7.1.2/
-          - title: "集群删除"
-            url: /docs/zh/7.1.3/
       - title: "节点"
         url: /docs/zh/7.2/
       - title: "应用程序"
         url: /docs/zh/7.3/
       - title: "卷"
         url: /docs/zh/7.4/
-        children:
-          - title: "存储添加"
-            url: /docs/zh/7.4.1/
-          - title: "存储编辑"
-            url: /docs/zh/7.4.2/
-          - title: "存储删除"
-            url: /docs/zh/7.4.3/
       - title: "报警"
         url: /docs/zh/7.5/
         children:
@@ -508,6 +479,8 @@ zh:
             url: /docs/zh/7.5.1/
       - title: "计量"
         url: /docs/zh/7.6/
+      - title: "添加"
+        url: /docs/zh/7.7/
   - title: "会员"
     url: /docs/zh/8/
   - title: "术语说明"
@@ -648,31 +621,21 @@ ja:
         url: /docs/ja/6.3/
       - title: "カタログ削除"
         url: /docs/ja/6.4/
+      - title: "カタログ出口"
+        url: /docs/ja/6.5/
+      - title: "カタログ进口"
+        url: /docs/ja/6.6/
   - title: "クラスター"
     url: /docs/ja/7/
     children:
       - title: "クラスター管理"
         url: /docs/ja/7.1/
-        children:
-          - title: "クラスター追加"
-            url: /docs/ja/7.1.1/
-          - title: "クラスター編集"
-            url: /docs/ja/7.1.2/
-          - title: "クラスター削除"
-            url: /docs/ja/7.1.3/
       - title: "ノード"
         url: /docs/ja/7.2/
       - title: "アプリケーション"
         url: /docs/ja/7.3/
       - title: "ボリューム"
         url: /docs/ja/7.4/
-        children:
-          - title: "ストレージ追加"
-            url: /docs/ja/7.4.1/
-          - title: "ストレージ編集"
-            url: /docs/ja/7.4.2/
-          - title: "ストレージ削除"
-            url: /docs/ja/7.4.3/
       - title: "アラーム"
         url: /docs/ja/7.5/
         children:
@@ -680,6 +643,8 @@ ja:
             url: /docs/ja/7.5.1/
       - title: "メータリング"
         url: /docs/ja/7.6/
+      - title: "追加"
+        url: /docs/ja/7.7/
   - title: "Member"
     url: /docs/ja/8/
   - title: "用語説明"
