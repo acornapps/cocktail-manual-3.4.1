@@ -100,7 +100,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/2.2/",
         "teaser":null},{
         "title": "2.2.1 Add Cluster",
-        "excerpt":"This feature allows you to add clusters. a) Cluster → Click the [+] button in the top-right corner. b) Enter basic information (name, k8s version, id, and description). Basic Information Description Name Name of cluster to be added k8s version Kubernetes version installed on cluster (e.g., 1.8.13) ID Cluster unique...","categories": [],
+        "excerpt":"This feature allows you to add clusters. a) Cluster → Click the + Cluster registration button in the top-right corner. b) Enter basic information (name, k8s version, id, and description). Basic Information Description Name Name of cluster to be added k8s version Kubernetes version installed on cluster (e.g., 1.8.13) ID...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.1/",
         "teaser":null},{
@@ -120,7 +120,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/2.2.4/",
         "teaser":null},{
         "title": "2.2.5 Add Storage",
-        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster. b) Select a volume from the detailed cluster screen c) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description Type Threge Type...","categories": [],
+        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster → Select Volume → Click the [+] button in the top-right corner. b) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.5/",
         "teaser":null},{
@@ -134,23 +134,23 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.7/",
         "teaser":null},{
-        "title": "2.3 Service",
-        "excerpt":"Service assigns a workspace to build, deploy, and run applications, and users, clusters, and libraries can be registered for each service. The service list can be filtered by All, Active, or Inactive. (‘Y’ and ‘N’ services are displayed when ‘Active’ and ‘Inactive’ are selected, respectively.) Refer to the Cluster section...","categories": [],
+        "title": "2.3 Workspace",
+        "excerpt":"Allocate workspaces that can be built, deployed, and run. Users, clusters, and libraries can be registered for each workspace. a) Left Main Menu → Workspace Workspace Settings Description Workspace Name Workspace name (Custom ) The number of clusters The number of clusters assigned to the workspace Number of members Number...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3/",
         "teaser":null},{
-        "title": "2.3.1 Add Service",
-        "excerpt":"This feature allows you to add services. Users, clusters, and registries (storage) can be registered for each service. a) Configuration → Service → Click the Service Create button in the top-right corner. b) Enter the service name, description, color, registry, user, and cluster information. c) Only items with the checked...","categories": [],
+        "title": "2.3.1 Add Workspace",
+        "excerpt":"This function creates a workspace. You can register members, clusters, and registry (repository ) for each workspace. a) Click Main Menu → Workspace → Create Workspace in upper right corner. b) Register name, description, color, registry, user and cluster information to be used in the service. c) Only items with...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.1/",
         "teaser":null},{
-        "title": "2.3.2 Edit Service",
-        "excerpt":"This feature allows you to modify service information. The service name, description, color, and status may be changed. Users and clusters associated with the service may also be edited. a) Environment Settings → Service → Service Action Menu → Edit Service → Click the [Update] button when finished. b) The...","categories": [],
+        "title": "2.3.2 Edit Workspace",
+        "excerpt":"This is a function to edit workspace information. You can change the workspace name, description, and color, edit the members to use the service, and edit the cluster to register in the workspace. a) Left Main Menu → Workspace → Workspace Action Menu → Edit Workspace → Click the Modify...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.2/",
         "teaser":null},{
-        "title": "2.3.3 Delete Service",
-        "excerpt":" This feature allows you to delete services. Service deletion will be restricted if clusters are registered with the service at the time of deletion. Be sure to delete any registered clusters from Edit Service before proceeding.   a) Configuration → Service → Service Action Menu &gt; Delete Service.    ","categories": [],
+        "title": "2.3.3 Delete Workspace",
+        "excerpt":" This function deletes the workspace. If the cluster is registered in the workspace, it can not be deleted. You can delete the cluster after removing the cluster from the workspace.   a) Click Main Menu → Workspace → Workspace Action Menu → Delete Workspace on the left.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.3/",
         "teaser":null},{
@@ -609,7 +609,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.1.8/",
         "teaser":null},{
-        "title": "7.クラスター",
+        "title": "2.2 クラスター",
         "excerpt":"  クラスターの登録管理とノードおよびアプリケーション単位の監視、ボリューム、アラーム、コストサービスが提供される。                   クラスタメニュー       説明                       ノード       ノード全体の CPU、 メモリ、 ネットワークの使用量と個々のノードの監視サービス                 アプリケーション       アプリケーション全体の CPU、 メモ、 ネットワークの使用量と、 個々のアプリケーションの 監視 サービス                 ボリューム       ストレージ 管理及びボリューム ステータス                 アラーム       クラスタのイベント情報関連アラームサービス                 コスト       クラスタコストとリソース別コストサービス                 登録       クラスタの照会および修正、 削除          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2/",
@@ -618,6 +618,11 @@ var store = [{
         "excerpt":"クラスターを追加登録することができる機能である。 a) クラスター → 右上の+ボタンをクリック。 b) 基本情報（クラスター名、k8sバージョン、説明）を入力。 基本情報 説明 クラスター名 登録するクラスタの名前 k8sバージョン クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 ID クラスタ固有のID（ユーザー指定）、アラームメッセージRedirect時に必要 説明 クラスタのユーザー説明 c) プロバイダ情報（アカウント、タイプ、地域）を入力。 アカウントのプロバイダとタイプに応じて入力欄が変更される。Baremetalの場合、地域はDefault値を提供し、変更が可能である。 プロバイダ 説明 アカウント 登録されたアカウント タイプ Kubernetesの使用タイプとして、MANAGED、PROVIER、GKEの中から選択 地域 Kubernetesがインストールされたサーバーのリージョン タイプ 説明 MANAGED CUBE Installerを利用して、kubernetesを構成したクラスタ PROVIDER Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合） GKE Google Cloud PlatformのGoogle Kubernetes Engineで構成したクラスタ プロバイダの種類 - MANAGED 追加入力 説明...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2.1/",
+        "teaser":null},{
+        "title": "2.2.1 클러스터 등록",
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.1_/",
         "teaser":null},{
         "title": "2.2.2 クラスター編集",
         "excerpt":"  クラスターの基本情報、プロバイダ、モニタリング、クラスターのタイプを修正する機能である。 プロバイダのアカウント、タイプ、リージョンは変更できない。   a) クラスター → クラスター選択 → 登録 → 変更ボタン → 修正完了後、保存ボタンをクリック。       ","categories": [],
@@ -639,6 +644,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2.5/",
         "teaser":null},{
+        "title": "2.2.5 스토리지 추가",
+        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.5_/",
+        "teaser":null},{
         "title": "2.2.6 ストレージ編集",
         "excerpt":" 登録されたストレージ情報を編集する機能である。 ただし 、nfs-staticタイプのストレージは編集することができない。   a) クラスタ→クラスタ選択 → ボリューム → ボリュームアクションボタン → ストレージの編集をクリック。     b) 名、 説明、 リクレームポリシー、 ストレージクラス名、 パラメータ値の修正が可能。     ","categories": [],
         "tags": [],
@@ -648,6 +658,26 @@ var store = [{
         "excerpt":" 登録されたストレージ情報を削除する機能である。   a) クラスター → クラスター選択→ ボリューム → ボリュームアクションボタン → ボリューム削除をクリック。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2.7/",
+        "teaser":null},{
+        "title": "2.3 워크스페이스",
+        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3/",
+        "teaser":null},{
+        "title": "2.3.1 워크스페이스 생성",
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3.1/",
+        "teaser":null},{
+        "title": "2.3.2 워크스페이스 편집",
+        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3.2/",
+        "teaser":null},{
+        "title": "2.3.3 워크스페이스 삭제",
+        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3.3/",
         "teaser":null},{
         "title": "3.ダッシュボード",
         "excerpt":"  ダッシュボードでは、cocktailでサービスされる情報を一目で確認することができる。           要約情報       現在登録管理されているサービスの数、サーバー数、登録クラスタ数、当月の総クラウドコストを確認することができる。            サーバーステータス       インフラとして使用しているクラウドサービスのプロバイダ別に配置されているサーバーの数が分かる。グーグルGCP、アマゾンAWS、MS Azure、Bare Metal、Private Cloud Platformが登録されている。            クラスタ料金の推移       確認したい 年の月別料金の推移および確認したい月の日別料金の推移までグラフで確認することができる。            クラスタ別上位料金       使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。            クラスタ上位リソース割り当て率       使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。            サービス別上位リソース割り当て量       使用中のサービスのうち、上位5つのサービスのリソース割り当て量を確認することができる。      ","categories": [],
@@ -1100,7 +1130,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.2/",
         "teaser":null},{
         "title": "2.2.1 클러스터 등록",
-        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 클러스터 등록 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.1/",
         "teaser":null},{
@@ -1135,22 +1165,22 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.2.7/",
         "teaser":null},{
         "title": "2.3 워크스페이스",
-        "excerpt":"어플리케이션을 빌드 및 배포, 운영할 수 있는 Work Space를 할당한다. 서비스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다. 서비스 목록을 전체/사용/미사용으로 분류하여 조회 할 수 있다. (사용여부가 Y인 서비스는 ‘사용’, N인 서비스는 ‘미사용’ 선택 시 표시된다.) 클러스터 추가는 해당 메뉴얼의 클러스터 설명을 참고 한다. a) 환경설정 → 서비스 → 사용여부 버튼을...","categories": [],
+        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3/",
         "teaser":null},{
         "title": "2.3.1 워크스페이스 생성",
-        "excerpt":"서비스를 추가 하는 기능이다. 서비스 별로 사용자 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 환경설정 → 서비스 → 오른쪽 상단 서비스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집 클러스터...","categories": [],
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.1/",
         "teaser":null},{
         "title": "2.3.2 워크스페이스 편집",
-        "excerpt":" 서비스 정보를 편집하는 기능이다. 서비스 이름, 설명, 색상, 상태 변경이 가능하며 해당 서비스를 사용할 사용자 편집, 서비스에 등록할 클러스터 편집이 가능하다.   a) 환경설정 → 서비스 → 서비스 액션 메뉴 → 서비스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 서비스 이름, 설명, 색상, 상태 및 사용자, 클러스터 수정이 가능하다.    ","categories": [],
+        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.2/",
         "teaser":null},{
         "title": "2.3.3 워크스페이스 삭제",
-        "excerpt":" 서비스를 삭제 하는 기능이다. 삭제 시, 서비스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 서비스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 환경설정 → 서비스 → 서비스 액션 메뉴 → 서비스 삭제를 클릭한다.    ","categories": [],
+        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.3/",
         "teaser":null},{
@@ -1559,6 +1589,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.1/",
         "teaser":null},{
+        "title": "2.2.1 클러스터 등록",
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.1_/",
+        "teaser":null},{
         "title": "2.2.2 集群编辑",
         "excerpt":" 修改集群的基本信息、供应商、监控、集群类型的功能。但不能修改供应商的账号、类型、重 定向。   a) 集群→选择集群→注册管理→修改按钮→修改结束后，点击保存按钮。     ","categories": [],
         "tags": [],
@@ -1579,6 +1614,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.5/",
         "teaser":null},{
+        "title": "2.2.5 스토리지 추가",
+        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.5_/",
+        "teaser":null},{
         "title": "2.2.6 存储编辑",
         "excerpt":" 编辑已注册存储信息的功能。但，不能编辑 NFS 命名类型的存储。   a) 集群→选择集群→卷→卷操作按钮→点击存储编辑。     b) 不能修改名称、说明、策略、存储类别名称、参数值。    ","categories": [],
         "tags": [],
@@ -1589,23 +1629,23 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.7/",
         "teaser":null},{
-        "title": "2.3 服务",
-        "excerpt":" 分配工作区，而工作区能 Build、部署、运营应用程序。可按照服务种类注册用户、集群、库。   服务目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，服务选择的是‘使用’; 显示为‘N’，选择的是‘未使用’)   集群添加参考本说明书的集群部分说明。   a) 点击环境设置→服务→使用与否，从‘全部/使用/未使用’中选择一个。                    用户设置       说明                       使用与否       根据使用与否查询过滤(全部/使用/未使用)                 服务创建       切换到服务添加页面                 名称       服务名称(用户指定)                 使用与否       当前服务的使用与否                 集群       服务里已注册的集群项目          ","categories": [],
+        "title": "2.3 워크스페이스",
+        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3/",
         "teaser":null},{
-        "title": "2.3.1 服务添加",
-        "excerpt":" 添加服务的功能。可根据服务类别，注册用户以及集群、注册表(存储库)。   a) 点击环境设置→服务→右上角的服务创建。     b) 填写需要注册服务的名称、说明、颜色、注册表以及用户、集群信息。     c) 用户、集群添加，只反映被选的复选框内容。           用户编辑            用户编辑      ","categories": [],
+        "title": "2.3.1 워크스페이스 생성",
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.1/",
         "teaser":null},{
-        "title": "2.3.2 服务编辑",
-        "excerpt":" 编辑服务信息的功能。可以修改服务名称、说明、颜色、状态，也可以编辑使用该服务的用户以及需要注册在服务目录的集群。   a) 环境设置→服务→服务操作菜单→服务编辑→修改结束后，点击修改。     b) 可修改服务名称、说明、颜色、状态以及用户、集群。    ","categories": [],
+        "title": "2.3.2 워크스페이스 편집",
+        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.2/",
         "teaser":null},{
-        "title": "2.3.3 服务删除",
-        "excerpt":" 删除服务的功能。删除时，如为服务目录中已注册集群，则不能删除，可以先从服务编辑中删除集群后再删除。   a) 点击环境设置→服务→服务操作菜单→服务删除。    ","categories": [],
+        "title": "2.3.3 워크스페이스 삭제",
+        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.3/",
         "teaser":null},{
