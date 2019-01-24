@@ -1,11 +1,13 @@
 ---
 title: "6.카탈로그"
 excerpt: ""
-permalink: /docs/ko/6/
+permalink: /docs/zh/6_/
 redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: false
+sidebar:
+  nav: "zh"
 ---
 
 ---
@@ -15,7 +17,7 @@ toc_sticky: false
 
 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다.
 
-![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_2.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_3.png)
+![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/6_2.png)![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/6_3.png)
 
 | **카탈로그 메뉴**    | **설명**                       |
 | :------------- | :--------------------------- |
