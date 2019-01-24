@@ -1,7 +1,7 @@
 ---
 title: "3.ダッシュボード"
 excerpt: ""
-permalink: /docs/ja/3/
+permalink: /docs/ja/3_/
 redirect_from:
   - /theme-setup/
 toc: false

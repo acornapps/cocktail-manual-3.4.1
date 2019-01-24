@@ -1,7 +1,7 @@
 ---
 title: "3.仪表盘"
 excerpt: ""
-permalink: /docs/zh/3/
+permalink: /docs/zh/3_/
 redirect_from:
   - /theme-setup/
 toc: false
