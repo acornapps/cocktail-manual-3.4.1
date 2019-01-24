@@ -27,38 +27,10 @@ docs:
     children:
     - title: "시스템"
       url: /docs/ko/2.1/
-      children:
-        - title: "사용자 추가"
-          url: /docs/ko/2.1.1/
-        - title: "시스템 편집"
-          url: /docs/ko/2.1.2/
-        - title: "사용자 삭제"
-          url: /docs/ko/2.1.3/
-        - title: "사용자 비밀번호 초기화"
-          url: /docs/ko/2.1.4/
     - title: "클러스터"
       url: /docs/ko/2.2/
-      children:
-        - title: "클러스터 추가"
-          url: /docs/ko/2.2.1/
-          children:
-            - title: "AWS 계정 추가"
-              url: /docs/ko/2.2.1.1/
-            - title: "GCP 계정 추가"
-              url: /docs/ko/2.2.1.2/
-        - title: "클러스터 편집"
-          url: /docs/ko/2.2.2/
-        - title: "클러스터 삭제"
-          url: /docs/ko/2.2.3/
     - title: "워크스페이스"
       url: /docs/ko/2.3/
-      children:
-        - title: "워크스페이스 추가"
-          url: /docs/ko/2.3.1/
-        - title: "워크스페이스 편집"
-          url: /docs/ko/2.3.2/
-        - title: "워크스페이스 삭제"
-          url: /docs/ko/2.3.3/
   - title: "대시보드"
     url: /docs/ko/3/
     children:
@@ -160,31 +132,21 @@ docs:
         url: /docs/ko/6.3/
       - title: "카탈로그 삭제"
         url: /docs/ko/6.4/
+      - title: "카탈로그 내보내기"
+        url: /docs/ko/6.5/
+      - title: "카탈로그 가져오기"
+        url: /docs/ko/6.6/
   - title: "클러스터"
     url: /docs/ko/7/
     children:
-      - title: "클러스터 관리"
+      - title: "클러스터 목록"
         url: /docs/ko/7.1/
-        children:
-          - title: "클러스터 추가"
-            url: /docs/ko/7.1.1/
-          - title: "클러스터 편집"
-            url: /docs/ko/7.1.2/
-          - title: "클러스터 삭제"
-            url: /docs/ko/7.1.3/
       - title: "노드"
         url: /docs/ko/7.2/
-      - title: "어플리케이션"
+      - title: "서비스"
         url: /docs/ko/7.3/
       - title: "볼륨"
         url: /docs/ko/7.4/
-        children:
-          - title: "스토리지 추가"
-            url: /docs/ko/7.4.1/
-          - title: "스토리지 편집"
-            url: /docs/ko/7.4.2/
-          - title: "스토리지 삭제"
-            url: /docs/ko/7.4.3/
       - title: "알람"
         url: /docs/ko/7.5/
         children:
@@ -192,6 +154,8 @@ docs:
             url: /docs/ko/7.5.1/
       - title: "미터링"
         url: /docs/ko/7.6/
+      - title: "등록정보"
+        url: /docs/ko/7.7/
   - title: "구성원"
     url: /docs/ko/8/
   - title: "용어 설명"
@@ -227,40 +191,12 @@ en:
   - title: "System Management"
     url: /docs/en/2/
     children:
-    - title: "Users"
+    - title: "System"
       url: /docs/en/2.1/
-      children:
-        - title: "Add User"
-          url: /docs/en/2.1.1/
-        - title: "Edit User"
-          url: /docs/en/2.1.2/
-        - title: "Delete User"
-          url: /docs/en/2.1.3/
-        - title: "Reset User Password"
-          url: /docs/en/2.1.4/
-    - title: "Account"
+    - title: "Cluster"
       url: /docs/en/2.2/
-      children:
-        - title: "Add Account"
-          url: /docs/en/2.2.1/
-          children:
-            - title: "Add AWS Account"
-              url: /docs/en/2.2.1.1/
-            - title: "Add GCP Account"
-              url: /docs/en/2.2.1.2/
-        - title: "Edit Account"
-          url: /docs/en/2.2.2/
-        - title: "Delete Account"
-          url: /docs/en/2.2.3/
-    - title: "Service"
+    - title: "Workspace"
       url: /docs/en/2.3/
-      children:
-        - title: "Add Service"
-          url: /docs/en/2.3.1/
-        - title: "Edit Service"
-          url: /docs/en/2.3.2/
-        - title: "Delete Service"
-          url: /docs/en/2.3.3/
   - title: "Dashboard"
     url: /docs/en/3/
     children:
@@ -360,38 +296,27 @@ en:
         url: /docs/en/6.3/
       - title: "Delete Catalog"
         url: /docs/en/6.4/
+      - title: "Export Catalog"
+        url: /docs/ko/6.5/
+      - title: "Import Catalog"
+        url: /docs/ko/6.6/
   - title: "Cluster"
     url: /docs/en/7/
     children:
       - title: "Cluster Management"
         url: /docs/en/7.1/
-        children:
-          - title: "Add Cluster"
-            url: /docs/en/7.1.1/
-          - title: "Edit Cluster"
-            url: /docs/en/7.1.2/
-          - title: "Delete Cluster"
-            url: /docs/en/7.1.3/
       - title: "Node"
         url: /docs/en/7.2/
-      - title: "Application"
+      - title: "Service"
         url: /docs/en/7.3/
       - title: "Volume"
         url: /docs/en/7.4/
-        children:
-          - title: "Add Storage"
-            url: /docs/en/7.4.1/
-          - title: "Edit Storage"
-            url: /docs/en/7.4.2/
-          - title: "Delete Volume"
-            url: /docs/en/7.4.3/
       - title: "Alerts"
         url: /docs/en/7.5/
-        children:
-          - title: "Alerts List"
-            url: /docs/en/7.5.1/
       - title: "Metering"
         url: /docs/en/7.6/
+      - title: "Registration"
+        url: /docs/en/7.7/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
@@ -424,43 +349,15 @@ zh:
         url: /docs/zh/0.6/
   - title: "登录"
     url: /docs/zh/1/
-  - title: "环境设置"
+  - title: "系统管理"
     url: /docs/zh/2/
     children:
-    - title: "用户"
+    - title: "系统"
       url: /docs/zh/2.1/
-      children:
-        - title: "用户添加"
-          url: /docs/zh/2.1.1/
-        - title: "用户编辑"
-          url: /docs/zh/2.1.2/
-        - title: "用户删除"
-          url: /docs/zh/2.1.3/
-        - title: "用户密码初始化"
-          url: /docs/zh/2.1.4/
-    - title: "账号"
+    - title: "簇"
       url: /docs/zh/2.2/
-      children:
-        - title: "账号添加"
-          url: /docs/zh/2.2.1/
-          children:
-            - title: "AWS 账号添加"
-              url: /docs/zh/2.2.1.1/
-            - title: "GCP 账号添加"
-              url: /docs/zh/2.2.1.2/
-        - title: "账号编辑"
-          url: /docs/zh/2.2.2/
-        - title: "账号删除"
-          url: /docs/zh/2.2.3/
-    - title: "服务"
+    - title: "工作区"
       url: /docs/zh/2.3/
-      children:
-        - title: "服务添加"
-          url: /docs/zh/2.3.1/
-        - title: "服务编辑"
-          url: /docs/zh/2.3.2/
-        - title: "服务删除"
-          url: /docs/zh/2.3.3/
   - title: "仪表盘"
     url: /docs/zh/3/
     children:
@@ -560,31 +457,21 @@ zh:
         url: /docs/zh/6.3/
       - title: "目录删除"
         url: /docs/zh/6.4/
+      - title: "目录出口"
+        url: /docs/zh/6.5/
+      - title: "目录进口"
+        url: /docs/zh/6.6/
   - title: "集群"
     url: /docs/zh/7/
     children:
       - title: "集群管理"
         url: /docs/zh/7.1/
-        children:
-          - title: "集群添加"
-            url: /docs/zh/7.1.1/
-          - title: "集群编辑"
-            url: /docs/zh/7.1.2/
-          - title: "集群删除"
-            url: /docs/zh/7.1.3/
       - title: "节点"
         url: /docs/zh/7.2/
       - title: "应用程序"
         url: /docs/zh/7.3/
       - title: "卷"
         url: /docs/zh/7.4/
-        children:
-          - title: "存储添加"
-            url: /docs/zh/7.4.1/
-          - title: "存储编辑"
-            url: /docs/zh/7.4.2/
-          - title: "存储删除"
-            url: /docs/zh/7.4.3/
       - title: "报警"
         url: /docs/zh/7.5/
         children:
@@ -592,6 +479,8 @@ zh:
             url: /docs/zh/7.5.1/
       - title: "计量"
         url: /docs/zh/7.6/
+      - title: "添加"
+        url: /docs/zh/7.7/
   - title: "会员"
     url: /docs/zh/8/
   - title: "术语说明"
@@ -624,43 +513,15 @@ ja:
         url: /docs/ja/0.6/
   - title: "ログイン"
     url: /docs/ja/1/
-  - title: "System Management"
+  - title: "システムマネジメント"
     url: /docs/ja/2/
     children:
-    - title: "Users"
+    - title: "システム"
       url: /docs/ja/2.1/
-      children:
-        - title: "Add User"
-          url: /docs/ja/2.1.1/
-        - title: "Edit User"
-          url: /docs/ja/2.1.2/
-        - title: "Delete User"
-          url: /docs/ja/2.1.3/
-        - title: "Reset User Password"
-          url: /docs/ja/2.1.4/
-    - title: "Account"
+    - title: "クラスタ"
       url: /docs/ja/2.2/
-      children:
-        - title: "Add Account"
-          url: /docs/ja/2.2.1/
-          children:
-            - title: "Add AWS Account"
-              url: /docs/ja/2.2.1.1/
-            - title: "Add GCP Account"
-              url: /docs/ja/2.2.1.2/
-        - title: "Edit Account"
-          url: /docs/ja/2.2.2/
-        - title: "Delete Account"
-          url: /docs/ja/2.2.3/
-    - title: "Service"
+    - title: "ワークスペース"
       url: /docs/ja/2.3/
-      children:
-        - title: "Add Service"
-          url: /docs/ja/2.3.1/
-        - title: "Edit Service"
-          url: /docs/ja/2.3.2/
-        - title: "Delete Service"
-          url: /docs/ja/2.3.3/
   - title: "ダッシュボード"
     url: /docs/ja/3/
     children:
@@ -760,31 +621,21 @@ ja:
         url: /docs/ja/6.3/
       - title: "カタログ削除"
         url: /docs/ja/6.4/
+      - title: "カタログ出口"
+        url: /docs/ja/6.5/
+      - title: "カタログ进口"
+        url: /docs/ja/6.6/
   - title: "クラスター"
     url: /docs/ja/7/
     children:
       - title: "クラスター管理"
         url: /docs/ja/7.1/
-        children:
-          - title: "クラスター追加"
-            url: /docs/ja/7.1.1/
-          - title: "クラスター編集"
-            url: /docs/ja/7.1.2/
-          - title: "クラスター削除"
-            url: /docs/ja/7.1.3/
       - title: "ノード"
         url: /docs/ja/7.2/
       - title: "アプリケーション"
         url: /docs/ja/7.3/
       - title: "ボリューム"
         url: /docs/ja/7.4/
-        children:
-          - title: "ストレージ追加"
-            url: /docs/ja/7.4.1/
-          - title: "ストレージ編集"
-            url: /docs/ja/7.4.2/
-          - title: "ストレージ削除"
-            url: /docs/ja/7.4.3/
       - title: "アラーム"
         url: /docs/ja/7.5/
         children:
@@ -792,6 +643,8 @@ ja:
             url: /docs/ja/7.5.1/
       - title: "メータリング"
         url: /docs/ja/7.6/
+      - title: "追加"
+        url: /docs/ja/7.7/
   - title: "Member"
     url: /docs/ja/8/
   - title: "用語説明"

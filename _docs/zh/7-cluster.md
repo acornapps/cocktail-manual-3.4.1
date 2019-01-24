@@ -11,7 +11,7 @@ sidebar:
 ---
 
 ---
-提供集群的注册管理，以及节点和应用程序为单位的监控、卷、报警和计量服务。![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/5_1.png)
+提供集群的注册管理，以及节点和应用程序为单位的监控、卷、报警和计量服务。![]({{ site.baseurl }}/assets/ZH/{{ site.version }}/7_1.png)
 
 | **集群菜单** | **说明** |
 | :--- | :--- |
