@@ -320,7 +320,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/5.1/",
         "teaser":null},{
         "title": "5.2 Edit Task Settings",
-        "excerpt":"This feature allows you to modify build tasks. a) Left main menu → Build → Build Action Menu (Activation) → Select the [Edit Task Settings] to go to that page. b) Edit basic information, application download, application build, and image build contents, and click [Edit] button to edit task settings....","categories": [],
+        "excerpt":"This feature allows you to modify build tasks. a) Left main menu → Build → Build Action Menu (Activation) → Select the [Task Config Edit] to go to that page. b) Edit basic information, application download, application build, and image build contents, and click [Edit] button to edit task settings....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.2/",
         "teaser":null},{
@@ -330,12 +330,12 @@ var store = [{
         "url": "http://localhost:4000/docs/en/5.3/",
         "teaser":null},{
         "title": "5.4 Execute Build",
-        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Build Action Menu(Activation) of the build task to be executed from the build list Select [Run Build] from the Actions menu to activate...","categories": [],
+        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Build Action Menu(Activation) of the build task to be executed from the build list Select [Build Run] from the Actions menu to activate...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.4/",
         "teaser":null},{
         "title": "5.5 Cancel Build",
-        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) In the build list, cancel the build operation by selecting the Build Action menu (Activation ) → [Cancel Build] of the build operation to be canceled.    ","categories": [],
+        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) In the build list, cancel the build operation by selecting the Build Action menu (Activation ) → [Build Cancel] of the build operation to be canceled.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.5/",
         "teaser":null},{
@@ -345,7 +345,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/5.6/",
         "teaser":null},{
         "title": "5.7 Delete Task",
-        "excerpt":"  This feature allows you to delete build tasks.   a) Build Action menu(Activation) in the Build Action to delete from the list of builds → select [Delete Task] and you can delete the build operation.    ","categories": [],
+        "excerpt":"  This feature allows you to delete build tasks.   a) Build Action menu(Activation) in the Build Action to delete from the list of builds → select [Task Delete] and you can delete the build operation.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.7/",
         "teaser":null},{
@@ -500,7 +500,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/0.2/",
         "teaser":null},{
         "title": "サービス管理レイヤー",
-        "excerpt":"  一般的に、一つのアプリケーションやサービスは、多数のコンテナで構成されている。特にKubernetesのようなオーケストレーションエンジンの場合、コンテナ以外にもサービスポート、コントローラ、ボリュームなどの追加オブジェクトを必要とする。したがって、コンテナベースのアプリケーションおよびサービスを管理するためには、コンテナと関連オブジェクトをパッケージ化して管理する抽象化の単位が必要である。サービス管理レイヤーは、これを担うレイヤーである。   カクテルクラウドのサービス管理は、以下のような階層構造を有する。           Service : 最上位階層としてサービスに必要なクラスタリソース、イメージレジストリ、イメージビルドを割り当て管理するグループ。開発、運用者の役割に応じて権限を付与し、独立させて管理を行うことができる。カクテルクラウドでは、必要に応じて多数のサービスを作成し、チームやサービスごとに割り当てて管理することができる。            Application Map : アプリケーションの構成と管理を行う単位で、一つのワークロード（Workload）に対応している。例えば、一つのサービスを開発系、検証系、運用系に該当するアプリケーションマップで構成することができるほか、データ管理、分析システムなどの役割に基づいて、アプリケーションマップを構成することもできる。アプリケーションマップは、論理的にワークロードのための多数のコンテナの構成を管理する単位といえる。前述したサービスは、複数のアプリケーションマップで構成されている。            Cocktail Server : コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。アプリケーションマップは、複数のカクテルサーバーで構成されている。例えば、Webサーバー、DBサーバーなどのコンポーネントに基づいてサーバーを構成することもでき、小規模のマイクロサービスもカクテルサーバーとして構成することができる。 カクテルサーバーの詳細は、下記のとおりである。       下の図は、サービス管理レイヤーの構成を図式化したものである。      Cocktail Server   サービス管理レイヤーにおいて、最も重要な役割を担っているのがカクテルサーバーだ。前述したとおり、カクテルサーバーは、コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。カクテルサーバーは、パッケージ化されたオブジェクトの作成、更新などライフサイクルを管理するとともに、状態とリソースをパッケージ単位で監視し、管理する。   これを図式化したのが下の図である。      カクテルサーバーが提供する管理機能には、次のようなものがある。           サーバーの作成、修正（更新）、停止、再起動、削除、オートスケール            ローリングアップデート            サービスポート管理            ボリューム管理            監視            インスペクティング : オーケストレーションオブジェクトの状態およびデプロイの情報を照会            ウェブターミナル、ログを照会：コンテナのシェル接続。コンテナのログ照会         Previous Topic : クラスタ管理のレイヤー   Next Topic : パイプラインレイヤー   ","categories": [],
+        "excerpt":"  一般的に、一つのアプリケーションやサービスは、多数のコンテナで構成されている。特にKubernetesのようなオーケストレーションエンジンの場合、コンテナ以外にもサービスポート、コントローラ、ボリュームなどの追加オブジェクトを必要とする。したがって、コンテナベースのアプリケーションおよびサービスを管理するためには、コンテナと関連オブジェクトをパッケージ化して管理する抽象化の単位が必要である。サービス管理レイヤーは、これを担うレイヤーである。   カクテルクラウドのサービス管理は、以下のような階層構造を有する。           Service : 最上位階層としてサービスに必要なクラスタリソース、イメージレジストリ、イメージビルドを割り当て管理するグループ。開発、運用者の役割に応じて権限を付与し、独立させて管理を行うことができる。カクテルクラウドでは、必要に応じて多数のサービスを作成し、チームやサービスごとに割り当てて管理することができる。            Service Map : アプリケーションの構成と管理を行う単位で、一つのワークロード（Workload）に対応している。例えば、一つのサービスを開発系、検証系、運用系に該当するアプリケーションマップで構成することができるほか、データ管理、分析システムなどの役割に基づいて、アプリケーションマップを構成することもできる。アプリケーションマップは、論理的にワークロードのための多数のコンテナの構成を管理する単位といえる。前述したサービスは、複数のアプリケーションマップで構成されている。            Cocktail Server : コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。アプリケーションマップは、複数のカクテルサーバーで構成されている。例えば、Webサーバー、DBサーバーなどのコンポーネントに基づいてサーバーを構成することもでき、小規模のマイクロサービスもカクテルサーバーとして構成することができる。 カクテルサーバーの詳細は、下記のとおりである。       下の図は、サービス管理レイヤーの構成を図式化したものである。      Cocktail Server   サービス管理レイヤーにおいて、最も重要な役割を担っているのがカクテルサーバーだ。前述したとおり、カクテルサーバーは、コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。カクテルサーバーは、パッケージ化されたオブジェクトの作成、更新などライフサイクルを管理するとともに、状態とリソースをパッケージ単位で監視し、管理する。   これを図式化したのが下の図である。      カクテルサーバーが提供する管理機能には、次のようなものがある。           サーバーの作成、修正（更新）、停止、再起動、削除、オートスケール            ローリングアップデート            サービスポート管理            ボリューム管理            監視            インスペクティング : オーケストレーションオブジェクトの状態およびデプロイの情報を照会            ウェブターミナル、ログを照会：コンテナのシェル接続。コンテナのログ照会         Previous Topic : クラスタ管理のレイヤー   Next Topic : パイプラインレイヤー   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/0.3/",
         "teaser":null},{
@@ -1500,7 +1500,7 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/0.2/",
         "teaser":null},{
         "title": "服务管理层(Service Management Layer)",
-        "excerpt":"通常情况下一个应用程序及服务由多个容器组成。尤其是类似 Kubernetes 的编排引擎，容器以 外还需额外增加服务端口、控制器、卷等对象。因此基于容器的应用程序及服务管理，需要压 缩和管理容器以及相关对象的抽象单位。服务管理层就是负责该领域的图层。 层积云的服务管理拥有如下阶层架构。 服务(Service) : 是最上游阶层，分配和管理服务所必要的集群资源、映像注册表、映像 Build 的群组。根据开发人员和运营人员的角色赋予权限，能独立进行管理。层积云可根据需求， 创建多个服务，并按组或服务分配以及管理。 应用程序表(Application Map) : 是组成和管理应用程序的单位，相当于一个工作负载 (Workload)。例如一个服务可以由开发阶层、验证阶层、运营阶层的应用程序表组成，也 可以按照数据管理、分析系统类似功能组成应用程序表。从逻辑角度上，可以说应用程表 是管理工作负载为目的的由多个容器组成的单位。如前所述，服务由一个以上的应用程序 表组成。 层积云服务器(Cocktail Server) : 是容器和相关编排对象的压缩单位。应用程序表由一个 以上的层积云服务器组成。例如，可以 Web 服务器、DB 服务器等类似组件为准组成服务 器，也可以由小规模微服务为准组成层积云服务器。关于层积云服务器，后面进一步详细 说明。 下图是服务管理图层的配置图。 层积云服务器(Cocktail Server) 层积云服务器在服务管理层发挥最核心的功能。如前所述，层积云服务器是容器和相关编排对 象的压缩单位。层积云管理压缩对象的创建、更新等生命周期，同时把状态和资源作为一个压 缩单位进行监控以及管理。 以下是图实例。 层积云提供的管理职能有如下内容: 工作负载的创建、修改(更新)、停止、重启、删除、自动缩放 滚动更新 卷管理 服务端口管理 监控 检查 : 编排对象的状态以及部署信息查询 网络终端、日志查询 : 容器壳连接、容器日志查询 上文...","categories": [],
+        "excerpt":"通常情况下一个应用程序及服务由多个容器组成。尤其是类似 Kubernetes 的编排引擎，容器以 外还需额外增加服务端口、控制器、卷等对象。因此基于容器的应用程序及服务管理，需要压 缩和管理容器以及相关对象的抽象单位。服务管理层就是负责该领域的图层。 层积云的服务管理拥有如下阶层架构。 服务(Service) : 是最上游阶层，分配和管理服务所必要的集群资源、映像注册表、映像 Build 的群组。根据开发人员和运营人员的角色赋予权限，能独立进行管理。层积云可根据需求， 创建多个服务，并按组或服务分配以及管理。 服务地图(Service Map) : 是组成和管理应用程序的单位，相当于一个工作负载 (Workload)。例如一个服务可以由开发阶层、验证阶层、运营阶层的应用程序表组成，也 可以按照数据管理、分析系统类似功能组成应用程序表。从逻辑角度上，可以说应用程表 是管理工作负载为目的的由多个容器组成的单位。如前所述，服务由一个以上的应用程序 表组成。 层积云服务器(Cocktail Server) : 是容器和相关编排对象的压缩单位。应用程序表由一个 以上的层积云服务器组成。例如，可以 Web 服务器、DB 服务器等类似组件为准组成服务 器，也可以由小规模微服务为准组成层积云服务器。关于层积云服务器，后面进一步详细 说明。 下图是服务管理图层的配置图。 层积云服务器(Cocktail Server) 层积云服务器在服务管理层发挥最核心的功能。如前所述，层积云服务器是容器和相关编排对 象的压缩单位。层积云管理压缩对象的创建、更新等生命周期，同时把状态和资源作为一个压 缩单位进行监控以及管理。 以下是图实例。 层积云提供的管理职能有如下内容: 工作负载的创建、修改(更新)、停止、重启、删除、自动缩放 滚动更新 卷管理 服务端口管理 监控 检查 : 编排对象的状态以及部署信息查询 网络终端、日志查询 : 容器壳连接、容器日志查询 上文...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/0.3/",
         "teaser":null},{
