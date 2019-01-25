@@ -135,7 +135,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/2.3/",
         "teaser":null},{
         "title": "2.3.1 Add Workspace",
-        "excerpt":"This function creates a workspace. You can register members, clusters, and registry (repository ) for each workspace. a) Click Main Menu → Workspace → Create Workspace in upper right corner. b) Register name, description, color, registry, user and cluster information to be used in the service. c) Only items with...","categories": [],
+        "excerpt":"This function creates a workspace. You can register members, clusters, and registry (repository ) for each workspace. a) Click Main Menu → Workspace → Create Workspace in upper right corner. b) Register name, description, color, registry, member and cluster information to be used in the service. c) Only items with...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.1/",
         "teaser":null},{
@@ -524,10 +524,10 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/0.6/",
         "teaser":null},{
-        "title": "Dashboard Layer (대시보드 레이어)",
+        "title": "ダッシュボードレイヤー",
         "excerpt":"Cocktail Cloud의 대시보드 레이어는 서비스 현황, 모니터링, 클러스터 현황 등을 웹UI형태로 제공한다. 대시보드는 사용자의 역할에 맞는 뷰를 권한에 따라 제공한다. Cocktail Cloud의 사용자 권한은 다음과 같다. Administrator(Admin) : 클러스터 관리를 수행하고, Cocktail Cloud의 모든 서비스에 대해 관리 권한을 가진다. DevOps : 할당된 하나 이상의 워크스페이스에 대해서만 관리 권한을 가진다. 워크스페이스...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/0.6/",
+        "url": "http://localhost:4000/docs/ja/0.6_/",
         "teaser":null},{
         "title": "1.ログイン",
         "excerpt":"  カクテルクラウドの初期ログイン画面は、以下のとおりである。   System、ID、Passwordを入力後、ログイン。   （IDは管理者に別途確認必要）      最初の接続やパスワードの初期化時には、 必ずパスワードを変更する必要がある。      期間が90日を経過した場合にも、 パスワードを変更したり、 パスワードを延長することができる。     ","categories": [],
@@ -1320,7 +1320,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.3/",
         "teaser":null},{
         "title": "2.3.1 워크스페이스 생성",
-        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 구성원, 클러스터 정보를 등록한다. c) 구성원, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 클러스터 편집...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.1/",
         "teaser":null},{
@@ -1800,7 +1800,7 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/2.3/",
         "teaser":null},{
         "title": "2.3.1 워크스페이스 생성",
-        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 구성원, 클러스터 정보를 등록한다. c) 구성원, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 클러스터 편집...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.1/",
         "teaser":null},{
