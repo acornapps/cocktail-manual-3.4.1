@@ -1174,6 +1174,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/9.2/",
         "teaser":null},{
+        "title": "9.2 Cocktail Cloud",
+        "excerpt":"1.환경설정 Cocktail Cloud을 이용하기 위해서 사전에 정보를 등록하는 서비스 용어 설명 사용자 Cocktail Cloud을 이용하기 위한 사용자 관리를 지원 계정 k8s Cluster에 대한 사용자 인증 정보에 대한 관리를 지원 서비스 업무 또는 프로젝트 단위로 작업을 분산하여 관리. 관리자는 일반사용자에 대하여 서비스 단위로 접근권한을 부여할 수 있다. C.클러스터 : k8s를 사용하기...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/9.2/",
+        "teaser":null},{
         "title": "9.3 Cocktail System Error Code",
         "excerpt":"1. エラーコード コード メッセージ CCCM001 具体エラー番号を明らかにすることができません。 CCCM002 不明なエラー CCCM004 無効な関数呼び出し引数 CCCM005 不正なリクエスト CCCM006 渡された情報が正しくありません CCCM007 サーバー, ジョブなどが正しくないか, 要求を処理できません CCCM019 内部サーバーエラー CCCM020 外部呼び出しAPIがエラーを返すか, 呼び出しに失敗しました CCCM023 実行するアクションはありません CCCM026 エラーが発生しました。 CCCM027 登録中にエラーが発生しました。 CCCM028 修正中にエラーが発生しました。 CCCM029 削除中にエラーが発生しました。 CCCM030 照会中にエラーが発生しました。 CDCM031 データベース操作中にエラーが発生しました。 しばらくして、再試行してください 。問題が解決しない場合は、 管理者にお問い合わせください。 CDCM032 データベース接続中にエラーが発生しました。 しばらくして、再試行してください。 可能な場合は、 データベースの接続状態を確認したり、 管理者に問い合わせてください。 CKSY001 Cube Cluster APIエラーが発生しました。...","categories": [],
         "tags": [],
@@ -1830,7 +1835,7 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/3.1/",
         "teaser":null},{
         "title": "3.1 用户管理",
-        "excerpt":" 可查看和管理当前用户信息。      a) 点击仪表盘→页面左下角的用户形状按钮。                  目录       说明                       ID       可查看当前使用的账号 ID。                 사용자 언어 선택       Korean, Japanese, English, Chinese 중 언어를 선택할 수 있다.                 사용자 타임존 선택       Seoul, Tokyo, NewYork, Shanghai 중 타임존을 선택할 수 있다.                 主题       可修改 Light 和 Dark 主题。                 密码修改       可输入新旧密码修改密码。                 帮助       提供关于层积云使用功能的帮助手册。                 产品名称       显示产品名称层积云。                 版本       可查看当前层积云版本。                 注销       注销当前使用账号。          ","categories": [],
+        "excerpt":"현재 사용자 정보를 확인 및 관리 할 수 있다. a) 대시보드 -&gt; 페이지 왼쪽 하단 사용자 모양 버튼을 클릭 목록 설명 ID 현재 사용중인 계정의 ID를 확인할 수 있다. 사용자 언어 선택 Korean, Japanese, English, Chinese 중 언어를 선택할 수 있다. 사용자 타임존 선택 Seoul, Tokyo, NewYork, Shanghai 중 타임존을...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/3.1/",
         "teaser":null},{
@@ -2349,10 +2354,10 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/9.2/",
         "teaser":null},{
-        "title": "9.2 Cocktail Cloud",
+        "title": "9.2 层积云",
         "excerpt":"1.환경설정 Cocktail Cloud을 이용하기 위해서 사전에 정보를 등록하는 서비스 용어 설명 사용자 Cocktail Cloud을 이용하기 위한 사용자 관리를 지원 계정 k8s Cluster에 대한 사용자 인증 정보에 대한 관리를 지원 서비스 업무 또는 프로젝트 단위로 작업을 분산하여 관리. 관리자는 일반사용자에 대하여 서비스 단위로 접근권한을 부여할 수 있다. C.클러스터 : k8s를 사용하기...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/9.2/",
+        "url": "http://localhost:4000/docs/zh/9.2/",
         "teaser":null},{
         "title": "9.3 层积云系统故障代码",
         "excerpt":"1. 故障代码 代码 信息 CCCM001 无法显示具体错误代码。 CCCM002 未知错误。 CCCM004 无效函数导出的参数。 CCCM005 未经认证的请求。 CCCM006 传递信息不正确。 CCCM007 服务器、作业等不正确或者无法处理请求。 CCCM019 内部服务器错误。 CCCM020 外部导出API返回错误或导出失败。 CCCM023 无需要执行的作业。 CCCM026 发生了错误。 CCCM027 注册中发生了错误。 CCCM028 修改中发生了错误。 CCCM029 删除中发生了错误。 CCCM030 查询中发生了错误。 CDCM031 数据库作业中发生了错误。请稍后再尝试。仍未改善时，请咨询管理员。 CDCM032 数据库连接中发生了错误。请稍后再尝试。如果可以，请检查数据库连接状态，或者咨询管理员。 CKSY001 Cube集群API发生了错误。 CKSY002 层积云不支持Cube集群版本。 CKSY003 加密中发生了错误。 CCUS001 未注册的用户ID。 CCUS002 用户密码不一致。 CCUS003 用户指定权限未分配的用户。 CCUS004 已注册用户。...","categories": [],
