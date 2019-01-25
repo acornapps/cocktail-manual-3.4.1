@@ -1,11 +1,13 @@
 ---
 title: "5 빌드 관리"
 excerpt: ""
-permalink: /docs/ko/5/
+permalink: /docs/zh/5_/
 redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: false
+sidebar:
+  nav: "zh"
 ---
 
 ---
