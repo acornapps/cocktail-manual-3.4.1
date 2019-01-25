@@ -39,11 +39,6 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/1/",
         "teaser":null},{
-        "title": "10.Customer Support",
-        "excerpt":"Thank you for using Cocktail. Contact us for technical support and product purchase consultations. We provide the following services: On-site Q&amp;A and product consultation services. Professional technical consultations via telephone or fax. (Limited to customers who have registered their products) Various event invitations and information. Support Email: byoungoh.lee@namutech.co.kr Product Developer...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/10/",
-        "teaser":null},{
         "title": "2.System Management",
         "excerpt":" You can manage the systems, clusters, and workspaces you need to use the cocktail cloud.     ","categories": [],
         "tags": [],
@@ -100,7 +95,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/2.2/",
         "teaser":null},{
         "title": "2.2.1 Add Cluster",
-        "excerpt":"This feature allows you to add clusters. a) Cluster → Click the [+] button in the top-right corner. b) Enter basic information (name, k8s version, id, and description). Basic Information Description Name Name of cluster to be added k8s version Kubernetes version installed on cluster (e.g., 1.8.13) ID Cluster unique...","categories": [],
+        "excerpt":"This feature allows you to add clusters. a) Cluster → Click the + Cluster registration button in the top-right corner. b) Enter basic information (name, k8s version, id, and description). Basic Information Description Name Name of cluster to be added k8s version Kubernetes version installed on cluster (e.g., 1.8.13) ID...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.1/",
         "teaser":null},{
@@ -120,7 +115,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/2.2.4/",
         "teaser":null},{
         "title": "2.2.5 Add Storage",
-        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster. b) Select a volume from the detailed cluster screen c) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description Type Threge Type...","categories": [],
+        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster → Select Volume → Click the [+] button in the top-right corner. b) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.5/",
         "teaser":null},{
@@ -134,23 +129,23 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.7/",
         "teaser":null},{
-        "title": "2.3 Service",
-        "excerpt":"Service assigns a workspace to build, deploy, and run applications, and users, clusters, and libraries can be registered for each service. The service list can be filtered by All, Active, or Inactive. (‘Y’ and ‘N’ services are displayed when ‘Active’ and ‘Inactive’ are selected, respectively.) Refer to the Cluster section...","categories": [],
+        "title": "2.3 Workspace",
+        "excerpt":"Allocate workspaces that can be built, deployed, and run. Users, clusters, and libraries can be registered for each workspace. a) Left Main Menu → Workspace Workspace Settings Description Workspace Name Workspace name (Custom ) The number of clusters The number of clusters assigned to the workspace Number of members Number...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3/",
         "teaser":null},{
-        "title": "2.3.1 Add Service",
-        "excerpt":"This feature allows you to add services. Users, clusters, and registries (storage) can be registered for each service. a) Configuration → Service → Click the Service Create button in the top-right corner. b) Enter the service name, description, color, registry, user, and cluster information. c) Only items with the checked...","categories": [],
+        "title": "2.3.1 Add Workspace",
+        "excerpt":"This function creates a workspace. You can register members, clusters, and registry (repository ) for each workspace. a) Click Main Menu → Workspace → Create Workspace in upper right corner. b) Register name, description, color, registry, user and cluster information to be used in the service. c) Only items with...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.1/",
         "teaser":null},{
-        "title": "2.3.2 Edit Service",
-        "excerpt":"This feature allows you to modify service information. The service name, description, color, and status may be changed. Users and clusters associated with the service may also be edited. a) Environment Settings → Service → Service Action Menu → Edit Service → Click the [Update] button when finished. b) The...","categories": [],
+        "title": "2.3.2 Edit Workspace",
+        "excerpt":"This is a function to edit workspace information. You can change the workspace name, description, and color, edit the members to use the service, and edit the cluster to register in the workspace. a) Left Main Menu → Workspace → Workspace Action Menu → Edit Workspace → Click the Modify...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.2/",
         "teaser":null},{
-        "title": "2.3.3 Delete Service",
-        "excerpt":" This feature allows you to delete services. Service deletion will be restricted if clusters are registered with the service at the time of deletion. Be sure to delete any registered clusters from Edit Service before proceeding.   a) Configuration → Service → Service Action Menu &gt; Delete Service.    ","categories": [],
+        "title": "2.3.3 Delete Workspace",
+        "excerpt":" This function deletes the workspace. If the cluster is registered in the workspace, it can not be deleted. You can delete the cluster after removing the cluster from the workspace.   a) Click Main Menu → Workspace → Workspace Action Menu → Delete Workspace on the left.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.3.3/",
         "teaser":null},{
@@ -165,232 +160,197 @@ var store = [{
         "url": "http://localhost:4000/docs/en/3.1/",
         "teaser":null},{
         "title": "4.Service",
-        "excerpt":"  This feature allows you to create and manage application maps, build tasks, and workloads.                  Item       Description                              Displays number and types of clusters registered in a service                        Redirects to Build Management page                        Redirects to Create Application Map page          ","categories": [],
+        "excerpt":"  It is a function to create and manage service map and workload.                  Item       Description                              Service map group action menu                        Call Service Popup Creation          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4/",
         "teaser":null},{
-        "title": "4.1 Application Management",
-        "excerpt":"  This feature allows you to manage application maps and their associated workloads and server groups.   ㅤㅤㅤㅤㅤ  ","categories": [],
+        "title": "4.1 Service Management",
+        "excerpt":"And manages the service map, the corresponding service map group, and the workload. ㅤㅤㅤㅤㅤ List Explanation A group of logical units. If you activate the action menu, you can change the group name, move up or down, add the group above, or delete the group. Click the + button to...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1/",
         "teaser":null},{
-        "title": "4.1.1 Application Map",
-        "excerpt":"An application map is an application configuration unit. A group is configured as a logical unit, and a workload is deployed in the group. The metering information of clusters constituting a map or workload monitoring information can be checked. A deployment task can be created to create or update a...","categories": [],
+        "title": "4.1.1 Service Map",
+        "excerpt":"Service configuration unit. A group is configured as a logical unit, and a workload is deployed in the group. The metering information of clusters constituting a map or workload monitoring information can be checked. A deployment task can be created to create or update a workload. a) Select Main Menu...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1.1/",
         "teaser":null},{
-        "title": "4.1.1-1 Create Application Map",
-        "excerpt":"  This feature allows you to create new application maps for a service.   a) Service → Click the [+] button on the right.   b) Select the desired cluster and specify map and namespace names to create an application map.  ","categories": [],
+        "title": "4.1.1-1 Service map group management",
+        "excerpt":"The service map is managed as a group. You can create a service map in that group. You can change group name, group color, add group, move and delete group. a) Select Main Menu on the left → Service → ▼ \\ (action button ) in the service map group...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1.1.1/",
         "teaser":null},{
-        "title": "4.1.1-2 Change Application Map Name",
-        "excerpt":"This feature allows you to modify an application map name. a) Hover the mouse over Service → Application Map Name and click the ✎ button on the right of the application map. b) Change the contents in the enabled input field and press the Enter key to rename the application...","categories": [],
+        "title": "4.1.1-2 Create Service Map",
+        "excerpt":"The service map is managed as a group. You can create a service map in that group. You can change group name, group color, add group, move and delete group. a) Select Main Menu on the left → Service → Click the [+] button on the right. b) Select the...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1.1.2/",
         "teaser":null},{
-        "title": "4.1.1-3 Delete Application Map",
-        "excerpt":" This feature allows you to delete application maps. No workloads must be currently deployed to delete an application map.   a) Service → Select Application Map → Delete Application Map.     ","categories": [],
+        "title": "4.1.1-3 Change Service Map Name",
+        "excerpt":"This feature allows you to modify an service map name. a) Select Main Menu on the left → Hover the mouse over Service → Application Map Name and click the ✎ button on the right of the service map. b) Change the contents in the enabled input field and press...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1.1.3/",
         "teaser":null},{
+        "title": "4.1.1-4 Delete Service Map",
+        "excerpt":" This feature allows you to delete service maps. No workloads must be currently deployed to delete an service map.   a) Select Main Menu on the left → Service → Select Service Map → Delete Service Map.      ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.1.1.4/",
+        "teaser":null},{
         "title": "4.1.2 Group Management",
-        "excerpt":"workloads are managed in groups, and a workload can be created in a particular group. You can change group names and add, move, or delete groups. You can also change the number of columns. a) Service → Select Application Map → Click the [▼] (Action) button of a workload group...","categories": [],
+        "excerpt":"workloads are managed in groups, and a workload can be created in a particular group. You can change group names and add, move, or delete groups. You can also change the number of columns. a) Select Main Menu on the left → Service → Select Service Map → Click the...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1.2/",
         "teaser":null},{
-        "title": "4.1.3 Workload",
-        "excerpt":"  A workload is the minimum unit of an application. One or more workloads can form a single application.   a) View workloads configured in a map by clicking Service → Application Map.    ","categories": [],
+        "title": "4.2 Workload",
+        "excerpt":"  A workload is the minimum unit of an service. One or more workloads can form a single service.   a) Select Main Menu on the left → View workloads configured in a map by clicking Service → Service Map.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3/",
+        "url": "http://localhost:4000/docs/en/4.2/",
         "teaser":null},{
-        "title": "4.1.3-1 Create Workload",
-        "excerpt":"This feature allows you to create and run workloads from Group Management. a) Click the [+] button (Create workload) on a workload group. Select the workload type. b) Enter basic, container, instance, update policy, service port, and volume information and click the [Create] button to create a workload. Basic workload...","categories": [],
+        "title": "4.2.1 Create Workload",
+        "excerpt":"This feature allows you to create and run workloads from Group Management. a) Select Main Menu on the left → Service → ServiceMap → Click the [+] button (Create workload) on a workload group. Select the workload type. b) Enter basic, container, instance, update policy, service port, and volume information...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.1/",
+        "url": "http://localhost:4000/docs/en/4.2.1/",
         "teaser":null},{
-        "title": "4.1.3-2 Edit Workload",
-        "excerpt":"This feature allows you to modify and redeploy workloads (running or stopped). a) Service → Select Application Map → Workload. b) Edit basic, container, instance, update policy, service port, and volume information and click the [Update] button to redeploy the workload. If the workload is running, the workload type and...","categories": [],
+        "title": "4.2.2 Edit Workload",
+        "excerpt":"This feature allows you to modify and redeploy workloads (running or stopped). a) Select Main Menu on the left → Service → Select Service Map → Workload. b) Edit basic, container, instance, update policy, service port, and volume information and click the [Update] button to redeploy the workload. If the...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.2/",
+        "url": "http://localhost:4000/docs/en/4.2.2/",
         "teaser":null},{
-        "title": "4.1.3-3 View Workload Instance Information",
+        "title": "4.2.3 View Workload Instance Information",
         "excerpt":"This feature allows you to view workload instance information. Instance Information Pods Detailed info, status info, event info, deployment info, web terminal (container), log (container) Services Detailed info, event info, deployment info Persistent Volume Claims Detailed info, detailed volume info, deployment info Deployments Detailed info, event info, deployment info, auto-scaler...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.3/",
+        "url": "http://localhost:4000/docs/en/4.2.3/",
         "teaser":null},{
-        "title": "4.1.3-4 Stop Workload",
-        "excerpt":"  This feature allows you to stop a deployed workload. Stopping a workload will delete the corresponding pods.   a) Service → Select Application Map → Click the [Action] button on a running workload → Stop.     ","categories": [],
+        "title": "4.2.4 Stop Workload",
+        "excerpt":"  This feature allows you to stop a deployed workload. Stopping a workload will delete the corresponding pods.   a) Select Main Menu on the left → Service → Select Service Map → Click the [Action] button on a running workload → Stop.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.4/",
+        "url": "http://localhost:4000/docs/en/4.2.4/",
         "teaser":null},{
-        "title": "4.1.3-5 Start Workload",
-        "excerpt":"  This feature allows you to start a stopped workload.   a) Service → Select Application Map → Click the [Action] button on a stopped workload → Start.     ","categories": [],
+        "title": "4.2.5 Start Workload",
+        "excerpt":"  This feature allows you to start a stopped workload.   a) Select Main Menu on the left → Service → Select Service Map → Click the [Action] button on a stopped workload → Start.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.5/",
+        "url": "http://localhost:4000/docs/en/4.2.5/",
         "teaser":null},{
-        "title": "4.1.3-6 Restart Workload",
-        "excerpt":"  This feature allows you to restart a workload. It’s essentially the same action as rebooting a computer.   a) Service → Select Application Map → Click the [Action] button on a running workload → Restart.     ","categories": [],
+        "title": "4.2.6 Restart Workload",
+        "excerpt":"  This feature allows you to restart a workload. It’s essentially the same action as rebooting a computer.   a) Select Main Menu on the left → Service → Select Service Map → Click the [Action] button on a running workload → Restart.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.6/",
+        "url": "http://localhost:4000/docs/en/4.2.6/",
         "teaser":null},{
-        "title": "4.1.3-7 Remove Workload",
-        "excerpt":"  This feature allows you to remove a stopped workload.   a) Service → Select Application Map → Click the [Action] button on a stopped workload &gt; Terminate.     ","categories": [],
+        "title": "4.2.7 Remove Workload",
+        "excerpt":"  This feature allows you to remove a stopped workload.   a) Select Main Menu on the left → Service → Select Service Map → Click the [Action] button on a stopped workload &gt; Terminate.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.3.7/",
+        "url": "http://localhost:4000/docs/en/4.2.7/",
         "teaser":null},{
-        "title": "4.1.4 Monitoring",
-        "excerpt":"  You can view resource usage (CPU, memory, and network) by workload, pod, or container.   a) Service → Select Application Map → Monitoring.      ","categories": [],
+        "title": "4.3 Monitoring",
+        "excerpt":"  You can view resource usage (CPU, memory, and network) by workload, pod, or container.   a) Select Main Menu on the left → Service → Select Service Map → Monitoring.      ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.4/",
+        "url": "http://localhost:4000/docs/en/4.3/",
         "teaser":null},{
-        "title": "4.1.5 Pipeline",
-        "excerpt":"With the pipeline feature, you can build an image and deploy to a workload all at once. You can also change the image version of a deployed workload and quickly redeploy. a) Service &gt; Select Application Map &gt; Pipeline. Pipeline Menu Description Batch execution Execute pipeline tasks in batch Run...","categories": [],
+        "title": "4.4 Pipeline",
+        "excerpt":"With the pipeline feature, you can build an image and deploy to a workload all at once. You can also change the image version of a deployed workload and quickly redeploy. a) Select Main Menu on the left → Service → Select Service Map → Pipeline. Pipeline Menu Description Batch...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.5/",
+        "url": "http://localhost:4000/docs/en/4.4/",
         "teaser":null},{
-        "title": "4.1.6 Persistent Volume",
-        "excerpt":"Provides persistent volume status, creation and deletion. a) Service → Application map → Persistent volume Items Description Volume Name Name of the created persistent volume, click to go to the details of the persistent volume Volume type Volume Type (Single, Shared) Status The state of the volume (Ready, Mounted) Usage...","categories": [],
+        "title": "4.5 Persistent Volume",
+        "excerpt":"Provides persistent volume status, creation and deletion. a) Select Main Menu on the left → Service → Service map → Persistent volume Items Description Volume Name Name of the created persistent volume, click to go to the details of the persistent volume Volume type Volume Type (Single, Shared) Status The...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.6/",
+        "url": "http://localhost:4000/docs/en/4.5/",
         "teaser":null},{
-        "title": "4.1.6-1 Creating Persistent Volumes",
-        "excerpt":"Creating Persistent Volumes. a) Service → Application map → Persistent volume Items Description Persistent volume type Volume Type (Single, Shared) Storage Exposing a clustered storage list Access mode Select ReadWriteOnce if the persistent volume type is Single, ReadWriteMany, ReadOnlyMany if it is a Shard Name The name of the persistent...","categories": [],
+        "title": "4.5.1 Creating Persistent Volumes",
+        "excerpt":"Creating Persistent Volumes. a) Select Main Menu on the left → Service → Service map → Persistent volume Items Description Persistent volume type Volume Type (Single, Shared) Storage Exposing a clustered storage list Access mode Select ReadWriteOnce if the persistent volume type is Single, ReadWriteMany, ReadOnlyMany if it is a...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.6.1/",
+        "url": "http://localhost:4000/docs/en/4.5.1/",
         "teaser":null},{
-        "title": "4.1.6-2 Delete Persistent Volumes",
-        "excerpt":" Delete the persistent volume.   a) Service → Application map → Persistent volume → Persistent Action Menu(Activate) → Click Delete    ","categories": [],
+        "title": "4.5.2 Delete Persistent Volumes",
+        "excerpt":" Delete the persistent volume.   a) Select Main Menu on the left → Service → Service map → Persistent volume → Persistent Action Menu(Activate) → Click Delete    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.6.2/",
+        "url": "http://localhost:4000/docs/en/4.5.2/",
         "teaser":null},{
-        "title": "4.1.7 Settings",
-        "excerpt":" Application units can be used like volumes by storing variable values in the form key=value.   a) Service → Select Application Map → Settings.                    Menu       Description                       Config Map       Register, edit, and delete config maps                 Secret       Register, edit, and delete secrets          ","categories": [],
+        "title": "4.6 Settings",
+        "excerpt":" Application units can be used like volumes by storing variable values in the form key=value.   a) Select Main Menu on the left → Service → Select Service Map → Settings.                      Menu       Description                       Config Map       Register, edit, and delete config maps                 Secret       Register, edit, and delete secrets          ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7/",
+        "url": "http://localhost:4000/docs/en/4.6/",
         "teaser":null},{
-        "title": "4.1.7-1 Config Map",
-        "excerpt":"This feature allows you to save config files as maps on workloads to be used as volumes. a) Service → Select Application Map → Settings → Config Map. Item Description Redirects to Add Config Map page Name Name of config map (user-defined) Description Config Map Description (Custom) Config map action...","categories": [],
+        "title": "4.6.1 Config Map",
+        "excerpt":"This feature allows you to save config files as maps on workloads to be used as volumes. a) Select Main Menu on the left → Service → Select Service Map → Settings → Config Map. Item Description Redirects to Add Config Map page Name Name of config map (user-defined) Description...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.1/",
+        "url": "http://localhost:4000/docs/en/4.6.1/",
         "teaser":null},{
-        "title": "4.1.7-1a Add Config Map",
-        "excerpt":"This feature allows you to add config maps. a) Service &gt; Select Application Map &gt; Settings &gt; Config Map &gt; Click the [+] button to be redirected to the Add Config Map page. b) Enter the name and data values and click the [Create] button in the top-right corner to...","categories": [],
+        "title": "4.6.1.1 Add Config Map",
+        "excerpt":"This feature allows you to add config maps. a) Select Main Menu on the left → Select Main Menu on the left → Service → Select Service Map → Settings → Config Map → Click the [+] button to be redirected to the Add Config Map page. b) Enter the...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.1a/",
+        "url": "http://localhost:4000/docs/en/4.6.1.1/",
         "teaser":null},{
-        "title": "4.1.7-1b Edit Config Map",
-        "excerpt":" This feature allows you to modify config map data (excluding name).   a) Service → Select Application Map → Settings → Config Map → Config Map Action Menu (Activate) → Edit Config Map     b) After changing the data value(s), click the [Update] button to apply the changes.     ","categories": [],
+        "title": "4.6.1.2 Edit Config Map",
+        "excerpt":"This feature allows you to modify config map data (excluding name). a) Select Main Menu on the left → Service → Select Service Map → Settings → Config Map → Config Map Action Menu (Activate) → Edit Config Map b) After changing the data value(s), click the [Update] button to...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.1b/",
+        "url": "http://localhost:4000/docs/en/4.6.1.2/",
         "teaser":null},{
-        "title": "4.1.7-1c Delete Config Map",
-        "excerpt":"  This feature allows you to delete service config maps.   a) Service → Select Application Map → Settings → Config Map → Config Map Action Menu (Activate) → Config Map Delete    ","categories": [],
+        "title": "4.6.1.3 Delete Config Map",
+        "excerpt":"  This feature allows you to delete service config maps.   a) Select Main Menu on the left → Service → Select Service Map → Settings → Config Map → Config Map Action Menu (Activate) → Config Map Delete     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.1c/",
+        "url": "http://localhost:4000/docs/en/4.6.1.3/",
         "teaser":null},{
-        "title": "4.1.7-2 Secret",
-        "excerpt":"  This feature allows you to save secret files on servers to be used as environment variables or volumes.   a) Service → Select Application Map → Settings → Secret.                    Item       Description                              Redirects to Add Secret page                 Name       Name of secret (user-defined)                 Description       Secret Description (Custom)                        Secret action menu          ","categories": [],
+        "title": "4.6.2 Secret",
+        "excerpt":"This feature allows you to save secret files on servers to be used as environment variables or volumes. a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret. Item Description Redirects to Add Secret page Name Name of secret (user-defined) Description Secret Description...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.2/",
+        "url": "http://localhost:4000/docs/en/4.6.2/",
         "teaser":null},{
-        "title": "4.1.7-2a Add Secret",
-        "excerpt":"This feature allows you to add secrets to a service. a) Service → Select Application Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page. b) Enter the name and data values and click the [Create] button in the top-right corner to...","categories": [],
+        "title": "4.6.2.1 Add Secret",
+        "excerpt":"This feature allows you to add secrets to a service. a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page. b) Enter the name and data values and click the...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.2a/",
+        "url": "http://localhost:4000/docs/en/4.6.2.1/",
         "teaser":null},{
-        "title": "4.1.7-2b Edit Secret",
-        "excerpt":"This feature allows you to modify secret data (excluding name) added to a workload. a) Service → Select Application Map → Settings → Secret → Secret Action Menu (Activate) → Edit Secret b) After changing the data value(s), click the [Save] button to apply the changes. (Secret values are hidden...","categories": [],
+        "title": "4.6.2.2 Edit Secret",
+        "excerpt":"This feature allows you to modify secret data (excluding name) added to a workload. a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret → Secret Action Menu (Activate) → Edit Secret b) After changing the data value(s), click the [Save] button to...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.2b/",
+        "url": "http://localhost:4000/docs/en/4.6.2.2/",
         "teaser":null},{
-        "title": "4.1.7-2c Delete Secret",
-        "excerpt":"  This feature allows you to delete service secrets.   a) Service → Select Application Map → Settings → Secret → Secret Action Menu (Activate) → Delete Secret    ","categories": [],
+        "title": "4.6.2.3 Delete Secret",
+        "excerpt":"  This feature allows you to delete service secrets.   a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret → Secret Action Menu (Activate) → Delete Secret    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/4.1.7.2c/",
+        "url": "http://localhost:4000/docs/en/4.6.2.3/",
         "teaser":null},{
         "title": "5.Build Management",
         "excerpt":"This feature allows you to manage build tasks for a Docker image. You can download an application, build the source file, and build the image file to be uploaded to a Harbor registry. a) Click on the left main menu → [Build] to go to this page. Item Description +...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5/",
         "teaser":null},{
-        "title": "5 빌드 관리",
-        "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5/",
-        "teaser":null},{
         "title": "5.1 Add Build",
         "excerpt":"This feature allows you to add Docker image build tasks. Three options are available: Application download, application build, and image build. a) The left from the main menu screen, click → build the [+] button to go to that page. b) Enter the necessary application download, application build, and image...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.1/",
         "teaser":null},{
-        "title": "5.1 빌드 추가",
-        "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.1/",
-        "teaser":null},{
         "title": "5.2 Edit Task Settings",
-        "excerpt":"This feature allows you to modify build tasks. The build name, however, may not be changed. A previously-downloaded source can be removed, and each of the three tasks (application download, application build, and image build) can be executed separately. a) Service → Build Management → Build Action Menu (Activate) →...","categories": [],
+        "excerpt":"This feature allows you to modify build tasks. a) Left main menu → Build → Build Action Menu (Activation) → Select the [Task Config Edit] to go to that page. b) Edit basic information, application download, application build, and image build contents, and click [Edit] button to edit task settings....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.2/",
         "teaser":null},{
-        "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.2/",
-        "teaser":null},{
         "title": "5.3 History",
-        "excerpt":"This feature allows you to view the build history of a particular build. Logs are available in build execution phases. a) Service → Build Management → Build Action Menu (Activate) → [History] b) Check the build action name, status, date, duration, image name, image size, and build log from the...","categories": [],
+        "excerpt":"  This feature allows you to view the build history of a particular build.   a) Build Action menu(Activation) in the left main menu screen → Build → Click the [History] to go to that page.     b) Click the Action menu(Activation) → [Log View] and you can see the build log.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.3/",
         "teaser":null},{
-        "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.3/",
-        "teaser":null},{
         "title": "5.4 Execute Build",
-        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Service → Build Management → Build Action Menu (Activate) → [Run Build] b) The current action changes, and the log window becomes activated...","categories": [],
+        "excerpt":"This feature allows you to execute a build task. When a build is executed, application download, application build, and image build are performed all at once. a) Build Action Menu(Activation) of the build task to be executed from the build list Select [Build Run] from the Actions menu to activate...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.4/",
         "teaser":null},{
-        "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.4/",
-        "teaser":null},{
         "title": "5.5 Cancel Build",
-        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) Service → Build Management → Build Action Menu (Activate) → [Cancel Build]    ","categories": [],
+        "excerpt":"  Cancel the build operation. You can only cancel the build job being in the RUNNING state.   a) In the build list, cancel the build operation by selecting the Build Action menu (Activation ) → [Build Cancel] of the build operation to be canceled.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.5/",
         "teaser":null},{
-        "title": "5.5 빌드 취소",
-        "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.5/",
-        "teaser":null},{
         "title": "5.6 View Log",
-        "excerpt":"  This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed.   a) Service → Build Management → Build Action Menu (Activate) → [View Log]    ","categories": [],
+        "excerpt":"This feature allows you to view the most recent log of a build operation. A real-time log will be displayed if a build is currently being processed. a) From the build list, you can view the build execution log for that build job by selecting the build action menu (Activation...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.6/",
         "teaser":null},{
-        "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.6/",
-        "teaser":null},{
         "title": "5.7 Delete Task",
-        "excerpt":"  This feature allows you to delete build tasks. When performed, the corresponding cache and downloaded source folder will be deleted first before deleting the actual task.   a) Service → Build Management → Build Action Menu (Activate) → [Delete Task]    ","categories": [],
+        "excerpt":"  This feature allows you to delete build tasks.   a) Build Action menu(Activation) in the Build Action to delete from the list of builds → select [Task Delete] and you can delete the build operation.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/5.7/",
         "teaser":null},{
-        "title": "5.7 작업 삭제",
-        "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.7/",
-        "teaser":null},{
         "title": "6.Catalog",
-        "excerpt":"This feature allows you to easily create, deploy, and manage workloads by creating a template of an application configuration. Use the catalog feature to use multiple workloads at once. The catalog feature is divided into service catalogs and platform catalogs. Catalog Menu Description Service Catalog User-generated catalog Platform Catalog Default...","categories": [],
+        "excerpt":"This feature allows you to easily create, deploy, and manage workloads by creating a template of an service configuration. Use the catalog feature to use multiple workloads at once. The catalog feature is divided into service catalogs and platform catalogs. Catalog Menu Description Service Catalog User-generated catalog Platform Catalog Default...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/6/",
         "teaser":null},{
@@ -400,7 +360,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/6.1/",
         "teaser":null},{
         "title": "6.2 Deploy Catalog",
-        "excerpt":"This feature allows you to deploy generated catalogs. If necessary, unnecessary instances can be excluded or edited prior to deployment. a) Catalog → Click the [Deployment] button on the desired template b) Select the service, cluster, and application map from the template category and click [Deploy]. You may exclude unwanted...","categories": [],
+        "excerpt":"This feature allows you to deploy generated catalogs. If necessary, unnecessary instances can be excluded or edited prior to deployment. a) Catalog → Click the [Deployment] button on the desired template. b) Select the service, cluster, and service map from the template category and click [Deploy]. You may exclude unwanted...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/6.2/",
         "teaser":null},{
@@ -414,13 +374,13 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/6.4/",
         "teaser":null},{
-        "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "title": "6.5 Export Catalog",
+        "excerpt":" You can export a catalog as a catalog file. (Not avaiable in Platform catalog)   a) Catalog → Click the [Edit] button for exporting the catalog.     b) Click the [Export] button. It is downloaded to a file named ‘catalog’s name-version.zip’.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/6.5/",
         "teaser":null},{
-        "title": "6.6 카탈로그 가져오기",
-        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.     ","categories": [],
+        "title": "6.6 Import Catalog",
+        "excerpt":" You can create the catalog through the import function with a exported catalog file.   a) Catalog → Click the [Import] button.     b) Click the [Save] button after Select a catalog file to create.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/6.6/",
         "teaser":null},{
@@ -432,7 +392,7 @@ var store = [{
         "title": "7.클러스터",
         "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7/",
+        "url": "http://localhost:4000/docs/en/7_/",
         "teaser":null},{
         "title": "7.1 Cluster List",
         "excerpt":"This feature allows you to add, edit, and delete Kubernetes cluster information assigned by a provider. a) Cluster → Click the [Sort] button and select the desired criteria. Cluster Settings Description + Add Cluster Redirects to Add Cluster page Cluster Cluster type Node Number of nodes in a cluster CPU...","categories": [],
@@ -442,7 +402,7 @@ var store = [{
         "title": "7.1 클러스터 목록",
         "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.1/",
+        "url": "http://localhost:4000/docs/en/7.1_/",
         "teaser":null},{
         "title": "7.2 Node",
         "excerpt":"This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all nodes, as well as the label and status information of individual nodes. You can click on a node name for detailed information. a) Cluster → Select Cluster → Node. b) Click on...","categories": [],
@@ -457,7 +417,7 @@ var store = [{
         "title": "7.3 서비스",
         "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.3/",
+        "url": "http://localhost:4000/docs/en/7.3_/",
         "teaser":null},{
         "title": "7.4 Volume",
         "excerpt":"This feature allows you to view public cloud and external storage information and also provides volume monitoring. a) Cluster → Select Cluster → Volume. Storage Settings Description Name Name of storage (user-defined) Type Type of storage (NFS/EBS/Google Persistent Disk/Azure Disk) Storage Class Name Class name registered in k8s Policy Storage...","categories": [],
@@ -467,7 +427,7 @@ var store = [{
         "title": "7.4 볼륨",
         "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.4/",
+        "url": "http://localhost:4000/docs/en/7.4_/",
         "teaser":null},{
         "title": "7.5 Alerts",
         "excerpt":"  This feature allows you to receive alerts for cluster events.   a) Cluster → Select Cluster → Alarm.     b) Click on an alarm name to view detailed information.    ","categories": [],
@@ -485,9 +445,14 @@ var store = [{
         "url": "http://localhost:4000/docs/en/7.6/",
         "teaser":null},{
         "title": "7.7 Registration",
-        "excerpt":" In this feature, You can see the registration infomation of a selected cluster.   The values in the User Account Authentication Information section has been hidden for security.   a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다.    ","categories": [],
+        "excerpt":" In this feature, You can see the registration infomation of a selected cluster.   The values in the User Account Authentication Information section has been hidden for security.   a) Cluster → Select Cluster → Registration.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.7/",
+        "teaser":null},{
+        "title": "8.Members",
+        "excerpt":" This feature allows you to view the member infomation of the current workspace.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/8/",
         "teaser":null},{
         "title": "9.Glossary",
         "excerpt":"  The following section provides a list of common Kubernetes and Cocktail terminologies and explanations.  ","categories": [],
@@ -508,6 +473,11 @@ var store = [{
         "excerpt":"1. Error Code Code Message CCCM001 Can not reveal specific error number. CCCM002 Unknown error CCCM004 Invalid function call argument CCCM005 Unauthorized request CCCM006 The information passed is not correct CCCM007 Server, job, etc. are not correct or can not process request CCCM019 Internal server error CCCM020 External call API...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/9.3/",
+        "teaser":null},{
+        "title": "10.Customer Support",
+        "excerpt":"Thank you for using Cocktail. Contact us for technical support and product purchase consultations. We provide the following services: On-site Q&amp;A and product consultation services. Professional technical consultations via telephone or fax. (Limited to customers who have registered their products) Various event invitations and information. Support Email: byoungoh.lee@namutech.co.kr Product Developer...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/9.4/",
         "teaser":null},{
         "title": "Cocktail Cloud",
         "excerpt":"                                                                                                                                    한국어 메뉴얼                                                                                                      Learn More                                                                                                                                                           日本語マニュアル                                                                                                      Learn More                                                                                                                                                           中文手册                                                                                                      Learn More                                                                                                                                                           English Manual                                                                                                      Learn More                                       ","categories": [],
@@ -530,7 +500,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/0.2/",
         "teaser":null},{
         "title": "サービス管理レイヤー",
-        "excerpt":"  一般的に、一つのアプリケーションやサービスは、多数のコンテナで構成されている。特にKubernetesのようなオーケストレーションエンジンの場合、コンテナ以外にもサービスポート、コントローラ、ボリュームなどの追加オブジェクトを必要とする。したがって、コンテナベースのアプリケーションおよびサービスを管理するためには、コンテナと関連オブジェクトをパッケージ化して管理する抽象化の単位が必要である。サービス管理レイヤーは、これを担うレイヤーである。   カクテルクラウドのサービス管理は、以下のような階層構造を有する。           Service : 最上位階層としてサービスに必要なクラスタリソース、イメージレジストリ、イメージビルドを割り当て管理するグループ。開発、運用者の役割に応じて権限を付与し、独立させて管理を行うことができる。カクテルクラウドでは、必要に応じて多数のサービスを作成し、チームやサービスごとに割り当てて管理することができる。            Application Map : アプリケーションの構成と管理を行う単位で、一つのワークロード（Workload）に対応している。例えば、一つのサービスを開発系、検証系、運用系に該当するアプリケーションマップで構成することができるほか、データ管理、分析システムなどの役割に基づいて、アプリケーションマップを構成することもできる。アプリケーションマップは、論理的にワークロードのための多数のコンテナの構成を管理する単位といえる。前述したサービスは、複数のアプリケーションマップで構成されている。            Cocktail Server : コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。アプリケーションマップは、複数のカクテルサーバーで構成されている。例えば、Webサーバー、DBサーバーなどのコンポーネントに基づいてサーバーを構成することもでき、小規模のマイクロサービスもカクテルサーバーとして構成することができる。 カクテルサーバーの詳細は、下記のとおりである。       下の図は、サービス管理レイヤーの構成を図式化したものである。      Cocktail Server   サービス管理レイヤーにおいて、最も重要な役割を担っているのがカクテルサーバーだ。前述したとおり、カクテルサーバーは、コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。カクテルサーバーは、パッケージ化されたオブジェクトの作成、更新などライフサイクルを管理するとともに、状態とリソースをパッケージ単位で監視し、管理する。   これを図式化したのが下の図である。      カクテルサーバーが提供する管理機能には、次のようなものがある。           サーバーの作成、修正（更新）、停止、再起動、削除、オートスケール            ローリングアップデート            サービスポート管理            ボリューム管理            監視            インスペクティング : オーケストレーションオブジェクトの状態およびデプロイの情報を照会            ウェブターミナル、ログを照会：コンテナのシェル接続。コンテナのログ照会         Previous Topic : クラスタ管理のレイヤー   Next Topic : パイプラインレイヤー   ","categories": [],
+        "excerpt":"  一般的に、一つのアプリケーションやサービスは、多数のコンテナで構成されている。特にKubernetesのようなオーケストレーションエンジンの場合、コンテナ以外にもサービスポート、コントローラ、ボリュームなどの追加オブジェクトを必要とする。したがって、コンテナベースのアプリケーションおよびサービスを管理するためには、コンテナと関連オブジェクトをパッケージ化して管理する抽象化の単位が必要である。サービス管理レイヤーは、これを担うレイヤーである。   カクテルクラウドのサービス管理は、以下のような階層構造を有する。           Service : 最上位階層としてサービスに必要なクラスタリソース、イメージレジストリ、イメージビルドを割り当て管理するグループ。開発、運用者の役割に応じて権限を付与し、独立させて管理を行うことができる。カクテルクラウドでは、必要に応じて多数のサービスを作成し、チームやサービスごとに割り当てて管理することができる。            Service Map : アプリケーションの構成と管理を行う単位で、一つのワークロード（Workload）に対応している。例えば、一つのサービスを開発系、検証系、運用系に該当するアプリケーションマップで構成することができるほか、データ管理、分析システムなどの役割に基づいて、アプリケーションマップを構成することもできる。アプリケーションマップは、論理的にワークロードのための多数のコンテナの構成を管理する単位といえる。前述したサービスは、複数のアプリケーションマップで構成されている。            Cocktail Server : コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。アプリケーションマップは、複数のカクテルサーバーで構成されている。例えば、Webサーバー、DBサーバーなどのコンポーネントに基づいてサーバーを構成することもでき、小規模のマイクロサービスもカクテルサーバーとして構成することができる。 カクテルサーバーの詳細は、下記のとおりである。       下の図は、サービス管理レイヤーの構成を図式化したものである。      Cocktail Server   サービス管理レイヤーにおいて、最も重要な役割を担っているのがカクテルサーバーだ。前述したとおり、カクテルサーバーは、コンテナと関連オーケストレーションオブジェクトをパッケージ化する単位である。カクテルサーバーは、パッケージ化されたオブジェクトの作成、更新などライフサイクルを管理するとともに、状態とリソースをパッケージ単位で監視し、管理する。   これを図式化したのが下の図である。      カクテルサーバーが提供する管理機能には、次のようなものがある。           サーバーの作成、修正（更新）、停止、再起動、削除、オートスケール            ローリングアップデート            サービスポート管理            ボリューム管理            監視            インスペクティング : オーケストレーションオブジェクトの状態およびデプロイの情報を照会            ウェブターミナル、ログを照会：コンテナのシェル接続。コンテナのログ照会         Previous Topic : クラスタ管理のレイヤー   Next Topic : パイプラインレイヤー   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/0.3/",
         "teaser":null},{
@@ -553,11 +523,6 @@ var store = [{
         "excerpt":"  カクテルクラウドの初期ログイン画面は、以下のとおりである。   System、ID、Passwordを入力後、ログイン。   （IDは管理者に別途確認必要）      最初の接続やパスワードの初期化時には、 必ずパスワードを変更する必要がある。      期間が90日を経過した場合にも、 パスワードを変更したり、 パスワードを延長することができる。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/1/",
-        "teaser":null},{
-        "title": "10.ユーザーサポートサービス",
-        "excerpt":"  Cocktail Cloudをご利用いただき、誠にありがとうございます。   製品のご購入や機能に関するご相談など、技術的なサポートからお客様に必要なサービスをご提供しております。 サポートしているサービスは、以下のとおりです。      訪問サービスにてQ＆A、製品に関する情報およびその他のお問い合わせを承っております。   ユーザー登録済みの製品やご相談が可能な製品に限りましては、 お電話やファックスにて専門的な技術相談が可能となっています。   各種イベントへのご招待および情報をご提供いたします。   サービスサポート   Eメール: support@namutech.co.jp   製品開発会社   NAMU TECH JAPAN 株式会社      住所 : 〒102-0074 東京都千代田区九段南4-6-1　九段シルバーパレス201号   Tel : 03-6272-4788   Fax : 03-6272-4794   ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ja/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
@@ -609,7 +574,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.1.8/",
         "teaser":null},{
-        "title": "7.クラスター",
+        "title": "2.2 クラスター",
         "excerpt":"  クラスターの登録管理とノードおよびアプリケーション単位の監視、ボリューム、アラーム、コストサービスが提供される。                   クラスタメニュー       説明                       ノード       ノード全体の CPU、 メモリ、 ネットワークの使用量と個々のノードの監視サービス                 アプリケーション       アプリケーション全体の CPU、 メモ、 ネットワークの使用量と、 個々のアプリケーションの 監視 サービス                 ボリューム       ストレージ 管理及びボリューム ステータス                 アラーム       クラスタのイベント情報関連アラームサービス                 コスト       クラスタコストとリソース別コストサービス                 登録       クラスタの照会および修正、 削除          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2/",
@@ -618,6 +583,11 @@ var store = [{
         "excerpt":"クラスターを追加登録することができる機能である。 a) クラスター → 右上の+ボタンをクリック。 b) 基本情報（クラスター名、k8sバージョン、説明）を入力。 基本情報 説明 クラスター名 登録するクラスタの名前 k8sバージョン クラスタにインストールされたKubernetesのバージョン情報。e.g）1.8.13 ID クラスタ固有のID（ユーザー指定）、アラームメッセージRedirect時に必要 説明 クラスタのユーザー説明 c) プロバイダ情報（アカウント、タイプ、地域）を入力。 アカウントのプロバイダとタイプに応じて入力欄が変更される。Baremetalの場合、地域はDefault値を提供し、変更が可能である。 プロバイダ 説明 アカウント 登録されたアカウント タイプ Kubernetesの使用タイプとして、MANAGED、PROVIER、GKEの中から選択 地域 Kubernetesがインストールされたサーバーのリージョン タイプ 説明 MANAGED CUBE Installerを利用して、kubernetesを構成したクラスタ PROVIDER Public CloudのVMでKubernetesを利用するが、 Public Cloudを利用する場合に使用する。 （ロードバランサやストレージなどその他のサービスを利用する場合） GKE Google Cloud PlatformのGoogle Kubernetes Engineで構成したクラスタ プロバイダの種類 - MANAGED 追加入力 説明...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2.1/",
+        "teaser":null},{
+        "title": "2.2.1 클러스터 등록",
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.1_/",
         "teaser":null},{
         "title": "2.2.2 クラスター編集",
         "excerpt":"  クラスターの基本情報、プロバイダ、モニタリング、クラスターのタイプを修正する機能である。 プロバイダのアカウント、タイプ、リージョンは変更できない。   a) クラスター → クラスター選択 → 登録 → 変更ボタン → 修正完了後、保存ボタンをクリック。       ","categories": [],
@@ -639,6 +609,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2.5/",
         "teaser":null},{
+        "title": "2.2.5 스토리지 추가",
+        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.2.5_/",
+        "teaser":null},{
         "title": "2.2.6 ストレージ編集",
         "excerpt":" 登録されたストレージ情報を編集する機能である。 ただし 、nfs-staticタイプのストレージは編集することができない。   a) クラスタ→クラスタ選択 → ボリューム → ボリュームアクションボタン → ストレージの編集をクリック。     b) 名、 説明、 リクレームポリシー、 ストレージクラス名、 パラメータ値の修正が可能。     ","categories": [],
         "tags": [],
@@ -649,15 +624,35 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/2.2.7/",
         "teaser":null},{
+        "title": "2.3 워크스페이스",
+        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3/",
+        "teaser":null},{
+        "title": "2.3.1 워크스페이스 생성",
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3.1/",
+        "teaser":null},{
+        "title": "2.3.2 워크스페이스 편집",
+        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3.2/",
+        "teaser":null},{
+        "title": "2.3.3 워크스페이스 삭제",
+        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/2.3.3/",
+        "teaser":null},{
         "title": "3.ダッシュボード",
-        "excerpt":"  ダッシュボードでは、cocktailでサービスされる情報を一目で確認することができる。           要約情報       現在登録管理されているサービスの数、サーバー数、登録クラスタ数、当月の総クラウドコストを確認することができる。            サーバーステータス       インフラとして使用しているクラウドサービスのプロバイダ別に配置されているサーバーの数が分かる。グーグルGCP、アマゾンAWS、MS Azure、Bare Metal、Private Cloud Platformが登録されている。            クラスタ料金の推移       確認したい 年の月別料金の推移および確認したい月の日別料金の推移までグラフで確認することができる。            クラスタ別上位料金       使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。            クラスタ上位リソース割り当て率       使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。            サービス別上位リソース割り当て量       使用中のサービスのうち、上位5つのサービスのリソース割り当て量を確認することができる。      ","categories": [],
+        "excerpt":"  ダッシュボードでは、cocktailでサービスされる情報を一目で確認することができる。           要約情報       現在登録管理されているサービスの数、サーバー数、登録クラスタ数、当月の総クラウドコストを確認することができる。            サーバーステータス       インフラとして使用しているクラウドサービスのプロバイダ別に配置されているサーバーの数が分かる。グーグルGCP、アマゾンAWS、MS Azure、Bare Metal、Private Cloud Platformが登録されている。            クラスタ料金の推移       確認したい 年の月別料金の推移および確認したい月の日別料金の推移までグラフで確認することができる。            クラスタ別上位料金       使用中のクラスタのうち、上位5つのクラスタ料金を確認することができる。            クラスタ上位リソース割り当て率       使用中のクラスタのうち、上位5つのクラスタのリソース割り当て率（limit）を確認することができる。            サービス別上位リソース割り当て量       使用中のサービスのうち、上位5つのサービスのリソース割り当て量を確認することができる。         ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/3/",
         "teaser":null},{
         "title": "3.ダッシュボード",
         "excerpt":"대시보드에서는 Cocktail Cloud에 서비스된 정보를 한 눈에 확인 할 수 있다. 요약정보 현재 등록 관리되고 있는 서비스 개수, 워크로드 개수, 등록된 클러스터 수, 현재 발생한 알람의 개수를 볼 수 있다. 자원현황 CPU, Memory의 전체량, 요청량, 사용량과 Storage(Node, Pv) 전체, 사용량을 확인 할 수 있다. 클러스터 현황 등록된 클러스터 별로 서비스...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ja/3/",
+        "url": "http://localhost:4000/docs/ja/3_/",
         "teaser":null},{
         "title": "3.1 ユーザー管理",
         "excerpt":"  現在のユーザー情報の確認および管理を行うことができる。      a) ダッシュボード → ページの左下のユーザーボタンをクリック                  リスト       説明                       ID       現在使用中のアカウントのIDを確認することができる                 言語の選択       Korean、Japanese、Englishから言語を選択することができる                 テーマ       LightとDarkテーマを変更することができる                 パスワードの変更       既存のパスワードや新規パスワードを入力し、 パスワードを変更することができる                 ユーザーマニュアル       カクテル機能を使用するためのヘルプマニュアルが提供される                 製品名       Cocktail製品名が表示される                 バージョン       現在のカクテルのバージョンを確認することができる                 ログアウト       現在使用中のアカウントをログアウトする           ","categories": [],
@@ -807,7 +802,7 @@ var store = [{
         "title": "5 빌드 관리",
         "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5/",
+        "url": "http://localhost:4000/docs/ja/5_/",
         "teaser":null},{
         "title": "5.1 ビルド追加",
         "excerpt":"ドッカーイメージのビルドタスクを追加する。 アプリケーションのダウンロード、アプリケーションビルド、イメージビルドの合計3つを選択することができる。 a) サービス → ビルド管理 → ビルド作成の編集を選択し、該当ページに移動 b) アプリケーションダウンロード、アプリケーションビルド、イメージビルドの内容を作成した上、作成ボタンを押してサーバーを作成 ビルド作成段階 説明 アプリケーションダウンロード ビルドに必要なソースをダウンロード アプリケーションビルド ソースのコンパイルが必要な場合に使用 コマンド - ビルドしながら実行するタスク ホストパス - タスクが行われるコンテナパスとマウントされるホストパス Working dir - 実際にコンテナ内で作業するパスで、 コンテナパスに合わせる イメージ - ビルド時に使用するイメージ イメージビルド 作業したソースでドッカーファイルを作ってイメージを作成し、　該当イメージをレジストリストレージに保存するステップ ビルドの基本情報 基本情報 説明 ビルド名 作成するビルドの名前 最近のアクション ビルドの最近の動作状態 ステータス ビルドの現在の状態 アプリケーションのダウンロード アプリケーションのダウンロード 説明 リポジトリ ソースファイルをダウンロードするバージョン管理ツールの種類。 現在のバージョンでは、 Gitのみサポート プロトコル リポジトリが提供するHTTP...","categories": [],
@@ -817,7 +812,7 @@ var store = [{
         "title": "5.1 빌드 추가",
         "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.1/",
+        "url": "http://localhost:4000/docs/ja/5.1_/",
         "teaser":null},{
         "title": "5.2 タスク設定の編集",
         "excerpt":"  ビルドタスクを編集する。 ビルド名は編集できない。 編集で過去ダウンロードしたソースを削除することができ 、アプリケーションダウンロード 、アプリケーションビルド、 イメージビルド、 3つのタスクを別々に実行する ことができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化）→ タスク設定の編集を選択して、 該当ページに移動                    タスク設定の編集       説明                       ソースフォルダー削除       ダウンロードソースフォルダを削除                 アプリケーションダウンロード実行       アプリケーションダウンロードのみ実行                 ビルドキャッシュ削除       過去ビルドされたコンテナを削除                 アプリケーションビルド実行       アプリケーションビルドのみ実行                 イメージビルド実行       イメージビルドのみ実行           ","categories": [],
@@ -825,9 +820,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.2/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":" 빌드 작업을 편집한다.   a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다.  b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.2/",
+        "url": "http://localhost:4000/docs/ja/5.2_/",
         "teaser":null},{
         "title": "5.3 ヒストリー",
         "excerpt":"  該当ビルドのヒストリーページに移動し、ビルド実行項目のヒストリー情報を確認することができる。 ビルド実行単位でログを確認することができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ヒストリーを選択して、 該当ページに移動     b) ビルドタスクヒストリーメニューで、 該当ビルドタスクのアクション名、 ステータス、 日付、 作業時間、 イメージ名、 イメージサイズ、 ログビューを確認     ","categories": [],
@@ -835,9 +830,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.3/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.3/",
+        "url": "http://localhost:4000/docs/ja/5.3_/",
         "teaser":null},{
         "title": "5.4 ビルド実行",
         "excerpt":"  ビルドタスクを実行する。 ビルドを実行すると、 アプリケーションダウンロード、 アプリケーションビルド、 イメージビルドを一度に実行する。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルド実行を選択して、ビルドタスクを実行     b) ビルド実行時、現在のアクションが変更され、ログウィンドウがアクティブ化する。   ビルド作成時、チェックボックスで選択されたタブがアクティブ化し、各ステップのビルドプロセスを確認することができる。   （DOWNステップでエラーが発生した場合、次のステップに進むことができない。）   ビルド実行タスクが”Application_Create_Image Step is done…” というログが表示されたら、 イメージビルドが正常に終了したということである。     ","categories": [],
@@ -845,9 +840,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.4/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.4/",
+        "url": "http://localhost:4000/docs/ja/5.4_/",
         "teaser":null},{
         "title": "5.5 ビルドキャンセル",
         "excerpt":"  ビルドジョブをキャンセルする。 ビルドジョブが実行状態（RUNNING）であることだけ取り消すことができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ビルドキャンセル]を選択して、ビルド作業をキャンセル     ","categories": [],
@@ -857,7 +852,7 @@ var store = [{
         "title": "5.5 빌드 취소",
         "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.5/",
+        "url": "http://localhost:4000/docs/ja/5.5_/",
         "teaser":null},{
         "title": "5.6 ログ表示",
         "excerpt":"  ビルドタスクの最近の実行ログを表示する。 ビルドが実行中であれば、 実行中のログを確認することができる。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → ログビュータを選択して、 該当ビルドタスクのビルド実行ログを確認     ","categories": [],
@@ -865,9 +860,9 @@ var store = [{
         "url": "http://localhost:4000/docs/ja/5.6/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.6/",
+        "url": "http://localhost:4000/docs/ja/5.6_/",
         "teaser":null},{
         "title": "5.7 タスク削除",
         "excerpt":"  ビルドタスクを削除する。削除時、該当キャッシュとダウンロードしたソースフォルダを削除した後、タスクを削除する。   a) サービス → ビルド管理 → ビルドアクションメニュー（活性化） → タスク削除を選択して、 該当ビルドタスクを削除。     ","categories": [],
@@ -877,39 +872,59 @@ var store = [{
         "title": "5.7 작업 삭제",
         "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.7/",
+        "url": "http://localhost:4000/docs/ja/5.7_/",
         "teaser":null},{
         "title": "6.カタログ",
         "excerpt":"  アプリケーション構成をテンプレート化して、簡単にサーバー作成およびデプロイ、管理を行うことができる機能である。   複数のサーバーを一度にまとめて使用する場合は、カタログ機能を使用する。   カタログは、サービスカタログとカクテルカタログに分けられる。                     カタログメニュー       説明                       サービスカタログ       ユーザーが作成したカタログ                 カクテルカタログ       カクテルクラウドに組み込まれた公式カタログ                 Filter Catalog       検索で必要なテンプレートを照会                 テンプレート       アプリケーションを構成しているサーバーコレクション                 デプロイ       カタログでサーバーをデプロイ                 編集       カタログ内容を編集           ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6/",
         "teaser":null},{
+        "title": "6.カタログ",
+        "excerpt":"서비스 구성을 템플릿화하여 쉽게 워크로드 생성 및 배포, 관리가 가능한 기능이다. 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다. 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다. 카탈로그 메뉴 설명 서비스 카탈로그 사용자가 생성한 카탈로그 플렛폼 카탈로그 Cocktail Cloud 기본 제공 공식 카탈로그 Filter Catalog 검색을 통해 필요한 템플릿...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/6_/",
+        "teaser":null},{
         "title": "6.1 カタログ保存",
         "excerpt":"  カタログを作成して、必要なサーバーをまとめて一度にデプロイすることができる。 サーバーコンテナイメージがビルドの場合は、 イメージのみ保存し、 パブリックイメージに変換してカタログとして保存する。 保存されたカタログは、 サービスカタログで確認することができる。   カタログ保存時、設定のコンフィグマップ、シークレットもテンプレートとして保存する。 （ただし、 シークレットはセキュリティの関係で値は保存しない）   a) サービスでカタログとして保存するアプリケーションマップを選択   b) 画面の右上のカタログとして保存ボタンをクリック     c) 新規テンプレートの作成時は「新規」カテゴリーを、 既存テンプレートを更新する時は「既存」カテゴリーを選択後、 バージョン、 サマリー、 編集内容を作成してから、 下の「保存」ボタンをクリック （編集入力フィールドは、Mark Downファイル形式で、該当ファイル作成方法はページ右の「Mark Down support」を押して確認。）     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.1/",
+        "teaser":null},{
+        "title": "6.1 カタログ保存",
+        "excerpt":"카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 워크로드 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다. 카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. (단, 시크릿은 보안상 값은 저장하지 않는다.) a) 서비스에서 카탈로그로 저장하는 서비스...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/6.1_/",
         "teaser":null},{
         "title": "6.2 カタログデプロイ",
         "excerpt":"  作成したカタログをデプロイすることができる。 必要に応じて、 不要なインスタンスを除外または編集してデプロイすることができる。   a) カタログ → デプロイするテンプレートの「デプロイ」ボタンをクリック     b) テンプレートカテゴリーでサービス、 クラスター、 アプリケーションマップを選択後、 「デプロイ」をクリック。 不要なインスタンスは除いてデプロイすることができる。           新規のApplication Mapをデプロイする際、サービス、クラスタを選択し、アプリケーションマップ、名前空間の名前を作成してから、デプロイすることができる。            既存のApplication Mapをデプロイする際、サービス、アプリケーションマップを選択してから、デプロイすることができる。       c) シークレットの場合は、セキュリティの関係で値は保存されないため、デプロイ前の値を入力する必要がある。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.2/",
         "teaser":null},{
+        "title": "6.2 カタログデプロイ",
+        "excerpt":"생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다. a) 카탈로그 → 배포하고자 하는 템플릿의 ‘배포’ 버튼을 클릭 b) 템플릿 카테고리에서 서비스 맵 그룹, 클러스터, 서비스 맵 선택 후 ‘배포’ 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다. 신규 Service Map 배포 시 서비스 맵 그룹,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/6.2_/",
+        "teaser":null},{
         "title": "6.3 カタログ編集",
         "excerpt":"  作成されたカタログ内容を編集することができる。テンプレートのバージョン、サマリー、編集内容を修正することができるほか、各インスタンスのデプロイ情報を修正することができる。   a) カタログ → 編集するテンプレートの「編集」ボタンをクリック     b) 修正するテンプレートのバージョン、サマリー、編集内容を修正し、画面の右下の「変更」ボタンをクリックしてインスタンスのデプロイ情報を修正することができる。    c) コンフィグマップとシークレットは、編集画面で編集することはできず、内容の確認のみ可能。     d) サーバー編集時、コンテナ環境設定とボリューム、ボリュームマウントは、編集することができず、内容の確認のみ可能。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.3/",
+        "teaser":null},{
+        "title": "6.3 カタログ編集",
+        "excerpt":"생성한 카탈로그 내용을 편집할 수 있다. 템플릿의 버전, 요약정보, 편집 내용을 수정할 수 있으며 각 인스턴스의 배포 정보를 수정할 수 있다. a) 카탈로그 → 편집하고자 하는 템플릿 ‘편집’ 버튼을 클릭 b) 수정할 템플릿의 버전, 요약정보, 편집 내용을 수정하고, 화면 우측 하단 ‘편집’버튼 클릭하여 인스턴스의 배포 정보를 수정할 수 있다. c)...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/6.3_/",
         "teaser":null},{
         "title": "6.4 カタログ削除",
         "excerpt":"  不要なカタログを削除することができる。 （カクテルカタログは削除できない）   a) カタログ → 削除するテンプレートの「編集」ボタンをクリック     b) 削除するテンプレートのバージョンを選択してから、「削除」ボタンをクリック。該当テンプレートバージョンが削除される。   ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.4/",
         "teaser":null},{
-        "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "title": "6.5 カタログ出口",
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.5/",
         "teaser":null},{
-        "title": "6.6 카탈로그 가져오기",
+        "title": "6.6 カタログ进口",
         "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/6.6/",
@@ -922,7 +937,7 @@ var store = [{
         "title": "7.클러스터",
         "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7/",
+        "url": "http://localhost:4000/docs/ja/7_/",
         "teaser":null},{
         "title": "7.1 クラスター管理",
         "excerpt":"  プロバイダから割り当てられたKubernetesのクラスタ情報を登録、編集、削除する機能である。   a) クラスター → ソートボタンをクリックして、並べ替えの基準を選択。                    クラスター設定       説明                       クラスター       クラスタタイプ                 ノード       クラスタのノード数                 CPU       クラスタのCPU全体の割当量                 メモリ       クラスタのメモリ全体の割当量                 アプリケーション       クラスタのアプリケーションマップ（名前空間）の数                 サーバー       クラスタでデプロイ中のサーバーの数           ","categories": [],
@@ -932,7 +947,7 @@ var store = [{
         "title": "7.1 클러스터 목록",
         "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.1/",
+        "url": "http://localhost:4000/docs/ja/7.1_/",
         "teaser":null},{
         "title": "7.2 ノード",
         "excerpt":"  ノード全体の Disk、CPU、メモリ、ネットワークの総使用量と各ノードのラベル、状態情報などを照会することが できる画面である。 ノード名をクリックすると、ノードの詳細情報を照会することができる。   a) クラスター → クラスター選択 → ノードをクリック。     b) ノード名をクリックして、ノード詳細情報を確認。    ","categories": [],
@@ -947,7 +962,7 @@ var store = [{
         "title": "7.3 서비스",
         "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.3/",
+        "url": "http://localhost:4000/docs/ja/7.3_/",
         "teaser":null},{
         "title": "7.4 ボリューム",
         "excerpt":"  Public Cloudのストレージおよび外部ストレージ情報を登録し、ボリュームステータスの監視サービスを提供する。   a) クラスター → クラスター選択 → ボリュームをクリック。                    ストレージ設定情報       説明                       [+] ボタン       ストレージ追加ページに移動                 名       ストレージ名（ユーザー指定）                 タイプ       ストレージの種類 (NFS/EBS/Google Persistent Disk/Azure Disk)                 ストレージクラス名       k8s に登録された Class Name                 リクレームポリシー       ストレージボリュームのポリシー設定（Retain、Recyle、Delete）                 ステータス       ストレージの使用状態                          ボリューム設定情報       説明                       ボリューム名       PVC 名                 ステータス       PVCマウント状態                 使用量       PVの割り当てられた利用可能な量と使用量                 接続モード       PVアクセス権限                 Age       PVC 作成経過時間           ","categories": [],
@@ -957,7 +972,7 @@ var store = [{
         "title": "7.4 볼륨",
         "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.4/",
+        "url": "http://localhost:4000/docs/ja/7.4_/",
         "teaser":null},{
         "title": "7.5 アラーム",
         "excerpt":"  クラスターに関するイベントをアラームで受信することができる。   a) クラスター → クラスター選択 → アラームをクリック。     b) アラーム名をクリックすると、 詳細内容の確認が可能。     ","categories": [],
@@ -979,6 +994,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ja/7.7/",
         "teaser":null},{
+        "title": "8.구성원",
+        "excerpt":" 현재 워크스페이스에 속한 구성원들 정보를 보여준다.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/8/",
+        "teaser":null},{
         "title": "9.用語説明",
         "excerpt":"  カクテルクラウドを活用する上、役立つKubernetesおよびCocktail Cloudに関する用語を整理。   ","categories": [],
         "tags": [],
@@ -998,6 +1018,11 @@ var store = [{
         "excerpt":"1. エラーコード コード メッセージ CCCM001 具体エラー番号を明らかにすることができません。 CCCM002 不明なエラー CCCM004 無効な関数呼び出し引数 CCCM005 不正なリクエスト CCCM006 渡された情報が正しくありません CCCM007 サーバー, ジョブなどが正しくないか, 要求を処理できません CCCM019 内部サーバーエラー CCCM020 外部呼び出しAPIがエラーを返すか, 呼び出しに失敗しました CCCM023 実行するアクションはありません CCCM026 エラーが発生しました。 CCCM027 登録中にエラーが発生しました。 CCCM028 修正中にエラーが発生しました。 CCCM029 削除中にエラーが発生しました。 CCCM030 照会中にエラーが発生しました。 CDCM031 データベース操作中にエラーが発生しました。 しばらくして、再試行してください 。問題が解決しない場合は、 管理者にお問い合わせください。 CDCM032 データベース接続中にエラーが発生しました。 しばらくして、再試行してください。 可能な場合は、 データベースの接続状態を確認したり、 管理者に問い合わせてください。 CKSY001 Cube Cluster APIエラーが発生しました。...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ja/9.3/",
+        "teaser":null},{
+        "title": "10.ユーザーサポートサービス",
+        "excerpt":"  Cocktail Cloudをご利用いただき、誠にありがとうございます。   製品のご購入や機能に関するご相談など、技術的なサポートからお客様に必要なサービスをご提供しております。 サポートしているサービスは、以下のとおりです。      訪問サービスにてQ＆A、製品に関する情報およびその他のお問い合わせを承っております。   ユーザー登録済みの製品やご相談が可能な製品に限りましては、 お電話やファックスにて専門的な技術相談が可能となっています。   各種イベントへのご招待および情報をご提供いたします。   サービスサポート   Eメール: support@namutech.co.jp   製品開発会社   NAMU TECH JAPAN 株式会社      住所 : 〒102-0074 東京都千代田区九段南4-6-1　九段シルバーパレス201号   Tel : 03-6272-4788   Fax : 03-6272-4794   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ja/9.4/",
         "teaser":null},{
         "title": "Cocktail Cloud이 란?",
         "excerpt":"Cocktail Cloud은 올인원 컨테이너 관리 플랫폼(All-in-one Container Management Platform)이다. 클라우드 사용이 보편화 되면서, 인프라 뿐 아니라 어플리케이션, 서비스 관리에 대한 요구가 높아지고 있다. 과거와 같은 개발, 운영 방식으로는 클라우드의 장점을 활용하기에 한계가 있기 때문이다. 특히 어플리케이션 영역에서는 지속적인 통합 및 배포(Continuous Integration/Deploy, CI/CD), 마이그레이션(Migration), 멀티/하이브리드 클라우드 구축 등 자동화, 효율화,...","categories": [],
@@ -1038,11 +1063,6 @@ var store = [{
         "excerpt":" 아래는 Cocktail Cloud의 초기 로그인 화면이다.   시스템명, ID, Password 입력 후 로그인 할 수 있다.   (아이디는 관리자에게 별도 문의)      최초 접속 또는 비밀번호 초기화시에는 반드시 비밀번호를 변경 해야한다.      기간이 90일이 경과한 경우에도 비밀번호를 변경하거나 비밀번호를 연장 할 수 있다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/1/",
-        "teaser":null},{
-        "title": "10.고객지원 서비스",
-        "excerpt":"Cocktail Cloud을 이용해 주셔서 감사합니다. 제품 구매 기능상담 등의 기술 지원 서비스 및 각종 혜택을 받을 수 있습니다. 제공하는 각종 서비스는 다음과 같습니다. 방문 서비스를 통하여 Q&amp;A, 제품에 관한 정보 및 기타 문의를 할 수 있습니다. 고객 등록을 마친 제품과 상담이 가능한 제품에 한하여 전화나 팩스를 통하여 전문 기술상담 서비스를...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
@@ -1100,7 +1120,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.2/",
         "teaser":null},{
         "title": "2.2.1 클러스터 등록",
-        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 클러스터 등록 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.1/",
         "teaser":null},{
@@ -1135,22 +1155,22 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.2.7/",
         "teaser":null},{
         "title": "2.3 워크스페이스",
-        "excerpt":"어플리케이션을 빌드 및 배포, 운영할 수 있는 Work Space를 할당한다. 서비스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다. 서비스 목록을 전체/사용/미사용으로 분류하여 조회 할 수 있다. (사용여부가 Y인 서비스는 ‘사용’, N인 서비스는 ‘미사용’ 선택 시 표시된다.) 클러스터 추가는 해당 메뉴얼의 클러스터 설명을 참고 한다. a) 환경설정 → 서비스 → 사용여부 버튼을...","categories": [],
+        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3/",
         "teaser":null},{
         "title": "2.3.1 워크스페이스 생성",
-        "excerpt":"서비스를 추가 하는 기능이다. 서비스 별로 사용자 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 환경설정 → 서비스 → 오른쪽 상단 서비스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집 클러스터...","categories": [],
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.1/",
         "teaser":null},{
         "title": "2.3.2 워크스페이스 편집",
-        "excerpt":" 서비스 정보를 편집하는 기능이다. 서비스 이름, 설명, 색상, 상태 변경이 가능하며 해당 서비스를 사용할 사용자 편집, 서비스에 등록할 클러스터 편집이 가능하다.   a) 환경설정 → 서비스 → 서비스 액션 메뉴 → 서비스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 서비스 이름, 설명, 색상, 상태 및 사용자, 클러스터 수정이 가능하다.    ","categories": [],
+        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.2/",
         "teaser":null},{
         "title": "2.3.3 워크스페이스 삭제",
-        "excerpt":" 서비스를 삭제 하는 기능이다. 삭제 시, 서비스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 서비스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 환경설정 → 서비스 → 서비스 액션 메뉴 → 서비스 삭제를 클릭한다.    ","categories": [],
+        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.3.3/",
         "teaser":null},{
@@ -1270,12 +1290,12 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.5.2/",
         "teaser":null},{
         "title": "4.6 설정",
-        "excerpt":" 어플리케이션 단위로 변수값을 key=value의 형태로 저장하여 볼륨처럼 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정을 클릭한다.                    메뉴       설명                       컨피그 맵       컨피그 맵을 등록, 편집, 삭제 관리 메뉴                 시크릿       시크릿을 등록, 편집, 삭제 관리 메뉴          ","categories": [],
+        "excerpt":" 어플리케이션 단위로 변수값을 key=value의 형태로 저장하여 볼륨처럼 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정을 클릭한다.                      메뉴       설명                       컨피그 맵       컨피그 맵을 등록, 편집, 삭제 관리 메뉴                 시크릿       시크릿을 등록, 편집, 삭제 관리 메뉴          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6/",
         "teaser":null},{
         "title": "4.6.1 컨피그 맵",
-        "excerpt":" 서버에서 Config File을 Map 형식으로 저장하여 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵을 클릭한다.                    항목       설명                              컨피그 맵 추가 페이지로 이동                 이름       컨피그 맵 이름(사용자 지정)                 설명       컨피그 맵 설명(사용자 지정)                        컨피그 맵의 액션 메뉴          ","categories": [],
+        "excerpt":" 서버에서 Config File을 Map 형식으로 저장하여 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵을 클릭한다.                     항목       설명                              컨피그 맵 추가 페이지로 이동                 이름       컨피그 맵 이름(사용자 지정)                 설명       컨피그 맵 설명(사용자 지정)                        컨피그 맵의 액션 메뉴          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1/",
         "teaser":null},{
@@ -1285,17 +1305,17 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.6.1.1/",
         "teaser":null},{
         "title": "4.6.1.2 컨피그 맵 수정",
-        "excerpt":" 서비스에 추가 된 컨피그 맵의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 수정을 클릭     b) 데이터 값 변경 후, 수정 버튼을 클릭하여 컨피그 맵을 편집한다.    ","categories": [],
+        "excerpt":" 서비스에 추가 된 컨피그 맵의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 수정을 클릭     b) 데이터 값 변경 후, 수정 버튼을 클릭하여 컨피그 맵을 편집한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1.2/",
         "teaser":null},{
         "title": "4.6.1.3 컨피그 맵 삭제",
-        "excerpt":" 서비스에 컨피그 맵을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 삭제 클릭    ","categories": [],
+        "excerpt":" 서비스에 컨피그 맵을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 삭제 클릭     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1.3/",
         "teaser":null},{
         "title": "4.6.2 시크릿",
-        "excerpt":" 서버에서 Secret File로 저장하여 환경변수 및 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿을 클릭한다.                    항목       설명                              시크릿 추가 페이지로 이동                 이름       시크릿 이름(사용자 지정)                 설명       시크릿 설명(사용자 지정)                        시크릿의 액션 메뉴          ","categories": [],
+        "excerpt":" 서버에서 Secret File로 저장하여 환경변수 및 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿을 클릭한다.                     항목       설명                              시크릿 추가 페이지로 이동                 이름       시크릿 이름(사용자 지정)                 설명       시크릿 설명(사용자 지정)                        시크릿의 액션 메뉴          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2/",
         "teaser":null},{
@@ -1305,7 +1325,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.6.2.1/",
         "teaser":null},{
         "title": "4.6.2.2 시크릿 수정",
-        "excerpt":" 서비스에 추가 된 시크릿의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) →  시크릿 수정을 클릭     b) 데이터 값 변경 후, 수정 버튼을 클릭하여 시크릿을 편집한다.(시크릿 값은 보안상 보여주지 않음)    ","categories": [],
+        "excerpt":" 서비스에 추가 된 시크릿의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) →  시크릿 수정을 클릭      b) 데이터 값 변경 후, 수정 버튼을 클릭하여 시크릿을 편집한다.(시크릿 값은 보안상 보여주지 않음)    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2.2/",
         "teaser":null},{
@@ -1325,17 +1345,17 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.1/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":" 빌드 작업을 편집한다.   a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다.  b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.2/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.3/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.4/",
         "teaser":null},{
@@ -1345,7 +1365,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.5/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/5.6/",
         "teaser":null},{
@@ -1355,17 +1375,17 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
         "title": "6.카탈로그",
-        "excerpt":"어플리케이션 구성을 템플릿화하여 쉽게 워크로드 생성 및 배포, 관리가 가능한 기능이다. 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다. 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다. 카탈로그 메뉴 설명 서비스 카탈로그 사용자가 생성한 카탈로그 플렛폼 카탈로그 Cocktail Cloud 기본 제공 공식 카탈로그 Filter Catalog 검색을 통해 필요한 템플릿...","categories": [],
+        "excerpt":"서비스 구성을 템플릿화하여 쉽게 워크로드 생성 및 배포, 관리가 가능한 기능이다. 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다. 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다. 카탈로그 메뉴 설명 서비스 카탈로그 사용자가 생성한 카탈로그 플렛폼 카탈로그 Cocktail Cloud 기본 제공 공식 카탈로그 Filter Catalog 검색을 통해 필요한 템플릿...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6/",
         "teaser":null},{
         "title": "6.1 카탈로그 저장",
-        "excerpt":"카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 워크로드 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다. 카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. (단, 시크릿은 보안상 값은 저장하지 않는다.) a) 서비스에서 카탈로그로 저장하는 어플리케이션...","categories": [],
+        "excerpt":"카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 워크로드 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다. 카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. (단, 시크릿은 보안상 값은 저장하지 않는다.) a) 서비스에서 카탈로그로 저장하는 서비스...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.1/",
         "teaser":null},{
         "title": "6.2 카탈로그 배포",
-        "excerpt":"생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다. a) 카탈로그 → 배포하고자 하는 템플릿의 ‘배포’ 버튼을 클릭 b) 템플릿 카테고리에서 서비스, 클러스터, 어플리케이션 맵 선택 후 ‘배포’ 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다. 신규 Application Map 배포 시 서비스, 클러스터를 선택하고 어플리케이션 맵,...","categories": [],
+        "excerpt":"생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다. a) 카탈로그 → 배포하고자 하는 템플릿의 ‘배포’ 버튼을 클릭 b) 템플릿 카테고리에서 서비스 맵 그룹, 클러스터, 서비스 맵 선택 후 ‘배포’ 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다. 신규 Service Map 배포 시 서비스 맵 그룹,...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.2/",
         "teaser":null},{
@@ -1380,7 +1400,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/6.4/",
         "teaser":null},{
         "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.5/",
         "teaser":null},{
@@ -1434,6 +1454,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.7/",
         "teaser":null},{
+        "title": "8.구성원",
+        "excerpt":" 현재 워크스페이스에 속한 구성원들 정보를 보여준다.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8/",
+        "teaser":null},{
         "title": "9.용어 설명",
         "excerpt":" Cocktail Cloud 활용의 이해를 돕기 위한 Kubernetes 및 청지원 용어 정리이다.  ","categories": [],
         "tags": [],
@@ -1454,6 +1479,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/9.3/",
         "teaser":null},{
+        "title": "10.고객지원 서비스",
+        "excerpt":"Cocktail Cloud을 이용해 주셔서 감사합니다. 제품 구매 기능상담 등의 기술 지원 서비스 및 각종 혜택을 받을 수 있습니다. 제공하는 각종 서비스는 다음과 같습니다. 방문 서비스를 통하여 Q&amp;A, 제품에 관한 정보 및 기타 문의를 할 수 있습니다. 고객 등록을 마친 제품과 상담이 가능한 제품에 한하여 전화나 팩스를 통하여 전문 기술상담 서비스를...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/10/",
+        "teaser":null},{
         "title": "层积云是什么?",
         "excerpt":" 层积云是一种 容器一体化管理平台(All-in-one Container Management Platform)。   随着云服务的普遍使用，除了基础架构，对应用程序、服务管理的要求也越来越高。像过去的 开发和运营方式充分发挥云的优势是有限的。尤其是应用程序领域，持续整合以及部署 (Continuous Integration/Deploy，CI/CD)、迁移(Migration)、多云/混合云的构筑等自动化、高 效化、整合管理的需求日益增加。   可以说容器技术的扩散是理所当然。目前很多企业已经引进了容器技术，呈现继续增强趋势。 (参考: http://redmonk.com/fryan/2017/09/10/cloud-native-technologies-in-the-fortune-100)   容器是将应用程序或服务压缩成可独立运行单位的技术，无论基础架构环境如何，都可以提供 相同的开发和运营经验。可以实现从基础架构到服务的云管理体系标准化，也可以减少开发及 运营工作量。尤其是不变的环境下，能管理好多云/混合云是它的优点所在。   层积云将容器优点适用于云管理服务，实现了开发及运营业务的高效化，为单一或多云/混合云 战略实施提供了平台。   层积云的主要职能如下      从代码到 Build、部署、更新环节的渠道自动化;   工作负载(服务)中心的容器管理:压缩、生命周期、资源等;   全栈监控:从基础架构到容器的状态以及资源的监控、报警管理;   多云/混合云集群配置及管理:Baremetal、私人/公共云。     下文 : 层积云组件概要  ","categories": [],
         "tags": [],
@@ -1470,7 +1500,7 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/0.2/",
         "teaser":null},{
         "title": "服务管理层(Service Management Layer)",
-        "excerpt":"通常情况下一个应用程序及服务由多个容器组成。尤其是类似 Kubernetes 的编排引擎，容器以 外还需额外增加服务端口、控制器、卷等对象。因此基于容器的应用程序及服务管理，需要压 缩和管理容器以及相关对象的抽象单位。服务管理层就是负责该领域的图层。 层积云的服务管理拥有如下阶层架构。 服务(Service) : 是最上游阶层，分配和管理服务所必要的集群资源、映像注册表、映像 Build 的群组。根据开发人员和运营人员的角色赋予权限，能独立进行管理。层积云可根据需求， 创建多个服务，并按组或服务分配以及管理。 应用程序表(Application Map) : 是组成和管理应用程序的单位，相当于一个工作负载 (Workload)。例如一个服务可以由开发阶层、验证阶层、运营阶层的应用程序表组成，也 可以按照数据管理、分析系统类似功能组成应用程序表。从逻辑角度上，可以说应用程表 是管理工作负载为目的的由多个容器组成的单位。如前所述，服务由一个以上的应用程序 表组成。 层积云服务器(Cocktail Server) : 是容器和相关编排对象的压缩单位。应用程序表由一个 以上的层积云服务器组成。例如，可以 Web 服务器、DB 服务器等类似组件为准组成服务 器，也可以由小规模微服务为准组成层积云服务器。关于层积云服务器，后面进一步详细 说明。 下图是服务管理图层的配置图。 层积云服务器(Cocktail Server) 层积云服务器在服务管理层发挥最核心的功能。如前所述，层积云服务器是容器和相关编排对 象的压缩单位。层积云管理压缩对象的创建、更新等生命周期，同时把状态和资源作为一个压 缩单位进行监控以及管理。 以下是图实例。 层积云提供的管理职能有如下内容: 工作负载的创建、修改(更新)、停止、重启、删除、自动缩放 滚动更新 卷管理 服务端口管理 监控 检查 : 编排对象的状态以及部署信息查询 网络终端、日志查询 : 容器壳连接、容器日志查询 上文...","categories": [],
+        "excerpt":"通常情况下一个应用程序及服务由多个容器组成。尤其是类似 Kubernetes 的编排引擎，容器以 外还需额外增加服务端口、控制器、卷等对象。因此基于容器的应用程序及服务管理，需要压 缩和管理容器以及相关对象的抽象单位。服务管理层就是负责该领域的图层。 层积云的服务管理拥有如下阶层架构。 服务(Service) : 是最上游阶层，分配和管理服务所必要的集群资源、映像注册表、映像 Build 的群组。根据开发人员和运营人员的角色赋予权限，能独立进行管理。层积云可根据需求， 创建多个服务，并按组或服务分配以及管理。 服务地图(Service Map) : 是组成和管理应用程序的单位，相当于一个工作负载 (Workload)。例如一个服务可以由开发阶层、验证阶层、运营阶层的应用程序表组成，也 可以按照数据管理、分析系统类似功能组成应用程序表。从逻辑角度上，可以说应用程表 是管理工作负载为目的的由多个容器组成的单位。如前所述，服务由一个以上的应用程序 表组成。 层积云服务器(Cocktail Server) : 是容器和相关编排对象的压缩单位。应用程序表由一个 以上的层积云服务器组成。例如，可以 Web 服务器、DB 服务器等类似组件为准组成服务 器，也可以由小规模微服务为准组成层积云服务器。关于层积云服务器，后面进一步详细 说明。 下图是服务管理图层的配置图。 层积云服务器(Cocktail Server) 层积云服务器在服务管理层发挥最核心的功能。如前所述，层积云服务器是容器和相关编排对 象的压缩单位。层积云管理压缩对象的创建、更新等生命周期，同时把状态和资源作为一个压 缩单位进行监控以及管理。 以下是图实例。 层积云提供的管理职能有如下内容: 工作负载的创建、修改(更新)、停止、重启、删除、自动缩放 滚动更新 卷管理 服务端口管理 监控 检查 : 编排对象的状态以及部署信息查询 网络终端、日志查询 : 容器壳连接、容器日志查询 上文...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/0.3/",
         "teaser":null},{
@@ -1493,11 +1523,6 @@ var store = [{
         "excerpt":" 以下是层积云的初始登录画面。   输入 System、ID、密码后可以登录。   (ID 另询管理员)      初始连接或初始化密码时，密码必须修改。      90 天后可修改密码或延长使用。     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/1/",
-        "teaser":null},{
-        "title": "10.售后服务",
-        "excerpt":" 非常感谢使用层积云。   可享受产品功能购买咨询等技术服务以及各种优惠。所提供的各种服务如下:      可通过访问服务，咨询 Q&amp;A、产品相关信息以及其他疑问。   对客户已注册产品和可咨询产品，可通过电话或传真进行专业技术咨询服务。   提供各种活动邀请以及信息。   服务支持   邮箱 : byoungoh.lee@namutech.co.kr   产品开发商   ACON 软件(株)      地址 : 首尔特别市 江南区 驿三路 239 号 华光中心 4 层   TEL : 02-554-0301   FAX : 02-554-0302  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/zh/10/",
         "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
@@ -1559,6 +1584,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.1/",
         "teaser":null},{
+        "title": "2.2.1 클러스터 등록",
+        "excerpt":"클러스터를 추가 등록할 수 있는 기능이다. a) 클러스터 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 기본 정보(이름, 쿠버네티스 버전, 아이디, 설명)를 입력한다. 기본 정보 설명 이름 등록할 클러스터의 이름 쿠버네티스 버전 클러스터에 설치된 Kubernetes의 버전정보. e.g) 1.8.13 아이디 클러스터 고유 아이디(사용자 지정), 알람 메시지 Redirect시 필요 설명 클러스터에 대한...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.1_/",
+        "teaser":null},{
         "title": "2.2.2 集群编辑",
         "excerpt":" 修改集群的基本信息、供应商、监控、集群类型的功能。但不能修改供应商的账号、类型、重 定向。   a) 集群→选择集群→注册管理→修改按钮→修改结束后，点击保存按钮。     ","categories": [],
         "tags": [],
@@ -1579,6 +1609,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.5/",
         "teaser":null},{
+        "title": "2.2.5 스토리지 추가",
+        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/2.2.5_/",
+        "teaser":null},{
         "title": "2.2.6 存储编辑",
         "excerpt":" 编辑已注册存储信息的功能。但，不能编辑 NFS 命名类型的存储。   a) 集群→选择集群→卷→卷操作按钮→点击存储编辑。     b) 不能修改名称、说明、策略、存储类别名称、参数值。    ","categories": [],
         "tags": [],
@@ -1589,35 +1624,35 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.2.7/",
         "teaser":null},{
-        "title": "2.3 服务",
-        "excerpt":" 分配工作区，而工作区能 Build、部署、运营应用程序。可按照服务种类注册用户、集群、库。   服务目录分为全部/使用/未使用，可分类查询。(使用与否显示为‘Y’，服务选择的是‘使用’; 显示为‘N’，选择的是‘未使用’)   集群添加参考本说明书的集群部分说明。   a) 点击环境设置→服务→使用与否，从‘全部/使用/未使用’中选择一个。                    用户设置       说明                       使用与否       根据使用与否查询过滤(全部/使用/未使用)                 服务创建       切换到服务添加页面                 名称       服务名称(用户指定)                 使用与否       当前服务的使用与否                 集群       服务里已注册的集群项目          ","categories": [],
+        "title": "2.3 워크스페이스",
+        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3/",
         "teaser":null},{
-        "title": "2.3.1 服务添加",
-        "excerpt":" 添加服务的功能。可根据服务类别，注册用户以及集群、注册表(存储库)。   a) 点击环境设置→服务→右上角的服务创建。     b) 填写需要注册服务的名称、说明、颜色、注册表以及用户、集群信息。     c) 用户、集群添加，只反映被选的复选框内容。           用户编辑            用户编辑      ","categories": [],
+        "title": "2.3.1 워크스페이스 생성",
+        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 사용자, 클러스터 정보를 등록한다. c) 사용자, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 사용자 편집...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.1/",
         "teaser":null},{
-        "title": "2.3.2 服务编辑",
-        "excerpt":" 编辑服务信息的功能。可以修改服务名称、说明、颜色、状态，也可以编辑使用该服务的用户以及需要注册在服务目录的集群。   a) 环境设置→服务→服务操作菜单→服务编辑→修改结束后，点击修改。     b) 可修改服务名称、说明、颜色、状态以及用户、集群。    ","categories": [],
+        "title": "2.3.2 워크스페이스 편집",
+        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.2/",
         "teaser":null},{
-        "title": "2.3.3 服务删除",
-        "excerpt":" 删除服务的功能。删除时，如为服务目录中已注册集群，则不能删除，可以先从服务编辑中删除集群后再删除。   a) 点击环境设置→服务→服务操作菜单→服务删除。    ","categories": [],
+        "title": "2.3.3 워크스페이스 삭제",
+        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/2.3.3/",
         "teaser":null},{
         "title": "3.仪表盘",
-        "excerpt":" 通过仪表盘，可一目了然层积云所服务的信息。           摘要信息       可查看当前已注册管理的服务程序数量、工作负载数量、已注册集群数、当前启用报警数。            资源现状       可查看 CPU、内存的总量、请求量、使用量以及存储(节点、Pv)总量。            供应商集群现状       可查看不同供应商已注册的集群数、服务程序数量、工作负载数量。            集群费用现状       可查看正在使用的集群费用。            集群上游资源请求率       可查看正在使用的集群中，上游 5 个集群的资源分配率(request)。            各服务程序的上游资源请求量       可查看正在使用的服务程序中，上游 5 个服务程序的资源分配量。      ","categories": [],
+        "excerpt":" 通过仪表盘，可一目了然层积云所服务的信息。           摘要信息       可查看当前已注册管理的服务程序数量、工作负载数量、已注册集群数、当前启用报警数。            资源现状       可查看 CPU、内存的总量、请求量、使用量以及存储(节点、Pv)总量。            供应商集群现状       可查看不同供应商已注册的集群数、服务程序数量、工作负载数量。            集群费用现状       可查看正在使用的集群费用。            集群上游资源请求率       可查看正在使用的集群中，上游 5 个集群的资源分配率(request)。            各服务程序的上游资源请求量       可查看正在使用的服务程序中，上游 5 个服务程序的资源分配量。         ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/3/",
         "teaser":null},{
         "title": "3.仪表盘",
         "excerpt":"대시보드에서는 Cocktail Cloud에 서비스된 정보를 한 눈에 확인 할 수 있다. 요약정보 현재 등록 관리되고 있는 서비스 개수, 워크로드 개수, 등록된 클러스터 수, 현재 발생한 알람의 개수를 볼 수 있다. 자원현황 CPU, Memory의 전체량, 요청량, 사용량과 Storage(Node, Pv) 전체, 사용량을 확인 할 수 있다. 클러스터 현황 등록된 클러스터 별로 서비스...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/zh/3/",
+        "url": "http://localhost:4000/docs/zh/3_/",
         "teaser":null},{
         "title": "3.1 用户管理",
         "excerpt":" 可查看和管理当前用户信息。      a) 点击仪表盘→页面左下角的用户形状按钮。                  目录       说明                       ID       可查看当前使用的账号 ID。                 用户语言选择       可选韩语、日语、英语其中一个。                 主题       可修改 Light 和 Dark 主题。                 密码修改       可输入新旧密码修改密码。                 帮助       提供关于层积云使用功能的帮助手册。                 产品名称       显示产品名称层积云。                 版本       可查看当前层积云版本。                 注销       注销当前使用账号。          ","categories": [],
@@ -1782,7 +1817,7 @@ var store = [{
         "title": "5 빌드 관리",
         "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 + 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 이미지 사이즈...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5/",
+        "url": "http://localhost:4000/docs/zh/5_/",
         "teaser":null},{
         "title": "5.1 Build 添加",
         "excerpt":"添加 Docker 映像的 Build 作业。应用程序下载、Build、映像 Build 共 3 种可选。 a) 服务→Build 管理→选择 Build 添加，切换到该页面。 b) 输入应用程序下载、应用程序 Build、映像 Build 内容，点击创建按钮，创建服务器。 Build 生成阶段 说明 应用程序下载 下载 Build 必要的源代码 应用程序 Build 需要编译源代码时使用 命令 - Build 时将运行的作业 主机路径 - 容器工作路径和其挂载的主机路径 Working dir - 实际容器内部工作路径，和容器路径对接 映像 - Build 时所使用的映像 映像 Build 利用前述作业的源代码创建 Docker 文件生成映像后，该映像存储于 注册表存储库的阶段...","categories": [],
@@ -1792,7 +1827,7 @@ var store = [{
         "title": "5.1 빌드 추가",
         "excerpt":"도커 이미지에 대한 빌드 작업을 추가한다. 어플리케이션 다운로드, 빌드, 이미지 빌드로 총 3가지를 선택 할 수 있다. a) 좌측 메인 메뉴 → 빌드 화면에서 [+] 버튼을 클릭하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 작성하고 [생성] 버튼을 눌러 빌드를 생성한다. 빌드 생성 단계 설명...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.1/",
+        "url": "http://localhost:4000/docs/zh/5.1_/",
         "teaser":null},{
         "title": "5.2 作业设置编辑",
         "excerpt":" 编辑 Build 作业。Build 名称不能编辑。在编辑页面，可删除现已下载的源代码，也可以分别运行应用程序下载、应用程序 Build、映像 Build3 种作业。   a) 服务→Build 管理→Build 操作菜单(激活)→选择作业设置编辑，切换到该页面。                    作业设置编辑       说明                       源文档删除       删除下载源文档                 应用程序下载运行       只运行应用程序下载                 Build 高速缓存删除       删除现已 Build 的容器                 应用程序 Build 运行       只运行应用程序 Build                 映像 Build 运行       只运行映像 Build          ","categories": [],
@@ -1800,9 +1835,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.2/",
         "teaser":null},{
         "title": "5.2 작업 설정 편집",
-        "excerpt":"빌드 작업을 편집한다. 편집 안에서 기존에 다운로드한 소스를 제거 할 수 있고, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 각각 3가지 작업을 따로 실행 할 수 있다. a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다. b) 기본 정보, 어플리케이션 다운로드, 어플리케이션...","categories": [],
+        "excerpt":" 빌드 작업을 편집한다.   a) 좌측 메인 메뉴 → 빌드 → 빌드 액션 메뉴(활성화) → [작업 설정 편집]을 선택하여 해당 페이지로 이동한다.  b) 기본 정보, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드 내용을 수정하고 [수정] 버튼을 눌러 작업 설정을 편집한다.     ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.2/",
+        "url": "http://localhost:4000/docs/zh/5.2_/",
         "teaser":null},{
         "title": "5.3 历史记录",
         "excerpt":" 切换到该 Build 历史页面，可针对 Build 运行项查看历史信息。可通过 Build 运行单位查看日志。   a) 服务→Build 管理→Build 操作菜单(激活)→选择历史记录，切换到该页面。     b) Build 作业历史菜单中，确认该 Build 作业的操作名称、状态、日期、作业时间、映像名称、 映像大小、Build 日志。    ","categories": [],
@@ -1810,9 +1845,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.3/",
         "teaser":null},{
         "title": "5.3 히스토리",
-        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다. 빌드 실행 단위로 로그를 확인할 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
+        "excerpt":" 해당 빌드의 히스토리 페이지로 이동하여 빌드 실행 항목에 대하여 히스토리 정보를 볼 수 있다.   a) 좌측 메인 메뉴 → 빌드 화면에서 빌드 액션 메뉴(활성화) → [히스토리]를 클릭하여 해당 페이지로 이동한다.     b) 액션 메뉴(활성화) → [로그보기]를 클릭하여 빌드 로그를 확인할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.3/",
+        "url": "http://localhost:4000/docs/zh/5.3_/",
         "teaser":null},{
         "title": "5.4 Build 运行",
         "excerpt":" 运行 Build 作业。如果运行 Build，就一次性运行应用程序下载、应用程序 Build、映像 Build。   a) 选择服务→Build 管理→Build 操作菜单(激活)→Build 运行，执行 Build 作业。     b) 运行 Build 时，当前操作被修改，同时日志窗被激活。   Build 生成时，只限于选框中被选的数量标签进行激活，可查看各阶段 Build 过程。   (如果 DOWN 阶段发生错误，不会进行下一步。)   如果 Build 运行作业中看到 “Application_Create_Image Step is done…” 的日志, 说明映像 Build 已 成功完成。   ","categories": [],
@@ -1820,9 +1855,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.4/",
         "teaser":null},{
         "title": "5.4 빌드 실행",
-        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. ![](/assets/KR/3.1.1/5.4_1.png b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. ) c) 빌드 실행 시, 현재 액션이 변경되면서...","categories": [],
+        "excerpt":"빌드 작업을 실행한다. 빌드 실행을 하면, 어플리케이션 다운로드, 어플리케이션 빌드, 이미지 빌드를 한 번에 실행한다. a) 빌드 목록에서 실행할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 실행]을 선택하면 빌드실행 창이 활성화된다. b|) 설명을 입력 후, [승인] 버튼을 클릭하면 빌드 작업을 실행한다. c) 빌드 실행 시, 현재 액션이 변경되면서 빌드 로그...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.4/",
+        "url": "http://localhost:4000/docs/zh/5.4_/",
         "teaser":null},{
         "title": "5.5 Build 取消",
         "excerpt":" 取消 Build 作业。只能取消运行状态(RUNNING)的 Build 作业。   a) 选择服务→Build 管理→Build 操作菜单(激活)→Build 取消，取消 Build 作业。    ","categories": [],
@@ -1832,7 +1867,7 @@ var store = [{
         "title": "5.5 빌드 취소",
         "excerpt":" 빌드 작업을 취소한다. 빌드작업이 실행 상태(RUNNING)인 것만 취소할 수 있다.   a) 빌드 목록에서 취소할 빌드 작업의 빌드 액션 메뉴(활성화) → [빌드 취소]를 선택하여 빌드 작업을 취소한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.5/",
+        "url": "http://localhost:4000/docs/zh/5.5_/",
         "teaser":null},{
         "title": "5.6 日志查看",
         "excerpt":" 显示 Build 作业的最新运行日志。如果 Build 作业在运行中，就可以查看日志。   a) 选择服务→Build 管理→Build 操作菜单(激活)→日志查看，可查看该 Build 作业的 Build 运行日志。    ","categories": [],
@@ -1840,9 +1875,9 @@ var store = [{
         "url": "http://localhost:4000/docs/zh/5.6/",
         "teaser":null},{
         "title": "5.6 로그 보기",
-        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.  \\  ","categories": [],
+        "excerpt":" 빌드작업의 최근 실행 로그를 보여준다. 빌드실행 도중이라면 실행 중인 로그를 볼 수 있다.   a) 빌드 목록에서 로그 보기할 빌드 작업의 빌드 액션 메뉴(활성화) → [로그 보기]를 선택하여 해당 빌드 작업의 빌드 실행 로그를 볼 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.6/",
+        "url": "http://localhost:4000/docs/zh/5.6_/",
         "teaser":null},{
         "title": "5.7 作业删除",
         "excerpt":" 删除 Build 作业。删除时，先删除该高速缓存和已下载源文档后，再进行删除作业。   a) 选择服务→Build 管理→Build 操作菜单(激活)→作业删除，可删除该 Build 作业。    ","categories": [],
@@ -1852,39 +1887,59 @@ var store = [{
         "title": "5.7 작업 삭제",
         "excerpt":" 빌드 작업을 삭제한다.   a) 빌드 목록에서 삭제할 빌드 작업의 빌드 액션 메뉴(활성화) → [작업 삭제]를 선택하여 해당 빌드 작업을 삭제할 수 있다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/5.7/",
+        "url": "http://localhost:4000/docs/zh/5.7_/",
         "teaser":null},{
         "title": "6.目录",
         "excerpt":" 通过应用程序配置的模板化，可轻松创建、部署、管理工作负载的功能。   当一次性捆绑使用多个工作负载时，使用目录功能。   目录分为服务目录和平台目录。                     目录菜单       说明                       服务目录       用户创建的目录                 平台目录       层积云默认提供的正式目录                 过滤目录       通过搜索，查看所需要的模板                 模板       组成应用程序的工作负载集合                 部署       通过目录，部署工作负载                 编辑       对目录内容进行编辑          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/6/",
         "teaser":null},{
+        "title": "6.카탈로그",
+        "excerpt":"서비스 구성을 템플릿화하여 쉽게 워크로드 생성 및 배포, 관리가 가능한 기능이다. 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다. 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다. 카탈로그 메뉴 설명 서비스 카탈로그 사용자가 생성한 카탈로그 플렛폼 카탈로그 Cocktail Cloud 기본 제공 공식 카탈로그 Filter Catalog 검색을 통해 필요한 템플릿...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/6_/",
+        "teaser":null},{
         "title": "6.1 目录保存",
         "excerpt":" 可以创建目录，一次性捆绑部署所需要的服务器。当工作负载容器映像为 Build 时，只保存映像，并转换成共享映像后，保存于目录。在服务目录页面，可查看已保存的目录。   目录保存时，以模板形式保存设置的配置图、Secret。 (但，为了安全考虑 Secret 值不保存。)   a) 在服务页面，选择保存为目录的应用程序表。   b) 点击页面右上角的 “保存为目录” 按钮。   c) 创建新模板时，选择”现有”目录，更新”新”目录和现有模板，然后撰写版本、摘要信息 和编辑内容，再点击下面”保存”按钮。(编辑、输入字段采用 Mark Down 文件格式, 该文件 的撰写方法可点击页面右侧的”Mark Down support”查看。)    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/6.1/",
+        "teaser":null},{
+        "title": "6.1 카탈로그 저장",
+        "excerpt":"카탈로그를 생성하여 필요한 서버들을 묶어 한 번에 배포 할 수 있다. 워크로드 컨테이너 이미지가 빌드 인 경우에는 이미지만을 저장하여 공용이미지로 변환하여 카탈로그로 저장한다. 저장된 카탈로그는 서비스 카탈로그에서 확인 할 수 있다. 카탈로그 저장시 설정의 컨피그 맵, 시크릿도 템플릿으로 저장한다. (단, 시크릿은 보안상 값은 저장하지 않는다.) a) 서비스에서 카탈로그로 저장하는 서비스...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/6.1_/",
         "teaser":null},{
         "title": "6.2 目录部署",
         "excerpt":" 可以部署已创建目录。必要时，可以排除或编辑、部署不需要的实例。   a) 点击目录→需要部署模板的”部署”按钮。     b) 在模板目录页面，选择服务、集群、应用程序表后, 再点击”部署”。除了不需要的实例， 均可以部署。           部署新的应用程序表时，选择服务和集群，撰写应用程序表、命名空间名称后，可进行部 署。             部署现有应用程序表时，选择服务、应用程序表后，可进行部署。        c) 为了安全考虑 Secret 值不保存，应在部署前输入值。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/6.2/",
         "teaser":null},{
+        "title": "6.2 카탈로그 배포",
+        "excerpt":"생성된 카탈로그를 배포할 수 있다. 필요 시 불필요한 인스턴스를 제외하거나 편집하여 배포 가능하다. a) 카탈로그 → 배포하고자 하는 템플릿의 ‘배포’ 버튼을 클릭 b) 템플릿 카테고리에서 서비스 맵 그룹, 클러스터, 서비스 맵 선택 후 ‘배포’ 클릭. 원하지 않는 인스턴스는 제외하고 배포할 수 있다. 신규 Service Map 배포 시 서비스 맵 그룹,...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/6.2_/",
+        "teaser":null},{
         "title": "6.3 目录编辑",
         "excerpt":" 可编辑已创建目录内容。可修改模板的版本、摘要信息和编辑内容，同时可以修改各种实例的部署信息。   a) 点击目录→需要编辑模板的”编辑”按钮。     b) 更改需要修改的模板的版本、摘要信息、编辑内容, 再点击页面右下角的”编辑”按钮， 可修改实例的部署信息。     c) 编辑页面上只能查看配置图和 Secret 的内容, 不能编辑。     d) 编辑服务器时, 只能查看容器的环境设置, 卷和挂载卷的内容, 不能编辑。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/6.3/",
+        "teaser":null},{
+        "title": "6.3 카탈로그 편집",
+        "excerpt":"생성한 카탈로그 내용을 편집할 수 있다. 템플릿의 버전, 요약정보, 편집 내용을 수정할 수 있으며 각 인스턴스의 배포 정보를 수정할 수 있다. a) 카탈로그 → 편집하고자 하는 템플릿 ‘편집’ 버튼을 클릭 b) 수정할 템플릿의 버전, 요약정보, 편집 내용을 수정하고, 화면 우측 하단 ‘편집’버튼 클릭하여 인스턴스의 배포 정보를 수정할 수 있다. c)...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/6.3_/",
         "teaser":null},{
         "title": "6.4 目录删除",
         "excerpt":" 可删除不必要的目录。(Platform 目录不能删除)   a) 点击目录→需要删除模板的”编辑”按钮。     b) 选择需要删除模板的版本后, 点击”删除”按钮, 删除该模板的版本。    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/6.4/",
         "teaser":null},{
-        "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명.zip 로 다운로드 된다.    ","categories": [],
+        "title": "6.5 目录出口",
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ja/6.5/",
+        "url": "http://localhost:4000/docs/zh/6.5/",
         "teaser":null},{
-        "title": "6.6 카탈로그 가져오기",
+        "title": "6.6 目录进口",
         "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/6.6/",
@@ -1897,7 +1952,7 @@ var store = [{
         "title": "7.클러스터",
         "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7/",
+        "url": "http://localhost:4000/docs/zh/7_/",
         "teaser":null},{
         "title": "7.1 集群管理",
         "excerpt":" 注册、编辑、删除从供应商那里得到分配的 Kubernetes 集群信息的功能。   a) 点击集群→”排列”按钮，选择需要的排列标准。                   集群设置       说明                       集群       集群的种类                 节点       集群的节点数字                 CPU       集群所有的 CPU 容量、请求量、使用量                 内存       集群所有的内存容量、请求量、使用量                 应用程序       集群的应用程序表(命名空间)数                 工作负载       正在部署在集群的工作负载数          ","categories": [],
@@ -1907,7 +1962,7 @@ var store = [{
         "title": "7.1 클러스터 목록",
         "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.1/",
+        "url": "http://localhost:4000/docs/zh/7.1_/",
         "teaser":null},{
         "title": "7.2 节点",
         "excerpt":" 可查询所有节点的全部磁盘、CPU、内存、网络使用量以及个别节点的 Label、状态信息等的 画面。点击节点名称，即可查询节点详细信息。   a) 集群→选择集群→点击节点。     b) 点击节点名称，即可查询节点详细信息。    ","categories": [],
@@ -1922,7 +1977,7 @@ var store = [{
         "title": "7.3 서비스",
         "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.3/",
+        "url": "http://localhost:4000/docs/zh/7.3_/",
         "teaser":null},{
         "title": "7.4 卷",
         "excerpt":" 注册公共云存储以及外部存储的信息，提供当前卷的监控服务。   a) 集群→选择集群→点击卷。                    存储设置信息       说明                       +按钮       切换到存储添加页面                 名称       存储名称(用户指定)                 类型       存储种类(NFS/EBS/Google Persistent Disk/Azure Disk)                 存储类别名称       已注册在 k8s 的类别名称                 策略       存储卷策略设置(Retain,Recyle,Delete)                 状态       存储使用状态                          卷设置信息       说明                       卷名称       PVC 名称                 状态       PVC 挂载状态                 使用量       PV 已分配的可用量和使用量                 访问模式       PV 访问权限                 Age       PVC 创建所需时间          ","categories": [],
@@ -1932,7 +1987,7 @@ var store = [{
         "title": "7.4 볼륨",
         "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.4/",
+        "url": "http://localhost:4000/docs/zh/7.4-volume_ko/",
         "teaser":null},{
         "title": "7.5 报警",
         "excerpt":" 使用此功能接收有关集群的事件。   a) 集群→选择集群→点击报警。     b) 点击报警名称，即可查询详细内容。    ","categories": [],
@@ -1954,6 +2009,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/zh/7.7/",
         "teaser":null},{
+        "title": "8.구성원",
+        "excerpt":" 현재 워크스페이스에 속한 구성원들 정보를 보여준다.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/8/",
+        "teaser":null},{
         "title": "9.术语说明",
         "excerpt":" 为了帮助用户了解层积云的运用，下面对 Kubernetes 及层积云的术语进行了整理。  ","categories": [],
         "tags": [],
@@ -1973,4 +2033,9 @@ var store = [{
         "excerpt":"1. 故障代码 代码 信息 CCCM001 无法显示具体错误代码。 CCCM002 未知错误。 CCCM004 无效函数导出的参数。 CCCM005 未经认证的请求。 CCCM006 传递信息不正确。 CCCM007 服务器、作业等不正确或者无法处理请求。 CCCM019 内部服务器错误。 CCCM020 外部导出API返回错误或导出失败。 CCCM023 无需要执行的作业。 CCCM026 发生了错误。 CCCM027 注册中发生了错误。 CCCM028 修改中发生了错误。 CCCM029 删除中发生了错误。 CCCM030 查询中发生了错误。 CDCM031 数据库作业中发生了错误。请稍后再尝试。仍未改善时，请咨询管理员。 CDCM032 数据库连接中发生了错误。请稍后再尝试。如果可以，请检查数据库连接状态，或者咨询管理员。 CKSY001 Cube集群API发生了错误。 CKSY002 层积云不支持Cube集群版本。 CKSY003 加密中发生了错误。 CCUS001 未注册的用户ID。 CCUS002 用户密码不一致。 CCUS003 用户指定权限未分配的用户。 CCUS004 已注册用户。...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/zh/9.3/",
+        "teaser":null},{
+        "title": "10.售后服务",
+        "excerpt":" 非常感谢使用层积云。   可享受产品功能购买咨询等技术服务以及各种优惠。所提供的各种服务如下:      可通过访问服务，咨询 Q&amp;A、产品相关信息以及其他疑问。   对客户已注册产品和可咨询产品，可通过电话或传真进行专业技术咨询服务。   提供各种活动邀请以及信息。   服务支持   邮箱 : byoungoh.lee@namutech.co.kr   产品开发商   ACON 软件(株)      地址 : 首尔特别市 江南区 驿三路 239 号 华光中心 4 层   TEL : 02-554-0301   FAX : 02-554-0302  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/zh/9.4/",
         "teaser":null},]

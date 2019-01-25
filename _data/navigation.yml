@@ -168,7 +168,7 @@ docs:
       - title: "Cocktail Cloud System Error Code"
         url: /docs/ko/9.3/
   - title: "고객지원서비스"
-    url: /docs/ko/10/
+    url: /docs/ko/9.4/
 
 en:
   - title: "What is Cocktail?"
@@ -331,7 +331,7 @@ en:
       - title: "Cocktail System Error Code"
         url: /docs/en/9.3/
   - title: "Customer Support"
-    url: /docs/en/10/
+    url: /docs/en/9.4/
 
 zh:
   - title: "层积云是什么?"
@@ -497,7 +497,7 @@ zh:
       - title: "层积云系统故障代码"
         url: /docs/zh/9.3/
   - title: "售后服务"
-    url: /docs/zh/10/
+    url: /docs/zh/9.4/
 
 ja:
   - title: "Cocktail Cloud の概念"
@@ -663,4 +663,4 @@ ja:
       - title: "Cocktail System Error Code"
         url: /docs/ja/9.3/
   - title: "ユーザーサポートサービス"
-    url: /docs/ja/10/
+    url: /docs/ja/9.4/
