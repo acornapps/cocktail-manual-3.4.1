@@ -13,11 +13,10 @@ sidebar:
 
 ---
 
-アプリケーションマップとビルドタスク、サーバーの作成および管理を行う機能である。![](/assets/JP/2.5/3_1.png)
+サービスマップとワークロードを作成、管理する機能である。
+![]({{ site.baseurl }}/assets/JP/{{ site.version }}/4_1.png)
 
 | リスト | 説明 |
 | :---: | :--- |
-| <img src="/assets/JP/2.5/3_2.png" width="80%" /> | サービスに登録されたクラスターのタイプとクラスター数を表示 |
-| <img src="/assets/JP/2.5/3_3.png" width="90%" /> | ビルド管理ページに移動 |
-| ![](/assets/EN/2.5/3_4.png) | アプリケーションマップの作成ページに移動 |
-
+| ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/4_2.png) | サービスマップグループのアクションメニュー |
+| ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/4_3.png) | サービスマップ作成のポップアップを呼び出し |
