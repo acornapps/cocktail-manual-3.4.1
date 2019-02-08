@@ -1,5 +1,5 @@
 ---
-title: "2.시스템 관리"
+title: "2.システム管理"
 excerpt: ""
 permalink: /docs/ja/2/
 redirect_from:
@@ -11,6 +11,6 @@ sidebar:
 ---
 
 ---
-칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.
+カクテルクラウド利用に必要なシステム、クラスター、ワークスペースを管理することができる。
 
 ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/2_1.png)
