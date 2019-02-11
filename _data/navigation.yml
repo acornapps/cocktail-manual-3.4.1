@@ -156,19 +156,24 @@ docs:
         url: /docs/ko/7.6/
       - title: "등록정보"
         url: /docs/ko/7.7/
-  - title: "구성원"
+  - title: "시스템 운영"
     url: /docs/ko/8/
-  - title: "용어 설명"
+    children:
+      - title: "클러스터 구성 및 등록"
+        url: /docs/ko/8.1/
+  - title: "구성원"
     url: /docs/ko/9/
+  - title: "용어 설명"
+    url: /docs/ko/10/
     children:
       - title: "Kubernetes"
-        url: /docs/ko/9.1/
+        url: /docs/ko/10.1/
       - title: "Cocktail Cloud"
-        url: /docs/ko/9.2/
+        url: /docs/ko/10.2/
       - title: "Cocktail Cloud System Error Code"
-        url: /docs/ko/9.3/
+        url: /docs/ko/10.3/
   - title: "고객지원서비스"
-    url: /docs/ko/9.4/
+    url: /docs/ko/11/
 
 en:
   - title: "What is Cocktail?"
