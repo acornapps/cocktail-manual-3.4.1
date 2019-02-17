@@ -210,6 +210,13 @@ docs:
                 url: /docs/ko/8.1.1.2/
               - title: "EKS 클러스터 만들기"
                 url: /docs/ko/8.1.1.3/
+          - title: "클러스터 직접 구성"
+            url: /docs/ko/8.1.2/
+      - title: "운영 가이드"
+        url: /docs/ko/8.2/
+        children:
+        - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
+          url: /docs/ko/8.2.1/
   - title: "구성원"
     url: /docs/ko/9/
   - title: "용어 설명"
