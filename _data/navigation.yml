@@ -215,8 +215,8 @@ docs:
       - title: "운영 가이드"
         url: /docs/ko/8.2/
         children:
-        - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
-          url: /docs/ko/8.2.1/
+          - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
+            url: /docs/ko/8.2.1/
   - title: "구성원"
     url: /docs/ko/9/
   - title: "용어 설명"
