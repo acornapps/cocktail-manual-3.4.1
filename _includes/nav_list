@@ -1,47 +1,120 @@
 {% assign navigation = site.data.navigation[include.nav] %}
 
 <nav class="nav__list">
+<aside>
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
   <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
   <ul class="nav__items">
     {% for nav in navigation %}
-      <li>
-        {% if nav.url %}
-          {% comment %} internal/external URL check {% endcomment %}
-          {% if nav.url contains "://" %}
-            {% assign nav_url = nav.url %}
+      <li data-nav-id="{{ nav.url }}">
+        <div class="nav__title">
+          {% if nav.url %}
+            {% comment %} internal/external URL check {% endcomment %}
+            {% if nav.url contains "://" %}
+              {% assign nav_url = nav.url %}
+            {% else %}
+              {% assign nav_url = nav.url | relative_url %}
+            {% endif %}
+            <a href="{{ nav_url }}">{{ nav.title }}</a>
           {% else %}
-            {% assign nav_url = nav.url | relative_url %}
+            {{ nav.title }}
           {% endif %}
-
-          <a href="{{ nav_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
-        {% else %}
-          <span class="nav__sub-title">{{ nav.title }}</span>
-        {% endif %}
+        </div>
 
         {% if nav.children != null %}
         <ul>
           {% for child in nav.children %}
-            {% comment %} internal/external URL check {% endcomment %}
-            {% if child.url contains "://" %}
-              {% assign child_url = child.url %}
-            {% else %}
-              {% assign child_url = child.url | relative_url %}
-            {% endif %}
+            <li data-nav-id="{{ child.url }}" class="dd-item">
+              {% comment %} internal/external URL check {% endcomment %}
+              {% if child.url contains "://" %}
+                {% assign child_url = child.url %}
+              {% else %}
+                {% assign child_url = child.url | relative_url %}
+              {% endif %}
 
-            {% comment %} set "active" class on current page {% endcomment %}
-            {% if child.url == page.url %}
-              {% assign active = "active" %}
-            {% else %}
-              {% assign active = "" %}
-            {% endif %}
+              {% comment %} set "active" class on current page {% endcomment %}
+              {% if child.url == page.url %}
+                {% assign active = "active" %}
+              {% else %}
+                {% assign active = "" %}
+              {% endif %}
+              <div class="nav__sub-title">
+                {% if child.children != null %}
+                  {% if page.url != child.children.url %}
+                    <i class="fa fa-angle-right fa-lg category-icon"></i>
+                  {% else %}
+                    <i class="fa fa-angle-down fa-lg category-icon"></i>
+                  {% endif%}
+                {% endif %}
+                <a href="{{ child_url }}">{{ child.title }}</a>
+              </div>
 
-            <li><a href="{{ child_url }}" class="{{ active }}">{{ child.title }}</a></li>
+              {% comment %} sub-title in child - 2019.02.13-dongmook {% endcomment %}
+              {% if child.children != null %}
+                <ul>
+                  {% for sub-child in child.children %}
+                    <li data-nav-id="{{ sub-child.url }}" class="dd-item">
+                      {% comment %} sub-child internal/external URL check {% endcomment %}
+                      {% if sub-child.url contains "://" %}
+                        {% assign sub-child_url = sub-child.url %}
+                      {% else %}
+                        {% assign sub-child_url = sub-child.url | relative_url %}
+                      {% endif %}
+
+                      {% comment %} set "active" class on current page {% endcomment %}
+                      {% if sub-child.url == page.url %}
+                        {% assign active = "active" %}
+                      {% else %}
+                        {% assign active = "" %}
+                      {% endif %}
+                      <div class="nav__sub-title">
+                      {% if sub-child.children != null %}
+                        {% if page.url != sub-child.children.url %}
+                          <i class="fa fa-angle-right fa-lg category-icon"></i>
+                        {% else %}
+                          <i class="fa fa-angle-down fa-lg category-icon"></i>
+                        {% endif%}
+                      {% endif %}
+                        <a href="{{ sub-child_url }}">{{ sub-child.title }}</a>
+                      </div>
+
+                      {% comment %} sub-title-children in sub-title - 2019.02.13-dongmook {% endcomment %}
+                      {% if sub-child.children != null %}
+                        <ul>
+                          {% for 2-sub-child in sub-child.children %}
+                            <li data-nav-id="{{ 2-sub-child.url }}" class="dd-item">
+                              {% comment %} 2-sub-child internal/external URL check {% endcomment %}
+                              {% if 2-sub-child.url contains "://" %}
+                                {% assign 2-sub-child_url = 2-sub-child.url %}
+                              {% else %}
+                                {% assign 2-sub-child_url = 2-sub-child.url | relative_url %}
+                              {% endif %}
+
+                              {% comment %} set "active" class on current page {% endcomment %}
+                              {% if 2-sub-child.url == page.url %}
+                                {% assign active = "active" %}
+                              {% else %}
+                                {% assign active = "" %}
+                              {% endif %}
+                              <div class="nav__sub-title">
+                                <a href="{{ 2-sub-child_url }}">{{ 2-sub-child.title }}</a>
+                              </div>
+                            </li>
+                          {% endfor %}
+                        </ul>
+                      {%endif%}
+
+                    </li>
+                  {% endfor %}
+                </ul>
+              {%endif%}
+            </li>
           {% endfor %}
         </ul>
         {% endif %}
       </li>
     {% endfor %}
   </ul>
+</aside>
 </nav>

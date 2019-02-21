@@ -534,38 +534,38 @@ var store = [{
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.1/",
         "teaser":null},{
-        "title": "2.1.2 클라우드 미터링 계정 등록",
-        "excerpt":"  클라우드 미터링 계정 등록 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 등록                Amazon Web Service             Google Cloud Plalform       ","categories": [],
+        "title": "2.1.2 クラウドメータリングアカウントの登録",
+        "excerpt":"  クラウドメータリングアカウントを登録することができる。   a) 左側のメインメニュー → システム → アカウント登録                Amazon Web Service             Google Cloud Plalform       ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.2/",
         "teaser":null},{
-        "title": "2.1.3 클라우드 미터링 계정 편집",
-        "excerpt":"  클라우드 미터링 계정 편집 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 편집 → 수정완료 후 수정버튼을 클릭한다.       ","categories": [],
+        "title": "2.1.3 クラウドメータリングアカウントの修正",
+        "excerpt":"  クラウドメータリングアカウントを修正することができる。   a) 左側のメインメニュー → システム → アカウントアクションメニュー → アカウント修正 → 修正完了後修正ボタンをクリックする。       ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.3/",
         "teaser":null},{
-        "title": "2.1.4 클라우드 미터링 계정 삭제",
-        "excerpt":"  클라우드 미터링 계정을 삭제 할 수 있다.   a) 좌측 메인메뉴 → 시스템 → 계정 액션 메뉴 → 계정 삭제    ","categories": [],
+        "title": "2.1.4 クラウドメータリングアカウントの削除",
+        "excerpt":"  クラウドメータリングアカウントを削除することができる。   a) 左側のメインメニュー → システム → アカウントアクションメニュー → アカウント削除    ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.4/",
         "teaser":null},{
-        "title": "2.1.5 시스템 사용자 추가",
-        "excerpt":"  시스템 사용자를 추가 하는 기능이다.  a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다.                       시스템 사용자       설명                       이름       시스템 사용자 이름                 아이디       칵테일 클라우드 접속 사용자 아이디                 설명       시스템 사용자 설명          ","categories": [],
+        "title": "2.1.5 システムユーザー追加",
+        "excerpt":"  システムユーザーを追懐する機能。  a) 左側のメインメニュー → システム → ユーザー追加をクリック。                       システムユーザー       説明                       名前       システムユーザー名                 ID       カクテルクラウド接続ユーザーID                 説明       システムユーザー説明          ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.5/",
         "teaser":null},{
-        "title": "2.1.6 시스템 사용자 편집",
-        "excerpt":" 시스템 사용자 정보(이름, 설명)를 편집 하는 기능이다.   a) 좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 편집를 클릭한다.       ","categories": [],
+        "title": "2.1.6 システムユーザーの修正",
+        "excerpt":" システムユーザー情報（名前、説明）を修正する機能。   a) 左側のメインメニュー → システム → ユーザーアクションメニュー → ユーザー修正をクリック。       ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.6/",
         "teaser":null},{
-        "title": "2.1.7 시스템 사용자 비밀번호 초기화",
-        "excerpt":"  Cocktail Cloud 사용자 비밀번호를 초기화 하는 기능이다.(초기화 후 제공받는 초기 비밀번호는 ‘Pass0000’이다.)   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 비밀번호 초기화를 클릭한다.    ","categories": [],
+        "title": "2.1.7 システムユーザーのパスワード初期化",
+        "excerpt":"  Cocktail Cloud ユーザーパスワードを初期化する機能。（初期化後、提供する初期パスワードは’Pass0000’である。）   a)  左側のメインメニュー → システム → ユーザーアクションメニュー → ユーザーパスワード初期化をクリックする。    ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.7/",
         "teaser":null},{
-        "title": "2.1.8 시스템 사용자 삭제",
-        "excerpt":" 시스템 사용자를 삭제하는 기능이다.   a)  좌측 메인메뉴 → 시스템 → 사용자 액션 메뉴 → 사용자 삭제를 클릭한다.    ","categories": [],
+        "title": "2.1.8 システムユーザー削除",
+        "excerpt":" システムユーザーを削除うする機能。   a)  左側のメインメニュー → システム → ユーザーアクションメニュー → ユーザー削除をクリックする。    ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.1.8/",
         "teaser":null},{
@@ -595,7 +595,7 @@ var store = [{
         "url": "http://localhost:12000/docs/ja/2.2.4/",
         "teaser":null},{
         "title": "2.2.5 ストレージ追加",
-        "excerpt":"ボリュームを追加して使用することができる。 a) クラスター → クラスター選択。 b) クラスターの詳細画面でボリュームを選択。 c) クラスター名、 説明、 ストレージプラグイン、 リクレームポリシー、 ストレージクラス名、 パラメーターを順番に記入。 ストレージ 登録情報 説明 名 PV名 説明 PVユーザー説明 ストレージプラグイン ストレージの種類 (NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk) リクレームポリシー PV使用ポリシー（RETAIN/ DELETE） ストレージクラス名 k8s に登録された Class Name パラメーター PVの環境設定値 ポリシー 説明 Retain PersistentVolumeClaim（PVC） が削除されても、 PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 Delete...","categories": [],
+        "excerpt":"ボリュームを追加して使用することができる。 a) クラスター → クラスター選択。 → ボリュームをクリック → 右上の＋ボタンをクリック。 b) クラスター、名前、説明、ストレージプラグイン、ポリシー、ストレージクラス名の順に記入。 ストレージ 登録情報 説明 名 PV名 説明 PVユーザー説明 タイプ ストレージタイプ（Single、Shared） ストレージプラグイン ストレージの種類 (NFS Dynamic/Static, EBS, Google Persistent Disk, Azure Disk) リクレームポリシー PV使用ポリシー（RETAIN/ DELETE） タイプ 説明 Single １つのワークロードでしか使えないストレージ Shared 複数のワークロードの間で共有し使えるストレージ ポリシー 説明 Retain PersistentVolumeClaim（PVC） が削除されても、 PersistentVolume（PV）内にデータが残る。 後で再利用可能だが、 再利用時にはPVを再登録する必要がある。 Delete PVCが削除されると、 該当PVも一緒に削除される。...","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.2.5/",
         "teaser":null},{
@@ -614,23 +614,23 @@ var store = [{
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.2.7/",
         "teaser":null},{
-        "title": "2.3 워크스페이스",
-        "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                    서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
+        "title": "2.3 ワークスペース",
+        "excerpt":" ビルド及びデプロイ、運用するワークスペースを割り当てる。ワークスペース別にユーザー、クラスター、ライブラリーの登録ができる。   a) 左側のメインメニュー → ワークスペース                    サービス設定       説明                       ワークスペース名       ワークスペースの名称（ユーザー指定）                 クラスター数       ワークスペースに割り当てたクラスター数                 メンバー数       ワークスペースを使うメンバー数                 システム名       システム名称                 説明       ワークスペースの説明          ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.3/",
         "teaser":null},{
-        "title": "2.3.1 워크스페이스 생성",
-        "excerpt":"워크스페이스를 생성 하는 기능이다. 워크스페이스 별로 구성원 등록 및 클러스터, 레지스트리(저장소) 등록을 할 수 있다. a) 좌측 메인메뉴 → 워크스페이스 → 오른쪽 상단 워크스페이스 생성 버튼을 클릭한다. b) 서비스에 사용할 이름, 설명, 색상, 레지스트리 및 구성원, 클러스터 정보를 등록한다. c) 구성원, 클러스터 추가는 체크박스가 선택 된것만 반영이 된다. 클러스터 편집...","categories": [],
+        "title": "2.3.1 ワークスペースの作成",
+        "excerpt":" ワークスペースを作成する機能である。ワークスペース別にメンバー登録及びクラスター、レジストリ（保存場所）の登録ができる。   a) 左側のメインメニュー → ワークスペース → 右上のワークスペース作成ボタンをクリックする。     b) サービスに使う名前、説明、表示色、レジストリ及びメンバー、クラスター情報を登録する。     c) メンバー、クラスター追加はチェックされた部分のみ反映される。           クラスター修正             メンバー修正       ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.3.1/",
         "teaser":null},{
-        "title": "2.3.2 워크스페이스 편집",
-        "excerpt":" 워크스페이스 정보를 편집하는 기능이다. 워크스페이스 이름, 설명, 색상 변경이 가능하며 해당 서비스를 사용할 구성원 편집, 워크스페이스에 등록할 클러스터 편집이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 편집 → 수정완료 후 수정버튼을 클릭한다.     b) 워크스페이스 명, 설명, 색상 및 구성원, 클러스터 수정이 가능하다.    ","categories": [],
+        "title": "2.3.2 ワークスペース修正",
+        "excerpt":" ワークスペース情報を修正する機能である。ワークスペース名、説明、表示色の変更ができ、該当サービスを使用するメンバー修正、ワークスペースに登録するクラスター編集ができる。   a) 左側のメインメニュー → ワークスペース → ワークスペースアクションメニュー → ワークスペース修正 → 修正完了後、修正ボタンをクリックする。     b) ワークスペース名、説明、表示色及びメンバー、クラスタの修正ができる。    ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.3.2/",
         "teaser":null},{
-        "title": "2.3.3 워크스페이스 삭제",
-        "excerpt":" 워크스페이스를 삭제 하는 기능이다. 삭제 시, 워크스페이스에 클러스터가 등록되어 있을 경우 삭제가 불가능하며 워크스페이스 편집에서 클러스터를 제거 후 삭제를 진행할 수 있다.   a) 좌측 메인메뉴 → 워크스페이스 → 워크스페이스 액션 메뉴 → 워크스페이스 삭제를 클릭한다.    ","categories": [],
+        "title": "2.3.3 ワークスペース削除",
+        "excerpt":" ワークスペースを削除する機能である。削除時、ワークスペースにクラスターが登録されている場合、削除が不可能でワークスペース修正でクラスターを削除してから、ワークスペースの削除を進むことができる。   a) 左側のメインメニュー → ワークスペース → ワークスペースアクションメニュー → ワークスペース削除をクリックする    ","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ja/2.3.3/",
         "teaser":null},{
@@ -1643,6 +1643,166 @@ var store = [{
         "excerpt":"EKS 클러스터를 배포하는 방법을 알아봅니다. Kubernetes 용 Amazon Elastic Container Service (Amazon EKS)를 사용하면 AWS의 Kubernetes를 사용하여 컨테이너 화 된 응용 프로그램을 쉽게 배포, 관리 및 확장 할 수 있습니다. 참조 : Amazon Elastic Container Service for Kubernetes(EKS) 클러스터 배포 Amazon Eks에 로그인 Amazon Eks에 로그인 합니다. Amazon EKS 필수...","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ko/8.1.1.3/",
+        "teaser":null},{
+        "title": "8.1.2 클러스터 직접 구성",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.2/",
+        "teaser":null},{
+        "title": "칵테일 Installation to on-premise",
+        "excerpt":"Mac, linux 설치 PC에서 baremetal 장비에 청지윈을 설치하는 과정은 다음과 같다. 사전준비 SSH private key &amp; public key 생성등을 포함한 사전 준비는 청지윈 Installation을 참조한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 ( 다운로드 링크 : https://store.docker.com/search?offering=community&amp;q=&amp;type=edition ) 3)...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.2.1/",
+        "teaser":null},{
+        "title": "칵테일 Installation to AWS on mac,linux",
+        "excerpt":"Amazon Web Services Cloud에 청지윈를 설치하는 과정은 다음과 같다. 사전준비 SSH private key &amp; public key 생성등을 포함한 사전 준비는 청지윈 Installation을 참조한다. 설치 전 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.2.2/",
+        "teaser":null},{
+        "title": "칵테일 Installation to Azure on mac,linux",
+        "excerpt":"Azure cloud에 청지윈를 설치하는 과정은 다음과 같다. 사전준비 설치 전 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 https://store.docker.com/editions/community/docker-ce-desktop-windows 3) Azure 계정 및 application...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.2.3/",
+        "teaser":null},{
+        "title": "칵테일 Installation to Aliyun",
+        "excerpt":"Google cloud에 칵테일을 설치하는 과정은 다음과 같다. 사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 Get Docker CE for...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.2.4/",
+        "teaser":null},{
+        "title": "칵테일 Installation to Aliyun",
+        "excerpt":"Google cloud에 칵테일을 설치하는 과정은 다음과 같다. 사전준비 설치 전 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 https://store.docker.com/editions/community/docker-ce-desktop-windows 3) Azure 계정 및 application...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.2.5/",
+        "teaser":null},{
+        "title": "8.1.3 CUBE 설치 - Cluster on GCP",
+        "excerpt":"GCP 인스턴스 생성 이름(Name): 인스턴스 이름을 부여합니다. 지역(Region): 지역은 리소스를 실행할 수 있는 특정 지리적 위치입니다. 영역(Zone): 영역은 지역 내의 격리된 위치입니다. 영역은 사용할 수 있는 컴퓨팅 리소스와 데이터를 저장하고 사용할 위치를 결정합니다. 머신 유형(Machine type): 맞춤설정을 클릭하여 코어, 메모리, CPU를 선택합니다. 부팅 디스크(Boot disk): 각 인스턴스에는 부팅을 위한 디스크가...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.1.1.3/",
+        "teaser":null},{
+        "title": "8.2 운영 가이드",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2/",
+        "teaser":null},{
+        "title": "Cube commands",
+        "excerpt":"  Cube 명령어는 아래와 같은 형식을 갖는다.   cube command [sub-commands] [flags]  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1/",
+        "teaser":null},{
+        "title": "`init` command",
+        "excerpt":" init는 Kubernetes와 청지윈을 설치하려는 플랫폼에 맞는 스크립트, 설정 파일 및 기타 필요 자원을 준비하고 초기화한다.     Usage   cube init [flags]   Flags   provider           --provider, -p            Kubernetes와 청지윈을 설치할 플랫폼의 이름을 지정한다.            필수: 필수            현재 버전에서 지원하는 provider 목록은 아래와 같다.                      옵션       설명       결과물                       -p       Provider                  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.10/",
+        "teaser":null},{
+        "title": "`create` command",
+        "excerpt":"create는 Kubernetes, 청지윈(전체 또는 각각)을 init로 준비한 플랫폼에 설치한다. Prerequisite init command Usage cube create [infra | k8s] sub command 없이 실행하면 서버 인스턴스 생성(infra) 후 Kubernetes(k8s)를 설치한다. Sub command infra Kubernetes cluster를 구성할 서버 인스턴스를 생성한다. VirtualBox 및 cloud provider(AWS, Azure, GCE)는 가상 머신을 추가하지만, baremetal은 별다른 동작을 하지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.20/",
+        "teaser":null},{
+        "title": "`status` command",
+        "excerpt":" status는 Kubernetes와 청지윈의 현재 상태를 출력한다.     Usage   cube status   Output      etcd 상태   node 상태   Kubernetes pod 상태   청지윈 pod 상태   Monitoring pod 상태  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.30/",
+        "teaser":null},{
+        "title": "`update` command",
+        "excerpt":"upgrade는 설치된 Kubernetes를 upgrade한다. 1.8.x 버전에서 1.10.x 버전으로의 upgrade는 지원하지 않으며, 먼저 1.9.x로 upgrade한 후 다시 1.10.x로 upgrade 한다. 현재 버전에서 downgrade는 지원하지 않는다. Prerequisite Kubernetes 설치 상태.create command or create k8s command Usage cube upgrade [flags] Flags version --version, -v Kubernetes version을 지정한다. 필수: 필수 현재 버전에서 지원하는 version...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.40/",
+        "teaser":null},{
+        "title": "`upgrade` command",
+        "excerpt":"upgrade는 설치된 Kubernetes를 upgrade한다. 1.8.x 버전에서 1.10.x 버전으로의 upgrade는 지원하지 않으며, 먼저 1.9.x로 upgrade한 후 다시 1.10.x로 upgrade 한다. 현재 버전에서 downgrade는 지원하지 않는다. Prerequisite Kubernetes 설치 상태.create command or create k8s command Usage cube upgrade [flags] Flags version --version, -v Kubernetes version을 지정한다. 필수: 필수 현재 버전에서 지원하는 version...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.50/",
+        "teaser":null},{
+        "title": "`login` command",
+        "excerpt":"upgrade는 설치된 Kubernetes를 upgrade한다. 1.8.x 버전에서 1.10.x 버전으로의 upgrade는 지원하지 않으며, 먼저 1.9.x로 upgrade한 후 다시 1.10.x로 upgrade 한다. 현재 버전에서 downgrade는 지원하지 않는다. Prerequisite Kubernetes 설치 상태.create command or create k8s command Usage cube upgrade [flags] Flags version --version, -v Kubernetes version을 지정한다. 필수: 필수 현재 버전에서 지원하는 version...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.60/",
+        "teaser":null},{
+        "title": "`logout` command",
+        "excerpt":"upgrade는 설치된 Kubernetes를 upgrade한다. 1.8.x 버전에서 1.10.x 버전으로의 upgrade는 지원하지 않으며, 먼저 1.9.x로 upgrade한 후 다시 1.10.x로 upgrade 한다. 현재 버전에서 downgrade는 지원하지 않는다. Prerequisite Kubernetes 설치 상태.create command or create k8s command Usage cube upgrade [flags] Flags version --version, -v Kubernetes version을 지정한다. 필수: 필수 현재 버전에서 지원하는 version...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.61/",
+        "teaser":null},{
+        "title": "`cluster` command",
+        "excerpt":"add는 Kubernetes cluster에 node 및 monitoring, logging 등의 add-on을 추가한다. 현재 버전에서 node 추가만 지원한다. Prerequisite 노드를 추가할 수 있는 상태. create command or create infra command Usage cube add [node] [flags] Sub command node Kubernetes cluster에 노드를 추가한다. aws, azure provider는 새로운 서버 인스턴스를 추가하지만, gce, virtaulbox, baremetal provider는...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.70/",
+        "teaser":null},{
+        "title": "`destroy` command",
+        "excerpt":"destroy는 Kubernetes cluster 노드, 청지윈을 삭제한다. Prerequisite Kubernetes 및 청지윈이 설치된 상태 Usage cube destroy [flags] flag없이 호출하면 청지윈만 제거한다. Flags pre-destroy --pre-destroy aws, azure provider 삭제 시 연결된 load balancer, volume을 삭제한다. 반드시 destroy명령 전에 호출해야 한다. 필수: 필수 force --force, -f aws, azure provider에서는 노드(서버 인스턴스)까지 삭제한다. 필수:...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.1.80/",
+        "teaser":null},{
+        "title": "Cluster Administration",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2/",
+        "teaser":null},{
+        "title": "Cluster startup & shutdown",
+        "excerpt":"청지윈이 설치된 cluster의 startup과 shutdown은 일련의 순서대로 진행해야 한다. Startup Startup시에는 master node를 먼저 기동하고 worker node를 기동하는 순서로 진행한다. 1) Master Node # systemctl start etcd # systemctl start docker # systemctl start kubelet 2) Worker Node # systemctl start docker # systemctl start kubelet Shutdown Shutdown시에는 worker node를...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.1/",
+        "teaser":null},{
+        "title": "Update k8s cluster certificate",
+        "excerpt":"Kubernetes를 구성하는 각 컴포넌트들도 내부 인증서를 통해 통신한다. 필요에 의해 이 인증서를 update해야 하는 경우 아래의 절차대로 수행한다. 1.먼저 각 master node와 worker node의 기존 인증서를 삭제한다. # ssh to master node # rm -rf /opt/kubernetes/pki # rm -rf /etc/kubernetes/pki 2.인증서를 재 생성한다. 이전에 설치를 진행한 디렉토리에서 cert.yaml을 실행하여 인증서를...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.2/",
+        "teaser":null},{
+        "title": "Add etcd member to existing etcd cluster",
+        "excerpt":"Etcd cluster가 가동중인 상태에서 etcd member를 추가하는 방법에 대해 기술한다. etcd 인증서 디렉토리: /etc/kubernets/pki etcd 설정파일: /etc/etcd/etcd.conf 1.etcd ca 파일을 기반으로 추가하고자 하는 etcd node에서 etcd 인증서를 생성한다. # ssh로 추가할 etcd node 접속 # cd /etc/kubernetes/pki # scp root@{ip}:/etc/kubernetes/pki/etcd-ca.* . # openssl genrsa -out /etc/kubernetes/pki/etcd.key 2048 # openssl req...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.3/",
+        "teaser":null},{
+        "title": "Cluster backup & restore",
+        "excerpt":"k8s cluster를 어떤 이유로 재설치 경우, etcd snapshot과 청지윈 cmdb, builderdb를 restore하여 기존 상태로 복원하는 절차를 기술한다. 이때, 반드시 etcd 인증서는 기존 인증서를 사용해야 하며, 그렇지 않을 경우 복원할 수 없다. etcd 인증서 디렉토리: /etc/kubernets/pki etcd 설정파일: /etc/etcd/etcd.conf 1.etcd, 청지윈 cmdb backup 아래와 같이 etcd snapshot 생성, 청지윈 db backup을...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.4/",
+        "teaser":null},{
+        "title": "Docker container disk 관리",
+        "excerpt":"Container 내에서 stdout, stderr로 출력을 보내면 docker overlay storage driver를 사용하는 경우 $DOCKERROOT/containers/{containerid}/containerid-json.log 파일에 저장되며 별다른 조치를 하지 않을 경우 계속 증가하게 된다. 이를 방지하기 위해 아래와 해당 디렉토리에 logrotation 설정파일을 추가한다. 아래 /data/docker 디렉토리가 $DOCKER_ROOT임. 1./etc/logrotate.d/docker-container # Added by cube /data/docker/containers/*/*.log { daily rotate 4 compress size=10M missingok delaycompress...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.5/",
+        "teaser":null},{
+        "title": "청지윈 암호 관리",
+        "excerpt":"1.청지윈 로그인 암호 관리. 1) 청지윈 암호 관리 대상은 청지윈이 설치된 모든 cluster 및 hosting service이다. 2) 암호는 “영문대소문자 + 특수기호(!@#$%^&amp;*=+-_) + 숫자” 조합으로 최소 8자 이상 최대 24자리까지 생성 가능하다. 3) 암호 변경 주기는 90일이며, 90일이 지나서 청지윈에 로그인할 경우 암호 변경 화면이 표시된다. 암호 변경화면에서 “다음에 변경하기”를 선택하면...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.6/",
+        "teaser":null},{
+        "title": "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법",
+        "excerpt":" 클러스터를 구성하는 각 node는 cache memory가 점차적으로 증가하게 되어 있다.   주기적으로 각 node에서 아래 명령을 수행함으로써 cache memory를 초기화 할 수 있다.   # sync; echo 3 &gt; /proc/sys/vm/drop_caches 또는 # sync; sysctl -w vm.drop_caches=3   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.2.7/",
+        "teaser":null},{
+        "title": "Troubleshooting",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.3/",
+        "teaser":null},{
+        "title": "k8s cluster의 health check",
+        "excerpt":"Cube로 설치한 장비에서 Kubernetes와 청지윈의 주요 구성 요소에 대해 상태 체크를 하기 위한 방법은 아래와 같다. 이는 cube로 설치후 k8s 주요 구성 요소의 정상 동작 여부를 확인하는데 사용할 수 있다. cube status 명령을 통한 etcd, k8s pod, monitoring pod, 청지윈 pod 상태를 체크할 수 있다. etcd daemon은 kubernetes에서 생성되는 각종...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.3.1/",
+        "teaser":null},{
+        "title": "사용자의 micro service가 서로 연결이 안될때.",
+        "excerpt":"일반적으로 k8s에서 각 Container들은 연관된 Container와 통신하기 이해 Kubernetes DNS를 사용한다. 즉 POD는 생성과 삭제가 일어나면 POD가 가지고 있던 내부 cluster ip는 변동되게 됨으로 일반적으로 micro service들을 k8s dns를 통해 필요한 container를 찾는다. 먼저 k8s의 DNS 서비스가 정상 동작 중인지 확인하는 방법은 busybox를 생성하고 컨테이너에 접속해서 nslookup명령으로 k8s의 DNS에 접속되는지...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.3.2/",
+        "teaser":null},{
+        "title": "NFS 서버의 접속 확인 방법.",
+        "excerpt":"청지윈 서비스는 기본적으로 Storage class를 이용하여 persistence volume을 사용한다. local 및 baremetal 환경에서는 NFS 서버를 구축하여 Storage class로 활용하며 public cloud에서는 해당 서비스 제공자가 기본적으로 제공해 주는 storage class를 사용하게 된다. 본 문서는 local 및 Baremetal 환경에서 NFS 서버의 상태 및 청지윈 service와의 연결이 정상적인지 확인하는 방법을 기술한다. NFS 서버의...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.3.3/",
+        "teaser":null},{
+        "title": "Cube로 설치한 node의 ip 정보가 변경될 경우.",
+        "excerpt":" cube로 설치한 master node, worker node에서 ip 정보가 변경되면 현재로서는 cube를 이용하여 재설치하는 방식을 권장한다.   이는 k8s의 component중 api server, scheduler, control manager가 ip 인증서 기반으로 통신하며, etcd의 flannel subnetwork정보도 ip정보가 저장되기 때문이다.  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.3.4/",
+        "teaser":null},{
+        "title": "Centos yum 자동 upgrade 방지",
+        "excerpt":"청지윈은 k8s package의 버전에 따라 설정파일의 차이가 있으므로 기본적으로 시스템에서 자동적으로 yum upgrade가 설정되어 있으면 security만 업그레이드가 되도록 수정해야 한다. 단, cube script로 설치될 경우에는 자동으로 설정값을 update하게 되어 있다. yum-cron 설정 파일 수정. # vi /etc/yum/yum-cron.conf ... update_cmd = security 로 수정 # vi /etc/yum/yum-cron-hourly.conf ... update_cmd = security...","categories": [],
+        "tags": [],
+        "url": "http://localhost:12000/docs/ko/8.2.3.5/",
         "teaser":null},{
         "title": "9.구성원",
         "excerpt":" 현재 워크스페이스에 속한 구성원들 정보를 보여준다.     ","categories": [],

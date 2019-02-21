@@ -73,8 +73,9 @@
 
 .sidebar__right {
   margin-bottom: 1em;
+  z-index: 10;
 
-  @include breakpoint($large) {
+  @include breakpoint($toc-large) {
     position: absolute;
     top: 0;
     right: 0;
@@ -92,20 +93,20 @@
     }
   }
 
-  @include breakpoint($x-large) {
+  @include breakpoint($toc-x-large) {
     width: $right-sidebar-width;
     margin-right: -1 * $right-sidebar-width;
   }
 }
 
 .splash .sidebar__right {
-  @include breakpoint($large) {
+  @include breakpoint($toc-large) {
     position: relative;
     float: right;
     margin-right: 0;
   }
 
-  @include breakpoint($x-large) {
+  @include breakpoint($toc-x-large) {
     margin-right: 0;
   }
 }
