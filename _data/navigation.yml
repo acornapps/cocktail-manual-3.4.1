@@ -213,16 +213,16 @@ docs:
           - title: "클러스터 직접 구성"
             url: /docs/ko/8.1.2/
             children:
-            - title: "칵테일 Installation to on-premise"
-              url: /docs/ko/8.1.2.1/
-            - title: "칵테일 Installation to AWS"
-              url: /docs/ko/8.1.2.2/
-            - title: "칵테일 Installation to Azure"
-              url: /docs/ko/8.1.2.3/
-            - title: "칵테일 Installation to GCP"
-              url: /docs/ko/8.1.2.4/
-            - title: "칵테일 Installation to Aliyun"
-              url: /docs/ko/8.1.2.5/
+              - title: "칵테일 Installation to on-premise"
+                url: /docs/ko/8.1.2.1/
+              - title: "칵테일 Installation to AWS"
+                url: /docs/ko/8.1.2.2/
+              - title: "칵테일 Installation to Azure"
+                url: /docs/ko/8.1.2.3/
+              - title: "칵테일 Installation to GCP"
+                url: /docs/ko/8.1.2.4/
+              - title: "칵테일 Installation to Aliyun"
+                url: /docs/ko/8.1.2.5/
       - title: "운영 가이드"
         url: /docs/ko/8.2/
         children:
