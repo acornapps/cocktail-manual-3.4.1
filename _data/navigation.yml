@@ -27,10 +27,49 @@ docs:
     children:
     - title: "시스템"
       url: /docs/ko/2.1/
+      children:
+        - title: "시스템 편집"
+          url: /docs/ko/2.1.1/
+        - title: "클라우드 미터링 계정 등록"
+          url: /docs/ko/2.1.2/
+        - title: "클라우드 미터링 계정 편집"
+          url: /docs/ko/2.1.3/
+        - title: "클라우드 미터링 계정 삭제"
+          url: /docs/ko/2.1.4/
+        - title: "시스템 사용자 추가"
+          url: /docs/ko/2.1.5/
+        - title: "시스템 사용자 편집"
+          url: /docs/ko/2.1.6/
+        - title: "시스템 사용자 비밀번호 초기화"
+          url: /docs/ko/2.1.7/
+        - title: "시스템 사용자 삭제"
+          url: /docs/ko/2.1.8/
     - title: "클러스터"
       url: /docs/ko/2.2/
+      children:
+        - title: "클러스터 등록"
+          url: /docs/ko/2.2.1/
+        - title: "클러스터 수정"
+          url: /docs/ko/2.2.2/
+        - title: "클러스터 삭제"
+          url: /docs/ko/2.2.3/
+        - title: "볼륨"
+          url: /docs/ko/2.2.4/
+        - title: "스토리지 추가"
+          url: /docs/ko/2.2.5/
+        - title: "스토리지 편집"
+          url: /docs/ko/2.2.6/
+        - title: "스토리지 삭제"
+          url: /docs/ko/2.2.7/
     - title: "워크스페이스"
       url: /docs/ko/2.3/
+      children:
+        - title: "워크스페이스 생성"
+          url: /docs/ko/2.3.1/
+        - title: "워크스페이스 편집"
+          url: /docs/ko/2.3.2/
+        - title: "워크스페이스 삭제"
+          url: /docs/ko/2.3.3/
   - title: "대시보드"
     url: /docs/ko/3/
     children:
@@ -156,19 +195,93 @@ docs:
         url: /docs/ko/7.6/
       - title: "등록정보"
         url: /docs/ko/7.7/
-  - title: "구성원"
+  - title: "시스템 운영"
     url: /docs/ko/8/
-  - title: "용어 설명"
+    children:
+      - title: "클러스터 구성 및 등록"
+        url: /docs/ko/8.1/
+        children:
+          - title: "클러스터 서비스 사용"
+            url: /docs/ko/8.1.1/
+            children:
+              - title: "GKE 클러스터 만들기"
+                url: /docs/ko/8.1.1.1/
+              - title: "AKS 클러스터 만들기"
+                url: /docs/ko/8.1.1.2/
+              - title: "EKS 클러스터 만들기"
+                url: /docs/ko/8.1.1.3/
+          - title: "클러스터 직접 구성"
+            url: /docs/ko/8.1.2/
+            children:
+              - title: "칵테일 Installation with Cube cluster"
+                url: /docs/ko/8.1.2.4/
+      - title: "운영 가이드"
+        url: /docs/ko/8.2/
+        children:
+          - title: "Cube commands"
+            url: /docs/ko/8.2.1/
+            children:
+              - title: "init command"
+                url: /docs/ko/8.2.1.10/
+              - title: "create command"
+                url: /docs/ko/8.2.1.20/
+              - title: "status command"
+                url: /docs/ko/8.2.1.30/
+              - title: "update command"
+                url: /docs/ko/8.2.1.40/
+              - title: "upgrade command"
+                url: /docs/ko/8.2.1.50/
+              - title: "login command"
+                url: /docs/ko/8.2.1.60/
+              - title: "logout command"
+                url: /docs/ko/8.2.1.61/
+              - title: "cluster command"
+                url: /docs/ko/8.2.1.70/
+              - title: "destroy command"
+                url: /docs/ko/8.2.1.80/
+          - title: "Cluster Administration"
+            url: /docs/ko/8.2.2/
+            children:
+              - title: "Cluster startup & shutdown"
+                url: /docs/ko/8.2.2.1/
+              - title: "Update k8s cluster certificate"
+                url: /docs/ko/8.2.2.2/
+              - title: "Add etcd member to existing etcd cluster"
+                url: /docs/ko/8.2.2.3/
+              - title: "Cluster backup & restore"
+                url: /docs/ko/8.2.2.4/
+              - title: "Docker container disk 관리"
+                url: /docs/ko/8.2.2.5/
+              - title: "칵테일 암호 관리"
+                url: /docs/ko/8.2.2.6/
+              - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
+                url: /docs/ko/8.2.3.1/
+          - title: "Troubleshooting"
+            url: /docs/ko/8.2.3/
+            children:
+              - title: "k8s cluster의 health check"
+                url: /docs/ko/8.2.3.1/
+              - title: "사용자의 micro service가 서로 연결이 안될때"
+                url: /docs/ko/8.2.3.2/
+              - title: "NFS 서버의 접속 확인 방법"
+                url: /docs/ko/8.2.3.3/
+              - title: "Cube로 설치한 node의 ip 정보가 변경될 경우"
+                url: /docs/ko/8.2.3.4/
+              - title: "Centos yum 자동 upgrade 방지"
+                url: /docs/ko/8.2.3.5/
+  - title: "구성원"
     url: /docs/ko/9/
+  - title: "용어 설명"
+    url: /docs/ko/10/
     children:
       - title: "Kubernetes"
-        url: /docs/ko/9.1/
+        url: /docs/ko/10.1/
       - title: "Cocktail Cloud"
-        url: /docs/ko/9.2/
+        url: /docs/ko/10.2/
       - title: "Cocktail Cloud System Error Code"
-        url: /docs/ko/9.3/
+        url: /docs/ko/10.3/
   - title: "고객지원서비스"
-    url: /docs/ko/9.4/
+    url: /docs/ko/11/
 
 en:
   - title: "What is Cocktail?"
