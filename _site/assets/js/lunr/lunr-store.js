@@ -1649,35 +1649,10 @@ var store = [{
         "tags": [],
         "url": "http://localhost:12000/docs/ko/8.1.2/",
         "teaser":null},{
-        "title": "칵테일 Installation to on-premise",
-        "excerpt":"Mac, linux 설치 PC에서 baremetal 장비에 청지윈을 설치하는 과정은 다음과 같다. 사전준비 SSH private key &amp; public key 생성등을 포함한 사전 준비는 청지윈 Installation을 참조한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 ( 다운로드 링크 : https://store.docker.com/search?offering=community&amp;q=&amp;type=edition ) 3)...","categories": [],
-        "tags": [],
-        "url": "http://localhost:12000/docs/ko/8.1.2.1/",
-        "teaser":null},{
-        "title": "칵테일 Installation to AWS on mac,linux",
-        "excerpt":"Amazon Web Services Cloud에 청지윈를 설치하는 과정은 다음과 같다. 사전준비 SSH private key &amp; public key 생성등을 포함한 사전 준비는 청지윈 Installation을 참조한다. 설치 전 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록...","categories": [],
-        "tags": [],
-        "url": "http://localhost:12000/docs/ko/8.1.2.2/",
-        "teaser":null},{
-        "title": "칵테일 Installation to Azure on mac,linux",
-        "excerpt":"Azure cloud에 청지윈를 설치하는 과정은 다음과 같다. 사전준비 설치 전 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 https://store.docker.com/editions/community/docker-ce-desktop-windows 3) Azure 계정 및 application...","categories": [],
-        "tags": [],
-        "url": "http://localhost:12000/docs/ko/8.1.2.3/",
-        "teaser":null},{
-        "title": "칵테일 Installation to Aliyun",
+        "title": "칵테일 Installation with Cube cluster",
         "excerpt":"Google cloud에 칵테일을 설치하는 과정은 다음과 같다. 사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 Get Docker CE for...","categories": [],
         "tags": [],
         "url": "http://localhost:12000/docs/ko/8.1.2.4/",
-        "teaser":null},{
-        "title": "칵테일 Installation to Aliyun",
-        "excerpt":"Google cloud에 칵테일을 설치하는 과정은 다음과 같다. 사전준비 설치 전 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 https://store.docker.com/editions/community/docker-ce-desktop-windows 3) Azure 계정 및 application...","categories": [],
-        "tags": [],
-        "url": "http://localhost:12000/docs/ko/8.1.2.5/",
-        "teaser":null},{
-        "title": "8.1.3 CUBE 설치 - Cluster on GCP",
-        "excerpt":"GCP 인스턴스 생성 이름(Name): 인스턴스 이름을 부여합니다. 지역(Region): 지역은 리소스를 실행할 수 있는 특정 지리적 위치입니다. 영역(Zone): 영역은 지역 내의 격리된 위치입니다. 영역은 사용할 수 있는 컴퓨팅 리소스와 데이터를 저장하고 사용할 위치를 결정합니다. 머신 유형(Machine type): 맞춤설정을 클릭하여 코어, 메모리, CPU를 선택합니다. 부팅 디스크(Boot disk): 각 인스턴스에는 부팅을 위한 디스크가...","categories": [],
-        "tags": [],
-        "url": "http://localhost:12000/docs/ko/8.1.1.3/",
         "teaser":null},{
         "title": "8.2 운영 가이드",
         "excerpt":" ","categories": [],
