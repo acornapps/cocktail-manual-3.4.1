@@ -227,18 +227,24 @@ docs:
                 url: /docs/ko/8.2.1.20/
               - title: "status command"
                 url: /docs/ko/8.2.1.30/
-              - title: "update command"
-                url: /docs/ko/8.2.1.40/
-              - title: "upgrade command"
-                url: /docs/ko/8.2.1.50/
               - title: "login command"
-                url: /docs/ko/8.2.1.60/
+                url: /docs/ko/8.2.1.40/
               - title: "logout command"
-                url: /docs/ko/8.2.1.61/
-              - title: "cluster command"
-                url: /docs/ko/8.2.1.70/
+                url: /docs/ko/8.2.1.41/
+              - title: "cluster register command"
+                url: /docs/ko/8.2.1.50/
+              - title: "cluster list command"
+                url: /docs/ko/8.2.1.51/
+              - title: "cluster update command"
+                url: /docs/ko/8.2.1.52/
+              - title: "cluster upgrade command"
+                url: /docs/ko/8.2.1.53/
+              - title: "cluster getconfig command"
+                url: /docs/ko/8.2.1.54/
+              - title: "cluster delete command"
+                url: /docs/ko/8.2.1.55/
               - title: "destroy command"
-                url: /docs/ko/8.2.1.80/
+                url: /docs/ko/8.2.1.60/
           - title: "Cluster Administration"
             url: /docs/ko/8.2.2/
             children:
