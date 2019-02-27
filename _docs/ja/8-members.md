@@ -1,5 +1,5 @@
 ---
-title: "8.구성원"
+title: "8.メンバー"
 excerpt: ""
 permalink: /docs/ja/8/
 redirect_from:
@@ -11,6 +11,6 @@ sidebar:
 ---
 
 ---
-현재 워크스페이스에 속한 구성원들 정보를 보여준다.
+現状のワークスペースに属するメンバー情報を表示する。
 
 ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/8_1.png)
