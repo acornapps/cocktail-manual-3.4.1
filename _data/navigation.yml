@@ -643,7 +643,7 @@ ja:
     children:
     - title: "システム"
       url: /docs/ja/2.1/
-    - title: "クラスタ"
+    - title: "クラスター"
       url: /docs/ja/2.2/
     - title: "ワークスペース"
       url: /docs/ja/2.3/
@@ -655,38 +655,38 @@ ja:
   - title: "サービス"
     url: /docs/ja/4/
     children:
-    - title: "アプリケーション管理"
+    - title: "サービス管理"
       url: /docs/ja/4.1/
       children:
-        - title: "アプリケーションマップ"
+        - title: "サービスマップ"
           url: /docs/ja/4.1.1/
           children:
-            - title: "アプリケーションマップグループの管理"
+            - title: "サービスマップグループの管理"
               url: /docs/ja/4.1.1.1/
-            - title: "アプリケーションマップ作成"
+            - title: "サービスマップ作成"
               url: /docs/ja/4.1.1.2/
-            - title: "アプリケーションマップ名の変更"
+            - title: "サービスマップ名の変更"
               url: /docs/ja/4.1.1.3/
-            - title: "アプリケーションマップ削除"
+            - title: "サービスマップ削除"
               url: /docs/ja/4.1.1.4/
         - title: "グループ管理"
           url: /docs/ja/4.1.2/
-    - title: "サーバー"
+    - title: "ワークロード"
       url: /docs/ja/4.2/
       children:
-        - title: "サーバー作成"
+        - title: "ワークロード作成"
           url: /docs/ja/4.2.1/
-        - title: "サーバー編集"
+        - title: "ワークロード編集"
           url: /docs/ja/4.2.2/
-        - title: "サーバーインスタンス情報照会"
+        - title: "ワークロードインスタンス情報照会"
           url: /docs/ja/4.2.3/
-        - title: "サーバー停止"
+        - title: "ワークロード停止"
           url: /docs/ja/4.2.4/
-        - title: "サーバ起動"
+        - title: "ワークロード起動"
           url: /docs/ja/4.2.5/
-        - title: "サーバー再起動"
+        - title: "ワークロード再起動"
           url: /docs/ja/4.2.6/
-        - title: "サーバー削除"
+        - title: "ワークロード削除"
           url: /docs/ja/4.2.7/
     - title: "モニタリング"
       url: /docs/ja/4.3/
@@ -748,9 +748,9 @@ ja:
         url: /docs/ja/6.3/
       - title: "カタログ削除"
         url: /docs/ja/6.4/
-      - title: "カタログ出口"
+      - title: "カタログエクスポート"
         url: /docs/ja/6.5/
-      - title: "カタログ进口"
+      - title: "カタログインポート"
         url: /docs/ja/6.6/
   - title: "クラスター"
     url: /docs/ja/7/
@@ -759,7 +759,7 @@ ja:
         url: /docs/ja/7.1/
       - title: "ノード"
         url: /docs/ja/7.2/
-      - title: "アプリケーション"
+      - title: "サービス"
         url: /docs/ja/7.3/
       - title: "ボリューム"
         url: /docs/ja/7.4/
