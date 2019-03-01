@@ -13,5 +13,5 @@ sidebar:
 
 ---
 
-カクテルクラウドを活用する上、役立つKubernetesおよびCocktail Cloudに関する用語を整理。
+カクテルクラウドを活用する上で役立つ、KubernetesおよびCocktail Cloudに関する用語を説明する。
 
