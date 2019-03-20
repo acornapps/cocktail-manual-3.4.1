@@ -638,11 +638,28 @@ ja:
         url: /docs/ja/0.6/
   - title: "ログイン"
     url: /docs/ja/1/
-  - title: "システムマネジメント"
+  - title: "システム管理"
     url: /docs/ja/2/
     children:
-    - title: "システム"
+    - title: "システム管理の詳細"
       url: /docs/ja/2.1/
+      children:
+        - title: "システム情報の変更"
+          url: /docs/ja/2.1.1/
+        - title: "クラウドメータリングアカウントの登録"
+          url: /docs/ja/2.1.2/
+        - title: "クラウドメータリングアカウントの変更"
+          url: /docs/ja/2.1.3/
+        - title: "クラウドメータリングアカウントの削除"
+          url: /docs/ja/2.1.4/
+        - title: "システムユーザーの追加"
+          url: /docs/ja/2.1.5/
+        - title: "システムユーザーの変更"
+          url: /docs/ja/2.1.6/
+        - title: "システムユーザーのパスワード初期化"
+          url: /docs/ja/2.1.7/
+        - title: "システムユーザーの削除"
+          url: /docs/ja/2.1.8/
     - title: "クラスター"
       url: /docs/ja/2.2/
     - title: "ワークスペース"
