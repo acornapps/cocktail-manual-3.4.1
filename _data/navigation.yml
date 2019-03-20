@@ -679,6 +679,13 @@ ja:
           url: /docs/ja/2.2.7/
     - title: "ワークスペース"
       url: /docs/ja/2.3/
+      children:
+        - title: "ワークスペースの作成"
+          url: /docs/ja/2.3.1/
+        - title: "ワークスペースの変更"
+          url: /docs/ja/2.3.2/
+        - title: "ワークスペースの削除"
+          url: /docs/ja/2.3.3/
   - title: "ダッシュボード"
     url: /docs/ja/3/
     children:
