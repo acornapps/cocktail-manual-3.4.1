@@ -700,7 +700,7 @@ ja:
         - title: "サービスマップ"
           url: /docs/ja/4.1.1/
           children:
-            - title: "サービスマップグループの管理"
+            - title: "サービスマップのグループの管理"
               url: /docs/ja/4.1.1.1/
             - title: "サービスマップの作成"
               url: /docs/ja/4.1.1.2/
