@@ -702,99 +702,99 @@ ja:
           children:
             - title: "サービスマップグループの管理"
               url: /docs/ja/4.1.1.1/
-            - title: "サービスマップ作成"
+            - title: "サービスマップの作成"
               url: /docs/ja/4.1.1.2/
             - title: "サービスマップ名の変更"
               url: /docs/ja/4.1.1.3/
-            - title: "サービスマップ削除"
+            - title: "サービスマップの削除"
               url: /docs/ja/4.1.1.4/
         - title: "グループ管理"
           url: /docs/ja/4.1.2/
     - title: "ワークロード"
       url: /docs/ja/4.2/
       children:
-        - title: "ワークロード作成"
+        - title: "ワークロードの作成"
           url: /docs/ja/4.2.1/
-        - title: "ワークロード編集"
+        - title: "ワークロードの編集"
           url: /docs/ja/4.2.2/
-        - title: "ワークロードインスタンス情報照会"
+        - title: "ワークロードインスタンス照会"
           url: /docs/ja/4.2.3/
-        - title: "ワークロード停止"
+        - title: "ワークロードの停止"
           url: /docs/ja/4.2.4/
-        - title: "ワークロード起動"
+        - title: "ワークロードの起動"
           url: /docs/ja/4.2.5/
-        - title: "ワークロード再起動"
+        - title: "ワークロードの再起動"
           url: /docs/ja/4.2.6/
-        - title: "ワークロード削除"
+        - title: "ワークロードの削除"
           url: /docs/ja/4.2.7/
     - title: "モニタリング"
       url: /docs/ja/4.3/
     - title: "パイプライン"
       url: /docs/ja/4.4/
-    - title: "持続的なボリューム"
+    - title: "Persistent Volume"
       url: /docs/ja/4.5/
       children:
-        - title: "持続性を作成"
+        - title: "Persistent Volumeの作成"
           url: /docs/ja/4.5.1/
-        - title: "永続的な削除"
+        - title: "Persistent Volumeの削除"
           url: /docs/ja/4.5.2/
     - title: "設定"
       url: /docs/ja/4.6/
       children:
-        - title: "設定マップ"
+        - title: "Config Map"
           url: /docs/ja/4.6.1/
           children:
-            - title: "設定マップ追加"
+            - title: "Config Mapの作成"
               url: /docs/ja/4.6.1.1/
-            - title: "設定マップ変更"
+            - title: "Config Mapの変更"
               url: /docs/ja/4.6.1.2/
-            - title: "設定マップ削除"
+            - title: "Config Mapの削除"
               url: /docs/ja/4.6.1.3/
-        - title: "シークレット"
+        - title: "Secret"
           url: /docs/ja/4.6.2/
           children:
-            - title: "シークレット追加"
+            - title: "Secretの作成"
               url: /docs/ja/4.6.2.1/
-            - title: "シークレット修正"
+            - title: "Secretの変更"
               url: /docs/ja/4.6.2.2/
-            - title: "シークレット削除"
+            - title: "Secretの削除"
               url: /docs/ja/4.6.2.3/
   - title: "ビルド管理"
     url: /docs/ja/5/
     children:
-      - title: "ビルド追加"
+      - title: "ビルドタスクの作成"
         url: /docs/ja/5.1/
-      - title: "タスク設定の編集"
+      - title: "ビルドタスクの編集"
         url: /docs/ja/5.2/
-      - title: "ヒストリー"
+      - title: "ビルドヒストリー"
         url: /docs/ja/5.3/
-      - title: "ビルド実行"
+      - title: "ビルドタスクの実行"
         url: /docs/ja/5.4/
-      - title: "ビルドキャンセル"
+      - title: "ビルドタスクのキャンセル"
         url: /docs/ja/5.5/
-      - title: "ログ表示"
+      - title: "ビルドログ"
         url: /docs/ja/5.6/
-      - title: "タスク削除"
+      - title: "ビルドタスクの削除"
         url: /docs/ja/5.7/
   - title: "カタログ"
     url: /docs/ja/6/
     children:
-      - title: "カタログ保存"
+      - title: "カタログの保存"
         url: /docs/ja/6.1/
-      - title: "カタログデプロイ"
+      - title: "カタログのデプロイ"
         url: /docs/ja/6.2/
-      - title: "カタログ編集"
+      - title: "カタログの編集"
         url: /docs/ja/6.3/
-      - title: "カタログ削除"
+      - title: "カタログの削除"
         url: /docs/ja/6.4/
-      - title: "カタログエクスポート"
+      - title: "カタログのエクスポート"
         url: /docs/ja/6.5/
-      - title: "カタログインポート"
+      - title: "カタログのインポート"
         url: /docs/ja/6.6/
   - title: "クラスター"
     url: /docs/ja/7/
     children:
-      - title: "クラスター管理"
+      - title: "クラスターの照会"
         url: /docs/ja/7.1/
       - title: "ノード"
         url: /docs/ja/7.2/
@@ -802,16 +802,16 @@ ja:
         url: /docs/ja/7.3/
       - title: "ボリューム"
         url: /docs/ja/7.4/
-      - title: "アラーム"
+      - title: "アラート"
         url: /docs/ja/7.5/
         children:
-          - title: "アラームリスト"
+          - title: "アラートリスト"
             url: /docs/ja/7.5.1/
       - title: "メータリング"
         url: /docs/ja/7.6/
-      - title: "追加"
+      - title: "登録管理"
         url: /docs/ja/7.7/
-  - title: "Member"
+  - title: "メンバー"
     url: /docs/ja/8/
   - title: "用語説明"
     url: /docs/ja/9/
