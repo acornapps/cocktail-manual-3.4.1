@@ -816,7 +816,7 @@ ja:
     children:
       - title: "クラスター構成と登録"
         url: /docs/ja/8.1/
-      children:
+        children:
         - title: "クラスターサービスの利用"
           url: /docs/ja/8.1.1/
           children:
