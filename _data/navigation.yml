@@ -811,16 +811,27 @@ ja:
         url: /docs/ja/7.6/
       - title: "登録管理"
         url: /docs/ja/7.7/
-  - title: "メンバー"
+  - title: "システム運用"
     url: /docs/ja/8/
-  - title: "用語説明"
+    children:
+      - title: "クラスター構成と登録"
+        url: /docs/ja/8.1/
+      children:
+        - title: "クラスターサービスの利用"
+          url: /docs/ja/8.1.1/
+          children:
+            - title: "EKSクラスターの作成"
+              url: /docs/ja/8.1.1.3/
+  - title: "メンバー"
     url: /docs/ja/9/
+  - title: "用語説明"
+    url: /docs/ja/10/
     children:
       - title: "Kubernetes(k8s)"
-        url: /docs/ja/9.1/
+        url: /docs/ja/10.1/
       - title: "Cocktail Cloud"
-        url: /docs/ja/9.2/
+        url: /docs/ja/10.2/
       - title: "Cocktail System Error Code"
-        url: /docs/ja/9.3/
+        url: /docs/ja/10.3/
   - title: "ユーザーサポートサービス"
-    url: /docs/ja/9.4/
+    url: /docs/ja/10.4/

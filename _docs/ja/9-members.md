@@ -1,7 +1,7 @@
 ---
-title: "8.メンバー"
+title: "9.メンバー"
 excerpt: ""
-permalink: /docs/ja/8/
+permalink: /docs/ja/9/
 redirect_from:
   - /theme-setup/
 toc: false

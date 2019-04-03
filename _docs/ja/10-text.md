@@ -1,7 +1,7 @@
 ---
-title: "9.用語説明"
+title: "10.用語説明"
 excerpt: ""
-permalink: /docs/ja/9/
+permalink: /docs/ja/10/
 redirect_from:
   - /theme-setup/
 toc: false
