@@ -798,7 +798,7 @@ ja:
         url: /docs/ja/7.1/
       - title: "ノード"
         url: /docs/ja/7.2/
-      - title: "サービス"
+      - title: "アプリケーション"
         url: /docs/ja/7.3/
       - title: "ボリューム"
         url: /docs/ja/7.4/
