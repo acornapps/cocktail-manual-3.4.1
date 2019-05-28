@@ -465,9 +465,9 @@ en:
       - title: "Delete Catalog"
         url: /docs/en/6.4/
       - title: "Export Catalog"
-        url: /docs/ko/6.5/
+        url: /docs/en/6.5/
       - title: "Import Catalog"
-        url: /docs/ko/6.6/
+        url: /docs/en/6.6/
   - title: "Cluster"
     url: /docs/en/7/
     children:
@@ -538,7 +538,7 @@ zh:
           url: /docs/zh/4.1.1/
           children:
             - title: "应用程序地图组管理"
-              url: /docs/ko/4.1.1.1/
+              url: /docs/zh/4.1.1.1/
             - title: "应用程序表创建"
               url: /docs/zh/4.1.1.2/
             - title: "应用程序表名称修改"
