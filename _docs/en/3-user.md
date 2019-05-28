@@ -1,7 +1,7 @@
 ---
-title: "3.1 User Management"
+title: "3 User Management"
 excerpt: ""
-permalink: /docs/en/3.1/
+permalink: /docs/en/3/
 redirect_from:
   - /theme-setup/
 toc: false
@@ -9,7 +9,6 @@ toc_sticky: false
 sidebar:
   nav: "en"
 ---
-
 
 ---
 

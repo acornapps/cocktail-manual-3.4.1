@@ -70,11 +70,10 @@ docs:
           url: /docs/ko/2.3.2/
         - title: "워크스페이스 삭제"
           url: /docs/ko/2.3.3/
-  - title: "대시보드"
+    - title: "대시보드"
+      url: /docs/ko/2.4/
+  - title: "사용자 관리"
     url: /docs/ko/3/
-    children:
-      - title: "사용자 관리"
-        url: /docs/ko/3.1/
   - title: "서비스"
     url: /docs/ko/4/
     children:
@@ -314,15 +313,53 @@ en:
     children:
     - title: "System"
       url: /docs/en/2.1/
+      children:
+        - title: "Edit System"
+          url: /docs/en/2.1.1/
+        - title: "Register your cloud metering account"
+          url: /docs/en/2.1.2/
+        - title: "Edit your cloud metering account"
+          url: /docs/en/2.1.3/
+        - title: "Delete your cloud metering account"
+          url: /docs/en/2.1.4/
+        - title: "Adding System Users"
+          url: /docs/en/2.1.5/
+        - title: "Edit system users"
+          url: /docs/en/2.1.6/
+        - title: "Reset system user password"
+          url: /docs/en/2.1.7/
+        - title: "Delete system user"
+          url: /docs/en/2.1.8/
     - title: "Cluster"
       url: /docs/en/2.2/
+      children:
+        - title: "Add Cluster"
+          url: /docs/en/2.2.1/
+        - title: "Edit Cluster"
+          url: /docs/en/2.2.2/
+        - title: "Delete Cluster"
+          url: /docs/en/2.2.3/
+        - title: "Volume"
+          url: /docs/en/2.2.4/
+        - title: "Add Storage"
+          url: /docs/en/2.2.5/
+        - title: "Edit Storage"
+          url: /docs/en/2.2.6/
+        - title: "Delete Volume"
+          url: /docs/en/2.2.7/
     - title: "Workspace"
       url: /docs/en/2.3/
-  - title: "Dashboard"
+      children:
+        - title: "Add Workspace"
+          url: /docs/en/2.3.1/
+        - title: "Edit Workspace"
+          url: /docs/en/2.3.2/
+        - title: "Delete Workspace"
+          url: /docs/en/2.3.3/
+    - title: "Dashboard"
+      url: /docs/en/2.4/
+  - title: "User Management"
     url: /docs/en/3/
-    children:
-      - title: "User Management"
-        url: /docs/en/3.1/
   - title: "Service"
     url: /docs/en/4/
     children:

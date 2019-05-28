@@ -1,7 +1,7 @@
 ---
-title: "3.1 사용자 관리"
+title: "3 사용자 관리"
 excerpt: ""
-permalink: /docs/ko/3.1/
+permalink: /docs/ko/3/
 redirect_from:
   - /theme-setup/
 toc: false
