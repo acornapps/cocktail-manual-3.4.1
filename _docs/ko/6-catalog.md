@@ -13,7 +13,7 @@ toc_sticky: false
 
 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다.
 
-카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다.
+카탈로그는 마이 카탈로그와 칵테일 카탈로그로 구분된다.
 
 ![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_1.png)
 ![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_2.png)
