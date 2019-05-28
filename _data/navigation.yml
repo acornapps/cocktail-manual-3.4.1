@@ -142,6 +142,13 @@ docs:
               url: /docs/ko/4.6.2.2/
             - title: "시크릿 삭제"
               url: /docs/ko/4.6.2.3/
+    - title: "서비스"
+      url: /docs/ko/4.7/
+      children:
+        - title: "서비스 설정"
+          url: /docs/ko/4.7.1/
+        - title: "인그레스 설정"
+          url: /docs/ko/4.7.2/
   - title: "빌드 관리"
     url: /docs/ko/5/
     children:
@@ -179,21 +186,15 @@ docs:
     children:
       - title: "클러스터 목록"
         url: /docs/ko/7.1/
-      - title: "노드"
+      - title: "리소스"
         url: /docs/ko/7.2/
       - title: "서비스"
         url: /docs/ko/7.3/
-      - title: "볼륨"
-        url: /docs/ko/7.4/
       - title: "알람"
-        url: /docs/ko/7.5/
+        url: /docs/ko/7.4/
         children:
           - title: "알림 목록"
-            url: /docs/ko/7.5.1/
-      - title: "미터링"
-        url: /docs/ko/7.6/
-      - title: "등록정보"
-        url: /docs/ko/7.7/
+            url: /docs/ko/7.4.1/
   - title: "시스템 운영"
     url: /docs/ko/8/
     children:
@@ -428,6 +429,13 @@ en:
               url: /docs/en/4.6.2.2/
             - title: "Delete Secret"
               url: /docs/en/4.6.2.3/
+    - title: "Service"
+      url: /docs/en/4.7/
+      children:
+        - title: "Service settings"
+          url: /docs/en/4.7.1/
+        - title: "Ingress settings"
+          url: /docs/en/4.7.2/
   - title: "Build Management"
     url: /docs/en/5/
     children:
@@ -465,18 +473,15 @@ en:
     children:
       - title: "Cluster Management"
         url: /docs/en/7.1/
-      - title: "Node"
+      - title: "Resource"
         url: /docs/en/7.2/
       - title: "Service"
         url: /docs/en/7.3/
-      - title: "Volume"
-        url: /docs/en/7.4/
       - title: "Alerts"
-        url: /docs/en/7.5/
-      - title: "Metering"
-        url: /docs/en/7.6/
-      - title: "Registration"
-        url: /docs/en/7.7/
+        url: /docs/en/7.4/
+        children:
+          - title: "Alerts List"
+            url: /docs/ko/7.4.1/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
