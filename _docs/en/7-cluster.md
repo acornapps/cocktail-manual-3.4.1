@@ -13,14 +13,11 @@ sidebar:
 
 ---
 
-This feature provides cluster registration management functions, as well as monitoring, volume, alert, and metering services for each node and application.
+Cluster status and resources, services, and alarms are provided.
 ![]({{ site.baseurl }}/assets/EN/{{ site.version }}/7_1.png)
 
 | Cluster Menu | Descrition |
 | :--- | :--- |
-| Node | Resource utilization \(CPU, memory, and network\) for all nodes and monitoring of individual nodes |
-| Application | Resource utilization \(CPU, memory, and network\) for all applications and monitoring of individual applications |
-| Volume | Storage management and volume status |
-| Alerts | Alerts for cluster-related events |
-| Metering | Cluster and per-resource costs |
-| Registration Management | Cluster view, edit, and delete |
+| Resources | Information services for node pools, storage and gateways |
+| Services | Resource utilization \(CPU, memory, and network\) for all applications and monitoring of individual applications |
+| Alarm | Alerts for cluster-related events |

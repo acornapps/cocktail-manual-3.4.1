@@ -109,20 +109,20 @@ docs:
           url: /docs/ko/4.2.5/
         - title: "워크로드 재시작"
           url: /docs/ko/4.2.6/
-        - title: "워크로드 재거"
+        - title: "워크로드 제거"
           url: /docs/ko/4.2.7/
     - title: "모니터링"
       url: /docs/ko/4.3/
     - title: "파이프라인"
       url: /docs/ko/4.4/
-    - title: "퍼시스턴트 볼륨"
+    - title: "스토리지 볼륨"
       url: /docs/ko/4.5/
       children:
-        - title: "퍼시스턴트 생성"
+        - title: "스토리지 볼륨 생성"
           url: /docs/ko/4.5.1/
-        - title: "퍼시스턴트 삭제"
+        - title: "스토리지 볼륨 삭제"
           url: /docs/ko/4.5.2/
-    - title: "설정"
+    - title: "설정 정보"
       url: /docs/ko/4.6/
       children:
         - title: "컨피그 맵"
@@ -363,14 +363,14 @@ en:
       url: /docs/en/4.3/
     - title: "Pipeline"
       url: /docs/en/4.4/
-    - title: "Persistent volume"
+    - title: "Storage volume"
       url: /docs/en/4.5/
       children:
-        - title: "Create Persistent"
+        - title: "Create Storage volume"
           url: /docs/en/4.5.1/
-        - title: "Remove Persistent"
+        - title: "Remove Storage volume"
           url: /docs/en/4.5.2/
-    - title: "Settings"
+    - title: "Config Information"
       url: /docs/en/4.6/
       children:
         - title: "Config Map"

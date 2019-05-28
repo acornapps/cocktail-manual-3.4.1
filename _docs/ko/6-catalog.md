@@ -15,12 +15,13 @@ toc_sticky: false
 
 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다.
 
-![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_1.png)![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_2.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_1.png)
+![]({{ site.baseurl }}/assets/KR/{{ site.version }}/6_2.png)
 
 | **카탈로그 메뉴**    | **설명**                       |
 | :------------- | :--------------------------- |
-| 서비스 카탈로그       | 사용자가 생성한 카탈로그                |
-| 플렛폼 카탈로그       | Cocktail Cloud 기본 제공 공식 카탈로그 |
+| 마이 카탈로그       | 사용자가 생성한 카탈로그                |
+| 칵테일 카탈로그       | Cocktail Cloud 기본 제공 공식 카탈로그 |
 | Filter Catalog | 검색을 통해 필요한 템플릿 조회            |
 | 템플릿            | 서비스를 구성하고 있는 워크로드 모음      |
 | 배포             | 카탈로그를 통해 워크로드를 배포            |
