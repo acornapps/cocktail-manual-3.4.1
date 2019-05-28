@@ -481,7 +481,7 @@ en:
         url: /docs/en/7.4/
         children:
           - title: "Alerts List"
-            url: /docs/ko/7.4.1/
+            url: /docs/en/7.4.1/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
