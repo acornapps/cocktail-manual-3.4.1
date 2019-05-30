@@ -70,11 +70,10 @@ docs:
           url: /docs/ko/2.3.2/
         - title: "워크스페이스 삭제"
           url: /docs/ko/2.3.3/
-  - title: "대시보드"
+    - title: "대시보드"
+      url: /docs/ko/2.4/
+  - title: "사용자 관리"
     url: /docs/ko/3/
-    children:
-      - title: "사용자 관리"
-        url: /docs/ko/3.1/
   - title: "서비스"
     url: /docs/ko/4/
     children:
@@ -109,20 +108,20 @@ docs:
           url: /docs/ko/4.2.5/
         - title: "워크로드 재시작"
           url: /docs/ko/4.2.6/
-        - title: "워크로드 재거"
+        - title: "워크로드 제거"
           url: /docs/ko/4.2.7/
     - title: "모니터링"
       url: /docs/ko/4.3/
     - title: "파이프라인"
       url: /docs/ko/4.4/
-    - title: "퍼시스턴트 볼륨"
+    - title: "스토리지 볼륨"
       url: /docs/ko/4.5/
       children:
-        - title: "퍼시스턴트 생성"
+        - title: "스토리지 볼륨 생성"
           url: /docs/ko/4.5.1/
-        - title: "퍼시스턴트 삭제"
+        - title: "스토리지 볼륨 삭제"
           url: /docs/ko/4.5.2/
-    - title: "설정"
+    - title: "설정 정보"
       url: /docs/ko/4.6/
       children:
         - title: "컨피그 맵"
@@ -143,6 +142,13 @@ docs:
               url: /docs/ko/4.6.2.2/
             - title: "시크릿 삭제"
               url: /docs/ko/4.6.2.3/
+    - title: "서비스"
+      url: /docs/ko/4.7/
+      children:
+        - title: "서비스 설정"
+          url: /docs/ko/4.7.1/
+        - title: "인그레스 설정"
+          url: /docs/ko/4.7.2/
   - title: "빌드 관리"
     url: /docs/ko/5/
     children:
@@ -180,21 +186,15 @@ docs:
     children:
       - title: "클러스터 목록"
         url: /docs/ko/7.1/
-      - title: "노드"
+      - title: "리소스"
         url: /docs/ko/7.2/
       - title: "서비스"
         url: /docs/ko/7.3/
-      - title: "볼륨"
-        url: /docs/ko/7.4/
       - title: "알람"
-        url: /docs/ko/7.5/
+        url: /docs/ko/7.4/
         children:
           - title: "알림 목록"
-            url: /docs/ko/7.5.1/
-      - title: "미터링"
-        url: /docs/ko/7.6/
-      - title: "등록정보"
-        url: /docs/ko/7.7/
+            url: /docs/ko/7.4.1/
   - title: "시스템 운영"
     url: /docs/ko/8/
     children:
@@ -314,15 +314,53 @@ en:
     children:
     - title: "System"
       url: /docs/en/2.1/
+      children:
+        - title: "Edit System"
+          url: /docs/en/2.1.1/
+        - title: "Register your cloud metering account"
+          url: /docs/en/2.1.2/
+        - title: "Edit your cloud metering account"
+          url: /docs/en/2.1.3/
+        - title: "Delete your cloud metering account"
+          url: /docs/en/2.1.4/
+        - title: "Adding System Users"
+          url: /docs/en/2.1.5/
+        - title: "Edit system users"
+          url: /docs/en/2.1.6/
+        - title: "Reset system user password"
+          url: /docs/en/2.1.7/
+        - title: "Delete system user"
+          url: /docs/en/2.1.8/
     - title: "Cluster"
       url: /docs/en/2.2/
+      children:
+        - title: "Add Cluster"
+          url: /docs/en/2.2.1/
+        - title: "Edit Cluster"
+          url: /docs/en/2.2.2/
+        - title: "Delete Cluster"
+          url: /docs/en/2.2.3/
+        - title: "Volume"
+          url: /docs/en/2.2.4/
+        - title: "Add Storage"
+          url: /docs/en/2.2.5/
+        - title: "Edit Storage"
+          url: /docs/en/2.2.6/
+        - title: "Delete Volume"
+          url: /docs/en/2.2.7/
     - title: "Workspace"
       url: /docs/en/2.3/
-  - title: "Dashboard"
+      children:
+        - title: "Add Workspace"
+          url: /docs/en/2.3.1/
+        - title: "Edit Workspace"
+          url: /docs/en/2.3.2/
+        - title: "Delete Workspace"
+          url: /docs/en/2.3.3/
+    - title: "Dashboard"
+      url: /docs/en/2.4/
+  - title: "User Management"
     url: /docs/en/3/
-    children:
-      - title: "User Management"
-        url: /docs/en/3.1/
   - title: "Service"
     url: /docs/en/4/
     children:
@@ -363,14 +401,14 @@ en:
       url: /docs/en/4.3/
     - title: "Pipeline"
       url: /docs/en/4.4/
-    - title: "Persistent volume"
+    - title: "Storage volume"
       url: /docs/en/4.5/
       children:
-        - title: "Create Persistent"
+        - title: "Create Storage volume"
           url: /docs/en/4.5.1/
-        - title: "Remove Persistent"
+        - title: "Remove Storage volume"
           url: /docs/en/4.5.2/
-    - title: "Settings"
+    - title: "Config Information"
       url: /docs/en/4.6/
       children:
         - title: "Config Map"
@@ -391,6 +429,13 @@ en:
               url: /docs/en/4.6.2.2/
             - title: "Delete Secret"
               url: /docs/en/4.6.2.3/
+    - title: "Service"
+      url: /docs/en/4.7/
+      children:
+        - title: "Service settings"
+          url: /docs/en/4.7.1/
+        - title: "Ingress settings"
+          url: /docs/en/4.7.2/
   - title: "Build Management"
     url: /docs/en/5/
     children:
@@ -420,26 +465,23 @@ en:
       - title: "Delete Catalog"
         url: /docs/en/6.4/
       - title: "Export Catalog"
-        url: /docs/ko/6.5/
+        url: /docs/en/6.5/
       - title: "Import Catalog"
-        url: /docs/ko/6.6/
+        url: /docs/en/6.6/
   - title: "Cluster"
     url: /docs/en/7/
     children:
       - title: "Cluster Management"
         url: /docs/en/7.1/
-      - title: "Node"
+      - title: "Resource"
         url: /docs/en/7.2/
       - title: "Service"
         url: /docs/en/7.3/
-      - title: "Volume"
-        url: /docs/en/7.4/
       - title: "Alerts"
-        url: /docs/en/7.5/
-      - title: "Metering"
-        url: /docs/en/7.6/
-      - title: "Registration"
-        url: /docs/en/7.7/
+        url: /docs/en/7.4/
+        children:
+          - title: "Alerts List"
+            url: /docs/en/7.4.1/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
@@ -496,7 +538,7 @@ zh:
           url: /docs/zh/4.1.1/
           children:
             - title: "应用程序地图组管理"
-              url: /docs/ko/4.1.1.1/
+              url: /docs/zh/4.1.1.1/
             - title: "应用程序表创建"
               url: /docs/zh/4.1.1.2/
             - title: "应用程序表名称修改"
@@ -638,15 +680,54 @@ ja:
         url: /docs/ja/0.6/
   - title: "ログイン"
     url: /docs/ja/1/
-  - title: "システムマネジメント"
+  - title: "システム管理"
     url: /docs/ja/2/
     children:
-    - title: "システム"
+    - title: "システム管理の詳細"
       url: /docs/ja/2.1/
-    - title: "クラスタ"
+      children:
+        - title: "システム情報の変更"
+          url: /docs/ja/2.1.1/
+        - title: "クラウドメータリングアカウントの登録"
+          url: /docs/ja/2.1.2/
+        - title: "クラウドメータリングアカウントの変更"
+          url: /docs/ja/2.1.3/
+        - title: "クラウドメータリングアカウントの削除"
+          url: /docs/ja/2.1.4/
+        - title: "システムユーザーの追加"
+          url: /docs/ja/2.1.5/
+        - title: "システムユーザーの変更"
+          url: /docs/ja/2.1.6/
+        - title: "システムユーザーのパスワード初期化"
+          url: /docs/ja/2.1.7/
+        - title: "システムユーザーの削除"
+          url: /docs/ja/2.1.8/
+    - title: "クラスター"
       url: /docs/ja/2.2/
+      children:
+        - title: "クラスターの登録"
+          url: /docs/ja/2.2.1/
+        - title: "クラスターの変更"
+          url: /docs/ja/2.2.2/
+        - title: "クラスターの削除"
+          url: /docs/ja/2.2.3/
+        - title: "ボリューム"
+          url: /docs/ja/2.2.4/
+        - title: "ストレージの追加"
+          url: /docs/ja/2.2.5/
+        - title: "ストレージの変更"
+          url: /docs/ja/2.2.6/
+        - title: "ストレージの削除"
+          url: /docs/ja/2.2.7/
     - title: "ワークスペース"
       url: /docs/ja/2.3/
+      children:
+        - title: "ワークスペースの作成"
+          url: /docs/ja/2.3.1/
+        - title: "ワークスペースの変更"
+          url: /docs/ja/2.3.2/
+        - title: "ワークスペースの削除"
+          url: /docs/ja/2.3.3/
   - title: "ダッシュボード"
     url: /docs/ja/3/
     children:
@@ -655,107 +736,107 @@ ja:
   - title: "サービス"
     url: /docs/ja/4/
     children:
-    - title: "アプリケーション管理"
+    - title: "サービス管理"
       url: /docs/ja/4.1/
       children:
-        - title: "アプリケーションマップ"
+        - title: "サービスマップ"
           url: /docs/ja/4.1.1/
           children:
-            - title: "アプリケーションマップグループの管理"
+            - title: "サービスマップのグループの管理"
               url: /docs/ja/4.1.1.1/
-            - title: "アプリケーションマップ作成"
+            - title: "サービスマップの作成"
               url: /docs/ja/4.1.1.2/
-            - title: "アプリケーションマップ名の変更"
+            - title: "サービスマップ名の変更"
               url: /docs/ja/4.1.1.3/
-            - title: "アプリケーションマップ削除"
+            - title: "サービスマップの削除"
               url: /docs/ja/4.1.1.4/
         - title: "グループ管理"
           url: /docs/ja/4.1.2/
-    - title: "サーバー"
+    - title: "ワークロード"
       url: /docs/ja/4.2/
       children:
-        - title: "サーバー作成"
+        - title: "ワークロードの作成"
           url: /docs/ja/4.2.1/
-        - title: "サーバー編集"
+        - title: "ワークロードの編集"
           url: /docs/ja/4.2.2/
-        - title: "サーバーインスタンス情報照会"
+        - title: "ワークロードインスタンス照会"
           url: /docs/ja/4.2.3/
-        - title: "サーバー停止"
+        - title: "ワークロードの停止"
           url: /docs/ja/4.2.4/
-        - title: "サーバ起動"
+        - title: "ワークロードの起動"
           url: /docs/ja/4.2.5/
-        - title: "サーバー再起動"
+        - title: "ワークロードの再起動"
           url: /docs/ja/4.2.6/
-        - title: "サーバー削除"
+        - title: "ワークロードの削除"
           url: /docs/ja/4.2.7/
     - title: "モニタリング"
       url: /docs/ja/4.3/
     - title: "パイプライン"
       url: /docs/ja/4.4/
-    - title: "持続的なボリューム"
+    - title: "Persistent Volume"
       url: /docs/ja/4.5/
       children:
-        - title: "持続性を作成"
+        - title: "Persistent Volumeの作成"
           url: /docs/ja/4.5.1/
-        - title: "永続的な削除"
+        - title: "Persistent Volumeの削除"
           url: /docs/ja/4.5.2/
     - title: "設定"
       url: /docs/ja/4.6/
       children:
-        - title: "設定マップ"
+        - title: "Config Map"
           url: /docs/ja/4.6.1/
           children:
-            - title: "設定マップ追加"
+            - title: "Config Mapの作成"
               url: /docs/ja/4.6.1.1/
-            - title: "設定マップ変更"
+            - title: "Config Mapの変更"
               url: /docs/ja/4.6.1.2/
-            - title: "設定マップ削除"
+            - title: "Config Mapの削除"
               url: /docs/ja/4.6.1.3/
-        - title: "シークレット"
+        - title: "Secret"
           url: /docs/ja/4.6.2/
           children:
-            - title: "シークレット追加"
+            - title: "Secretの作成"
               url: /docs/ja/4.6.2.1/
-            - title: "シークレット修正"
+            - title: "Secretの変更"
               url: /docs/ja/4.6.2.2/
-            - title: "シークレット削除"
+            - title: "Secretの削除"
               url: /docs/ja/4.6.2.3/
   - title: "ビルド管理"
     url: /docs/ja/5/
     children:
-      - title: "ビルド追加"
+      - title: "ビルドタスクの作成"
         url: /docs/ja/5.1/
-      - title: "タスク設定の編集"
+      - title: "ビルドタスクの編集"
         url: /docs/ja/5.2/
-      - title: "ヒストリー"
+      - title: "ビルドヒストリー"
         url: /docs/ja/5.3/
-      - title: "ビルド実行"
+      - title: "ビルドタスクの実行"
         url: /docs/ja/5.4/
-      - title: "ビルドキャンセル"
+      - title: "ビルドタスクのキャンセル"
         url: /docs/ja/5.5/
-      - title: "ログ表示"
+      - title: "ビルドログ"
         url: /docs/ja/5.6/
-      - title: "タスク削除"
+      - title: "ビルドタスクの削除"
         url: /docs/ja/5.7/
   - title: "カタログ"
     url: /docs/ja/6/
     children:
-      - title: "カタログ保存"
+      - title: "カタログの保存"
         url: /docs/ja/6.1/
-      - title: "カタログデプロイ"
+      - title: "カタログのデプロイ"
         url: /docs/ja/6.2/
-      - title: "カタログ編集"
+      - title: "カタログの編集"
         url: /docs/ja/6.3/
-      - title: "カタログ削除"
+      - title: "カタログの削除"
         url: /docs/ja/6.4/
-      - title: "カタログ出口"
+      - title: "カタログのエクスポート"
         url: /docs/ja/6.5/
-      - title: "カタログ进口"
+      - title: "カタログのインポート"
         url: /docs/ja/6.6/
   - title: "クラスター"
     url: /docs/ja/7/
     children:
-      - title: "クラスター管理"
+      - title: "クラスターの照会"
         url: /docs/ja/7.1/
       - title: "ノード"
         url: /docs/ja/7.2/
@@ -763,25 +844,36 @@ ja:
         url: /docs/ja/7.3/
       - title: "ボリューム"
         url: /docs/ja/7.4/
-      - title: "アラーム"
+      - title: "アラート"
         url: /docs/ja/7.5/
         children:
-          - title: "アラームリスト"
+          - title: "アラートリスト"
             url: /docs/ja/7.5.1/
       - title: "メータリング"
         url: /docs/ja/7.6/
-      - title: "追加"
+      - title: "登録管理"
         url: /docs/ja/7.7/
-  - title: "Member"
+  - title: "システム運用"
     url: /docs/ja/8/
-  - title: "用語説明"
+    children:
+      - title: "クラスター構成と登録"
+        url: /docs/ja/8.1/
+        children:
+        - title: "クラスターサービスの利用"
+          url: /docs/ja/8.1.1/
+          children:
+            - title: "EKSクラスターの作成"
+              url: /docs/ja/8.1.1.3/
+  - title: "メンバー"
     url: /docs/ja/9/
+  - title: "用語説明"
+    url: /docs/ja/10/
     children:
       - title: "Kubernetes(k8s)"
-        url: /docs/ja/9.1/
+        url: /docs/ja/10.1/
       - title: "Cocktail Cloud"
-        url: /docs/ja/9.2/
+        url: /docs/ja/10.2/
       - title: "Cocktail System Error Code"
-        url: /docs/ja/9.3/
+        url: /docs/ja/10.3/
   - title: "ユーザーサポートサービス"
-    url: /docs/ja/9.4/
+    url: /docs/ja/10.4/

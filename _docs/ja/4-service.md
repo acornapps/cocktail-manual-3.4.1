@@ -1,5 +1,5 @@
 ---
-title: "4.Service"
+title: "4.サービス"
 excerpt: ""
 permalink: /docs/ja/4/
 redirect_from:
@@ -18,4 +18,4 @@ sidebar:
 | リスト | 説明 |
 | :---: | :--- |
 | ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/4_2.png) | サービスマップグループのアクションメニュー |
-| ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/4_3.png) | サービスマップ作成のポップアップを呼び出し |
+| ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/4_3.png) | サービスマップ作成のポップアップ呼び出し |

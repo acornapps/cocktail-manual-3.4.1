@@ -1,5 +1,5 @@
 ---
-title: "8.Members"
+title: "9.Members"
 excerpt: ""
 permalink: /docs/en/8/
 redirect_from:
@@ -13,4 +13,4 @@ sidebar:
 ---
 This feature allows you to view the member infomation of the current workspace.
 
-![]({{ site.baseurl }}/assets/EN/{{ site.version }}/8_1.png)
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/9_1.png)

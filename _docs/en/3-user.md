@@ -1,0 +1,31 @@
+---
+title: "3 User Management"
+excerpt: ""
+permalink: /docs/en/3/
+redirect_from:
+  - /theme-setup/
+toc: false
+toc_sticky: false
+sidebar:
+  nav: "en"
+---
+
+---
+
+This feature allows you to view and manage current user information.
+
+![]({{ site.baseurl }}/assets/EN/{{ site.version }}/3.1_1.png)
+
+### a\) Dashboard → Click the [User] button in the bottom-left corner
+
+| Item            | Description                                                 |
+| :-------------- | :---------------------------------------------------------- |
+| ID              | ID of account currently in use                              |
+| User Language   | Choose from Korean, Japanese, Chinese and English           |
+| User Timezone   | Choose from Seoul, Tokyo, Shanghai and NewYork              |
+| Theme           | Choose between light and dark themes                        |
+| Change Password | A new password can be set after confirming the old password |
+| User Manual     | Help manual for Cocktail features                           |
+| Product         | Displays the Cocktail product name                          |
+| Version         | Displays the current Cocktail version                       |
+| Log Out         | Logs out the account currently in use                       |

@@ -4,6 +4,6 @@ excerpt: ""
 permalink: /docs/ko/8/
 redirect_from:
   - /theme-setup/
-toc: true
+toc: false
 toc_sticky: true
 ---
