@@ -7,7 +7,6 @@ function scrollPosReaload($scrollContainer) {
   if (localStorage) {
       var posReader = localStorage["posStorage"];
       if (posReader) {
-        console.log("asdfasdg")
           $scrollContainer.scrollTop(posReader);
           localStorage.removeItem("posStorage");
       }
