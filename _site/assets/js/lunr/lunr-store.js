@@ -115,12 +115,12 @@ var store = [{
         "url": "http://localhost:4000/docs/en/2.2.4/",
         "teaser":null},{
         "title": "2.2.5 Add Storage",
-        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster → Select Volume → Click the [+] button in the top-right corner. b) Enter cluster, name, description, storage plugin, Reclaim Policy, and storage class name in order. Storage Info Description Name PV name Description User-defined PV description...","categories": [],
+        "excerpt":"This feature allows you to add storage volumes. a) Cluster → Select Cluster → Select Volume → Click the [+] button in the top-right corner. b) Fill in the cluster, name, description, storage plug-in, policy, storage class name, storage provisioner, or plug-in settings. Storage Info Description Name PV name Description...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.5/",
         "teaser":null},{
         "title": "2.2.6 Edit Storage",
-        "excerpt":"  This feature allows you to modify storage information. Note, however, that NFS Named storages may not be modified.   a) Cluster → Select Cluster → Volume → Volume Action button &gt; Edit Storage.     b) You may modify the name, description, Reclaim policy, storage class name, and parameter values.    ","categories": [],
+        "excerpt":"  This feature allows you to modify storage information. Note, however, that NFS Named storages may not be modified.   a) Cluster → Select Cluster → Volume → Volume Action button &gt; Edit Storage.     b) You can modify the name, description, etc. according to the plugin type.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.6/",
         "teaser":null},{
@@ -165,7 +165,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/4/",
         "teaser":null},{
         "title": "4.1 Service Management",
-        "excerpt":"And manages the service map, the corresponding service map group, and the workload. ㅤㅤㅤㅤㅤ List Explanation A group of logical units. If you activate the action menu, you can change the group name, move up or down, add the group above, or delete the group. Click the + button to...","categories": [],
+        "excerpt":"And manages the service map, the corresponding service map group, and the workload. ㅤㅤㅤㅤㅤ List Explanation A group of logical units. If you activate the action menu, you can change the group name, move up or down, add the group above, or delete the group. Click the +Service Map Create...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1/",
         "teaser":null},{
@@ -180,7 +180,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/4.1.1.1/",
         "teaser":null},{
         "title": "4.1.1-2 Create Service Map",
-        "excerpt":"The service map is managed as a group. You can create a service map in that group. You can change group name, group color, add group, move and delete group. a) Select Main Menu on the left → Service → Click the [+] button on the right. b) Select the...","categories": [],
+        "excerpt":"The service map is managed as a group. You can create a service map in that group. You can change group name, group color, add group, move and delete group. a) Select Main Menu on the left → Service → Click the [+Sevice Map Create] button on the right. b)...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.1.1.2/",
         "teaser":null},{
@@ -205,7 +205,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/4.2/",
         "teaser":null},{
         "title": "4.2.1 Create Workload",
-        "excerpt":"This feature allows you to create and run workloads from Group Management. a) Select Main Menu on the left → Service → ServiceMap → Click the [+] button (Create workload) on a workload group. Select the workload type. b) Enter basic, container, instance, update policy, service port, and volume information...","categories": [],
+        "excerpt":"This feature allows you to create and run workloads from Group Management. a) Select Main Menu on the left → Service → ServiceMap → Click the [+] button (Create workload) on a workload group. Select the workload type. b) Enter Basic Infomation, Container, Instance, Auto Scaling, RollingUpdate Strategy, Service Port,...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.2.1/",
         "teaser":null},{
@@ -249,65 +249,80 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.4/",
         "teaser":null},{
-        "title": "4.5 Persistent Volume",
-        "excerpt":"Provides persistent volume status, creation and deletion. a) Select Main Menu on the left → Service → Service map → Persistent volume Items Description Volume Name Name of the created persistent volume, click to go to the details of the persistent volume Volume type Volume Type (Single, Shared) Status The...","categories": [],
+        "title": "4.5 Storage Volume",
+        "excerpt":"Provides persistent volume status, creation and deletion. a) Select Main Menu on the left → Service → Service map → Storage volume Items Description Volume Name Name of the created Storage volume, click to go to the details of the persistent volume Volume type Volume Type (Single, Shared) Status The...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.5/",
         "teaser":null},{
-        "title": "4.5.1 Creating Persistent Volumes",
-        "excerpt":"Creating Persistent Volumes. a) Select Main Menu on the left → Service → Service map → Persistent volume Items Description Persistent volume type Volume Type (Single, Shared) Storage Exposing a clustered storage list Access mode Select ReadWriteOnce if the persistent volume type is Single, ReadWriteMany, ReadOnlyMany if it is a...","categories": [],
+        "title": "4.5.1 Creating Storage Volumes",
+        "excerpt":"Creating Persistent Volumes. a) Select Main Menu on the left → Service → Service map → Storage volume Items Description Storage volume type Volume Type (Single, Shared) Storage Exposing a clustered storage list Access mode Select ReadWriteOnce if the Storage volume type is Single, ReadWriteMany, ReadOnlyMany if it is a...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.5.1/",
         "teaser":null},{
-        "title": "4.5.2 Delete Persistent Volumes",
-        "excerpt":" Delete the persistent volume.   a) Select Main Menu on the left → Service → Service map → Persistent volume → Persistent Action Menu(Activate) → Click Delete    ","categories": [],
+        "title": "4.5.2 Delete Storage Volumes",
+        "excerpt":" Delete the persistent volume.   a) Select Main Menu on the left → Service → Service map → Storage volume → Storage volume Action Menu(Activate) → Click Delete    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.5.2/",
         "teaser":null},{
-        "title": "4.6 Settings",
-        "excerpt":" Application units can be used like volumes by storing variable values in the form key=value.   a) Select Main Menu on the left → Service → Select Service Map → Settings.                      Menu       Description                       Config Map       Register, edit, and delete config maps                 Secret       Register, edit, and delete secrets          ","categories": [],
+        "title": "4.6 Config Information",
+        "excerpt":" Application units can be used like volumes by storing variable values in the form key=value.   a) Select Main Menu on the left → Service → Select Service Map → Config Information.                      Menu       Description                       Config Map       Register, edit, and delete config maps                 Secret       Register, edit, and delete secrets          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6/",
         "teaser":null},{
         "title": "4.6.1 Config Map",
-        "excerpt":"This feature allows you to save config files as maps on workloads to be used as volumes. a) Select Main Menu on the left → Service → Select Service Map → Settings → Config Map. Item Description Redirects to Add Config Map page Name Name of config map (user-defined) Description...","categories": [],
+        "excerpt":"This feature allows you to save config files as maps on workloads to be used as volumes. a) Select Main Menu on the left → Service → Select Service Map → Config Information → Config Map. Item Description Redirects to Add Config Map page Name Name of config map (user-defined)...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.1/",
         "teaser":null},{
         "title": "4.6.1.1 Add Config Map",
-        "excerpt":"This feature allows you to add config maps. a) Select Main Menu on the left → Select Main Menu on the left → Service → Select Service Map → Settings → Config Map → Click the [+] button to be redirected to the Add Config Map page. b) Enter the...","categories": [],
+        "excerpt":"This feature allows you to add config maps. a) Select Main Menu on the left → Select Main Menu on the left → Service → Select Service Map → Config Information → Config Map → Click the [+] button to be redirected to the Add Config Map page. b) Enter...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.1.1/",
         "teaser":null},{
         "title": "4.6.1.2 Edit Config Map",
-        "excerpt":"This feature allows you to modify config map data (excluding name). a) Select Main Menu on the left → Service → Select Service Map → Settings → Config Map → Config Map Action Menu (Activate) → Edit Config Map b) After changing the data value(s), click the [Update] button to...","categories": [],
+        "excerpt":"This feature allows you to modify config map data (excluding name). a) Select Main Menu on the left → Service → Select Service Map → Config Information → Config Map → Config Map Action Menu (Activate) → Edit Config Map b) After changing the data value(s), click the [Update] button...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.1.2/",
         "teaser":null},{
         "title": "4.6.1.3 Delete Config Map",
-        "excerpt":"  This feature allows you to delete service config maps.   a) Select Main Menu on the left → Service → Select Service Map → Settings → Config Map → Config Map Action Menu (Activate) → Config Map Delete     ","categories": [],
+        "excerpt":"  This feature allows you to delete service config maps.   a) Select Main Menu on the left → Service → Select Service Map → Config Information → Config Map → Config Map Action Menu (Activate) → Config Map Delete     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.1.3/",
         "teaser":null},{
         "title": "4.6.2 Secret",
-        "excerpt":"This feature allows you to save secret files on servers to be used as environment variables or volumes. a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret. Item Description Redirects to Add Secret page Name Name of secret (user-defined) Description Secret Description...","categories": [],
+        "excerpt":"This feature allows you to save secret files on servers to be used as environment variables or volumes. a) Select Main Menu on the left → Service → Select Service Map → Config Information → Secret. Item Description Redirects to Add Secret page Name Name of secret (user-defined) Description Secret...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.2/",
         "teaser":null},{
         "title": "4.6.2.1 Add Secret",
-        "excerpt":"This feature allows you to add secrets to a service. a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret → Click the [+] button to be redirected to the Add Secret page. b) Enter the name and data values and click the...","categories": [],
+        "excerpt":"This feature allows you to add secrets to a service. a) Select Main Menu on the left → Service → Select Service Map → Config Information → Secret → Click the [+] button to be redirected to the Add Secret page. b) Enter the name and data values and click...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.2.1/",
         "teaser":null},{
         "title": "4.6.2.2 Edit Secret",
-        "excerpt":"This feature allows you to modify secret data (excluding name) added to a workload. a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret → Secret Action Menu (Activate) → Edit Secret b) After changing the data value(s), click the [Save] button to...","categories": [],
+        "excerpt":"This feature allows you to modify secret data (excluding name) added to a workload. a) Select Main Menu on the left → Service → Select Service Map → Config Information → Secret → Secret Action Menu (Activate) → Edit Secret b) After changing the data value(s), click the [Update] button...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.2.2/",
         "teaser":null},{
         "title": "4.6.2.3 Delete Secret",
-        "excerpt":"  This feature allows you to delete service secrets.   a) Select Main Menu on the left → Service → Select Service Map → Settings → Secret → Secret Action Menu (Activate) → Delete Secret    ","categories": [],
+        "excerpt":"  This feature allows you to delete service secrets.   a) Select Main Menu on the left → Service → Select Service Map → Config Information → Secret → Secret Action Menu (Activate) → Delete Secret     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.2.3/",
+        "teaser":null},{
+        "title": "4.7 Service",
+        "excerpt":" You can connect Cluster Ip, Node Port, and Loadbalancer ports to the created workload and add ingress configuration.   a ) Left Main Menu → Service → Select Service Map → Service.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.7/",
+        "teaser":null},{
+        "title": "4.7.1 Service settings",
+        "excerpt":"Connect Cluster Ip, Node Port, and Loadbalancer ports to the created workload. a) Left Main Menu → Service → Select Service Map → Service. b) Click on the Add button on the screen service line. c ) Specifies the workload to associate the service type with the port. ** Service...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.7.1/",
+        "teaser":null},{
+        "title": "4.7.2 Ingress settings",
+        "excerpt":"You can add ingress settings to the generated service. a) Left Main Menu → Service → Select Service Map → Service. b) Click the Add button on the Ingress line of the screen. Ingress Adding an ingress host can be done by selecting the ‘Default Host’ or ‘Direct input’ on...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.7.2/",
         "teaser":null},{
         "title": "5.Build Management",
         "excerpt":"This feature allows you to manage build tasks for a Docker image. You can download an application, build the source file, and build the image file to be uploaded to a Harbor registry. a) Click on the left main menu → [Build] to go to this page. Item Description Build...","categories": [],
@@ -350,7 +365,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/5.7/",
         "teaser":null},{
         "title": "6.Catalog",
-        "excerpt":"This feature allows you to easily create, deploy, and manage workloads by creating a template of an service configuration. Use the catalog feature to use multiple workloads at once. The catalog feature is divided into service catalogs and platform catalogs. Catalog Menu Description Service Catalog User-generated catalog Platform Catalog Default...","categories": [],
+        "excerpt":"This feature allows you to easily create, deploy, and manage workloads by creating a template of an service configuration. Use the catalog feature to use multiple workloads at once. The catalog feature is divided into service catalogs and platform catalogs. Catalog Menu Description My Catalog User-generated catalog Cocktail Catalog Default...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/6/",
         "teaser":null},{
@@ -385,27 +400,17 @@ var store = [{
         "url": "http://localhost:4000/docs/en/6.6/",
         "teaser":null},{
         "title": "7.Cluster",
-        "excerpt":"This feature provides cluster registration management functions, as well as monitoring, volume, alert, and metering services for each node and application. Cluster Menu Descrition Node Resource utilization (CPU, memory, and network) for all nodes and monitoring of individual nodes Application Resource utilization (CPU, memory, and network) for all applications and...","categories": [],
+        "excerpt":"  Cluster status and resources, services, and alarms are provided.                   Cluster Menu       Descrition                       Resources       Information services for node pools, storage and gateways                 Services       Resource utilization (CPU, memory, and network) for all applications and monitoring of individual applications                 Alarm       Alerts for cluster-related events          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7/",
         "teaser":null},{
-        "title": "7.클러스터",
-        "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7_/",
-        "teaser":null},{
         "title": "7.1 Cluster List",
-        "excerpt":"This feature allows you to add, edit, and delete Kubernetes cluster information assigned by a provider. a) Cluster → Click the [Sort] button and select the desired criteria. Cluster Settings Description + Add Cluster Redirects to Add Cluster page Cluster Cluster type Node Number of nodes in a cluster CPU...","categories": [],
+        "excerpt":"This feature allows you to add, edit, and delete Kubernetes cluster information assigned by a provider. a) Cluster → Click the [Sort] button and select the desired criteria. Cluster Cluster Type Status Cluster Status Service Number of service maps registered in the cluster Request CPU in cluster Request Memory in...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.1/",
         "teaser":null},{
-        "title": "7.1 클러스터 목록",
-        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.1_/",
-        "teaser":null},{
-        "title": "7.2 Node",
-        "excerpt":"This feature allows you to view the total resource utilization (disk drive, CPU, memory, and network) of all nodes, as well as the label and status information of individual nodes. You can click on a node name for detailed information. a) Cluster → Select Cluster → Node. b) Click on...","categories": [],
+        "title": "7.2 Resource",
+        "excerpt":" It can collectively check information of node pool, storage, and gateway resource status.   a) Click Cluster → Select cluster → Resources.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.2/",
         "teaser":null},{
@@ -414,30 +419,15 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.3/",
         "teaser":null},{
-        "title": "7.3 서비스",
-        "excerpt":" 전체 서비스의 총 CPU, Memory, Network 사용량과 개별 서비스의 네임스페이스, 인스턴스 현황 등을 조회 할 수 있는 화면이다. 서비스 명을 클릭하면 해당 서비스 맵 페이지로 이동할 수 있다.   a) 클러스터 → 클러스터 선택 → 서비스을 클릭한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.3_/",
-        "teaser":null},{
-        "title": "7.4 Volume",
-        "excerpt":"This feature allows you to view public cloud and external storage information and also provides volume monitoring. a) Cluster → Select Cluster → Volume. Storage Settings Description Name Name of storage (user-defined) Type Type of storage (NFS/EBS/Google Persistent Disk/Azure Disk) Storage Class Name Class name registered in k8s Policy Storage...","categories": [],
+        "title": "7.4 Alarm",
+        "excerpt":"  This feature allows you to receive alerts for cluster events.   a) Cluster → Select Cluster → Alarm.     b) Click on an alarm name to view detailed information.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.4/",
         "teaser":null},{
-        "title": "7.4 볼륨",
-        "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.4_/",
-        "teaser":null},{
-        "title": "7.5 Alerts",
-        "excerpt":"  This feature allows you to receive alerts for cluster events.   a) Cluster → Select Cluster → Alarm.     b) Click on an alarm name to view detailed information.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/en/7.5/",
-        "teaser":null},{
-        "title": "7.5.1 Alerts List",
+        "title": "7.4.1 Alerts List",
         "excerpt":"An alert occurs when the occurrence condition in the following list continues for the duration time. AlertManager Alarm ID ALM-001 Severity warning Alarm Name AlertmanagerDown duration 5minute occurrence condition Alertmanager Occurs when metrics can not be collected Action Check Prometheus logs and Alertmanager logs and events. If necessary, restart the...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/en/7.5.1/",
+        "url": "http://localhost:4000/docs/en/7.4.1/",
         "teaser":null},{
         "title": "7.6 Metering",
         "excerpt":"  This feature allows you to monitor metering (fee) information per in-use cluster.   The metering service is only available for the AWS and GCP public clouds.   a) Cluster → Select Cluster → Metering.    ","categories": [],
@@ -449,7 +439,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/7.7/",
         "teaser":null},{
-        "title": "8.Members",
+        "title": "9.Members",
         "excerpt":" This feature allows you to view the member infomation of the current workspace.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/8/",
@@ -1055,7 +1045,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.1.4/",
         "teaser":null},{
         "title": "2.1.5 시스템 사용자 추가",
-        "excerpt":"  시스템 사용자를 추가 하는 기능이다.   관리자도 여러명 추가 및 삭제가 가능하지만 한명일 경우는 삭제가 되지 않는다.   a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다                        시스템 사용자       설명                       이름       시스템 사용자 이름                 아이디       칵테일 클라우드 접속 사용자 아이디                 권한       관리자(관리자메뉴 사용가능), 사용\u001c자                 설명       시스템 사용자 설명          ","categories": [],
+        "excerpt":"  시스템 사용자를 추가 하는 기능이다.   관리자도 여러명 추가 및 삭제가 가능하지만 한명일 경우는 삭제가 되지 않는다.   a) 좌측 메인메뉴 → 시스템 → 사용자 추가를 클릭한다                        시스템 사용자       설명                       이름       시스템 사용자 이름                 아이디       칵테일 클라우드 접속 사용자 아이디                 권한       관리자(관리자메뉴 사용가능), 사용자                 설명       시스템 사용자 설명          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.1.5/",
         "teaser":null},{
@@ -1100,12 +1090,12 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/2.2.4/",
         "teaser":null},{
         "title": "2.2.5 스토리지 추가",
-        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 유형 스리지 유형 (Single, Shared) 스토리지...","categories": [],
+        "excerpt":"볼륨을 추가하여 사용 할 수 있다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭 → 오른쪽 상단 + 모양의 버튼을 클릭한다. b) 클러스터, 이름, 설명, 스토리지 플러그인, 정책, 스토리지 클래스 이름, 스토리지 프로비저너 또는 플러그인 설정을 차례로 기입한다. 스토리지 등록 정보 설명 이름 PV 이름 설명 PV 사용자 설명 스토리지...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.5/",
         "teaser":null},{
         "title": "2.2.6 스토리지 편집",
-        "excerpt":" 등록된 스토리지 정보를 편집하는 기능이다. 단, NFS Named 타입의 스토리지는 편집할 수 없다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션 버튼 → 스토리지 편집을 클릭한다.     b) 이름, 설명, 정책, 스토리지 클래스 이름, 파라미터값을 수정 할 수 있다.    ","categories": [],
+        "excerpt":" 등록된 스토리지 정보를 편집하는 기능이다. 단, NFS Named 타입의 스토리지는 편집할 수 없다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션 버튼 → 스토리지 편집을 클릭한다.     b) 플러그인 유형에 따라 이름, 설명 등을 수정 할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.6/",
         "teaser":null},{
@@ -1150,7 +1140,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4/",
         "teaser":null},{
         "title": "4.1 서비스 관리",
-        "excerpt":" 서비스 맵과 해당 서비스 맵 그룹 및 워크로드를 관리한다.   ㅤㅤㅤㅤㅤ                  목록       설명                              논리적 단위로 구성된 그룹. 액션메뉴를 활성화하면 해당 그룹에 그룹명 변경, 위 or 아래 이동, 위 or 아래 그룹추가, 그룹 삭제가 가능. +버튼을 클릭하면 서비스 맵을 생성할 수 있음.          ","categories": [],
+        "excerpt":" 서비스 맵과 해당 서비스 맵 그룹 및 워크로드를 관리한다.   ㅤㅤㅤㅤㅤ                  목록       설명                              논리적 단위로 구성된 그룹. 액션메뉴를 활성화하면 해당 그룹에 그룹명 변경, 위 or 아래 이동, 위 or 아래 그룹추가, 그룹 삭제가 가능. +서비스 맵 생성 버튼을 클릭하면 서비스 맵을 생성할 수 있음.          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.1/",
         "teaser":null},{
@@ -1165,12 +1155,12 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.1.1.1/",
         "teaser":null},{
         "title": "4.1.1-2 서비스 맵 생성",
-        "excerpt":" 서비스에 새로운 서비스 맵을 생성 한다.   a) 좌측 메인메뉴 → 서비스 → 서비스의 우측 + 버튼을 클릭한다.     b) 사용하고자 하는 클러스터를 선택하고, 맵 이름과 네임스페이스 이름을 지정하여 서비스 맵을 생성한다.    ","categories": [],
+        "excerpt":" 서비스에 새로운 서비스 맵을 생성 한다.   a) 좌측 메인메뉴 → 서비스 → 서비스의 우측 [+서비스 맵 생성] 버튼을 클릭한다.     b) 사용하고자 하는 클러스터를 선택하고, 맵 이름과 네임스페이스 이름을 지정하여 서비스 맵을 생성한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.1.1.2/",
         "teaser":null},{
         "title": "4.1.1-3 서비스 맵 이름변경",
-        "excerpt":" 서비스 맵의 이름을 변경한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵의 우측 ✎ 버튼 ㅡ을 클릭한다.     b) 활성화된 이름 입력란에 내용을 변경 후, Enter 키를 눌러 서비스 맵의 이름을 변경한다.    ","categories": [],
+        "excerpt":" 서비스 맵의 이름을 변경한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵의 우측 ✎ 버튼을 클릭한다.     b) 활성화된 이름 입력란에 내용을 변경 후, Enter 키를 눌러 서비스 맵의 이름을 변경한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.1.1.3/",
         "teaser":null},{
@@ -1190,7 +1180,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.2/",
         "teaser":null},{
         "title": "4.2.1 워크로드 생성",
-        "excerpt":"그룹관리에서 워크로드를 생성하고 실행한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 그룹 + 버튼(워크로드 생성)을 클릭한다. 워크로드 유형을 선택 한다. b) 기본정보, 컨테이너, 인스턴스, 업데이트 정책, 서비스 포트, 볼륨 내용을 작성하고 생성버튼을 눌러 워크로드를 생성한다. 워크로드 기본 정보 정의 항목 설명 이름 생성하는 워크로드의 이름 그룹...","categories": [],
+        "excerpt":"그룹관리에서 워크로드를 생성하고 실행한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 워크로드 그룹 + 버튼(워크로드 생성)을 클릭한다. 워크로드 유형을 선택 한다. b) 기본정보, 컨테이너, 인스턴스, 오토 스케일링, 업데이트 정책, 서비스 포트, 볼륨마운트, 볼륨 내용을 작성하고 생성버튼을 눌러 워크로드를 생성한다. 워크로드 기본 정보 정의 항목 설명 이름 생성하는...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.2.1/",
         "teaser":null},{
@@ -1234,65 +1224,80 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.4/",
         "teaser":null},{
-        "title": "4.5 퍼시스턴트 볼륨",
-        "excerpt":"퍼시스턴트 볼륨 현황 및 생성,삭제를 제공한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 퍼시스턴트 볼륨 항목 설명 볼륨 이름 생성한 퍼시스턴트 볼륨 이름, 클릭 시 퍼시스턴트 볼륨 상세 화면으로 이동 볼륨 타입 볼륨 타입(Single, Shared) 상태 볼륨의 상태(Ready, Mounted) 사용량 사용량, 요청량, 총량 Age 볼륨 생성 경과 시간...","categories": [],
+        "title": "4.5 스토리지 볼륨",
+        "excerpt":"퍼시스턴트 볼륨 현황 및 생성,삭제를 제공한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 스토리지 볼륨 항목 설명 볼륨 이름 생성한 퍼시스턴트 볼륨 이름, 클릭 시 스토리지 볼륨 상세 화면으로 이동 볼륨 타입 볼륨 타입(Single, Shared) 상태 볼륨의 상태(Ready, Mounted) 사용량 사용량, 요청량, 총량 Age 볼륨 생성 경과 시간...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.5/",
         "teaser":null},{
-        "title": "4.5.1 퍼시스턴트 볼륨 생성",
-        "excerpt":"퍼시스턴트 볼륨 생성 할 수 있다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 퍼시스턴트 볼륨 항목 설명 퍼시스턴트 볼륨 타입 볼륨 타입(Single, Shared) 스토리지 클러스터에 등록된 스토리지 목록 노출 엑세스 모드 퍼시스턴트 볼륨 타입이 Single일 경우 ReadWriteOnce, Shard일 경우 ReadWriteMany, ReadOnlyMany를 선택 이름 생성할 퍼시스턴트 볼륨의 이름 용량...","categories": [],
+        "title": "4.5.1 스토리지 볼륨 생성",
+        "excerpt":"퍼시스턴트 볼륨 생성 할 수 있다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 스토리지 볼륨 항목 설명 스토리지 볼륨 타입 볼륨 타입(Single, Shared) 스토리지 클러스터에 등록된 스토리지 목록 노출 엑세스 모드 스토리지 볼륨 타입이 Single일 경우 ReadWriteOnce, Shard일 경우 ReadWriteMany, ReadOnlyMany를 선택 이름 생성할 스토리지 볼륨의 이름 용량...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.5.1/",
         "teaser":null},{
-        "title": "4.5.2 퍼시스턴트 볼륨 삭제",
-        "excerpt":" 퍼시스턴트 볼륨을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 퍼시스턴트 볼륨 → 퍼시스턴트 액션메뉴(활성화) → 삭제 클릭    ","categories": [],
+        "title": "4.5.2 스토리지 볼륨 삭제",
+        "excerpt":" 퍼시스턴트 볼륨을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 → 스토리지 볼륨 → 스토리지 볼륨 액션메뉴(활성화) → 삭제 클릭    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.5.2/",
         "teaser":null},{
-        "title": "4.6 설정",
-        "excerpt":" 어플리케이션 단위로 변수값을 key=value의 형태로 저장하여 볼륨처럼 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정을 클릭한다.                      메뉴       설명                       컨피그 맵       컨피그 맵을 등록, 편집, 삭제 관리 메뉴                 시크릿       시크릿을 등록, 편집, 삭제 관리 메뉴          ","categories": [],
+        "title": "4.6 설정 정보",
+        "excerpt":" 어플리케이션 단위로 변수값을 key=value의 형태로 저장하여 볼륨처럼 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보를 클릭한다.                      메뉴       설명                       컨피그 맵       컨피그 맵을 등록, 편집, 삭제 관리 메뉴                 시크릿       시크릿을 등록, 편집, 삭제 관리 메뉴          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6/",
         "teaser":null},{
         "title": "4.6.1 컨피그 맵",
-        "excerpt":" 서버에서 Config File을 Map 형식으로 저장하여 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵을 클릭한다.                     항목       설명                              컨피그 맵 추가 페이지로 이동                 이름       컨피그 맵 이름(사용자 지정)                 설명       컨피그 맵 설명(사용자 지정)                        컨피그 맵의 액션 메뉴          ","categories": [],
+        "excerpt":" 서버에서 Config File을 Map 형식으로 저장하여 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 컨피그 맵을 클릭한다.                     항목       설명                              컨피그 맵 추가 페이지로 이동                 이름       컨피그 맵 이름(사용자 지정)                 설명       컨피그 맵 설명(사용자 지정)                        컨피그 맵의 액션 메뉴          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1/",
         "teaser":null},{
         "title": "4.6.1.1 컨피그 맵 추가",
-        "excerpt":"서비스에 컨피그 맵을 추가한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 컨피그 맵을 생성한다. 항목 설명 이름 이름을 입력하는 란입니다. 추후 편집이 불가 설명 컨피그...","categories": [],
+        "excerpt":"서비스에 컨피그 맵을 추가한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 컨피그 맵 → 컨피그 맵 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 컨피그 맵을 생성한다. 항목 설명 이름 이름을 입력하는 란입니다. 추후 편집이 불가 설명...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1.1/",
         "teaser":null},{
         "title": "4.6.1.2 컨피그 맵 수정",
-        "excerpt":" 서비스에 추가 된 컨피그 맵의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 수정을 클릭     b) 데이터 값 변경 후, 수정 버튼을 클릭하여 컨피그 맵을 편집한다.     ","categories": [],
+        "excerpt":" 서비스에 추가 된 컨피그 맵의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 수정을 클릭     b) 데이터 값 변경 후, 수정 버튼을 클릭하여 컨피그 맵을 편집한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1.2/",
         "teaser":null},{
         "title": "4.6.1.3 컨피그 맵 삭제",
-        "excerpt":" 서비스에 컨피그 맵을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 삭제 클릭     ","categories": [],
+        "excerpt":" 서비스에 컨피그 맵을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 컨피그 맵 → 컨피그 맵 액션메뉴(활성화) →  컨피그 맵 삭제 클릭     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.1.3/",
         "teaser":null},{
         "title": "4.6.2 시크릿",
-        "excerpt":" 서버에서 Secret File로 저장하여 환경변수 및 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿을 클릭한다.                     항목       설명                              시크릿 추가 페이지로 이동                 이름       시크릿 이름(사용자 지정)                 설명       시크릿 설명(사용자 지정)                        시크릿의 액션 메뉴          ","categories": [],
+        "excerpt":" 서버에서 Secret File로 저장하여 환경변수 및 볼륨으로 사용 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 시크릿을 클릭한다.                     항목       설명                              시크릿 추가 페이지로 이동                 이름       시크릿 이름(사용자 지정)                 설명       시크릿 설명(사용자 지정)                        시크릿의 액션 메뉴          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2/",
         "teaser":null},{
         "title": "4.6.2.1 시크릿 추가",
-        "excerpt":"서비스에 시크릿을 추가한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 시크릿을 생성한다. 항목 설명 이름 이름을 입력하는 란입니다. 추후 편집이 불가 설명 시크릿의 설정의 설명 입력 란입니다....","categories": [],
+        "excerpt":"서비스에 시크릿을 추가한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 시크릿 → 시크릿 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 데이터의 값을 입력하고 우측 상단 생성 버튼을 눌러 시크릿을 생성한다. 항목 설명 이름 이름을 입력하는 란입니다. 추후 편집이 불가 설명 시크릿의 설정의 설명 입력...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2.1/",
         "teaser":null},{
         "title": "4.6.2.2 시크릿 수정",
-        "excerpt":" 서비스에 추가 된 시크릿의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) →  시크릿 수정을 클릭      b) 데이터 값 변경 후, 수정 버튼을 클릭하여 시크릿을 편집한다.(시크릿 값은 보안상 보여주지 않음)    ","categories": [],
+        "excerpt":" 서비스에 추가 된 시크릿의 데이터를 수정 할 수 있다.(이름 변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 시크릿 → 시크릿 액션메뉴(활성화) →  시크릿 수정을 클릭      b) 데이터 값 변경 후, 수정 버튼을 클릭하여 시크릿을 편집한다.(시크릿 값은 보안상 보여주지 않음)     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2.2/",
         "teaser":null},{
         "title": "4.6.2.3 시크릿 삭제",
-        "excerpt":" 서비스에 시크릿을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 → 시크릿 → 시크릿 액션메뉴(활성화) →  시크릿 삭제를 클릭    ","categories": [],
+        "excerpt":" 서비스에 시크릿을 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 설정 정보 → 시크릿 → 시크릿 액션메뉴(활성화) →  시크릿 삭제를 클릭     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2.3/",
+        "teaser":null},{
+        "title": "4.7 서비스",
+        "excerpt":" 생성된 워크로드에 Cluster Ip, Node Port, Loadbalancer 포트를 연결 하고, 인그레스 설정을 추가 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 서비스를 클릭한다.     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.7/",
+        "teaser":null},{
+        "title": "4.7.1 서비스 설정",
+        "excerpt":"생성된 워크로드에 Cluster Ip, Node Port, Loadbalancer 포트를 연결한다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 서비스를 클릭한다. b) 화면 서비스 라인의 추가 버튼을 클릭한다. c) 서비스 유형과 포트를 연결할 워크로드를 지정한다. 서비스 포트 서비스 유형은 Cluster Ip, Node Port, Loadbalancer를 지정 할 수 있으며 Loadbalancer 타입일...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.7.1/",
+        "teaser":null},{
+        "title": "4.7.2 인그레스 설정",
+        "excerpt":"생성된 서비스에 인그레스 설정을 추가 할 수 있다. a) 좌측 메인메뉴 → 서비스 → 서비스 맵 선택 → 서비스를 클릭한다. b) 화면 인그레스 라인의 추가 버튼을 클릭한다. 인그레스 인그레스 호스트 추가는 대상 호스트에서 기본호스트 또는 직접입력을 선택하여 추가 할 수 있다. 인그레스 TLS 추가는 시크릿 선택(설정 정보 시크릿을 tls 유형으로...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.7.2/",
         "teaser":null},{
         "title": "5 빌드 관리",
         "excerpt":"도커(Docker) 이미지에 대한 빌드 작업을 관리한다. 어플리케이션을 다운로드, 소스 파일을 빌드, 이미지 파일을 생성하여 Harbor 레지스트리에 업로드한다. a) 좌측 메인 메뉴 → 빌드 를 클릭하여 해당 페이지로 이동한다. 목록 설명 빌드 생성 빌드 생성 버튼 Filter 검색을 통해 필요한 빌드 조회 빌드명 빌드의 이름 이미지명 저장된 도커 이미지 이름 작업...","categories": [],
@@ -1335,7 +1340,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/5.7/",
         "teaser":null},{
         "title": "6.카탈로그",
-        "excerpt":"서비스 구성을 템플릿화하여 쉽게 워크로드 생성 및 배포, 관리가 가능한 기능이다. 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다. 카탈로그는 서비스 카탈로그와 플랫폼 카탈로그로 구분된다. 카탈로그 메뉴 설명 서비스 카탈로그 사용자가 생성한 카탈로그 플렛폼 카탈로그 Cocktail Cloud 기본 제공 공식 카탈로그 Filter Catalog 검색을 통해 필요한 템플릿...","categories": [],
+        "excerpt":"서비스 구성을 템플릿화하여 쉽게 워크로드 생성 및 배포, 관리가 가능한 기능이다. 여러 워크로드들을 한 번에 묶어 사용하고자 하는 경우 카탈로그 기능을 사용한다. 카탈로그는 마이 카탈로그와 칵테일 카탈로그로 구분된다. 카탈로그 메뉴 설명 마이 카탈로그 사용자가 생성한 카탈로그 칵테일 카탈로그 Cocktail Cloud 기본 제공 공식 카탈로그 Filter Catalog 검색을 통해 필요한 템플릿...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6/",
         "teaser":null},{
@@ -1355,32 +1360,32 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/6.3/",
         "teaser":null},{
         "title": "6.4 카탈로그 삭제",
-        "excerpt":" 불필요한 카탈로그를 삭제할 수 있다. (플랫폼 카탈로그는 삭제 불가)   a) 카탈로그 → 삭제하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 삭제할 템플릿의 버전을 선택 후, ‘삭제’ 버튼을 클릭한다. 해당 템플릿 버전에 대하여 삭제된다.    ","categories": [],
+        "excerpt":" 불필요한 카탈로그를 삭제할 수 있다. (칵테일 카탈로그는 삭제 불가)   a) 카탈로그 → 삭제하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 삭제할 템플릿의 버전을 선택 후, ‘삭제’ 버튼을 클릭한다. 해당 템플릿 버전에 대하여 삭제된다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.4/",
         "teaser":null},{
         "title": "6.5 카탈로그 내보내기",
-        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (플랫폼 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다.    ","categories": [],
+        "excerpt":" 존재하는 카탈로그를 내보내기할 수 있다. (칵테일 카탈로그는 내보내기 불가)   a) 카탈로그 → 내보내기 하고자 하는 템플릿 ‘편집’ 버튼을 클릭     b) 화면 왼쪽 상단의 ‘내보내기’ 버튼을 클릭 한다. 해당 카탈로그가 카탈로그명-버전.zip 로 다운로드 된다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.5/",
         "teaser":null},{
         "title": "6.6 카탈로그 가져오기",
-        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (플랫폼 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
+        "excerpt":" 내보내기된 카탈로그 파일과 가져오기 기능을 통해 카탈로그를 생성할 수 있다. (칵테일 카탈로그는 가져오기 불가)   a) 카탈로그 → ‘가져오기’ 버튼을 클릭     b) ‘Choose File’ 버튼을 클릭해 가져오기 할 카탈로그 압축파일을 선택한 후 ‘저장’ 버튼을 누른다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/6.6/",
         "teaser":null},{
         "title": "7.클러스터",
-        "excerpt":"클러스터의 등록관리와 노드와 서비스 단위의 모니터링, 볼륨, 알람, 미터링 서비스가 제공된다. 클러스터 메뉴 설명 노드 전체 노드의 CPU, Memory, Network 사용량 및 개별 노드의 모니터링 서비스 서비스 전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스 볼륨 스토리지 및 볼륨 현황 알람 클러스터의 이벤트 정보 관련 알람 서비스...","categories": [],
+        "excerpt":" 클러스터의 상태와 리소스, 서비스, 알람이 제공된다.                   클러스터 메뉴       설명                       리소스       노드풀, 스토리지, 게이트웨이의 정보 서비스                 서비스       전체 서비스의 CPU, Memory, Network 사용량 및 개별 서비스의 모니터링 서비스                 알람       클러스터의 이벤트 정보 관련 알람 서비스          ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7/",
         "teaser":null},{
         "title": "7.1 클러스터 목록",
-        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하시는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 노드 클러스터의 노드 숫자 CPU 클러스터의 전체 CPU 용량, 요청량, 사용량 메모리 클러스터의 전체 메모리 용량, 요청량, 사용량 서비스 클러스터의 서비스 맵(네임스페이스)의 숫자 워크로드 클러스터에서...","categories": [],
+        "excerpt":"시스템관리자에 의해 등록된 Kubernetes 클러스터 목록 정보를 조회 하는 기능이다. a) 클러스터 → 정렬 버튼을 클릭하여 원하는 정렬기준을 선택한다. 클러스터 설정 설명 클러스터 클러스터 종류 상태 클러스터 상태 서비스 클러스터에 등록된 서비스 맵의 수 클러스터의 Request CPU 클러스터의 Request Memory 클러스터의 Request Volume 클러스터에서 게이트웨이 수(Ingress, Node Port, Loadbalancer의 합)...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.1/",
         "teaser":null},{
-        "title": "7.2 노드",
-        "excerpt":" 전체 노드의 총 Disk, CPU, Memory, Network 사용량과 개별 노드의 라벨, 상태정보 등을 조회할 수 있는 화면이다. 노드 명을 클릭하면 노드 상세 정보를 조회 할 수 있다.   a) 클러스터 → 클러스터 선택 → 노드를 클릭한다.     b) 노드명을 클릭하여 노드 상세 정보를 확인할 수 있다.    ","categories": [],
+        "title": "7.2 리소스",
+        "excerpt":" 노드풀, 스토리지, 게이트웨이 리소스 상태의 정보를 종합적으로 확인 가능하다.   a) 클러스터 → 클러스터 선택 → 리소스를 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.2/",
         "teaser":null},{
@@ -1389,42 +1394,27 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.3/",
         "teaser":null},{
-        "title": "7.4 볼륨",
-        "excerpt":"Public Cloud 스토리지 및 볼륨 현황에 대한 정보와 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 볼륨을 클릭한다. 스토리지 설정 정보 설명 이름 스토리지 이름(사용자지정) 타입 스토리지 종류(NFS/EBS/Google Persistent Disk/Azure Disk) 스토리지 클래스 이름 k8s에 등록된 Class Name 정책 스토리지 볼륨의 정책 설정(Retain,Recyle,Delete) 상태 스토리지 사용 상태 볼륨 설정...","categories": [],
+        "title": "7.4 알람",
+        "excerpt":" 클러스터에 대한 이벤트를 알람으로 받을 수 있다.   a) 클러스터 → 클러스터 선택 → 알람을 클릭한다.     b) 알람 명 클릭 시 상세 내용을 확인 할 수 있다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/7.4/",
         "teaser":null},{
-        "title": "7.5 알람",
-        "excerpt":" 클러스터에 대한 이벤트를 알람으로 받을 수 있다.   a) 클러스터 → 클러스터 선택 → 알람을 클릭한다.     b) 알람 명 클릭 시 상세 내용을 확인 할 수 있다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.5/",
-        "teaser":null},{
-        "title": "7.5.1 알람 목록",
+        "title": "7.4.1 알람 목록",
         "excerpt":"알람은 다음 목록에서 발생 조건이 지속 시간 만큼 계속될 경우 발생한다. AlertManager 알람 ID ALM-001 중요도 warning 알람 이름 AlertmanagerDown 지속 시간 5분 발생 조건 Alertmanager 메트릭 수집이 안 될 경우 발생 조치 사항 Prometheus의 로그 및 Alertmanager의 로그와 이벤트를 확인한다. 필요할 경우, Pod를 재시작한다. 알람 ID ALM-002 중요도 warning...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.5.1/",
-        "teaser":null},{
-        "title": "7.6 미터링",
-        "excerpt":" 사용 중인 클러스터별 미터링(요금)에 대한 모니터링 서비스를 제공한다.   미터링 서비스는 Public Cloud 중 AWS와 GCP에만 적용되는 서비스이다.   a) 클러스터 → 클러스터 선택 → 미터링을 클릭한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.6/",
-        "teaser":null},{
-        "title": "7.7 등록정보",
-        "excerpt":" 현재 클러스터에 대한 등록정보를 확인할 수 있다.   Account 인증정보는 보안을 위해 노출되지 않는다.   a) 클러스터 → 클러스터 선택 → 등록관리를 클릭한다.    ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/7.7/",
+        "url": "http://localhost:4000/docs/ko/7.4.1/",
         "teaser":null},{
         "title": "8.시스템 운영",
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8/",
         "teaser":null},{
-        "title": "8.1 클러스터 구성 및 등록",
+        "title": "8.1 클러스터 설치",
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1/",
         "teaser":null},{
-        "title": "8.1.1 클러스터 서비스 사용",
+        "title": "8.1.1 Kubernetes as a service(Kaas) 사용",
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.1/",
@@ -1435,17 +1425,17 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/8.1.1.1/",
         "teaser":null},{
         "title": "8.1.1.2 AKS 클러스터 만들기",
-        "excerpt":"AKS 클러스터를 배포하는 방법을 알아봅니다. 사용 설명서 : Azure Portal을 사용하여 AKS(Azure Kubernetes Service) 클러스터 배포 Azure에 로그인 https://portal.azure.com 에서 Azure Portal에 로그인합니다. AKS 클러스터 만들기 - Create a resource Azure Portal의 화면 왼쪽 상단 + Create a resource 선택 다음 &gt; Kubernetes Service를 선택 합니다. 1. Basics - 다음...","categories": [],
+        "excerpt":"AKS 클러스터를 배포하는 방법을 알아봅니다. Azure Portal + Azure Cli를 사용하여 AKS(Azure Kubernetes Service) 클러스터 배포 사용자 인증을(OAuth) 위해 Azure AD(Active Directory)를 사용하도록 AKS(Azure Kubernetes Service)를 구성해야 합니다. 참조 : Azure Kubernetes Service와 Azure Active Directory 통합 설치 Azure에 로그인 https://portal.azure.com 에서 Azure Portal에 로그인합니다. 사전준비 Azure Active Drectory가 준비되어...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.1.2/",
         "teaser":null},{
         "title": "8.1.1.3 EKS 클러스터 만들기",
-        "excerpt":"8.1.1.3 EKS 클러스터 만들기 Quick Start 8.1.1.6 EKS 클러스터 만들기 NAT Gateway 사용 EKS 클러스터를 배포하는 방법. Kubernetes 용 Amazon Elastic Container Service (Amazon EKS)를 사용하면 AWS의 Kubernetes를 사용하여 컨테이너 화 된 응용 프로그램을 쉽게 배포, 관리 및 확장 할 수 있다. 참조 : Amazon Elastic Container Service for Kubernetes(EKS)...","categories": [],
+        "excerpt":"8.1.1.5 EKS 클러스터 만들기 Quick Start 8.1.1.5 EKS 클러스터 만들기 NAT Gateway 사용 EKS 클러스터를 배포하는 방법. Kubernetes 용 Amazon Elastic Container Service (Amazon EKS)를 사용하면 AWS의 Kubernetes를 사용하여 컨테이너 화 된 응용 프로그램을 쉽게 배포, 관리 및 확장 할 수 있다. 참조 : Amazon Elastic Container Service for Kubernetes(EKS)...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.1.3/",
         "teaser":null},{
         "title": "8.1.1.3 EKS 클러스터 정책 / 권한",
-        "excerpt":"사용자 권한 / 정책 만들기 AWS 관리자 권한이 없다면 필요한 역할 / 정책 / 권한 을 요청 해야 합니다. 1. 사용자 권한 / 정책 사용자가 클러스터를 생성 / 관리할 수 있는 권한 / 정책이 필요 합니다. CloudFormation - 전체: 목록, 쓰기 제한: 읽기 / 이에 사용되는 리소스 권한이 있어야 합니다....","categories": [],
+        "excerpt":"EKS 관리 역할(EKS 생성시 필요한 역할) 만들기. IAM(Identity and Access Management) 에서 역할(Roles)을 선택합니다. Roles 화면에서 [Create role]를 선택합니다. Create role 화면의 Select type of trusted entity 섹션에서 : AWS service 선택한다. Create role 화면의 Choose the service that will use this role 섹션에서 : EKS 선택한다. Create role 화면의...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.1.4/",
         "teaser":null},{
@@ -1459,130 +1449,185 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.1.6/",
         "teaser":null},{
+        "title": "8.1.1.7 AZURE FILE 공유 만들기",
+        "excerpt":"AZURE Storage Accounts Storage Accountss는 Azure File 공유 또는 Blob나 Queue와 같은 다른 저장소 리소스를 배포할 수 있는 저장소의 공유 풀입니다. 저장소 계정에 포함될 수 있는 공유 수에는 제한이 없습니다. 공유에 저장할 수 있는 파일 수에는 제한이 없으며, 저장소 계정의 최대 용량까지 저장할 수 있습니다. 1. 왼쪽 메뉴 또는 Home...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.1.7/",
+        "teaser":null},{
         "title": "8.1.2 클러스터 직접 구성",
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.2/",
         "teaser":null},{
-        "title": "칵테일 Installation with Cube cluster",
-        "excerpt":"Google cloud에 칵테일을 설치하는 과정은 다음과 같다. 사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 Get Docker CE for...","categories": [],
+        "title": "8.1.2.1 Onpremise에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 설치 1. 설치를 위해 빈...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.1/",
+        "teaser":null},{
+        "title": "8.1.2.2 AWS에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 3) Amazon Elastic File System(EFS)...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.2/",
+        "teaser":null},{
+        "title": "8.1.2.3 Azure에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 3) Azure Files Service가 준비되어...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.3/",
+        "teaser":null},{
+        "title": "8.1.2.4 GCP에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 설치 1. 설치를 위해 빈...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.1.2.4/",
         "teaser":null},{
-        "title": "8.2 운영 가이드",
+        "title": "8.1.2.5 Aliyun에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 설치 1. 설치를 위해 빈...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.5/",
+        "teaser":null},{
+        "title": "8.1.2.6 AKS에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 3) Azure Storage Account(Azure File)가...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.6/",
+        "teaser":null},{
+        "title": "8.1.2.7 EKS에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 3) Amazon Elastic File System(EFS)...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.7/",
+        "teaser":null},{
+        "title": "8.1.2.8 GKE에 설치",
+        "excerpt":"사전준비 설치 전 인스턴스 및 아래와 같은 프로그램들이 미리 설치 되어 있어야 하며 설치 되어 있지 않을 경우 에러 메시지가 발생한다. 1) 제공받은 cube 바이너리를 어느 디렉토리에서든 사용할 수 있도록 환경변수 path 설정을 한다. 2) Docker 다운로드 후 설치 : Get Docker CE for CentOS 3) GKE 서비스 계정 키가...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.8/",
+        "teaser":null},{
+        "title": "8.1.2.9 CUBE 클러스터 타입",
+        "excerpt":"클러스터의 사용 규모와 HA 구성 여부에 따라 타입을 구분 Large(HA) : 워커 노드 250대 이상, External ETCD 클러스터 구성, Shared Storage 이중화 옵션 Medium(HA) : 워커 노드 10 ~ 250대 규모, Stacked ETCD 구성, Shared Storage 이중화 옵션 Small : 워커노드 10대 미만 규모, 단일 마스터(백업 구성), Shared Storage 이중화...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.2.9/",
+        "teaser":null},{
+        "title": "8.1.3 Cube CLI",
+        "excerpt":" ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3/",
+        "teaser":null},{
+        "title": "8.1.3.1 `init` command",
+        "excerpt":"init는 Cocktail Cluster를 설치하려는 플랫폼에 맞는 cube.toml 을 다운로드한다. Usage cube init [flags] Flags [ provider ] provider (필수) --provider, -p Cocktail Cluster를 설치할 플랫폼의 이름을 지정한다. 현재 버전에서 지원하는 provider 목록은 아래와 같다   flag 값 Provider onpremise On-premise aws Amazon Web Service azure Microsoft Azure gcp Google Compute...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.1/",
+        "teaser":null},{
+        "title": "8.1.3.10 `cluster get-config` command",
+        "excerpt":"cluster get-config는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cocktail Cluster의 설치 정보 파일을 다운로드한다. Prerequisite Cocktail Cluster 설치 상태여야 한다. create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태여야 한다. register command Cocktail Cluster list 명령으로 클러스터 아이디를 확인...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.10/",
+        "teaser":null},{
+        "title": "8.1.3.11 `cluster delete` command",
+        "excerpt":"cluster delete는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cocktail Cluster를 삭제한다. Prerequisite Cocktail Cluster 설치 상태여야 한다. create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태여야 한다. register command Cocktail Cluster list 명령으로 클러스터 아이디를 확인 할 수 있다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.11/",
+        "teaser":null},{
+        "title": "8.1.3.12 `cluster set-addon` command",
+        "excerpt":"cluster set-addon은 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cocktail Cluster monitoring-agent를 설치 한다. Prerequisite Cocktail Cluster 설치 상태여야 한다. create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태여야 한다. register command Cocktail Cluster list 명령으로 클러스터 아이디를 확인 할...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.12/",
+        "teaser":null},{
+        "title": "8.1.3.13 `cluster del-addon` command",
+        "excerpt":"cluster set-addon은 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cocktail Cluster monitoring-agent를 삭제 한다. Prerequisite Cocktail Cluster 설치 상태여야 한다. create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태여야 한다. register command Cocktail Cluster list 명령으로 클러스터 아이디를 확인 할...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.13/",
+        "teaser":null},{
+        "title": "8.1.3.14 `destroy` command",
+        "excerpt":" destroy는 서버 인스턴스에서 Cocktail Cluster를 제거 한다.     Prerequisite  Cocktail Cluster 설치 상태.create command   Usage      cube destory  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.14/",
+        "teaser":null},{
+        "title": "8.1.3.2 `create` command",
+        "excerpt":"create는 Cocktail Cluster를 init으로 준비한 플랫폼에 설치한다. Prerequisite init command Usage cube create Cocktail Cluster를 설치한다. Flags [ target ] Cocktail Cluster를 설치할때 상세정보를 tail -f log/cube.log로 확인할 수 있습니다. target (선택) [ registry | storage | cocktail | addon ] --target 설치 module을 지정 할 수 있다. Cocktail module을...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.2/",
+        "teaser":null},{
+        "title": "8.1.3.3 `status` command",
+        "excerpt":" status는 Cocktail Cluster의 현재 상태를 출력한다.     Usage   cube status   Output      etcd 상태   node 상태   Kubernetes pod 상태   cocktail system pod 상태   cocktail addon pod 상태   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.3/",
+        "teaser":null},{
+        "title": "8.1.3.4 `login` command",
+        "excerpt":"login는 설치된 Cluster의 Cocktail DashBoard 또는 Cocktail Online에 로그인 한다. Prerequisite Cocktail Cluster 설치 상태여야 한다. create command Usage cube login [flags] Flags [ url | id | password | system ] url (필수) --url, -u 접속할 Cocktail DashBoard의 Url을 입력 한다. id (필수) --id, -i ID 정보를 입력 한다....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.4/",
+        "teaser":null},{
+        "title": "8.1.3.5 `logout` command",
+        "excerpt":" logout는 설치된 Cluster의 Cocktail DashBoard 또는 Cocktail Online 서비스에서 로그아웃 한다.     Prerequisite  Cocktail Cluster 설치 상태여야 한다.  create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다.  login command    Usage      cube logout   ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.5/",
+        "teaser":null},{
+        "title": "8.1.3.6 `cluster register` command",
+        "excerpt":" cluster register는 설치된 Cocktail Cluster를 Cocktail DashBoard 또는 Cocktail Online에 등록 할 때 사용한다.     Prerequisite  Cocktail Cluster 설치 상태여야 한다.  create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다.  login command    Usage      Cocktail Cluster register  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.6/",
+        "teaser":null},{
+        "title": "8.1.3.7 `cluster list` command",
+        "excerpt":" cluster list는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cocktail Cluster를 정보를 표시한다.     Prerequisite  Cocktail Cluster 설치 상태여야 한다.  create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다.  login command    Usage      Cocktail Cluster list  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.7/",
+        "teaser":null},{
+        "title": "8.1.3.8 `cluster resize` command",
+        "excerpt":" cluster resize는 노드의 개수를 늘리거나 줄일 때 사용한다.    Prerequisite  Cocktail Cluster 설치 상태여야 한다.  create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다.  login command   Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태여야 한다.  register command    Usage   vi cube.toml  [[node-pool.nodes]] ip 항목을 수정 합니다.      Cocktail Cluster resize  ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.8/",
+        "teaser":null},{
+        "title": "8.1.3.9 `cluster upgrade` command",
+        "excerpt":"cluster upgrade는 설치된 Cocktail Cluster를 upgrade한다. 현재 지원가능한 버전은 1.13.1 버전에서 1.13.2, 1.13.3, 1.13.5 버전으로의 **upgrade를 지원한다. Prerequisite Cocktail Cluster 설치 상태여야 한다. create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태여야 한다. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태여야 한다. register command Usage vi cube.toml [cube]...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.1.3.9/",
+        "teaser":null},{
+        "title": "8.2 클러스터 운영",
         "excerpt":" ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.2/",
         "teaser":null},{
-        "title": "Cube commands",
-        "excerpt":"  Cube 명령어는 아래와 같은 형식을 갖는다.   cube command [sub-commands] [flags]  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1/",
-        "teaser":null},{
-        "title": "`init` command",
-        "excerpt":"init는 Cube Cluster를 설치하려는 플랫폼에 맞는 cube.toml 을 다운로드한다. Usage cube init [flags] Flags provider --provider, -p Cube Cluster를 설치할 플랫폼의 이름을 지정한다. 필수: 필수 현재 버전에서 지원하는 provider 목록은 아래와 같다. flag 값 Provider onpremise On-premise aws Amazon Web Service azure Microsoft Azure gcp Google Compute Engine aliyun AlibabaCloud...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.10/",
-        "teaser":null},{
-        "title": "`create` command",
-        "excerpt":" create는 Cube Cluster를  init으로 준비한 플랫폼에 설치한다.     Prerequisite   init command   Usage      cube create   Cube Cluster를 설치한다.  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.20/",
-        "teaser":null},{
-        "title": "`status` command",
-        "excerpt":" status는 Cube Cluster의 현재 상태를 출력한다.     Usage   cube status   Output      etcd 상태   node 상태   Kubernetes pod 상태   addon pod 상태   ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.30/",
-        "teaser":null},{
-        "title": "`login` command",
-        "excerpt":"login는 설치된 Cluster의 Cocktail DashBoard 또는 Cocktail Online에 로그인 한다. Prerequisite Cube Cluster 설치 상태.create command Usage cube login [flags] Flags url --url, -u 접속할 Cocktail DashBoard의 Url을 입력 한다. 필수: 필수 system --system, -s System 정보를 입력 한다. 필수: 필수 id --id, -i ID 정보를 입력 한다. 필수: 필수...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.40/",
-        "teaser":null},{
-        "title": "`logout` command",
-        "excerpt":" logout는 설치된 Cluster의 Cocktail DashBoard 또는 Cocktail Online 서비스에서 로그아웃 한다.     Prerequisite  Cube Cluster 설치 상태.create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command   Usage      cube logout   ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.41/",
-        "teaser":null},{
-        "title": "`cluster register` command",
-        "excerpt":" cluster register는 설치된 Cube Cluster를 Cocktail DashBoard 또는 Cocktail Online에 등록 할 때 사용한다.     Prerequisite  Cube Cluster 설치 상태.create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command   Usage     cube cluster register  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.50/",
-        "teaser":null},{
-        "title": "`cluster list` command",
-        "excerpt":" cluster list는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cube Cluster를 정보를 표시한다.     Prerequisite  Cube Cluster 설치 상태.create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command   Usage     cube cluster list  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.51/",
-        "teaser":null},{
-        "title": "`cluster update` command",
-        "excerpt":" cluster update는 노드의 개수를 늘리거나 줄일 때 사용한다.    Prerequisite  Cube Cluster 설치 상태.create command   Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command   Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command   Usage      cube cluster update  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.52/",
-        "teaser":null},{
-        "title": "`cluster upgrade` command",
-        "excerpt":"cluster upgrade는 설치된 Cube Cluster를 upgrade한다. **현재 지원가능한 버전은 1.13.1 버전에서 1.13.2,1.13.3 버전으로의 upgrade를 지원한다. Prerequisite Cube Cluster 설치 상태.create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command Usage cube cluster upgrade 현재 버전에서 지원하는 version 목록은 아래와...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.53/",
-        "teaser":null},{
-        "title": "`cluster getconfig` command",
-        "excerpt":"cluster getconfig는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cube Cluster의 설치 정보 파일을 다운로드한다. Prerequisite Cube Cluster 설치 상태.create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command Usage cube cluster getconfig [flags] Flags clusterId --clusterId, -c 설치 정보...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.54/",
-        "teaser":null},{
-        "title": "`cluster delete` command",
-        "excerpt":"cluster delete는 Cocktail DashBoard 또는 Cocktail Online에 등록된 Cube Cluster를 삭제한다. Prerequisite Cube Cluster 설치 상태.create command Cocktail DashBoard 또는 Cocktail Online에 로그인된 상태. login command Cocktail DashBoard 또는 Cocktail Online에 Cluster가 등록된 상태. register command Usage cube cluster delete [flags] Flags clusterId --clusterId, -c Cocktail DashBoard 또는 Cocktail Online에서...","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.55/",
-        "teaser":null},{
-        "title": "`destroy` command",
-        "excerpt":" destroy는 서버 인스턴스에서 Cube Cluster를 제거 한다.     Prerequisite  Cube Cluster 설치 상태.create command   Usage      cube destory  ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.1.60/",
-        "teaser":null},{
-        "title": "Cluster Administration",
-        "excerpt":" ","categories": [],
-        "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2/",
-        "teaser":null},{
         "title": "Cube cluster startup & shutdown",
         "excerpt":"Cube cluster의 startup과 shutdown은 일련의 순서대로 진행해야 한다. Startup Startup시에는 master node를 먼저 기동하고 worker node를 기동하는 순서로 진행한다. 1) Master Node # systemctl start etcd # systemctl start docker # systemctl start kubelet 2) Worker Node # systemctl start docker # systemctl start kubelet Shutdown Shutdown시에는 startup시와는 반대로 worker...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.1/",
+        "url": "http://localhost:4000/docs/ko/8.2.1/",
         "teaser":null},{
         "title": "Update cube cluster certificate",
         "excerpt":"Kubernetes를 구성하는 각 컴포넌트들도 내부 인증서를 통해 통신한다. 필요에 의해 이 인증서를 update해야 하는 경우 아래의 절차대로 수행한다. 1.먼저 각 master node와 worker node의 기존 인증서를 삭제한다. # ssh to master node # rm -rf /opt/kubernetes/pki # rm -rf /etc/kubernetes/pki 2.인증서를 재 생성한다. 이전에 설치를 진행한 디렉토리에서 cert.yaml을 실행하여 인증서를...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.2/",
+        "url": "http://localhost:4000/docs/ko/8.2.2/",
         "teaser":null},{
         "title": "Add etcd member to existing etcd cluster",
         "excerpt":"Etcd cluster가 가동중인 상태에서 etcd member를 추가하는 방법에 대해 기술한다. etcd 인증서 디렉토리: /etc/kubernets/pki/etcd etcd 설정파일: /etc/etcd/etcd.conf 1.etcd ca 파일을 기반으로 추가하고자 하는 etcd node에서 etcd 인증서를 생성한다. # cube.toml에 추가할 etcd node 정보를 기입한다. etcd cluster는 반드시 홀수개의 node로 구성되어야 하며, 최대 5개로 구성하는 것을 권고한다. $ vi cube.toml...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.3/",
+        "url": "http://localhost:4000/docs/ko/8.2.3/",
         "teaser":null},{
         "title": "Cube cluster backup & restore",
         "excerpt":"Cube cluster가 어떤 이유로 인해 재설치할 경우를 대비하여 kubernetes workload의 데이터베이스 역할을 수행하는 etcd 데이터의 백업은 반드시 주기적으로 수행되어야 한다. 또한, 칵테일이 설치되어 있는 경우에는 칵테일 데이터베이스도 주기적으로 백업하여 cluster장애로 인한 재설치시에 사용하도록 한다. etcd 인증서는 반드시 기존 설치시에 사용된 인증서를 사용해야 하며, 그렇지 않을 경우 복원할 수 없다. etcd...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.4/",
+        "url": "http://localhost:4000/docs/ko/8.2.4/",
         "teaser":null},{
         "title": "Docker container disk 관리",
         "excerpt":"Container 내에서 stdout, stderr로 출력을 보내면 docker overlay storage driver를 사용하는 경우 $DOCKERROOT/containers/{containerid}/containerid-json.log 파일에 저장되며 별다른 조치를 하지 않을 경우 계속 증가하게 된다. 이를 방지하기 위해 아래와 해당 디렉토리에 logrotation 설정파일을 추가한다. 아래 /data/docker 디렉토리가 $DOCKER_ROOT임. 1./etc/logrotate.d/docker-container # Added by cube /data/docker/containers/*/*.log { daily rotate 4 compress size=10M missingok delaycompress...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.5/",
+        "url": "http://localhost:4000/docs/ko/8.2.5/",
         "teaser":null},{
         "title": "칵테일 암호 관리",
         "excerpt":"1.칵테일 로그인 암호 관리. 1) 칵테일 암호 관리 대상은 칵테일이 설치된 모든 cluster를 대상으로 한다. 2) 암호는 “영문대소문자 + 특수기호(!@#$%^&amp;*=+-_) + 숫자” 조합으로 최소 8자 이상 최대 24자리까지 생성 가능하다. 3) 암호 변경 주기는 90일이며, 90일이 지나서 칵테일에 로그인할 경우 암호 변경 화면이 표시된다. 암호 변경화면에서 “다음에 변경하기”를 선택하면 기존...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.6/",
+        "url": "http://localhost:4000/docs/ko/8.2.6/",
         "teaser":null},{
         "title": "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법",
         "excerpt":" 클러스터를 구성하는 각 node는 cache memory가 점차적으로 증가하게 되어 있다.   주기적으로 각 node에서 아래 명령을 수행함으로써 cache memory를 초기화 할 수 있다.   # sync; echo 3 &gt; /proc/sys/vm/drop_caches 또는 # sync; sysctl -w vm.drop_caches=3   ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.7/",
+        "url": "http://localhost:4000/docs/ko/8.2.7/",
         "teaser":null},{
         "title": "칵테일 클라우드에서 스토리지 볼륨 스케일업 방법",
         "excerpt":"워크로드가 스토리지 볼륨(Persistent Volume)을 사용 중, 용량이 부족 할 경우 스토리지의 용량을 확장 할 경우가 있다. 이 경우 칵테일에서는 아래와 같이 조치하면 된다. 쿠버네티스에서는 몇몇 클라우드 프로바이더의 스토리지 클래스를 통해 PVC의 요청량을 늘리면 PV 및 해 당 스토리지의 용량이 자동 확장 된다. 이 때 PV는 Capacity 량이 조정 되며, 연결된...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.2.8/",
+        "url": "http://localhost:4000/docs/ko/8.2.8/",
+        "teaser":null},{
+        "title": "8.2.9 AWS Billing Report 생성",
+        "excerpt":"AWS 청구 및 비용 관리는 AWS 사용에 대한 청구 보고서 세트를 제공한다. 이 보고서에는 사용한 AWS 서비스, 사용 시간, 전송 한 데이터의 양, 사용한 평균 저장 공간 등이 표시됩니다. 사전준비 AWS Management Console에 루트 사용자로 로그인 해야 한다. AWS Cost and Usage report 생성 1. 루트 사용자로 Sign in to...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.2.9/",
         "teaser":null},{
         "title": "Troubleshooting",
         "excerpt":" ","categories": [],
