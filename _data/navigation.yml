@@ -291,7 +291,7 @@ docs:
             url: /docs/ko/8.2.8/
           - title: "AWS Billing Report 생성 방법"
             url: /docs/ko/8.2.9/
-          - title: "Send data into Slack in real-time"
+          - title: "Alarm Message 슬랙/Email 연결"
             url: /docs/ko/8.2.10/
       - title: "Troubleshooting"
         url: /docs/ko/8.3/
