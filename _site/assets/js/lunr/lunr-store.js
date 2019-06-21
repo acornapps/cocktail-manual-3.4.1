@@ -1589,6 +1589,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.2.1/",
         "teaser":null},{
+        "title": "8.2.10 Alarm Message 슬랙 연결",
+        "excerpt":"Alarm Message 앱을 생성한 채널에 연결 채널을 생성 합니다. (name : cube-alarm) 아래 URL로 제공 되는 앱의 Incoming Webhook(Send data into Slack in real-time)을 생성 합니다. https://slack.com/apps/A0F7XDUAZ-incoming-webhooks (로그인 필요) Add Configuration 버튼을 클릭 합니다. 메세지를 출력할 채널을 선택 또는 생성 합니다. Add Incomming WebHooks integration 버튼을 클릭하면 다음화면에서 Webhook URL을...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/8.2.10/",
+        "teaser":null},{
         "title": "Update cube cluster certificate",
         "excerpt":"Kubernetes를 구성하는 각 컴포넌트들도 내부 인증서를 통해 통신한다. 필요에 의해 이 인증서를 update해야 하는 경우 아래의 절차대로 수행한다. 1.먼저 각 master node와 worker node의 기존 인증서를 삭제한다. # ssh to master node # rm -rf /opt/kubernetes/pki # rm -rf /etc/kubernetes/pki 2.인증서를 재 생성한다. 이전에 설치를 진행한 디렉토리에서 cert.yaml을 실행하여 인증서를...","categories": [],
         "tags": [],
