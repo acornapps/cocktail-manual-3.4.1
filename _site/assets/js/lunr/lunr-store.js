@@ -1015,7 +1015,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/11/",
         "teaser":null},{
         "title": "11.1 매뉴얼 번역 방법",
-        "excerpt":"Github Clone with HTTPS 주소 Github User로 로그인 합니다(수정권한 필요). https://github.com/acornapps/cocktail-manual-3.1.1.git 왼쪽 메뉴 목차 수정 cocktail-manual-3.1.1/_data/navigation.yml 파일에 해당 언어의 목차를 수정 합니다. navigation.yml의 url 정보와 해당 문서(cocktail-manual-3.1.1/_docs/xx)의 Front Matter : permalink 정보는 일치 해야 합니다. 각 문서는 cocktail-manual-3.1.1/_docs/언어 디렉토리로 구분되어 있습니다. 다음은 샘플 구성 입니다. # navigation.yml - title: \"Troubleshooting\"...","categories": [],
+        "excerpt":"Github Clone with HTTPS 주소 Github User로 로그인 합니다(수정권한 필요). https://github.com/acornapps/cocktail-manual-3.1.1.git 메뉴 목차 수정 cocktail-manual-3.1.1/_data/navigation.yml 파일에 해당 언어의 목차를 수정 합니다. navigation.yml의 url 정보와 해당 문서(cocktail-manual-3.1.1/_docs/xx)의 Front Matter : permalink 정보는 일치 해야 합니다. 각 문서는 cocktail-manual-3.1.1/_docs/언어 디렉토리로 구분되어 있습니다. 다음은 샘플 구성 입니다. # navigation.yml - title: \"Troubleshooting\" url:...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/11.1/",
         "teaser":null},{
