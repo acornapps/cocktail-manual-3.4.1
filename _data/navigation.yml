@@ -319,6 +319,9 @@ docs:
         url: /docs/ko/10.3/
   - title: "고객지원서비스"
     url: /docs/ko/11/
+    children:
+      - title: "매뉴얼 번역 안내"
+        url: /docs/ko/11.1/
 
 en:
   - title: "What is Cocktail?"

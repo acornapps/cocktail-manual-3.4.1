@@ -1014,6 +1014,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/11/",
         "teaser":null},{
+        "title": "11.1 매뉴얼 번역 방법",
+        "excerpt":"Github Clone with HTTPS 주소 Github User로 로그인 합니다(수정권한 필요). https://github.com/acornapps/cocktail-manual-3.1.1.git 메뉴 목차 수정 cocktail-manual-3.1.1/_data/navigation.yml 파일에 해당 언어의 목차를 수정 합니다. navigation.yml의 url 정보와 해당 문서(cocktail-manual-3.1.1/_docs/xx)의 Front Matter : permalink 정보는 일치 해야 합니다. 각 문서는 cocktail-manual-3.1.1/_docs/언어 디렉토리로 구분되어 있습니다. 다음은 샘플 구성 입니다. # navigation.yml - title: \"Troubleshooting\" url:...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/11.1/",
+        "teaser":null},{
         "title": "2.시스템 관리",
         "excerpt":" 칵테일 클라우드 이용에 필요한 시스템, 클러스터, 워크스페이스를 관리 할 수 있다.     ","categories": [],
         "tags": [],
@@ -1589,7 +1594,7 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.2.1/",
         "teaser":null},{
-        "title": "8.2.10 Alarm Message 슬랙 연결",
+        "title": "8.2.10 Alarm Message 슬랙 / Email 연결",
         "excerpt":"Alarm Message 앱을 생성한 채널에 연결 채널을 생성 합니다. (name : cube-alarm) 아래 URL로 제공 되는 앱의 Incoming Webhook(Send data into Slack in real-time)을 생성 합니다. https://slack.com/apps/A0F7XDUAZ-incoming-webhooks (로그인 필요) Add Configuration 버튼을 클릭 합니다. 메세지를 출력할 채널을 선택 또는 생성 합니다. Add Incomming WebHooks integration 버튼을 클릭하면 다음화면에서 Webhook URL을...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/8.2.10/",
@@ -1637,37 +1642,42 @@ var store = [{
         "title": "Troubleshooting",
         "excerpt":" ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.3/",
+        "url": "http://localhost:4000/docs/ko/8.3/",
         "teaser":null},{
         "title": "k8s cluster의 health check",
         "excerpt":"Cube로 설치한 장비에서 Kubernetes와 칵테일의 주요 구성 요소에 대해 상태 체크를 하기 위한 방법은 아래와 같다. 이는 cube로 설치후 k8s 주요 구성 요소의 정상 동작 여부를 확인하는데 사용할 수 있다. cube status 명령을 통한 etcd, k8s pod, monitoring pod, 칵테일 pod 상태를 체크할 수 있다. etcd daemon은 kubernetes에서 생성되는 각종...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.3.1/",
+        "url": "http://localhost:4000/docs/ko/8.3.1/",
         "teaser":null},{
         "title": "사용자의 micro service가 서로 연결이 안될때.",
         "excerpt":"일반적으로 k8s에서 각 Container들은 연관된 Container와 통신하기 이해 Kubernetes DNS를 사용한다. 즉 POD는 생성과 삭제가 일어나면 POD가 가지고 있던 내부 cluster ip는 변동되게 됨으로 일반적으로 micro service들을 k8s dns를 통해 필요한 container를 찾는다. 먼저 k8s의 DNS 서비스가 정상 동작 중인지 확인하는 방법은 busybox를 생성하고 컨테이너에 접속해서 nslookup명령으로 k8s의 DNS에 접속되는지...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.3.2/",
+        "url": "http://localhost:4000/docs/ko/8.3.2/",
         "teaser":null},{
         "title": "NFS 서버의 접속 확인 방법.",
         "excerpt":"칵테일 서비스는 기본적으로 Storage class를 이용하여 persistence volume을 사용한다. local 및 baremetal 환경에서는 NFS 서버를 구축하여 Storage class로 활용하며 public cloud에서는 해당 서비스 제공자가 기본적으로 제공해 주는 storage class를 사용하게 된다. 본 문서는 local 및 Baremetal 환경에서 NFS 서버의 상태 및 칵테일 service와의 연결이 정상적인지 확인하는 방법을 기술한다. NFS 서버의...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.3.3/",
+        "url": "http://localhost:4000/docs/ko/8.3.3/",
         "teaser":null},{
         "title": "Cube로 설치한 node의 ip 정보가 변경될 경우.",
         "excerpt":" cube로 설치한 master node, worker node에서 ip 정보가 변경되면 현재로서는 cube를 이용하여 재설치하는 방식을 권장한다.   이는 k8s의 component중 api server, scheduler, control manager가 ip 인증서 기반으로 통신하며, etcd의 flannel subnetwork정보도 ip정보가 저장되기 때문이다.  ","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.3.4/",
+        "url": "http://localhost:4000/docs/ko/8.3.4/",
         "teaser":null},{
         "title": "Centos yum 자동 upgrade 방지",
         "excerpt":"칵테일은 kubernetes package의 버전에 따라 설정파일의 차이가 있으므로, 시스템에서 yum upgrade가 자동으로 설정되어 있으면 시스템 업그레이드시에 칵테일 관련 설정이 override 될 수 있으므로 반드시 security 부분만 자동으로 업그레이드가 되도록 수정해야 한다. 만약 그렇지 않으면, 시스템의 재기동이 필요한 업그레이드나 칵테일 관련 설정파일이 override 되면서 서비스가 중단될 수 있다. yum-cron 설정 파일...","categories": [],
         "tags": [],
-        "url": "http://localhost:4000/docs/ko/8.2.3.5/",
+        "url": "http://localhost:4000/docs/ko/8.3.5/",
         "teaser":null},{
         "title": "9.구성원",
         "excerpt":" 현재 워크스페이스에 속한 구성원들 정보를 보여준다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/9/",
+        "teaser":null},{
+        "title": "기본 문서 양식 / 서식",
+        "excerpt":"Description 요약 또는 참고 링크 부제 부제의 목차 부제 부제의 구분은 수평선 으로 구분 한다. 1. 부제의 목차 설명 2. 부제의 목차 설명 1. list 설명 2. list 설명 3. 코드 블럭 표현식 코드 블럭 사용법 코드 블럭 표현식은 해당 CSS가 지원 되야 한다. javascript 코드 블럭 text 코드 블럭...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/_/data/navigation.yml%20url%20%EC%A0%95%EB%B3%B4",
         "teaser":null},{
         "title": "层积云是什么?",
         "excerpt":" 层积云是一种 容器一体化管理平台(All-in-one Container Management Platform)。   随着云服务的普遍使用，除了基础架构，对应用程序、服务管理的要求也越来越高。像过去的 开发和运营方式充分发挥云的优势是有限的。尤其是应用程序领域，持续整合以及部署 (Continuous Integration/Deploy，CI/CD)、迁移(Migration)、多云/混合云的构筑等自动化、高 效化、整合管理的需求日益增加。   可以说容器技术的扩散是理所当然。目前很多企业已经引进了容器技术，呈现继续增强趋势。 (参考: http://redmonk.com/fryan/2017/09/10/cloud-native-technologies-in-the-fortune-100)   容器是将应用程序或服务压缩成可独立运行单位的技术，无论基础架构环境如何，都可以提供 相同的开发和运营经验。可以实现从基础架构到服务的云管理体系标准化，也可以减少开发及 运营工作量。尤其是不变的环境下，能管理好多云/混合云是它的优点所在。   层积云将容器优点适用于云管理服务，实现了开发及运营业务的高效化，为单一或多云/混合云 战略实施提供了平台。   层积云的主要职能如下      从代码到 Build、部署、更新环节的渠道自动化;   工作负载(服务)中心的容器管理:压缩、生命周期、资源等;   全栈监控:从基础架构到容器的状态以及资源的监控、报警管理;   多云/混合云集群配置及管理:Baremetal、私人/公共云。     下文 : 层积云组件概要  ","categories": [],
