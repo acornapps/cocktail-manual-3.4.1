@@ -6,4 +6,6 @@ redirect_from:
   - /theme-setup/
 toc: false
 toc_sticky: true
+sidebar:
+  nav: "zh"
 ---
