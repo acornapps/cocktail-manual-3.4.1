@@ -198,78 +198,75 @@ docs:
   - title: "시스템 운영"
     url: /docs/ko/8/
     children:
-      - title: "클러스터 구성 및 등록"
+      - title: "Kaas 클러스터 구성"
         url: /docs/ko/8.1/
         children:
-          - title: "Kaas"
+          - title: "GKE 클러스터 만들기"
             url: /docs/ko/8.1.1/
-            children:
-              - title: "GKE 클러스터 만들기"
-                url: /docs/ko/8.1.1.1/
-              - title: "AKS 클러스터 만들기"
-                url: /docs/ko/8.1.1.2/
-              - title: "EKS 클러스터 만들기"
-                url: /docs/ko/8.1.1.3/
-              - title: "EKS 클러스터 정책/권한"
-                url: /docs/ko/8.1.1.4/
-              - title: "EKS 클러스터 만들기 Quick Start"
-                url: /docs/ko/8.1.1.5/
-              - title: "EKS NAT Gateway 사용"
-                url: /docs/ko/8.1.1.6/
-              - title: "AZURE FILE 공유 만들기"
-                url: /docs/ko/8.1.1.7/
-          - title: "클러스터 직접 구성 with Cube"
+          - title: "AKS 클러스터 만들기"
             url: /docs/ko/8.1.2/
-            children:
-              - title: "칵테일 Installation on Onpremise"
-                url: /docs/ko/8.1.2.1/
-              - title: "칵테일 Installation on AWS"
-                url: /docs/ko/8.1.2.2/
-              - title: "칵테일 Installation on Azure"
-                url: /docs/ko/8.1.2.3/
-              - title: "칵테일 Installation on GCP"
-                url: /docs/ko/8.1.2.4/
-              - title: "칵테일 Installation on Aliyun"
-                url: /docs/ko/8.1.2.5/
-              - title: "칵테일 Installation on AKS"
-                url: /docs/ko/8.1.2.6/
-              - title: "칵테일 Installation on EKS"
-                url: /docs/ko/8.1.2.7/
-              - title: "칵테일 Installation on GKE"
-                url: /docs/ko/8.1.2.8/
-              - title: "CUBE 클러스터 타입"
-                url: /docs/ko/8.1.2.9/
-          - title: "Cube CLI"
+          - title: "EKS 클러스터 만들기"
             url: /docs/ko/8.1.3/
-            children:
-              - title: "init"
-                url: /docs/ko/8.1.3.1/
-              - title: "create"
-                url: /docs/ko/8.1.3.2/
-              - title: "status"
-                url: /docs/ko/8.1.3.3/
-              - title: "login"
-                url: /docs/ko/8.1.3.4/
-              - title: "logout"
-                url: /docs/ko/8.1.3.5/
-              - title: "cluster register"
-                url: /docs/ko/8.1.3.6/
-              - title: "cluster list"
-                url: /docs/ko/8.1.3.7/
-              - title: "cluster resize"
-                url: /docs/ko/8.1.3.8/
-              - title: "cluster upgrade"
-                url: /docs/ko/8.1.3.9/
-              - title: "cluster get-config"
-                url: /docs/ko/8.1.3.10/
-              - title: "cluster delete"
-                url: /docs/ko/8.1.3.11/
-              - title: "cluster set-addon"
-                url: /docs/ko/8.1.3.12/
-              - title: "cluster del-addon"
-                url: /docs/ko/8.1.3.13/
-              - title: "destroy"
-                url: /docs/ko/8.1.3.14/
+          - title: "EKS 클러스터 정책/권한"
+            url: /docs/ko/8.1.4/
+          - title: "EKS 클러스터 만들기 Quick Start"
+            url: /docs/ko/8.1.5/
+          - title: "EKS NAT Gateway 사용"
+            url: /docs/ko/8.1.6/
+          - title: "AZURE FILE 공유 만들기"
+            url: /docs/ko/8.1.7/
+      - title: "클러스터 직접 구성 with Cube"
+        url: /docs/ko/8.2/
+        children:
+          - title: "칵테일 Installation on Onpremise"
+            url: /docs/ko/8.2.1/
+          - title: "칵테일 Installation on AWS"
+            url: /docs/ko/8.2.2/
+          - title: "칵테일 Installation on Azure"
+            url: /docs/ko/8.2.3/
+          - title: "칵테일 Installation on GCP"
+            url: /docs/ko/8.2.4/
+          - title: "칵테일 Installation on Aliyun"
+            url: /docs/ko/8.2.5/
+          - title: "칵테일 Installation on AKS"
+            url: /docs/ko/8.2.6/
+          - title: "칵테일 Installation on EKS"
+            url: /docs/ko/8.2.7/
+          - title: "칵테일 Installation on GKE"
+            url: /docs/ko/8.2.8/
+          - title: "CUBE 클러스터 타입"
+            url: /docs/ko/8.2.9/
+      - title: "Cube CLI"
+        url: /docs/ko/8.3/
+        children:
+          - title: "init"
+            url: /docs/ko/8.3.1/
+          - title: "create"
+            url: /docs/ko/8.3.2/
+          - title: "status"
+            url: /docs/ko/8.3.3/
+          - title: "login"
+            url: /docs/ko/8.3.4/
+          - title: "logout"
+            url: /docs/ko/8.3.5/
+          - title: "cluster register"
+            url: /docs/ko/8.3.6/
+          - title: "cluster list"
+            url: /docs/ko/8.3.7/
+          - title: "cluster resize"
+            url: /docs/ko/8.3.8/
+          - title: "cluster upgrade"
+            url: /docs/ko/8.3.9/
+          - title: "cluster get-config"
+            url: /docs/ko/8.3.10/
+          - title: "cluster delete"
+            url: /docs/ko/8.3.11/
+          - title: "cluster set-addon"
+            url: /docs/ko/8.3.12/
+          - title: "cluster del-addon"
+            url: /docs/ko/8.3.13/
+          - title: "destroy"
+            url: /docs/ko/8.3.14/
       - title: "운영 가이드"
         url: /docs/ko/8.2/
         children:
@@ -319,9 +316,6 @@ docs:
         url: /docs/ko/10.3/
   - title: "고객지원서비스"
     url: /docs/ko/11/
-    children:
-      - title: "매뉴얼 번역 안내"
-        url: /docs/ko/11.1/
 
 en:
   - title: "What is Cocktail?"
@@ -529,170 +523,481 @@ en:
     url: /docs/en/9.4/
 
 zh:
-  - title: "层积云是什么?"
+  - title: "칵테일 클라우드 이해"
     url: /docs/zh/0.0/
     children:
-      - title: "层积云组件概要"
+      - title: "칵테일 클라우드 개요"
         url: /docs/zh/0.1/
-      - title: "集群管理层"
+      - title: "클러스터 관리 레이어"
         url: /docs/zh/0.2/
-      - title: "服务管理层"
+      - title: "서비스 관리 레이어"
         url: /docs/zh/0.3/
-      - title: "管道层"
+      - title: "파이프라인 레이어"
         url: /docs/zh/0.4/
-      - title: "目录层"
+      - title: "카탈로그 레이어"
         url: /docs/zh/0.5/
-      - title: "仪表板层"
+      - title: "대시보드 레이어"
         url: /docs/zh/0.6/
-  - title: "登录"
+  - title: "로그인"
     url: /docs/zh/1/
-  - title: "系统管理"
+  - title: "시스템 관리"
     url: /docs/zh/2/
     children:
-    - title: "系统"
+    - title: "시스템"
       url: /docs/zh/2.1/
-    - title: "簇"
+      children:
+        - title: "시스템 편집"
+          url: /docs/zh/2.1.1/
+        - title: "클라우드 미터링 계정 등록"
+          url: /docs/zh/2.1.2/
+        - title: "클라우드 미터링 계정 편집"
+          url: /docs/zh/2.1.3/
+        - title: "클라우드 미터링 계정 삭제"
+          url: /docs/zh/2.1.4/
+        - title: "시스템 사용자 추가"
+          url: /docs/zh/2.1.5/
+        - title: "시스템 사용자 편집"
+          url: /docs/zh/2.1.6/
+        - title: "시스템 사용자 비밀번호 초기화"
+          url: /docs/zh/2.1.7/
+        - title: "시스템 사용자 삭제"
+          url: /docs/zh/2.1.8/
+    - title: "클러스터"
       url: /docs/zh/2.2/
-    - title: "工作区"
+      children:
+        - title: "클러스터 등록"
+          url: /docs/zh/2.2.1/
+        - title: "클러스터 수정"
+          url: /docs/zh/2.2.2/
+        - title: "클러스터 삭제"
+          url: /docs/zh/2.2.3/
+        - title: "볼륨"
+          url: /docs/zh/2.2.4/
+        - title: "스토리지 추가"
+          url: /docs/zh/2.2.5/
+        - title: "스토리지 편집"
+          url: /docs/zh/2.2.6/
+        - title: "스토리지 삭제"
+          url: /docs/zh/2.2.7/
+    - title: "워크스페이스"
       url: /docs/zh/2.3/
-  - title: "仪表盘"
+      children:
+        - title: "워크스페이스 생성"
+          url: /docs/zh/2.3.1/
+        - title: "워크스페이스 편집"
+          url: /docs/zh/2.3.2/
+        - title: "워크스페이스 삭제"
+          url: /docs/zh/2.3.3/
+    - title: "대시보드"
+      url: /docs/zh/2.4/
+  - title: "사용자 관리"
     url: /docs/zh/3/
-    children:
-      - title: "用户管理"
-        url: /docs/zh/3.1/
-  - title: "服务"
+  - title: "서비스"
     url: /docs/zh/4/
     children:
-    - title: "应用程序管理"
+    - title: "서비스 관리"
       url: /docs/zh/4.1/
       children:
-        - title: "应用程序表"
+        - title: "서비스 맵"
           url: /docs/zh/4.1.1/
           children:
-            - title: "应用程序地图组管理"
+            - title: "서비스 맵 그룹관리"
               url: /docs/zh/4.1.1.1/
-            - title: "应用程序表创建"
+            - title: "서비스 맵 생성"
               url: /docs/zh/4.1.1.2/
-            - title: "应用程序表名称修改"
+            - title: "서비스 맵 이름변경"
               url: /docs/zh/4.1.1.3/
-            - title: "应用程序表删除"
+            - title: "서비스 맵 삭제"
               url: /docs/zh/4.1.1.4/
-        - title: "群组管理"
+        - title: "그룹 관리"
           url: /docs/zh/4.1.2/
-    - title: "工作负载"
+    - title: "워크로드"
       url: /docs/zh/4.2/
       children:
-        - title: "工作负载创建"
+        - title: "워크로드 생성"
           url: /docs/zh/4.2.1/
-        - title: "工作负载编辑"
+        - title: "워크로드 편집"
           url: /docs/zh/4.2.2/
-        - title: "工作负载实例信息查询"
+        - title: "워크로드 인스턴스 정보 조회"
           url: /docs/zh/4.2.3/
-        - title: "工作负载中断"
+        - title: "워크로드 중지"
           url: /docs/zh/4.2.4/
-        - title: "工作负载开启"
+        - title: "워크로드 시작"
           url: /docs/zh/4.2.5/
-        - title: "工作负载重启"
+        - title: "워크로드 재시작"
           url: /docs/zh/4.2.6/
-        - title: "工作负载删除"
+        - title: "워크로드 제거"
           url: /docs/zh/4.2.7/
-    - title: "监控"
+    - title: "모니터링"
       url: /docs/zh/4.3/
-    - title: "管道"
+    - title: "파이프라인"
       url: /docs/zh/4.4/
-    - title: "持续量"
+    - title: "스토리지 볼륨"
       url: /docs/zh/4.5/
       children:
-        - title: "创建持久性"
+        - title: "스토리지 볼륨 생성"
           url: /docs/zh/4.5.1/
-        - title: "删除持久性"
+        - title: "스토리지 볼륨 삭제"
           url: /docs/zh/4.5.2/
-    - title: "设置"
+    - title: "설정 정보"
       url: /docs/zh/4.6/
       children:
-        - title: "配置图"
+        - title: "컨피그 맵"
           url: /docs/zh/4.6.1/
           children:
-            - title: "配置图添加"
+            - title: "컨피그 맵 추가"
               url: /docs/zh/4.6.1.1/
-            - title: "配置图修改"
+            - title: "컨피그 맵 수정"
               url: /docs/zh/4.6.1.2/
-            - title: "配置图删除"
+            - title: "컨피그 맵 삭제"
               url: /docs/zh/4.6.1.3/
-        - title: "Secret"
+        - title: "시크릿"
           url: /docs/zh/4.6.2/
           children:
-            - title: "Secret 添加"
+            - title: "시크릿 추가"
               url: /docs/zh/4.6.2.1/
-            - title: "Secret 修改"
+            - title: "시크릿 수정"
               url: /docs/zh/4.6.2.2/
-            - title: "Secret 删除"
+            - title: "시크릿 삭제"
               url: /docs/zh/4.6.2.3/
-  - title: "Build 管理"
+    - title: "서비스"
+      url: /docs/zh/4.7/
+      children:
+        - title: "서비스 설정"
+          url: /docs/zh/4.7.1/
+        - title: "인그레스 설정"
+          url: /docs/zh/4.7.2/
+  - title: "빌드 관리"
     url: /docs/zh/5/
     children:
-      - title: "Build 添加"
+      - title: "빌드 추가"
         url: /docs/zh/5.1/
-      - title: "作业设置编辑"
+      - title: "작업 설정 편집"
         url: /docs/zh/5.2/
-      - title: "历史记录"
+      - title: "히스토리"
         url: /docs/zh/5.3/
-      - title: "Build 运行"
+      - title: "빌드 실행"
         url: /docs/zh/5.4/
-      - title: "Build 取消"
+      - title: "빌드 취소"
         url: /docs/zh/5.5/
-      - title: "日志查看"
+      - title: "로그 보기"
         url: /docs/zh/5.6/
-      - title: "作业删除"
+      - title: "작업 삭제"
         url: /docs/zh/5.7/
-  - title: "目录"
+  - title: "카탈로그"
     url: /docs/zh/6/
     children:
-      - title: "目录保存"
+      - title: "카탈로그 저장"
         url: /docs/zh/6.1/
-      - title: "目录部署"
+      - title: "카탈로그 배포"
         url: /docs/zh/6.2/
-      - title: "目录编辑"
+      - title: "카탈로그 편집"
         url: /docs/zh/6.3/
-      - title: "目录删除"
+      - title: "카탈로그 삭제"
         url: /docs/zh/6.4/
-      - title: "目录出口"
+      - title: "카탈로그 내보내기"
         url: /docs/zh/6.5/
-      - title: "目录进口"
+      - title: "카탈로그 가져오기"
         url: /docs/zh/6.6/
-  - title: "集群"
+  - title: "클러스터"
     url: /docs/zh/7/
     children:
-      - title: "集群管理"
+      - title: "클러스터 목록"
         url: /docs/zh/7.1/
-      - title: "节点"
+      - title: "리소스"
         url: /docs/zh/7.2/
-      - title: "应用程序"
+      - title: "서비스"
         url: /docs/zh/7.3/
-      - title: "卷"
+      - title: "알람"
         url: /docs/zh/7.4/
-      - title: "报警"
-        url: /docs/zh/7.5/
         children:
-          - title: "报警目录"
-            url: /docs/zh/7.5.1/
-      - title: "计量"
-        url: /docs/zh/7.6/
-      - title: "添加"
-        url: /docs/zh/7.7/
-  - title: "会员"
+          - title: "알림 목록"
+            url: /docs/zh/7.4.1/
+  - title: "시스템 운영"
     url: /docs/zh/8/
-  - title: "术语说明"
+    children:
+      - title: "Kaas 클러스터 구성"
+        url: /docs/zh/8.1/
+        children:
+          - title: "GKE 클러스터 만들기"
+            url: /docs/zh/8.1.1/
+          - title: "AKS 클러스터 만들기"
+            url: /docs/zh/8.1.2/
+          - title: "EKS 클러스터 만들기"
+            url: /docs/zh/8.1.3/
+          - title: "EKS 클러스터 정책/권한"
+            url: /docs/zh/8.1.4/
+          - title: "EKS 클러스터 만들기 Quick Start"
+            url: /docs/zh/8.1.5/
+          - title: "EKS NAT Gateway 사용"
+            url: /docs/zh/8.1.6/
+          - title: "AZURE FILE 공유 만들기"
+            url: /docs/zh/8.1.7/
+      - title: "클러스터 직접 구성 with Cube"
+        url: /docs/zh/8.2/
+        children:
+          - title: "칵테일 Installation on Onpremise"
+            url: /docs/zh/8.2.1/
+          - title: "칵테일 Installation on AWS"
+            url: /docs/zh/8.2.2/
+          - title: "칵테일 Installation on Azure"
+            url: /docs/zh/8.2.3/
+          - title: "칵테일 Installation on GCP"
+            url: /docs/zh/8.2.4/
+          - title: "칵테일 Installation on Aliyun"
+            url: /docs/zh/8.2.5/
+          - title: "칵테일 Installation on AKS"
+            url: /docs/zh/8.2.6/
+          - title: "칵테일 Installation on EKS"
+            url: /docs/zh/8.2.7/
+          - title: "칵테일 Installation on GKE"
+            url: /docs/zh/8.2.8/
+          - title: "CUBE 클러스터 타입"
+            url: /docs/zh/8.2.9/
+      - title: "Cube CLI"
+        url: /docs/zh/8.3/
+        children:
+          - title: "init"
+            url: /docs/zh/8.3.1/
+          - title: "create"
+            url: /docs/zh/8.3.2/
+          - title: "status"
+            url: /docs/zh/8.3.3/
+          - title: "login"
+            url: /docs/zh/8.3.4/
+          - title: "logout"
+            url: /docs/zh/8.3.5/
+          - title: "cluster register"
+            url: /docs/zh/8.3.6/
+          - title: "cluster list"
+            url: /docs/zh/8.3.7/
+          - title: "cluster resize"
+            url: /docs/zh/8.3.8/
+          - title: "cluster upgrade"
+            url: /docs/zh/8.3.9/
+          - title: "cluster get-config"
+            url: /docs/zh/8.3.10/
+          - title: "cluster delete"
+            url: /docs/zh/8.3.11/
+          - title: "cluster set-addon"
+            url: /docs/zh/8.3.12/
+          - title: "cluster del-addon"
+            url: /docs/zh/8.3.13/
+          - title: "destroy"
+            url: /docs/zh/8.3.14/
+      - title: "운영 가이드"
+        url: /docs/zh/8.2/
+        children:
+          - title: "Cluster startup & shutdown"
+            url: /docs/zh/8.2.1/
+          - title: "Update k8s cluster certificate"
+            url: /docs/zh/8.2.2/
+          - title: "Add etcd member to existing etcd cluster"
+            url: /docs/zh/8.2.3/
+          - title: "Cluster backup & restore"
+            url: /docs/zh/8.2.4/
+          - title: "Docker container disk 관리"
+            url: /docs/zh/8.2.5/
+          - title: "칵테일 암호 관리"
+            url: /docs/zh/8.2.6/
+          - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
+            url: /docs/zh/8.2.7/
+          - title: "칵테일 클라우드에서 스토리지 볼륨 스케일업 방법"
+            url: /docs/zh/8.2.8/
+          - title: "AWS Billing Report 생성 방법"
+            url: /docs/zh/8.2.9/
+          - title: "Alarm Message 슬랙/Email 연결"
+            url: /docs/zh/8.2.10/
+      - title: "Troubleshooting"
+        url: /docs/zh/8.3/
+        children:
+          - title: "k8s cluster의 health check"
+            url: /docs/zh/8.3.1/
+          - title: "사용자의 micro service가 서로 연결이 안될때"
+            url: /docs/zh/8.3.2/
+          - title: "NFS 서버의 접속 확인 방법"
+            url: /docs/zh/8.3.3/
+          - title: "Cube로 설치한 node의 ip 정보가 변경될 경우"
+            url: /docs/zh/8.3.4/
+          - title: "Centos yum 자동 upgrade 방지"
+            url: /docs/zh/8.3.5/
+  - title: "구성원"
     url: /docs/zh/9/
+  - title: "용어 설명"
+    url: /docs/zh/10/
     children:
       - title: "Kubernetes"
-        url: /docs/zh/9.1/
-      - title: "层积云"
-        url: /docs/zh/9.2/
-      - title: "层积云系统故障代码"
-        url: /docs/zh/9.3/
-  - title: "售后服务"
-    url: /docs/zh/9.4/
+        url: /docs/zh/10.1/
+      - title: "Cocktail Cloud"
+        url: /docs/zh/10.2/
+      - title: "Cocktail Cloud System Error Code"
+        url: /docs/zh/10.3/
+  - title: "고객지원서비스"
+    url: /docs/zh/11/
+  # - title: "层积云是什么?"
+  #   url: /docs/zh/0.0/
+  #   children:
+  #     - title: "层积云组件概要"
+  #       url: /docs/zh/0.1/
+  #     - title: "集群管理层"
+  #       url: /docs/zh/0.2/
+  #     - title: "服务管理层"
+  #       url: /docs/zh/0.3/
+  #     - title: "管道层"
+  #       url: /docs/zh/0.4/
+  #     - title: "目录层"
+  #       url: /docs/zh/0.5/
+  #     - title: "仪表板层"
+  #       url: /docs/zh/0.6/
+  # - title: "登录"
+  #   url: /docs/zh/1/
+  # - title: "系统管理"
+  #   url: /docs/zh/2/
+  #   children:
+  #   - title: "系统"
+  #     url: /docs/zh/2.1/
+  #   - title: "簇"
+  #     url: /docs/zh/2.2/
+  #   - title: "工作区"
+  #     url: /docs/zh/2.3/
+  # - title: "仪表盘"
+  #   url: /docs/zh/3/
+  #   children:
+  #     - title: "用户管理"
+  #       url: /docs/zh/3.1/
+  # - title: "服务"
+  #   url: /docs/zh/4/
+  #   children:
+  #   - title: "应用程序管理"
+  #     url: /docs/zh/4.1/
+  #     children:
+  #       - title: "应用程序表"
+  #         url: /docs/zh/4.1.1/
+  #         children:
+  #           - title: "应用程序地图组管理"
+  #             url: /docs/zh/4.1.1.1/
+  #           - title: "应用程序表创建"
+  #             url: /docs/zh/4.1.1.2/
+  #           - title: "应用程序表名称修改"
+  #             url: /docs/zh/4.1.1.3/
+  #           - title: "应用程序表删除"
+  #             url: /docs/zh/4.1.1.4/
+  #       - title: "群组管理"
+  #         url: /docs/zh/4.1.2/
+  #   - title: "工作负载"
+  #     url: /docs/zh/4.2/
+  #     children:
+  #       - title: "工作负载创建"
+  #         url: /docs/zh/4.2.1/
+  #       - title: "工作负载编辑"
+  #         url: /docs/zh/4.2.2/
+  #       - title: "工作负载实例信息查询"
+  #         url: /docs/zh/4.2.3/
+  #       - title: "工作负载中断"
+  #         url: /docs/zh/4.2.4/
+  #       - title: "工作负载开启"
+  #         url: /docs/zh/4.2.5/
+  #       - title: "工作负载重启"
+  #         url: /docs/zh/4.2.6/
+  #       - title: "工作负载删除"
+  #         url: /docs/zh/4.2.7/
+  #   - title: "监控"
+  #     url: /docs/zh/4.3/
+  #   - title: "管道"
+  #     url: /docs/zh/4.4/
+  #   - title: "持续量"
+  #     url: /docs/zh/4.5/
+  #     children:
+  #       - title: "创建持久性"
+  #         url: /docs/zh/4.5.1/
+  #       - title: "删除持久性"
+  #         url: /docs/zh/4.5.2/
+  #   - title: "设置"
+  #     url: /docs/zh/4.6/
+  #     children:
+  #       - title: "配置图"
+  #         url: /docs/zh/4.6.1/
+  #         children:
+  #           - title: "配置图添加"
+  #             url: /docs/zh/4.6.1.1/
+  #           - title: "配置图修改"
+  #             url: /docs/zh/4.6.1.2/
+  #           - title: "配置图删除"
+  #             url: /docs/zh/4.6.1.3/
+  #       - title: "Secret"
+  #         url: /docs/zh/4.6.2/
+  #         children:
+  #           - title: "Secret 添加"
+  #             url: /docs/zh/4.6.2.1/
+  #           - title: "Secret 修改"
+  #             url: /docs/zh/4.6.2.2/
+  #           - title: "Secret 删除"
+  #             url: /docs/zh/4.6.2.3/
+  # - title: "Build 管理"
+  #   url: /docs/zh/5/
+  #   children:
+  #     - title: "Build 添加"
+  #       url: /docs/zh/5.1/
+  #     - title: "作业设置编辑"
+  #       url: /docs/zh/5.2/
+  #     - title: "历史记录"
+  #       url: /docs/zh/5.3/
+  #     - title: "Build 运行"
+  #       url: /docs/zh/5.4/
+  #     - title: "Build 取消"
+  #       url: /docs/zh/5.5/
+  #     - title: "日志查看"
+  #       url: /docs/zh/5.6/
+  #     - title: "作业删除"
+  #       url: /docs/zh/5.7/
+  # - title: "目录"
+  #   url: /docs/zh/6/
+  #   children:
+  #     - title: "目录保存"
+  #       url: /docs/zh/6.1/
+  #     - title: "目录部署"
+  #       url: /docs/zh/6.2/
+  #     - title: "目录编辑"
+  #       url: /docs/zh/6.3/
+  #     - title: "目录删除"
+  #       url: /docs/zh/6.4/
+  #     - title: "目录出口"
+  #       url: /docs/zh/6.5/
+  #     - title: "目录进口"
+  #       url: /docs/zh/6.6/
+  # - title: "集群"
+  #   url: /docs/zh/7/
+  #   children:
+  #     - title: "集群管理"
+  #       url: /docs/zh/7.1/
+  #     - title: "节点"
+  #       url: /docs/zh/7.2/
+  #     - title: "应用程序"
+  #       url: /docs/zh/7.3/
+  #     - title: "卷"
+  #       url: /docs/zh/7.4/
+  #     - title: "报警"
+  #       url: /docs/zh/7.5/
+  #       children:
+  #         - title: "报警目录"
+  #           url: /docs/zh/7.5.1/
+  #     - title: "计量"
+  #       url: /docs/zh/7.6/
+  #     - title: "添加"
+  #       url: /docs/zh/7.7/
+  # - title: "会员"
+  #   url: /docs/zh/8/
+  # - title: "术语说明"
+  #   url: /docs/zh/9/
+  #   children:
+  #     - title: "Kubernetes"
+  #       url: /docs/zh/9.1/
+  #     - title: "层积云"
+  #       url: /docs/zh/9.2/
+  #     - title: "层积云系统故障代码"
+  #       url: /docs/zh/9.3/
+  # - title: "售后服务"
+  #   url: /docs/zh/9.4/
 
 ja:
   - title: "Cocktail Cloud の概念"
