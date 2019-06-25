@@ -268,41 +268,41 @@ docs:
           - title: "destroy"
             url: /docs/ko/8.3.14/
       - title: "운영 가이드"
-        url: /docs/ko/8.2/
+        url: /docs/ko/8.4/
         children:
           - title: "Cluster startup & shutdown"
-            url: /docs/ko/8.2.1/
+            url: /docs/ko/8.4.1/
           - title: "Update k8s cluster certificate"
-            url: /docs/ko/8.2.2/
+            url: /docs/ko/8.4.2/
           - title: "Add etcd member to existing etcd cluster"
-            url: /docs/ko/8.2.3/
+            url: /docs/ko/8.4.3/
           - title: "Cluster backup & restore"
-            url: /docs/ko/8.2.4/
+            url: /docs/ko/8.4.4/
           - title: "Docker container disk 관리"
-            url: /docs/ko/8.2.5/
+            url: /docs/ko/8.4.5/
           - title: "칵테일 암호 관리"
-            url: /docs/ko/8.2.6/
+            url: /docs/ko/8.4.6/
           - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
-            url: /docs/ko/8.2.7/
+            url: /docs/ko/8.4.7/
           - title: "칵테일 클라우드에서 스토리지 볼륨 스케일업 방법"
-            url: /docs/ko/8.2.8/
+            url: /docs/ko/8.4.8/
           - title: "AWS Billing Report 생성 방법"
-            url: /docs/ko/8.2.9/
+            url: /docs/ko/8.4.9/
           - title: "Alarm Message 슬랙/Email 연결"
-            url: /docs/ko/8.2.10/
+            url: /docs/ko/8.4.10/
       - title: "Troubleshooting"
-        url: /docs/ko/8.3/
+        url: /docs/ko/8.5/
         children:
           - title: "k8s cluster의 health check"
-            url: /docs/ko/8.3.1/
+            url: /docs/ko/8.5.1/
           - title: "사용자의 micro service가 서로 연결이 안될때"
-            url: /docs/ko/8.3.2/
+            url: /docs/ko/8.5.2/
           - title: "NFS 서버의 접속 확인 방법"
-            url: /docs/ko/8.3.3/
+            url: /docs/ko/8.5.3/
           - title: "Cube로 설치한 node의 ip 정보가 변경될 경우"
-            url: /docs/ko/8.3.4/
+            url: /docs/ko/8.5.4/
           - title: "Centos yum 자동 upgrade 방지"
-            url: /docs/ko/8.3.5/
+            url: /docs/ko/8.5.5/
   - title: "구성원"
     url: /docs/ko/9/
   - title: "용어 설명"
@@ -786,41 +786,41 @@ zh:
           - title: "destroy"
             url: /docs/zh/8.3.14/
       - title: "운영 가이드"
-        url: /docs/zh/8.2/
+        url: /docs/zh/8.4/
         children:
           - title: "Cluster startup & shutdown"
-            url: /docs/zh/8.2.1/
+            url: /docs/zh/8.4.1/
           - title: "Update k8s cluster certificate"
-            url: /docs/zh/8.2.2/
+            url: /docs/zh/8.4.2/
           - title: "Add etcd member to existing etcd cluster"
-            url: /docs/zh/8.2.3/
+            url: /docs/zh/8.4.3/
           - title: "Cluster backup & restore"
-            url: /docs/zh/8.2.4/
+            url: /docs/zh/8.4.4/
           - title: "Docker container disk 관리"
-            url: /docs/zh/8.2.5/
+            url: /docs/zh/8.4.5/
           - title: "칵테일 암호 관리"
-            url: /docs/zh/8.2.6/
+            url: /docs/zh/8.4.6/
           - title: "캐시 메모리 증가에 따른 클러스터 노드 메모리 최적화 방법"
-            url: /docs/zh/8.2.7/
+            url: /docs/zh/8.4.7/
           - title: "칵테일 클라우드에서 스토리지 볼륨 스케일업 방법"
-            url: /docs/zh/8.2.8/
+            url: /docs/zh/8.4.8/
           - title: "AWS Billing Report 생성 방법"
-            url: /docs/zh/8.2.9/
+            url: /docs/zh/8.4.9/
           - title: "Alarm Message 슬랙/Email 연결"
-            url: /docs/zh/8.2.10/
+            url: /docs/zh/8.4.10/
       - title: "Troubleshooting"
-        url: /docs/zh/8.3/
+        url: /docs/zh/8.5/
         children:
           - title: "k8s cluster의 health check"
-            url: /docs/zh/8.3.1/
+            url: /docs/zh/8.5.1/
           - title: "사용자의 micro service가 서로 연결이 안될때"
-            url: /docs/zh/8.3.2/
+            url: /docs/zh/8.5.2/
           - title: "NFS 서버의 접속 확인 방법"
-            url: /docs/zh/8.3.3/
+            url: /docs/zh/8.5.3/
           - title: "Cube로 설치한 node의 ip 정보가 변경될 경우"
-            url: /docs/zh/8.3.4/
+            url: /docs/zh/8.5.4/
           - title: "Centos yum 자동 upgrade 방지"
-            url: /docs/zh/8.3.5/
+            url: /docs/zh/8.5.5/
   - title: "구성원"
     url: /docs/zh/9/
   - title: "용어 설명"
