@@ -2,7 +2,28 @@
    jQuery plugin settings and other scripts
    ========================================================================== */
 
+
+function scrollPosReaload($scrollContainer) {
+  if (localStorage) {
+      var posReader = localStorage["posStorage"];
+      if (posReader) {
+          $scrollContainer.scrollTop(posReader);
+          localStorage.removeItem("posStorage");
+      }
+      $(this).click(function(e) {
+          localStorage["posStorage"] = $scrollContainer.scrollTop();
+      });
+
+      return true;
+  }
+
+  return false;
+}
+
 $(document).ready(function() {
+  // scrollPosReaload 실행
+  scrollPosReaload($('.sidebar'));
+
   // Sticky footer
   var bumpIt = function() {
       $("body").css("margin-bottom", $(".page__footer").outerHeight(true));
