@@ -27,3 +27,4 @@ System、ID、Passwordを入力後、ログイン。
 期間が90日を経過した場合にも、 パスワードを変更したり、 パスワードを延長することができる。
 
 ![]({{ site.baseurl }}/assets/JP/{{ site.version }}/1_3.png)
+
