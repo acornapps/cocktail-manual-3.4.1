@@ -61,6 +61,8 @@ docs:
           url: /docs/ko/2.2.6/
         - title: "스토리지 삭제"
           url: /docs/ko/2.2.7/
+        - title: "기본 스토리지 지정"
+          url: /docs/ko/2.2.8/
     - title: "워크스페이스"
       url: /docs/ko/2.3/
       children:
@@ -374,6 +376,8 @@ en:
           url: /docs/en/2.2.6/
         - title: "Delete Volume"
           url: /docs/en/2.2.7/
+        - title: "Specifying Default Storage"
+          url: /docs/en/2.2.8/
     - title: "Workspace"
       url: /docs/en/2.3/
       children:
