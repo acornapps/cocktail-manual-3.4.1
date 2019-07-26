@@ -1060,6 +1060,9 @@ ja:
           url: /docs/ja/2.2.6/
         - title: "ストレージの削除"
           url: /docs/ja/2.2.7/
+        - title: "デフォルトストレージの指定"
+          url: /docs/en/2.2.8/
+
     - title: "ワークスペース"
       url: /docs/ja/2.3/
       children:
