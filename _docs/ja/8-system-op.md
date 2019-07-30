@@ -9,5 +9,3 @@ toc_sticky: false
 sidebar:
   nav: "ja"
 ---
-
----
