@@ -1209,18 +1209,18 @@ ja:
           url: /docs/ja/8.1.2/
         - title: "EKSクラスターの作成"
           url: /docs/ja/8.1.3/
-        - title: "EKSクラスターポリシー／権限"
+        - title: "EKSクラスターポリシー/権限"
           url: /docs/ja/8.1.4/
         - title: "EKSクラスターの作成 Quick Start"
           url: /docs/ja/8.1.5/
-        - title: "EKS NAT Gateway利用"
+        - title: "EKS NAT Gateway 設定"
           url: /docs/ja/8.1.6/
-        - title: "AZURE FILE共有の作成"
+        - title: "AZURE FILE 共有設定"
           url: /docs/ja/8.1.7/
-      - title: "クラスターを直接構成with Cube"
+      - title: "Cube を使ったクラスターの構成"
         url: /docs/ja/8.2/
         children:
-        - title: "Cocktail Installation on Onpremise"
+        - title: "Cocktail Installation on On-Premises"
           url: /docs/ja/8.2.1/
         - title: "Cocktail Installation on AWS"
           url: /docs/ja/8.2.2/
@@ -1295,15 +1295,15 @@ ja:
       - title: "Troubleshooting"
         url: /docs/ja/8.5/
         children:
-        - title: "k8s cluster의 health check"
+        - title: "k8s cluster の health check"
           url: /docs/ja/8.5.1/
-        - title: "ユーザーの micro serviceが相互接続ができない時"
+        - title: "ユーザーの micro serviceが相互接続できない時"
           url: /docs/ja/8.5.2/
         - title: "NFSサーバーの接続確認方法"
           url: /docs/ja/8.5.3/
-        - title: "Cubeで設置したnodeの ip情報が変更される時"
+        - title: "Cubeで設置したノードのIP変更"
           url: /docs/ja/8.5.4/
-        - title: "Centos yum 自動 upgrade防止"
+        - title: "CentOS yum 自動 upgrade 停止"
           url: /docs/ja/8.5.5/
   - title: "メンバー"
     url: /docs/ja/9/
