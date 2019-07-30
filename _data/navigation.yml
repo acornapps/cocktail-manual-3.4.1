@@ -1073,10 +1073,9 @@ ja:
         - title: "ワークスペースの削除"
           url: /docs/ja/2.3.3/
   - title: "ダッシュボード"
+    url: /docs/ja/2.4/
+  - title: "ユーザー管理"
     url: /docs/ja/3/
-    children:
-      - title: "ユーザー管理"
-        url: /docs/ja/3.1/
   - title: "サービス"
     url: /docs/ja/4/
     children:
@@ -1145,6 +1144,13 @@ ja:
               url: /docs/ja/4.6.2.2/
             - title: "Secretの削除"
               url: /docs/ja/4.6.2.3/
+    - title: "サービス"
+      url: /docs/en/4.7/
+      children:
+        - title: "サービス設定"
+          url: /docs/en/4.7.1/
+        - title: "イングレス設定"
+          url: /docs/en/4.7.2/
   - title: "ビルド管理"
     url: /docs/ja/5/
     children:
@@ -1186,28 +1192,119 @@ ja:
         url: /docs/ja/7.2/
       - title: "アプリケーション"
         url: /docs/ja/7.3/
-      - title: "ボリューム"
-        url: /docs/ja/7.4/
       - title: "アラート"
-        url: /docs/ja/7.5/
+        url: /docs/ja/7.4/
         children:
           - title: "アラートリスト"
-            url: /docs/ja/7.5.1/
-      - title: "メータリング"
-        url: /docs/ja/7.6/
-      - title: "登録管理"
-        url: /docs/ja/7.7/
+            url: /docs/ja/7.4.1/
   - title: "システム運用"
     url: /docs/ja/8/
     children:
       - title: "クラスター構成と登録"
         url: /docs/ja/8.1/
         children:
-        - title: "クラスターサービスの利用"
+        - title: "GKEクラスターの作成"
           url: /docs/ja/8.1.1/
-          children:
-            - title: "EKSクラスターの作成"
-              url: /docs/ja/8.1.1.3/
+        - title: "AKSクラスターの作成"
+          url: /docs/ja/8.1.2/
+        - title: "EKSクラスターの作成"
+          url: /docs/ja/8.1.3/
+        - title: "EKSクラスターポリシー／権限"
+          url: /docs/ja/8.1.4/
+        - title: "EKSクラスターの作成 Quick Start"
+          url: /docs/ja/8.1.5/
+        - title: "EKS NAT Gateway利用"
+          url: /docs/ja/8.1.6/
+        - title: "AZURE FILE共有の作成"
+          url: /docs/ja/8.1.7/
+      - title: "クラスターを直接構成with Cube"
+        url: /docs/ja/8.2/
+        children:
+        - title: "Cocktail Installation on Onpremise"
+          url: /docs/ja/8.2.1/
+        - title: "Cocktail Installation on AWS"
+          url: /docs/ja/8.2.2/
+        - title: "Cocktail Installation on Azure"
+          url: /docs/ja/8.2.3/
+        - title: "Cocktail Installation on GCP"
+          url: /docs/ja/8.2.4/
+        - title: "Cocktail Installation on Aliyun"
+          url: /docs/ja/8.2.5/
+        - title: "Cocktail Installation on AKS"
+          url: /docs/ja/8.2.6/
+        - title: "Cocktail Installation on EKS"
+          url: /docs/ja/8.2.7/
+        - title: "Cocktail Installation on GKE"
+          url: /docs/ja/8.2.8/
+        - title: "CUBEクラスタータイプ"
+          url: /docs/ja/8.2.9/
+      - title: "Cube CLI"
+        url: /docs/ja/8.3/
+        children:
+        - title: "init"
+          url: /docs/ja/8.3.1/
+        - title: "create"
+          url: /docs/ja/8.3.2/
+        - title: "status"
+          url: /docs/ja/8.3.3/
+        - title: "login"
+          url: /docs/ja/8.3.4/
+        - title: "logout"
+          url: /docs/ja/8.3.5/
+        - title: "cluster register"
+          url: /docs/ja/8.3.6/
+        - title: "cluster list"
+          url: /docs/ja/8.3.7/
+        - title: "cluster resize"
+          url: /docs/ja/8.3.8/
+        - title: "cluster upgrade"
+          url: /docs/ja/8.3.9/
+        - title: "cluster get-config"
+          url: /docs/ja/8.3.10/
+        - title: "cluster delete"
+          url: /docs/ja/8.3.11/
+        - title: "cluster set-addon"
+          url: /docs/ja/8.3.12/
+        - title: "cluster del-addon"
+          url: /docs/ja/8.3.13/
+        - title: "destroy"
+          url: /docs/ja/8.3.14/
+      - title: "運用ガイド"
+        url: /docs/ja/8.4/
+        children:
+        - title: "Cluster startup & shutdown"
+          url: /docs/ja/8.4.1/
+        - title: "Update k8s cluster certificate"
+          url: /docs/ja/8.4.2/
+        - title: "Add etcd member to existing etcd cluster"
+          url: /docs/ja/8.4.3/
+        - title: "Cluster backup & restore"
+          url: /docs/ja/8.4.4/
+        - title: "Docker container disk管理"
+          url: /docs/ja/8.4.5/
+        - title: "Cocktail パスワード管理"
+          url: /docs/ja/8.4.6/
+        - title: "キャッシュメモリー増加に対するクラスターノードメモリー最適化方法"
+          url: /docs/ja/8.4.7/
+        - title: "Cocktail Cloudでストレージボリュームのスケールアップ方法"
+          url: /docs/ja/8.4.8/
+        - title: "AWS Billing Report生成方法"
+          url: /docs/ja/8.4.9/
+        - title: "Alarm Message slack/Emailと連携"
+          url: /docs/ja/8.4.10/
+      - title: "Troubleshooting"
+        url: /docs/ja/8.5/
+        children:
+        - title: "k8s cluster의 health check"
+          url: /docs/ja/8.5.1/
+        - title: "ユーザーの micro serviceが相互接続ができない時"
+          url: /docs/ja/8.5.2/
+        - title: "NFSサーバーの接続確認方法"
+          url: /docs/ja/8.5.3/
+        - title: "Cubeで設置したnodeの ip情報が変更される時"
+          url: /docs/ja/8.5.4/
+        - title: "Centos yum 自動 upgrade防止"
+          url: /docs/ja/8.5.5/
   - title: "メンバー"
     url: /docs/ja/9/
   - title: "用語説明"
