@@ -1200,7 +1200,7 @@ ja:
   - title: "システム運用"
     url: /docs/ja/8/
     children:
-      - title: "クラスター構成と登録"
+      - title: "Kubernetes as a service(Kaas) クラスター構成"
         url: /docs/ja/8.1/
         children:
         - title: "GKEクラスターの作成"
