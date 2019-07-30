@@ -1,7 +1,7 @@
 ---
-title: "3.1 ユーザー管理"
+title: "3.ユーザー管理"
 excerpt: ""
-permalink: /docs/ja/3.1/
+permalink: /docs/ja/3/
 redirect_from:
   - /theme-setup/
 toc: false
