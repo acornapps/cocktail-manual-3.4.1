@@ -1082,7 +1082,7 @@ ja:
     - title: "サービス管理"
       url: /docs/ja/4.1/
       children:
-        - title: "サービスマップ"
+        - title: "サービス"
           url: /docs/ja/4.1.1/
           children:
             - title: "サービスのグループ管理"
