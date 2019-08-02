@@ -1085,13 +1085,13 @@ ja:
         - title: "サービスマップ"
           url: /docs/ja/4.1.1/
           children:
-            - title: "サービスマップのグループの管理"
+            - title: "サービスのグループ管理"
               url: /docs/ja/4.1.1.1/
-            - title: "サービスマップの作成"
+            - title: "サービスの作成"
               url: /docs/ja/4.1.1.2/
-            - title: "サービスマップ名の変更"
+            - title: "サービス名の変更"
               url: /docs/ja/4.1.1.3/
-            - title: "サービスマップの削除"
+            - title: "サービスの削除"
               url: /docs/ja/4.1.1.4/
         - title: "グループ管理"
           url: /docs/ja/4.1.2/
