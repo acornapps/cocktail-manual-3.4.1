@@ -1144,13 +1144,13 @@ ja:
               url: /docs/ja/4.6.2.2/
             - title: "Secretの削除"
               url: /docs/ja/4.6.2.3/
-    - title: "サービス"
-      url: /docs/en/4.7/
+    - title: "サービス公開"
+      url: /docs/ja/4.7/
       children:
-        - title: "サービス設定"
-          url: /docs/en/4.7.1/
-        - title: "イングレス設定"
-          url: /docs/en/4.7.2/
+        - title: "サービス公開設定"
+          url: /docs/ja/4.7.1/
+        - title: "Ingress 設定"
+          url: /docs/ja/4.7.2/
   - title: "ビルド管理"
     url: /docs/ja/5/
     children:
