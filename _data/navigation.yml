@@ -1061,8 +1061,7 @@ ja:
         - title: "ストレージの削除"
           url: /docs/ja/2.2.7/
         - title: "デフォルトストレージの指定"
-          url: /docs/en/2.2.8/
-
+          url: /docs/ja/2.2.8/
     - title: "ワークスペース"
       url: /docs/ja/2.3/
       children:
@@ -1123,7 +1122,7 @@ ja:
           url: /docs/ja/4.5.1/
         - title: "Persistent Volumeの削除"
           url: /docs/ja/4.5.2/
-    - title: "設定"
+    - title: "設定情報"
       url: /docs/ja/4.6/
       children:
         - title: "Config Map"
