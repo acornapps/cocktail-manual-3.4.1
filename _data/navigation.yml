@@ -1158,7 +1158,7 @@ ja:
         url: /docs/ja/5.1/
       - title: "ビルドタスクの編集"
         url: /docs/ja/5.2/
-      - title: "ビルドヒストリー"
+      - title: "ビルド履歴"
         url: /docs/ja/5.3/
       - title: "ビルドタスクの実行"
         url: /docs/ja/5.4/
