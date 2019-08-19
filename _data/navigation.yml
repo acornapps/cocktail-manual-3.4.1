@@ -63,6 +63,10 @@ docs:
           url: /docs/ko/2.2.7/
         - title: "기본 스토리지 지정"
           url: /docs/ko/2.2.8/
+        - title: "애드온"
+          url: /docs/ko/2.2.9/
+        - title: "애드온 관리"
+          url: /docs/ko/2.2.10/
     - title: "워크스페이스"
       url: /docs/ko/2.3/
       children:
@@ -144,6 +148,15 @@ docs:
               url: /docs/ko/4.6.2.2/
             - title: "시크릿 삭제"
               url: /docs/ko/4.6.2.3/
+        - title: "네트워크"
+          url: /docs/ko/4.6.3/
+          children:
+            - title: "네트워크 추가"
+              url: /docs/ko/4.6.3.1/
+            - title: "네트워크 수정"
+              url: /docs/ko/4.6.3.2/
+            - title: "네트워크 삭제"
+              url: /docs/ko/4.6.3.3/
     - title: "서비스"
       url: /docs/ko/4.7/
       children:
@@ -378,6 +391,10 @@ en:
           url: /docs/en/2.2.7/
         - title: "Specifying Default Storage"
           url: /docs/en/2.2.8/
+        - title: "Addon"
+          url: /docs/ko/2.2.9/
+        - title: "Addon Managed"
+          url: /docs/ko/2.2.10/
     - title: "Workspace"
       url: /docs/en/2.3/
       children:
@@ -459,6 +476,15 @@ en:
               url: /docs/en/4.6.2.2/
             - title: "Delete Secret"
               url: /docs/en/4.6.2.3/
+        - title: "Network"
+          url: /docs/ko/4.6.3/
+          children:
+            - title: "Add Network"
+              url: /docs/ko/4.6.3.1/
+            - title: "Edit Network"
+              url: /docs/ko/4.6.3.2/
+            - title: "Delete Network"
+              url: /docs/ko/4.6.3.3/
     - title: "Service"
       url: /docs/en/4.7/
       children:
