@@ -99,6 +99,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.1/",
         "teaser":null},{
+        "title": "2.2.10 Addon Managed",
+        "excerpt":"It distributes, redistributes and manages Addon installed in the cocktail, and provides monitoring services for Addon status. a) Click Cluster → Select Cluster → Addon → Addon Name. You can inquire the information of the instance installed in the addon. ** Instance ** ** Information ** Instance Detailed Information, Status...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.2.10/",
+        "teaser":null},{
         "title": "2.2.2 Edit Cluster",
         "excerpt":"  This feature allows you to modify a cluster’s basic information, including provider, monitoring status, and type. However, the provider account, type, ,region, ,project id, subscription id and cluster may not be changed.   a) Cluster → Select Cluster → Registration Management → Edit. Click the [Update] button when finished.        ","categories": [],
         "tags": [],
@@ -133,6 +138,11 @@ var store = [{
         "excerpt":"It is the default storage assignment function. If the workload type is StatefulSet type in catalog distribution, it is the default location where storage volume is created when distributed without modification. If the storage plug-in type is NFS Named, default storage configuration is not possible. a ) Click Cluster →...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/2.2.8/",
+        "teaser":null},{
+        "title": "2.2.9 Addon",
+        "excerpt":" Provides monitoring services for Addon installed in the cocktail.   a) Click Cluster → Select Cluster → Addon.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/2.2.9/",
         "teaser":null},{
         "title": "2.3 Workspace",
         "excerpt":"Allocate workspaces that can be built, deployed, and run. Users, clusters, and libraries can be registered for each workspace. a) Left Main Menu → Workspace Workspace Settings Description Workspace Name Workspace name (Custom ) The number of clusters The number of clusters assigned to the workspace Number of members Number...","categories": [],
@@ -210,7 +220,7 @@ var store = [{
         "url": "http://localhost:4000/docs/en/4.2/",
         "teaser":null},{
         "title": "4.2.1 Create Workload",
-        "excerpt":"This feature allows you to create and run workloads from Group Management. a) Select Main Menu on the left → Service → ServiceCard → Click the [+] button (Create workload) on a workload group. Select the workload type and GPU support. b) Enter Basic Infomation, Init Container, Container, Instance, Auto...","categories": [],
+        "excerpt":"This feature allows you to create and run workloads from Group Management. a) Select Main Menu on the left → Service → ServiceCard → Click the [+] button (Create workload) on a workload group. b) Enter Basic Infomation, Init Container, Container, Instance, Auto Scaling, RollingUpdate Strategy, Network (if Addon multi-nic...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.2.1/",
         "teaser":null},{
@@ -314,13 +324,33 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.6.2.3/",
         "teaser":null},{
+        "title": "4.6.3 Network",
+        "excerpt":"You can save it in Json format on the server and use it as the network configuration of the workload. The network menu can be configured only if multi-nic is installed in the Addon list. a) Click Main Menu → Service → Select Service Card → Setup Information → Network....","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.6.3/",
+        "teaser":null},{
+        "title": "4.6.3.1 Add Network",
+        "excerpt":"Add a network to the service. a) Click left main menu → service → select service card → setting information → network → create network button to move to registration page. b) Enter the name, type, and network settings and click the Create button at the top right to create...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.6.3.1/",
+        "teaser":null},{
+        "title": "4.6.3.2 Edit Network",
+        "excerpt":"You can edit the data of the network added to the service. (Name, type cannot be changed) a) Left main menu → Service → Select service card → Setup information → Network → Network action menu (Activation) → Modify network b) After changing the data values, click the Modify button...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.6.3.2/",
+        "teaser":null},{
+        "title": "4.6.3.3 Delete Network",
+        "excerpt":" Delete the network from the service.   a) Left main menu → Service → Select service card → Setup information → Network → Network action menu (Active) → Delete network     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/en/4.6.3.3/",
+        "teaser":null},{
         "title": "4.7 Service exposure",
         "excerpt":" You can connect Cluster Ip, Node Port, and Loadbalancer ports to the created workload and add ingress configuration.   a ) Left Main Menu → Service → Select Service Map → Service exposure.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.7/",
         "teaser":null},{
-        "title": "4.7.1 Service settings",
-        "excerpt":"Connect Cluster Ip, Node Port, and Loadbalancer ports to the created workload. a) Left Main Menu → Service → Select Service Card → Service. b) Click on the Add button on the screen service line. c ) Specifies the workload to associate the service type with the port. ** Service...","categories": [],
+        "title": "4.7.1 Service exposure settings",
+        "excerpt":"Connect Cluster Ip, Node Port, and Loadbalancer ports to the created workload. a) Left Main Menu → Service → Select Service Card → Service exposure. b) Click on the Add button on the screen service exposure line. c ) Specifies the workload to associate the service type with the port....","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/en/4.7.1/",
         "teaser":null},{
@@ -1329,6 +1359,11 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.1/",
         "teaser":null},{
+        "title": "2.2.10 애드온 관리",
+        "excerpt":"칵테일에 설치 된 애드온을 배포 및 재배포 관리를 하고, 애드온 현황에 대한 모니터링 서비스를 제공한다. a) 클러스터 → 클러스터 선택 → 애드온 → 애드온이름을 클릭한다. 애드온에 설치된 인스턴스의 정보를 조회 할 수 있다. 인스턴스 정보 인스턴스 상세 정보, 상태 정보, 이벤트 정보, 배포 정보, 웹터미널, 로그 서비스 상세 정보, 이벤트...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.2.10/",
+        "teaser":null},{
         "title": "2.2.2 클러스터 수정",
         "excerpt":"  클러스터의 기본정보, 프로바이더, 모니터링, 클러스터 유형을 수정하는 기능이다. 프로바이더의 계정, 유형, 리전, 프로젝트 아이디, 서브스크립션 아이디, 클러스터 정보는 변경할 수 없다.   a) 클러스터 → 클러스터 선택 → 등록관리 → 수정버튼 → 수정 완료 후 저장버튼을 클릭한다.        ","categories": [],
         "tags": [],
@@ -1363,6 +1398,11 @@ var store = [{
         "excerpt":" 기본 스토리지 지정 기능이다. 카탈로그 배포시 워크로드 타입이 StatefulSet 타입인 경우 수정없이 바로 배포할 경우 스토리지 볼륨이 생성되는 기본 위치이다.  스토리지 플러그인 타입이 NFS Named 인 경우 기본 스토리지 설정은 불가능하다.   a) 클러스터 → 클러스터 선택 → 볼륨 → 볼륨 액션버튼 → 기본 스토리지 지정을 클릭한다.    ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/2.2.8/",
+        "teaser":null},{
+        "title": "2.2.9 애드온",
+        "excerpt":" 칵테일에 설치 된 애드온에 대한 모니터링 서비스를 제공한다.   a) 클러스터 → 클러스터 선택 → 애드온을 클릭한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/2.2.9/",
         "teaser":null},{
         "title": "2.3 워크스페이스",
         "excerpt":" 빌드 및 배포, 운영할 수 있는 워크스페이스를 할당한다. 워크스페이스 별로 사용자, 클러스터, 라이브러리 등록이 가능하다.   a) 좌측 메인메뉴 → 워크스페이스                     서비스 설정       설명                       워크스페이스 명       워크스페이스 이름 (사용자지정)                 클러스터 수       워크스페이스에 할당된 클러스터 수                 구성원 수       워크스페이스를 사용하는 구성원 수                 시스템 명       시스템 명                 설명       워크스페이스 설명          ","categories": [],
@@ -1440,7 +1480,7 @@ var store = [{
         "url": "http://localhost:4000/docs/ko/4.2/",
         "teaser":null},{
         "title": "4.2.1 워크로드 생성",
-        "excerpt":"그룹관리에서 워크로드를 생성하고 실행한다. a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 워크로드 그룹 + 버튼(워크로드 생성)을 클릭한다. 워크로드 유형 및 GPU를 선택 한다. b) 기본정보, 초기화 컨테이너, 컨테이너, 인스턴스, 오토 스케일링, 업데이트 정책, 서비스 포트, 볼륨마운트, 볼륨, 볼륨템플릿 내용을 작성하고 생성버튼을 눌러 워크로드를 생성한다. 워크로드 기본 정보...","categories": [],
+        "excerpt":"그룹관리에서 워크로드를 생성하고 실행한다. a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 워크로드 그룹 + 버튼(워크로드 생성)을 클릭한다. b) 기본정보, 초기화 컨테이너, 컨테이너, 인스턴스, 오토 스케일링, 업데이트 정책, 네트워크(애드온 Multi-nic를 지원하는 경우), 서비스 포트, 볼륨마운트, 볼륨, 볼륨템플릿 내용을 작성하고 생성버튼을 눌러 워크로드를 생성한다. 워크로드 기본 정보 정의 항목...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.2.1/",
         "teaser":null},{
@@ -1544,13 +1584,33 @@ var store = [{
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.6.2.3/",
         "teaser":null},{
+        "title": "4.6.3 네트워크",
+        "excerpt":"서버에서 Json 형태로 저장하여 워크로드의 네트워크 설정으로 사용 할 수 있다. 네트워크 메뉴는 애드온 목록에 multi-nic가 설치되 있어야 설정 가능하다. a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 설정 정보 → 네트워크 클릭한다. 항목 설명 네트워크 생성 페이지로 이동 이름 네트워크 이름(사용자 지정) 유형 네트워크 유형(사용자 지정) 네트워크의...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.6.3/",
+        "teaser":null},{
+        "title": "4.6.3.1 네트워크 추가",
+        "excerpt":"서비스에 네트워크를 추가한다. a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 설정 정보 → 네트워크 → 네트워크 생성 버튼을 클릭하여 등록페이지로 이동한다. b) 이름과 유형, 네트워크 설정을 입력하고 우측 상단 생성 버튼을 눌러 네트워크을 생성한다. 항목 설명 이름 이름을 입력하는 란입니다. 추후 편집이 불가 유형 유형(현재는 SRIOV 타입만...","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.6.3.1/",
+        "teaser":null},{
+        "title": "4.6.3.2 네트워크 수정",
+        "excerpt":" 서비스에 추가 된 네트워크의 데이터를 수정 할 수 있다.(이름, 유형변경불가)   a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 설정 정보 → 네트워크 → 네트워크 액션메뉴(활성화) →  네트워크 수정을 클릭      b) 데이터 값 변경 후, 수정 버튼을 클릭하여 네트워크를 편집한다.    ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.6.3.2/",
+        "teaser":null},{
+        "title": "4.6.3.3 네트워크 삭제",
+        "excerpt":" 서비스에 네트워크 삭제한다.   a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 설정 정보 → 네트워크 → 네트워크 액션메뉴(활성화) →  네트워크 삭제를 클릭     ","categories": [],
+        "tags": [],
+        "url": "http://localhost:4000/docs/ko/4.6.3.3/",
+        "teaser":null},{
         "title": "4.7 서비스 노출",
         "excerpt":" 생성된 워크로드에 Cluster Ip, Node Port, Loadbalancer 포트를 연결 하고, 인그레스 설정을 추가 할 수 있다.   a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 서비스 노출을 클릭한다.     ","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.7/",
         "teaser":null},{
-        "title": "4.7.1 서비스 설정",
-        "excerpt":"생성된 워크로드에 Cluster Ip, Node Port, Loadbalancer 포트를 연결한다. a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 서비스를 클릭한다. b) 화면 서비스 라인의 추가 버튼을 클릭한다. c) 서비스 유형과 포트를 연결할 워크로드를 지정한다. 서비스 포트 서비스 유형은 Cluster Ip, Node Port, Loadbalancer를 지정 할 수 있으며 Loadbalancer 타입일...","categories": [],
+        "title": "4.7.1 서비스 노출 설정",
+        "excerpt":"생성된 워크로드에 Cluster Ip, Node Port, Loadbalancer 포트를 연결한다. a) 좌측 메인메뉴 → 서비스 → 서비스 카드 선택 → 서비스 노출을 클릭한다. b) 화면 서비스 노출 라인의 추가 버튼을 클릭한다. c) 서비스 유형과 포트를 연결할 워크로드를 지정한다. 서비스 포트 서비스 유형은 Cluster Ip, Node Port, Loadbalancer를 지정 할 수 있으며...","categories": [],
         "tags": [],
         "url": "http://localhost:4000/docs/ko/4.7.1/",
         "teaser":null},{
