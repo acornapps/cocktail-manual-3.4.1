@@ -392,9 +392,9 @@ en:
         - title: "Specifying Default Storage"
           url: /docs/en/2.2.8/
         - title: "Addon"
-          url: /docs/ko/2.2.9/
+          url: /docs/en/2.2.9/
         - title: "Addon Managed"
-          url: /docs/ko/2.2.10/
+          url: /docs/en/2.2.10/
     - title: "Workspace"
       url: /docs/en/2.3/
       children:
@@ -477,14 +477,14 @@ en:
             - title: "Delete Secret"
               url: /docs/en/4.6.2.3/
         - title: "Network"
-          url: /docs/ko/4.6.3/
+          url: /docs/en/4.6.3/
           children:
             - title: "Add Network"
-              url: /docs/ko/4.6.3.1/
+              url: /docs/en/4.6.3.1/
             - title: "Edit Network"
-              url: /docs/ko/4.6.3.2/
+              url: /docs/en/4.6.3.2/
             - title: "Delete Network"
-              url: /docs/ko/4.6.3.3/
+              url: /docs/en/4.6.3.3/
     - title: "Service"
       url: /docs/en/4.7/
       children:
