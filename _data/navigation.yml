@@ -188,7 +188,7 @@ docs:
     children:
       - title: "클러스터 목록"
         url: /docs/ko/7.1/
-      - title: "리소스"
+      - title: "자원현황"
         url: /docs/ko/7.2/
       - title: "서비스"
         url: /docs/ko/7.3/
@@ -197,6 +197,10 @@ docs:
         children:
           - title: "알림 목록"
             url: /docs/ko/7.4.1/
+      - title: "서비스 노출"
+        url: /docs/ko/7.5/
+      - title: "스토리지 볼륨"
+        url: /docs/ko/7.6/
   - title: "시스템 운영"
     url: /docs/ko/8/
     children:
@@ -503,7 +507,7 @@ en:
     children:
       - title: "Cluster Management"
         url: /docs/en/7.1/
-      - title: "Resource"
+      - title: "Resource Status"
         url: /docs/en/7.2/
       - title: "Service"
         url: /docs/en/7.3/
@@ -512,6 +516,10 @@ en:
         children:
           - title: "Alerts List"
             url: /docs/en/7.4.1/
+      - title: "Service exposure"
+        url: /docs/en/7.5/
+      - title: "Storage volume"
+        url: /docs/en/7.6/
   - title: "Member"
     url: /docs/en/8/
   - title: "Glossary"
@@ -708,7 +716,7 @@ zh:
     children:
       - title: "클러스터 목록"
         url: /docs/zh/7.1/
-      - title: "리소스"
+      - title: "자원현황"
         url: /docs/zh/7.2/
       - title: "서비스"
         url: /docs/zh/7.3/
