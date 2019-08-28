@@ -255,6 +255,8 @@ docs:
             url: /docs/ko/8.2.8/
           - title: "CUBE 클러스터 타입"
             url: /docs/ko/8.2.9/
+          - title: "CUBE TOML 필드 정의"
+            url: /docs/ko/8.2.10/
       - title: "Cube CLI"
         url: /docs/ko/8.3/
         children:
@@ -264,28 +266,22 @@ docs:
             url: /docs/ko/8.3.2/
           - title: "status"
             url: /docs/ko/8.3.3/
-          - title: "login"
-            url: /docs/ko/8.3.4/
-          - title: "logout"
-            url: /docs/ko/8.3.5/
-          - title: "cluster register"
-            url: /docs/ko/8.3.6/
-          - title: "cluster list"
-            url: /docs/ko/8.3.7/
-          - title: "cluster resize"
-            url: /docs/ko/8.3.8/
-          - title: "cluster upgrade"
-            url: /docs/ko/8.3.9/
-          - title: "cluster get-config"
-            url: /docs/ko/8.3.10/
-          - title: "cluster delete"
-            url: /docs/ko/8.3.11/
-          - title: "cluster set-addon"
-            url: /docs/ko/8.3.12/
-          - title: "cluster del-addon"
-            url: /docs/ko/8.3.13/
           - title: "destroy"
-            url: /docs/ko/8.3.14/
+            url: /docs/ko/8.3.4/
+          - title: "login"
+            url: /docs/ko/8.3.5/
+          - title: "logout"
+            url: /docs/ko/8.3.6/
+          - title: "cluster-list"
+            url: /docs/ko/8.3.7/
+          - title: "cluster-register"
+            url: /docs/ko/8.3.8/
+          - title: "cluster-delete"
+            url: /docs/ko/8.3.9/
+          - title: "apply"
+            url: /docs/ko/8.3.10/
+          - title: "export-config"
+            url: /docs/ko/8.3.11/
       - title: "운영 가이드"
         url: /docs/ko/8.4/
         children:
@@ -792,6 +788,8 @@ zh:
             url: /docs/zh/8.2.8/
           - title: "CUBE 클러스터 타입"
             url: /docs/zh/8.2.9/
+          - title: "CUBE TOML 필드 정의"
+            url: /docs/zh/8.2.10/
       - title: "Cube CLI"
         url: /docs/zh/8.3/
         children:
@@ -801,28 +799,22 @@ zh:
             url: /docs/zh/8.3.2/
           - title: "status"
             url: /docs/zh/8.3.3/
-          - title: "login"
-            url: /docs/zh/8.3.4/
-          - title: "logout"
-            url: /docs/zh/8.3.5/
-          - title: "cluster register"
-            url: /docs/zh/8.3.6/
-          - title: "cluster list"
-            url: /docs/zh/8.3.7/
-          - title: "cluster resize"
-            url: /docs/zh/8.3.8/
-          - title: "cluster upgrade"
-            url: /docs/zh/8.3.9/
-          - title: "cluster get-config"
-            url: /docs/zh/8.3.10/
-          - title: "cluster delete"
-            url: /docs/zh/8.3.11/
-          - title: "cluster set-addon"
-            url: /docs/zh/8.3.12/
-          - title: "cluster del-addon"
-            url: /docs/zh/8.3.13/
           - title: "destroy"
-            url: /docs/zh/8.3.14/
+            url: /docs/zh/8.3.4/
+          - title: "login"
+            url: /docs/zh/8.3.5/
+          - title: "logout"
+            url: /docs/zh/8.3.6/
+          - title: "cluster-list"
+            url: /docs/zh/8.3.7/
+          - title: "cluster-register"
+            url: /docs/zh/8.3.8/
+          - title: "cluster-delete"
+            url: /docs/zh/8.3.9/
+          - title: "apply"
+            url: /docs/zh/8.3.10/
+          - title: "export-config"
+            url: /docs/zh/8.3.11/
       - title: "운영 가이드"
         url: /docs/zh/8.4/
         children:
@@ -1280,28 +1272,22 @@ ja:
           url: /docs/ja/8.3.2/
         - title: "status"
           url: /docs/ja/8.3.3/
-        - title: "login"
-          url: /docs/ja/8.3.4/
-        - title: "logout"
-          url: /docs/ja/8.3.5/
-        - title: "cluster register"
-          url: /docs/ja/8.3.6/
-        - title: "cluster list"
-          url: /docs/ja/8.3.7/
-        - title: "cluster resize"
-          url: /docs/ja/8.3.8/
-        - title: "cluster upgrade"
-          url: /docs/ja/8.3.9/
-        - title: "cluster get-config"
-          url: /docs/ja/8.3.10/
-        - title: "cluster delete"
-          url: /docs/ja/8.3.11/
-        - title: "cluster set-addon"
-          url: /docs/ja/8.3.12/
-        - title: "cluster del-addon"
-          url: /docs/ja/8.3.13/
         - title: "destroy"
-          url: /docs/ja/8.3.14/
+          url: /docs/ja/8.3.4/
+        - title: "login"
+          url: /docs/ja/8.3.5/
+        - title: "logout"
+          url: /docs/ja/8.3.6/
+        - title: "cluster-list"
+          url: /docs/ja/8.3.7/
+        - title: "cluster-register"
+          url: /docs/ja/8.3.8/
+        - title: "cluster-delete"
+          url: /docs/ja/8.3.9/
+        - title: "apply"
+          url: /docs/ja/8.3.10/
+        - title: "export-config"
+          url: /docs/ja/8.3.11/
       - title: "運用ガイド"
         url: /docs/ja/8.4/
         children:
