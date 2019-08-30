@@ -282,6 +282,8 @@ docs:
             url: /docs/ko/8.3.10/
           - title: "export-config"
             url: /docs/ko/8.3.11/
+          - title: "설치 오류발생시 해결방법"
+            url: /docs/ko/8.3.12/
       - title: "운영 가이드"
         url: /docs/ko/8.4/
         children:
