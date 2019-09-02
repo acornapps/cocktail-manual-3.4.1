@@ -1096,6 +1096,10 @@ ja:
           url: /docs/ja/2.2.7/
         - title: "デフォルトストレージの指定"
           url: /docs/ja/2.2.8/
+        - title: "Add-on"
+          url: /docs/ja/2.2.9/
+        - title: "Add-on 管理"
+          url: /docs/ja/2.2.10/
     - title: "ワークスペース"
       url: /docs/ja/2.3/
       children:
@@ -1177,6 +1181,15 @@ ja:
               url: /docs/ja/4.6.2.2/
             - title: "Secretの削除"
               url: /docs/ja/4.6.2.3/
+        - title: "ネットワーク"
+          url: /docs/ja/4.6.3/
+          children:
+            - title: "ネットワークの追加"
+              url: /docs/ja/4.6.3.1/
+            - title: "ネットワークの変更"
+              url: /docs/ja/4.6.3.2/
+            - title: "ネットワークの削除"
+              url: /docs/ja/4.6.3.3/
     - title: "サービス公開"
       url: /docs/ja/4.7/
       children:
@@ -1221,7 +1234,7 @@ ja:
     children:
       - title: "クラスターの照会"
         url: /docs/ja/7.1/
-      - title: "ノード"
+      - title: "リソース状況"
         url: /docs/ja/7.2/
       - title: "アプリケーション"
         url: /docs/ja/7.3/
@@ -1230,6 +1243,10 @@ ja:
         children:
           - title: "アラートリスト"
             url: /docs/ja/7.4.1/
+      - title: "サービス公開"
+        url: /docs/ja/7.5/
+      - title: "ストレージボリューム"
+        url: /docs/ja/7.6/
   - title: "システム運用"
     url: /docs/ja/8/
     children:
