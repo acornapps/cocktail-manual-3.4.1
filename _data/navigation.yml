@@ -234,6 +234,8 @@ docs:
             url: /docs/ko/8.1.6/
           - title: "AZURE FILE 공유 만들기"
             url: /docs/ko/8.1.7/
+          - title: "NFS HA(High Availability) 구성"
+            url: /docs/ko/8.1.8/
       - title: "클러스터 직접 구성 with Cube"
         url: /docs/ko/8.2/
         children:
