@@ -1263,6 +1263,8 @@ ja:
           url: /docs/ja/8.1.6/
         - title: "AZURE FILE 共有設定"
           url: /docs/ja/8.1.7/
+        - title: "NFS HA(High Availability) 構成"
+          url: /docs/ja/8.1.8/
       - title: "Cube を使ったクラスターの構成"
         url: /docs/ja/8.2/
         children:
